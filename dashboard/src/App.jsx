@@ -13,7 +13,7 @@ import {
   Title,
 } from 'chart.js';
 import { Radar, Bar } from 'react-chartjs-2';
-import { LayoutDashboard, TrendingUp, AlertTriangle, Award, Info } from 'lucide-react';
+import { LayoutDashboard, TrendingUp, AlertTriangle, Award, Info, ExternalLink } from 'lucide-react';
 
 ChartJS.register(
   RadialLinearScale,
@@ -33,8 +33,7 @@ const Dashboard = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // In a real scenario, we would parse the CSVs here. 
-    // For this prototype, we'll simulate the data based on your 2025Q3 results.
+    // Simulación de datos 2025Q3
     const mockData = {
       dominios: [
         { name: 'Sociedades Inclusivas', and: 52.8, esp: 49.5, gap: 3.3 },
@@ -56,17 +55,17 @@ const Dashboard = () => {
         { name: 'Conocimiento', score: 38.5, esp: 60.8 },
       ]
     };
-    
+
     setTimeout(() => {
       setData(mockData);
       setLoading(false);
-    }, 800);
+    }, 600);
   }, []);
 
   if (loading) {
     return (
-      <div className="flex items-center justify-center min-h-screen bg-slate-900 text-white">
-        <div className="animate-pulse text-xl">Cargando Dashboard IPA27...</div>
+      <div className="flex items-center justify-center min-h-screen bg-white">
+        <div className="text-emerald-700 font-medium animate-pulse">Cargando datos de Prosperidad...</div>
       </div>
     );
   }
@@ -77,18 +76,22 @@ const Dashboard = () => {
       {
         label: 'Andalucía',
         data: data.pilares.map(p => p.score),
-        backgroundColor: 'rgba(5, 150, 105, 0.2)',
-        borderColor: '#10b981',
-        borderWidth: 2,
-        pointBackgroundColor: '#10b981',
+        backgroundColor: 'rgba(0, 135, 81, 0.15)',
+        borderColor: '#008751',
+        borderWidth: 3,
+        pointBackgroundColor: '#008751',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: '#008751'
       },
       {
         label: 'España',
         data: data.pilares.map(p => p.esp),
-        backgroundColor: 'rgba(99, 102, 241, 0.2)',
-        borderColor: '#6366f1',
+        backgroundColor: 'rgba(107, 114, 128, 0.1)',
+        borderColor: '#6b7280',
         borderWidth: 2,
-        pointBackgroundColor: '#6366f1',
+        borderDash: [5, 5],
+        pointBackgroundColor: '#6b7280',
       },
     ],
   };
@@ -99,121 +102,167 @@ const Dashboard = () => {
       {
         label: 'Brecha (Andalucía - España)',
         data: data.dominios.map(d => d.gap),
-        backgroundColor: data.dominios.map(d => d.gap >= 0 ? '#10b981' : '#ef4444'),
-        borderRadius: 8,
+        backgroundColor: data.dominios.map(d => d.gap >= 0 ? '#008751' : '#dc2626'),
+        borderRadius: 4,
       },
     ],
   };
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 p-6">
-      {/* Header */}
-      <header className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4 border-b border-slate-800 pb-6">
-        <div>
-          <h1 className="text-3xl font-bold bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent">
-            IPA27: Índice de Prosperidad Andaluz
-          </h1>
-          <p className="text-slate-400 mt-1 flex items-center gap-2">
-            <LayoutDashboard size={16} /> Dashboard de Resultados Multidimensionales • 2025Q3
-          </p>
+    <div className="min-h-screen bg-[#fcfcfc] text-slate-900 font-sans">
+      {/* Top Navbar */}
+      <nav className="bg-white border-b border-slate-100 px-6 py-4 flex justify-between items-center sticky top-0 z-50 shadow-sm">
+        <div className="flex items-center gap-2">
+          <div className="w-8 h-8 bg-[#008751] rounded flex items-center justify-center text-white font-bold text-xl">A</div>
+          <span className="text-xl font-bold tracking-tight text-[#008751]">Andalucía<span className="text-slate-800">27</span></span>
         </div>
-        <div className="bg-emerald-500/10 border border-emerald-500/20 rounded-xl p-3 px-5">
-          <span className="block text-xs uppercase tracking-wider text-emerald-500 font-semibold">IPA27 Global Andalucía</span>
-          <span className="text-2xl font-bold text-emerald-400">46.3 <small className="text-sm font-normal text-emerald-500/60 font-mono">(-4.7 vs ESP)</small></span>
+        <div className="hidden md:flex gap-6 text-sm font-medium text-slate-600">
+          <a href="#" className="hover:text-[#008751] transition-colors">Dashboard</a>
+          <a href="#" className="hover:text-[#008751] transition-colors">Metodología</a>
+          <a href="https://www.fundacionandalucia27.com" target="_blank" className="flex items-center gap-1 hover:text-[#008751] transition-colors">
+            Fundación <ExternalLink size={14} />
+          </a>
         </div>
-      </header>
+      </nav>
 
-      {/* Main Grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
-        
-        {/* Radar Chart */}
-        <div className="lg:col-span-7 bg-slate-900/50 border border-slate-800 rounded-3xl p-6 shadow-xl backdrop-blur-sm">
-          <div className="flex items-center justify-between mb-6">
-            <h2 className="text-xl font-semibold flex items-center gap-2">
-              <TrendingUp className="text-emerald-400" size={20} /> Comparativa por Pilares
-            </h2>
-            <div className="flex gap-4 text-xs">
-              <span className="flex items-center gap-1.5"><div className="w-3 h-3 bg-emerald-500 rounded-full"></div> Andalucía</span>
-              <span className="flex items-center gap-1.5"><div className="w-3 h-3 bg-indigo-500 rounded-full"></div> España</span>
+      <div className="max-w-7xl mx-auto p-6">
+        {/* Header Hero */}
+        <header className="mb-10">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6">
+            <div>
+              <h1 className="text-4xl font-extrabold text-slate-900 tracking-tight mb-2">
+                Índice de Prosperidad Andaluz <span className="text-[#008751]">(IPA27)</span>
+              </h1>
+              <p className="text-lg text-slate-500 max-w-2xl">
+                Monitorización trimestral del bienestar multidimensional. Un enfoque basado en techos fijos y convergencia regional.
+              </p>
+            </div>
+            <div className="bg-[#008751] text-white rounded-2xl p-6 shadow-lg shadow-emerald-900/10 min-w-[240px]">
+              <span className="text-xs uppercase tracking-widest opacity-80 font-bold">Score Global Andalucía</span>
+              <div className="flex items-baseline gap-2 mt-1">
+                <span className="text-4xl font-black">46.3</span>
+                <span className="text-emerald-200 text-sm font-medium">/ 100</span>
+              </div>
+              <div className="mt-2 text-xs bg-white/10 py-1 px-2 rounded-full inline-block border border-white/10">
+                Brecha: <span className="font-bold">-4.7 vs España</span>
+              </div>
             </div>
           </div>
-          <div className="aspect-square max-h-[500px] mx-auto opacity-90">
-            <Radar 
-              data={radarData}
-              options={{
-                scales: {
-                  r: {
-                    angleLines: { color: 'rgba(148, 163, 184, 0.1)' },
-                    grid: { color: 'rgba(148, 163, 184, 0.1)' },
-                    pointLabels: { color: '#94a3b8', font: { size: 11, weight: '500' } },
-                    ticks: { display: false, backdropColor: 'transparent' },
-                    suggestedMin: 30,
-                    suggestedMax: 70
-                  }
-                },
-                plugins: { legend: { display: false } }
-              }}
-            />
-          </div>
-        </div>
+        </header>
 
-        {/* Right Sidebar */}
-        <div className="lg:col-span-5 flex flex-col gap-6">
-          
-          {/* Dominios Brecha Card */}
-          <div className="bg-slate-900/50 border border-slate-800 rounded-3xl p-6 shadow-xl">
-            <h2 className="text-xl font-semibold mb-4 flex items-center gap-2">
-              <Info className="text-emerald-400" size={20} /> Brechas por Dominio
-            </h2>
-            <div className="h-64">
-              <Bar 
-                data={barData}
+        {/* Main Grid */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+
+          {/* Radar Chart Section */}
+          <div className="lg:col-span-8 bg-white border border-slate-100 rounded-[2.5rem] p-8 shadow-sm radar-container">
+            <div className="flex items-center justify-between mb-8">
+              <div>
+                <h2 className="text-2xl font-bold text-slate-800 flex items-center gap-2">
+                  <TrendingUp className="text-[#008751]" size={24} /> Desempeño por Pilares
+                </h2>
+                <p className="text-slate-400 text-sm mt-1">Comparativa directa entre Andalucía y la media nacional.</p>
+              </div>
+              <div className="flex gap-6 text-sm font-bold">
+                <span className="flex items-center gap-2"><div className="w-4 h-1 bg-[#008751]"></div> Andalucía</span>
+                <span className="flex items-center gap-2"><div className="w-4 h-1 bg-slate-400"></div> España</span>
+              </div>
+            </div>
+            <div className="aspect-square max-h-[550px] mx-auto">
+              <Radar
+                data={radarData}
                 options={{
-                  indexAxis: 'y',
-                  plugins: { legend: { display: false } },
                   scales: {
-                    x: { grid: { display: false }, ticks: { color: '#64748b' } },
-                    y: { grid: { display: false }, ticks: { color: '#94a3b8' } }
+                    r: {
+                      angleLines: { color: '#f1f5f9' },
+                      grid: { color: '#f1f5f9' },
+                      pointLabels: {
+                        color: '#475569',
+                        font: { family: 'Outfit', size: 12, weight: '700' },
+                        padding: 20
+                      },
+                      ticks: { display: false },
+                      suggestedMin: 30,
+                      suggestedMax: 70
+                    }
                   },
-                  maintainAspectRatio: false
+                  plugins: { legend: { display: false } }
                 }}
               />
             </div>
           </div>
 
-          {/* Critical Insights */}
-          <div className="bg-gradient-to-br from-slate-900 to-slate-900/50 border border-slate-800 rounded-3xl p-6">
-            <h2 className="text-xl font-semibold mb-4 flex items-center gap-2">
-              <AlertTriangle className="text-amber-400" size={20} /> Hallazgos Críticos
-            </h2>
-            <div className="space-y-4">
-              <div className="p-4 bg-emerald-500/5 border border-emerald-500/10 rounded-2xl">
-                <div className="flex justify-between items-start">
-                  <span className="text-sm font-medium text-emerald-400 uppercase tracking-tight">Fortaleza Regional</span>
-                  <Award size={18} className="text-emerald-500" />
-                </div>
-                <p className="text-slate-200 mt-1 font-semibold">Sociedades Inclusivas</p>
-                <p className="text-xs text-slate-400 mt-1">Ventaja de +3.3 puntos impulsada por capital social y participación ciudadana.</p>
-              </div>
+          {/* Side Info */}
+          <div className="lg:col-span-4 flex flex-col gap-8">
 
-              <div className="p-4 bg-rose-500/5 border border-rose-500/10 rounded-2xl">
-                <div className="flex justify-between items-start">
-                  <span className="text-sm font-medium text-rose-400 uppercase tracking-tight">Cuello de Botella</span>
-                  <AlertTriangle size={18} className="text-rose-500" />
-                </div>
-                <p className="text-slate-200 mt-1 font-semibold">Personas Empoderadas</p>
-                <p className="text-xs text-slate-400 mt-1">Brecha crítica de -22.8 puntos en Educación y Conocimiento (I+D).</p>
+            {/* Brechas Dominio */}
+            <div className="bg-white border border-slate-100 rounded-[2.5rem] p-8 shadow-sm">
+              <h2 className="text-xl font-bold text-slate-800 mb-6 flex items-center gap-2">
+                <Info className="text-[#008751]" size={20} /> Análisis de Brechas
+              </h2>
+              <div className="h-64">
+                <Bar
+                  data={barData}
+                  options={{
+                    indexAxis: 'y',
+                    plugins: { legend: { display: false } },
+                    scales: {
+                      x: { display: false },
+                      y: { grid: { display: false }, ticks: { color: '#475569', font: { weight: '600' } } }
+                    },
+                    maintainAspectRatio: false
+                  }}
+                />
+              </div>
+              <div className="mt-4 p-4 bg-slate-50 rounded-2xl text-xs text-slate-500 leading-relaxed font-medium">
+                La brecha más acentuada se localiza en el dominio de <span className="text-slate-800 font-bold">Personas Empoderadas</span>, con un diferencial de -22.8 puntos.
               </div>
             </div>
-          </div>
 
+            {/* Hallazgos */}
+            <div className="bg-[#008751] rounded-[2.5rem] p-8 text-white shadow-xl shadow-emerald-900/10">
+              <h2 className="text-xl font-bold mb-6 flex items-center gap-2">
+                <Award size={20} /> Hallazgos Clave
+              </h2>
+              <div className="space-y-6">
+                <div>
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="text-xs font-black uppercase tracking-widest opacity-70">Dominio Líder</span>
+                    <span className="text-xs px-2 py-0.5 bg-white/20 rounded-full">+3.3 gap</span>
+                  </div>
+                  <p className="text-lg font-bold">Sociedades Inclusivas</p>
+                  <p className="text-sm opacity-80 mt-1 italic">Andalucía supera la media nacional en capital social y seguridad ciudadana.</p>
+                </div>
+
+                <div className="pt-6 border-t border-white/10">
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="text-xs font-black uppercase tracking-widest opacity-70 italic text-rose-200">Alerta Estructural</span>
+                  </div>
+                  <p className="text-lg font-bold">Educación y Conocimiento</p>
+                  <p className="text-sm opacity-80 mt-1">El abandono escolar y la baja inversión en I+D actúan como los principales frenos al crecimiento.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        {/* Footer Meta */}
+        <div className="mt-16 flex flex-col md:flex-row justify-between items-center bg-white border border-slate-100 rounded-3xl p-8 gap-6 shadow-sm">
+          <div className="flex items-center gap-4">
+            <div className="flex -space-x-2">
+              <div className="w-10 h-10 rounded-full border-2 border-white bg-slate-100 flex items-center justify-center text-xs font-bold text-slate-400">IE</div>
+              <div className="w-10 h-10 rounded-full border-2 border-white bg-[#008751] flex items-center justify-center text-xs font-bold text-white">A27</div>
+            </div>
+            <div className="text-left">
+              <p className="text-xs font-black text-slate-400 uppercase tracking-widest">Fuentes Oficiales</p>
+              <p className="text-sm font-bold text-slate-600">IECA • INE • Min. Interior</p>
+            </div>
+          </div>
+          <p className="text-slate-400 text-sm max-w-sm text-center md:text-right">
+            Metodología de agregación geométrica basada en el Prosperity Index Framework adaptado para Andalucía.
+          </p>
         </div>
       </div>
-
-      <footer className="mt-12 text-center text-slate-500 text-sm border-t border-slate-900 pt-8">
-        <p>Métodos: Techos Fijos y Agregación Geométrica • Desarrollado por Equipo IPA27</p>
-        <p className="mt-2 text-xs">Los datos presentados son proyecciones basadas en modelos econométricos ARIMA y Chow-Lin.</p>
-      </footer>
     </div>
   );
 };
