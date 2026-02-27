@@ -146,7 +146,7 @@ const Methodology = () => {
           </p>
           <div className="bg-slate-50 p-8 rounded-3xl border border-slate-100 text-center mb-6">
             <span className="text-2xl text-brand-dark font-mono">
-              {"$$IPA27 = \\left( \\prod_{i=1}^{n} \\text{componente}_i^{w_i} \\right)^{\\frac{1}{\\sum w_i}}$"}
+              {"$$IPA27 = \\left( \\prod_{i=1}^{n} \\text{componente}_i^{w_i} \\right)^{\\frac{1}{\\sum w_i}}$$"}
             </span>
           </div>
           <p className="text-sm text-slate-400 italic">
