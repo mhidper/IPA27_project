@@ -26,6 +26,62 @@
             "EDU_SUP": "Educación Superior",
             "CON_IDI": "Inversión I+D",
             "CON_OCI": "Ocupación Conocimiento"
+        },
+        "structure": {
+            "Sociedades Inclusivas": {
+                "1. Seguridad": [
+                    "SEG_BAL",
+                    "SEG_CRI"
+                ],
+                "2. Libertad": [
+                    "LIB_ODI",
+                    "LIB_SEX"
+                ],
+                "3. Gobernanza": [
+                    "GOB_DES",
+                    "GOB_EFF"
+                ],
+                "4. Capital Social": [
+                    "SOC_ASO",
+                    "SOC_PAR_enlazado"
+                ]
+            },
+            "Economías Abiertas": {
+                "5. Inversión": [
+                    "INV_HIP",
+                    "INV_IED"
+                ],
+                "6. Empresas": [
+                    "EMP_NAT",
+                    "EMP_SOC"
+                ],
+                "7. Infraestructura": [
+                    "INF_BAN",
+                    "INF_TRA"
+                ],
+                "8. Calidad Económica": [
+                    "ECO_RBHpc",
+                    "ECO_COL_sal"
+                ]
+            },
+            "Personas Empoderadas": {
+                "9. Vida": [
+                    "VID_ARO",
+                    "VID_PAR"
+                ],
+                "10. Salud": [
+                    "SAL_ESP",
+                    "SAL_SAT_enlazado"
+                ],
+                "11. Educación": [
+                    "EDU_ABA",
+                    "EDU_SUP"
+                ],
+                "12. Conocimiento": [
+                    "CON_IDI",
+                    "CON_OCI"
+                ]
+            }
         }
     },
     "evolution": {
