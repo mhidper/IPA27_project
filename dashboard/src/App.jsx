@@ -57,19 +57,33 @@ const IndicatorDetail = ({ name, value, espValue }) => {
 // Componente de Metodología
 const Methodology = () => {
   useEffect(() => {
-    if (window.renderMathInElement) {
-      window.renderMathInElement(document.body);
-    }
+    const renderMath = () => {
+      if (window.renderMathInElement) {
+        window.renderMathInElement(document.body, {
+          delimiters: [
+            { left: '$$', right: '$$', display: true },
+            { left: '$', right: '$', display: false },
+            { left: '\\(', right: '\\)', display: false },
+            { left: '\\[', right: '\\]', display: true }
+          ],
+          throwOnError: false
+        });
+      }
+    };
+
+    renderMath();
+    const timer = setTimeout(renderMath, 500);
+    return () => clearTimeout(timer);
   }, []);
 
   return (
     <div className="max-w-4xl mx-auto py-12 px-6 animate-in fade-in slide-in-from-bottom-4 duration-700">
       <div className="bg-white border border-slate-100 rounded-[3rem] p-12 shadow-sm">
         <h1 className="text-4xl font-black text-brand-dark mb-8 tracking-tight">Metodología del IPA27</h1>
-        
+
         <section className="mb-10">
           <p className="text-lg text-slate-600 leading-relaxed mb-6">
-            Este documento técnico detalla el marco metodológico del Índice de Prosperidad Andaluz (IPA27). 
+            Este documento técnico detalla el marco metodológico del Índice de Prosperidad Andaluz (IPA27).
             El índice evalúa el progreso a través de un marco multidimensional de frecuencia trimestral.
           </p>
         </section>
@@ -105,7 +119,7 @@ const Methodology = () => {
           </p>
           <div className="bg-white/10 p-6 rounded-2xl mb-6 font-mono overflow-x-auto text-center py-8">
             <span className="text-xl">
-              {"$$techo_i = \\overline{x}_{top3} + k \\times \\Delta_{anual} \\times horizonte$$"}
+              {"$$techo_i = \\overline{x}_{top3} + k \\cdot \\Delta_{anual} \\cdot horizonte$$"}
             </span>
           </div>
           <div className="space-y-4">
@@ -286,13 +300,13 @@ const App = () => {
           </div>
         </div>
         <div className="hidden md:flex items-center gap-8 text-sm font-bold text-slate-500">
-          <button 
-            onClick={() => setCurrentView('dashboard')} 
+          <button
+            onClick={() => setCurrentView('dashboard')}
             className={`transition-all ${currentView === 'dashboard' ? 'text-brand scale-105' : 'hover:text-brand'}`}>
             Dashboard
           </button>
-          <button 
-            onClick={() => setCurrentView('methodology')} 
+          <button
+            onClick={() => setCurrentView('methodology')}
             className={`transition-all ${currentView === 'methodology' ? 'text-brand scale-105' : 'hover:text-brand'}`}>
             Metodología
           </button>
@@ -304,7 +318,7 @@ const App = () => {
       </nav>
 
       <main className="max-w-7xl mx-auto px-6 pt-8 animate-in fade-in duration-1000">
-        
+
         {currentView === 'methodology' ? (
           <Methodology />
         ) : (
@@ -312,18 +326,18 @@ const App = () => {
             <section className="mb-12 flex flex-col lg:flex-row gap-8 items-start">
               <div className="flex-1">
                 <div className="inline-flex items-center gap-2 px-3 py-1 bg-brand/5 text-brand rounded-full text-xs font-black mb-4 border border-brand/10">
-                   <div className="w-2 h-2 rounded-full bg-brand animate-pulse"></div>
-                   Actualizado: {current.periodo}
+                  <div className="w-2 h-2 rounded-full bg-brand animate-pulse"></div>
+                  Actualizado: {current.periodo}
                 </div>
                 <h1 className="text-6xl font-black text-brand-dark tracking-tight leading-tight">
-                   Índice de Prosperidad <br />
-                   <span className="text-brand">Andaluz (IPA27)</span>
+                  Índice de Prosperidad <br />
+                  <span className="text-brand">Andaluz (IPA27)</span>
                 </h1>
                 <p className="text-xl text-slate-500 mt-6 max-w-2xl leading-relaxed font-medium">
-                   Visualización avanzada del progreso multidimensional. Comparemos el desempeño de Andalucía frente a la media nacional bajo el framework de techos fijos.
+                  Visualización avanzada del progreso multidimensional. Comparemos el desempeño de Andalucía frente a la media nacional bajo el framework de techos fijos.
                 </p>
               </div>
-              
+
               <div className="w-full lg:w-80 bg-white border border-slate-100 rounded-[2.5rem] p-8 shadow-xl shadow-slate-200/50 relative overflow-hidden group">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-brand/5 rounded-full -mr-16 -mt-16 group-hover:scale-110 transition-transform duration-500"></div>
                 <div className="relative z-10">
@@ -346,8 +360,8 @@ const App = () => {
                   <p className="text-xs text-slate-400 font-bold uppercase tracking-widest mt-1">Convergencia Andalucía vs España</p>
                 </div>
                 <div className="h-[250px]">
-                  <Line 
-                    data={lineData} 
+                  <Line
+                    data={lineData}
                     options={{
                       responsive: true,
                       maintainAspectRatio: false,
@@ -356,7 +370,7 @@ const App = () => {
                         y: { min: 40, max: 55, grid: { color: '#f8fafc' }, ticks: { font: { weight: 'bold', size: 10 } } },
                         x: { grid: { display: false }, ticks: { font: { weight: 'bold', size: 10 } } }
                       }
-                    }} 
+                    }}
                   />
                 </div>
               </div>
@@ -367,23 +381,23 @@ const App = () => {
                   <p className="text-xs text-slate-400 font-bold uppercase tracking-widest mt-1">Trayectoria de las 3 áreas maestras</p>
                 </div>
                 <div className="h-[250px]">
-                  <Line 
-                    data={lineDataDominios} 
+                  <Line
+                    data={lineDataDominios}
                     options={{
                       responsive: true,
                       maintainAspectRatio: false,
-                      plugins: { 
-                        legend: { 
-                          display: true, 
+                      plugins: {
+                        legend: {
+                          display: true,
                           position: 'bottom',
                           labels: { boxWidth: 8, usePointStyle: true, font: { size: 10, weight: 'bold' } }
-                        } 
+                        }
                       },
                       scales: {
                         y: { min: 30, max: 60, grid: { color: '#f8fafc' }, ticks: { font: { weight: 'bold', size: 10 } } },
                         x: { grid: { display: false }, ticks: { font: { weight: 'bold', size: 10 } } }
                       }
-                    }} 
+                    }}
                   />
                 </div>
               </div>
@@ -392,7 +406,7 @@ const App = () => {
                 <h2 className="text-2xl font-black text-brand-dark mb-2 tracking-tight">Mapa de Pilares</h2>
                 <p className="text-slate-400 mb-10 font-medium">Desempeño relativo en las 12 dimensiones clave</p>
                 <div className="aspect-square max-w-[500px] mx-auto">
-                  <Radar 
+                  <Radar
                     data={radarData}
                     options={{
                       scales: {
@@ -401,8 +415,8 @@ const App = () => {
                           grid: { color: '#f1f5f9' },
                           suggestedMin: 30,
                           suggestedMax: 70,
-                          pointLabels: { 
-                            color: '#64748b', 
+                          pointLabels: {
+                            color: '#64748b',
                             font: { family: 'Outfit', size: 12, weight: '800' },
                             padding: 15
                           },
@@ -421,17 +435,17 @@ const App = () => {
                     <Layout size={20} className="text-brand" /> Brechas por Dominio
                   </h2>
                   <div className="h-56">
-                    <Bar 
-                      data={barData} 
+                    <Bar
+                      data={barData}
                       options={{
                         indexAxis: 'y',
                         plugins: { legend: { display: false } },
-                        scales: { 
+                        scales: {
                           x: { grid: { display: false } },
-                          y: { ticks: { font: { weight: 'bold' } } } 
+                          y: { ticks: { font: { weight: 'bold' } } }
                         },
                         maintainAspectRatio: false
-                      }} 
+                      }}
                     />
                   </div>
                 </div>
@@ -439,12 +453,12 @@ const App = () => {
                 <div className="bg-brand rounded-[2.5rem] p-10 text-white shadow-xl shadow-brand/20 relative overflow-hidden">
                   <div className="absolute top-0 right-0 w-40 h-40 bg-white/5 rounded-full -mr-20 -mt-20"></div>
                   <div className="flex items-center gap-3 mb-8 relative z-10">
-                     <div className="w-10 h-10 bg-white/10 rounded-2xl flex items-center justify-center">
-                        <AlertTriangle size={24} className="text-albero" />
-                     </div>
-                     <h2 className="text-xl font-black tracking-tight">Cuellos de Botella</h2>
+                    <div className="w-10 h-10 bg-white/10 rounded-2xl flex items-center justify-center">
+                      <AlertTriangle size={24} className="text-albero" />
+                    </div>
+                    <h2 className="text-xl font-black tracking-tight">Cuellos de Botella</h2>
                   </div>
-                  
+
                   <div className="space-y-6 relative z-10">
                     {bottlenecks.map((item, idx) => (
                       <div key={item.code} className="group cursor-default">
@@ -466,34 +480,34 @@ const App = () => {
 
               <div className="lg:col-span-12 card-premium p-10 mt-8">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-                   {Object.keys(metadata.structure).map(dominio => (
-                     <div key={dominio}>
-                       <div className="flex items-center gap-2 mb-6">
-                          <div className="w-2 h-8 bg-brand rounded-full"></div>
-                          <h3 className="text-lg font-black text-brand-dark">{dominio}</h3>
-                       </div>
-                       <div className="space-y-6">
-                          {Object.keys(metadata.structure[dominio]).map(pilar => (
-                            <div key={pilar} className="space-y-1">
-                              <h4 className="text-xs font-black text-slate-400 uppercase tracking-widest flex items-center justify-between">
-                                {pilar}
-                                <span className="text-brand font-bold">{current.and.pilares[pilar.split('. ')[1]]}</span>
-                              </h4>
-                              <div className="pt-2">
-                                {metadata.structure[dominio][pilar].map(ind => (
-                                  <IndicatorDetail 
-                                    key={ind}
-                                    name={metadata.indicator_names[ind] || ind}
-                                    value={current.and.indicadores[ind]}
-                                    espValue={current.and.indicadores[ind] - (current.and.indicadores[ind] - (current.esp.pilares[pilar.split('. ')[1]] || 50))} 
-                                  />
-                                ))}
-                              </div>
+                  {Object.keys(metadata.structure).map(dominio => (
+                    <div key={dominio}>
+                      <div className="flex items-center gap-2 mb-6">
+                        <div className="w-2 h-8 bg-brand rounded-full"></div>
+                        <h3 className="text-lg font-black text-brand-dark">{dominio}</h3>
+                      </div>
+                      <div className="space-y-6">
+                        {Object.keys(metadata.structure[dominio]).map(pilar => (
+                          <div key={pilar} className="space-y-1">
+                            <h4 className="text-xs font-black text-slate-400 uppercase tracking-widest flex items-center justify-between">
+                              {pilar}
+                              <span className="text-brand font-bold">{current.and.pilares[pilar.split('. ')[1]]}</span>
+                            </h4>
+                            <div className="pt-2">
+                              {metadata.structure[dominio][pilar].map(ind => (
+                                <IndicatorDetail
+                                  key={ind}
+                                  name={metadata.indicator_names[ind] || ind}
+                                  value={current.and.indicadores[ind]}
+                                  espValue={current.and.indicadores[ind] - (current.and.indicadores[ind] - (current.esp.pilares[pilar.split('. ')[1]] || 50))}
+                                />
+                              ))}
                             </div>
-                          ))}
-                       </div>
-                     </div>
-                   ))}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
 
