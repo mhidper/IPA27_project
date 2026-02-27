@@ -6,6 +6,7 @@ on:
     paths:
       - 'dashboard/**'
       - 'results/data/**'
+      - '.github/workflows/**'
 
 jobs:
   build-and-deploy:
