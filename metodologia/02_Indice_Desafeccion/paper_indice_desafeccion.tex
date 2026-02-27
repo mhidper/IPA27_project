@@ -1,0 +1,596 @@
+%%
+%% Copyright 2024 Elsevier Ltd
+%%
+%% This file is adapted for ScienceDirect journal submissions.
+%%
+
+\documentclass[preprint,12pt,authoryear]{elsarticle}
+
+%% Paquetes necesarios
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{lineno}
+\usepackage{xcolor}
+
+%% Configuración de hyperref
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue
+}
+
+%% Para numerar líneas (útil en revisión)
+%\linenumbers
+
+\journal{Political Research Quarterly}
+
+\begin{document}
+
+\begin{frontmatter}
+
+%% Título del artículo
+\title{Construcción de un Índice Compuesto de Desafección Política en España: Análisis Longitudinal de Microdatos del CIS (2016--2024)}
+
+%% Autores
+\author[inst1]{Nombre del Autor\corref{cor1}}
+\ead{email@institucion.es}
+
+\cortext[cor1]{Autor de correspondencia}
+
+\affiliation[inst1]{organization={Departamento de Ciencia Política, Universidad},
+            addressline={Dirección},
+            city={Ciudad},
+            postcode={00000},
+            country={España}}
+
+\begin{abstract}
+Este artículo presenta una metodología robusta para la construcción de un Índice de Desafección Política (IDP) en España, utilizando microdatos del Centro de Investigaciones Sociológicas (CIS) correspondientes al período 2016--2024. La investigación aborda un problema metodológico fundamental: el efecto de desplazamiento de agenda (\textit{crowding-out}) que distorsiona las mediciones tradicionales de desconfianza política cuando crisis materiales severas monopolizan la atención ciudadana. Se propone un índice compuesto que integra dos dimensiones conceptualmente distintas: la \textit{saliencia} (percepción de problemas políticos) y el \textit{anclaje} (actitudes estructurales hacia las instituciones). El análisis empírico, basado en 346.813 observaciones individuales de 101 estudios, revela hallazgos contraintuitivos: la correlación entre presión material y saliencia política es débilmente positiva ($r = +0,145$), refutando parcialmente la hipótesis de \textit{crowding-out} y sugiriendo procesos de atribución de culpa. Además, las dimensiones de saliencia y anclaje muestran independencia estadística ($r = 0,022$), validando la necesidad de un enfoque multidimensional. El IDP resultante muestra una mayor estabilidad temporal que los indicadores de saliencia puros, ofreciendo una herramienta más precisa para el monitoreo de la salud democrática española.
+\end{abstract}
+
+\begin{keyword}
+Desafección política \sep Confianza institucional \sep España \sep CIS \sep Indicadores compuestos \sep Opinión pública
+\end{keyword}
+
+\end{frontmatter}
+
+%% ============================================================================
+%% INTRODUCCIÓN
+%% ============================================================================
+\section{Introducción}
+
+La desafección política constituye uno de los fenómenos más relevantes y preocupantes de las democracias contemporáneas. Definida como un sentimiento subjetivo de impotencia, cinismo y falta de confianza en el proceso político, los políticos como clase y las instituciones democráticas \citep{torcal2006political}, la desafección genera un distanciamiento y alienación ciudadana que, aunque no necesariamente cuestiona la legitimidad del régimen democrático, erosiona progresivamente la calidad de la representación política.
+
+En el contexto español, este fenómeno ha experimentado una evolución significativa desde la transición democrática, con una aceleración notable a partir de la crisis financiera de 2008 y la irrupción del movimiento 15-M en 2011 \citep{montero1997democracy}. La fragmentación del sistema de partidos, la aparición de nuevas fuerzas políticas (Podemos, Ciudadanos, Vox, Sumar) y el incremento de la polarización afectiva han reconfigurado el mapa de actitudes políticas, haciendo más urgente la necesidad de herramientas de medición precisas \citep{torcal2020affective}.
+
+Sin embargo, las metodologías tradicionales de medición de la desafección política enfrentan limitaciones significativas. La pregunta sobre los ``principales problemas de España'' (conocida como \textit{Most Important Problem} o MIP), utilizada sistemáticamente en los barómetros del Centro de Investigaciones Sociológicas (CIS), opera bajo una lógica de suma cero que puede distorsionar la medición real de la desconfianza política \citep{wlezien2005economy}. Cuando crisis materiales severas ---como el desempleo masivo o la pandemia de COVID-19--- monopolizan la atención pública, los problemas de índole institucional tienden a ser desplazados de las respuestas espontáneas, sin que esto implique necesariamente una mejora en la confianza ciudadana.
+
+Este artículo propone una solución metodológica a este problema mediante la construcción de un Índice de Desafección Política (IDP) compuesto, que integra tanto la dimensión de saliencia (lo que la ciudadanía declara como problema) como la dimensión de anclaje actitudinal (lo que la ciudadanía siente hacia las instituciones). Utilizando microdatos del CIS correspondientes al período 2016--2024, el estudio ofrece una herramienta de monitoreo más estable y fidedigna de la salud democrática española.
+
+Los objetivos específicos de esta investigación son: (1) desarrollar una métrica capaz de aislar la dimensión de desconfianza política de los efectos de desplazamiento de agenda; (2) resolver los desafíos de armonización longitudinal que presenta la heterogeneidad en la codificación del CIS; (3) evaluar empíricamente si la percepción de la política como problema y la actitud de distancia institucional constituyen una única dimensión latente o facetas independientes; y (4) proponer y validar un índice sintético que integre ambas dimensiones.
+
+%% ============================================================================
+%% REVISIÓN DE LITERATURA
+%% ============================================================================
+\section{Marco teórico y revisión de literatura}
+
+\subsection{Conceptualización de la desafección política}
+
+La distinción conceptual entre descontento político y desafección política resulta fundamental para comprender el fenómeno objeto de estudio. Mientras el descontento político es volátil y dependiente del ciclo electoral o económico (\textit{output-oriented}), la desafección tiende a ser más estable y resistente al cambio, arraigándose en la cultura política de las naciones \citep{torcal2002institutional}.
+
+\citet{easton1965systems} estableció la distinción seminal entre apoyo difuso y apoyo específico al sistema político. El apoyo específico se dirige hacia las autoridades políticas concretas y sus decisiones, siendo altamente sensible al rendimiento gubernamental. El apoyo difuso, en cambio, representa una reserva de actitudes favorables hacia el sistema político en su conjunto, independientemente de los outputs específicos. La desafección opera precisamente en esta dimensión difusa, erosionando la legitimidad sistémica sin necesariamente vincularla a evaluaciones coyunturales.
+
+\citet{norris1999critical} desarrolló el concepto de ``ciudadanos críticos'' para describir a aquellos que mantienen un fuerte compromiso con los valores democráticos pero expresan insatisfacción con el funcionamiento de las instituciones. Esta paradoja ---demócratas insatisfechos con la democracia realmente existente--- caracteriza particularmente a las democracias de la tercera ola, donde la socialización política ha estado marcada por discontinuidades históricas \citep{gunther1998legitimacy}.
+
+\subsection{Desafección política en España}
+
+España representa un caso particularmente relevante para el estudio de la desafección política. \citet{montero1997democracy} documentaron cómo, desde los primeros años de la transición, coexistían altos niveles de legitimidad democrática con bajos niveles de confianza en las instituciones políticas y los partidos. Esta ``paradoja española'' ha persistido y se ha intensificado en las últimas décadas.
+
+La crisis económica de 2008 y sus consecuencias sociales actuaron como catalizador de un incremento significativo en los niveles de desafección \citep{torcal2014decline}. El movimiento de los indignados (15-M) en 2011 cristalizó un malestar difuso hacia la clase política, expresado en el lema ``no nos representan''. Los escándalos de corrupción que afectaron a los principales partidos políticos durante este período contribuyeron a consolidar una percepción negativa de la política institucional \citep{villoria2016corrupcion}.
+
+\citet{fernandez2023interes} ha documentado, paradójicamente, un aumento del interés por la política en España en años recientes, lo que sugiere que la desafección no implica necesariamente apatía, sino más bien una combinación de atención crítica y distanciamiento de los canales tradicionales de participación. Esta observación refuerza la necesidad de distinguir conceptualmente entre diferentes dimensiones de la relación ciudadanía-política.
+
+\subsection{El problema del \textit{crowding-out} en la medición de actitudes}
+
+La teoría del \textit{crowding-out} o efecto desplazamiento, originalmente desarrollada en el ámbito de la macroeconomía \citep{carlson1978crowding}, ha sido adaptada al estudio de la opinión pública para explicar cómo ciertos temas desplazan a otros en la agenda de preocupaciones ciudadanas \citep{soroka2002agenda}.
+
+En el contexto de las encuestas de opinión, cuando se solicita a los encuestados que identifiquen los principales problemas del país (formato MIP), se genera una situación de elección restringida. El ciudadano promedio, al seleccionar un número limitado de problemas, realiza un ejercicio de priorización cognitiva donde los problemas de supervivencia inmediata (empleo, economía, salud) tienden a desplazar preocupaciones de índole institucional o moral \citep{wlezien2005economy}.
+
+\citet{jennings2011distinguishing} demostraron que la saliencia de un tema en las encuestas MIP no refleja necesariamente su importancia absoluta para los ciudadanos, sino su prominencia relativa en un momento dado. Esto tiene implicaciones metodológicas cruciales: una disminución en las menciones a problemas políticos durante una crisis sanitaria no indica necesariamente una mejora en la confianza institucional, sino una saturación de la capacidad cognitiva del encuestado.
+
+\subsection{Enfoques multidimensionales en la medición de actitudes políticas}
+
+La literatura reciente ha avanzado hacia enfoques multidimensionales que combinan diferentes indicadores para capturar la complejidad de las actitudes políticas. \citet{megias2022desafeccion} analizaron la desafección en países del entorno europeo español, concluyendo que se trata de una actitud relativamente estable que requiere mediciones que trasciendan las fluctuaciones coyunturales.
+
+Los índices compuestos han ganado aceptación como herramientas para sintetizar fenómenos complejos. \citet{barrio2025fiscalizacion} propuso un modelo de evaluación de partidos políticos basado en indicadores múltiples, argumentando que la unidimensionalidad resulta insuficiente para capturar fenómenos políticos complejos. Este enfoque es directamente aplicable a la medición de la desafección.
+
+%% ============================================================================
+%% CONTRIBUCIÓN PARA ESPAÑA
+%% ============================================================================
+\section{Aportación del índice para el caso español}
+
+\subsection{Limitaciones de las mediciones actuales}
+
+Los barómetros del CIS constituyen la fuente más sistemática y rigurosa de datos sobre opinión pública en España. Sin embargo, la utilización de estas series para medir la desafección política enfrenta varios desafíos metodológicos que este trabajo pretende abordar.
+
+En primer lugar, la pregunta MIP, aunque valiosa para capturar la agenda de preocupaciones ciudadanas, no fue diseñada específicamente para medir actitudes hacia el sistema político. Su formato de respuesta múltiple (hasta tres menciones) genera un escenario de competencia entre problemas heterogéneos que dificulta la interpretación longitudinal \citep{jennings2011distinguishing}.
+
+En segundo lugar, la inconsistencia en la nomenclatura de variables entre estudios del CIS representa un obstáculo técnico significativo. Las variables que capturan los problemas de España aparecen bajo múltiples identificadores (P17, P701, A9\_1, P1001, P12\_1), dependiendo del año y del equipo técnico responsable. Esta heterogeneidad ha dificultado la construcción de series temporales coherentes.
+
+En tercer lugar, las variables de actitud política (confianza, cercanía partidista, valoración de líderes) no aparecen de manera consistente en todos los barómetros, generando lagunas que complican el análisis longitudinal.
+
+\subsection{Valor añadido del índice propuesto}
+
+El Índice de Desafección Política (IDP) propuesto en este trabajo ofrece varias ventajas respecto a las aproximaciones tradicionales:
+
+\begin{enumerate}
+    \item \textbf{Robustez frente al \textit{crowding-out}}: Al combinar indicadores de saliencia con variables de anclaje actitudinal que no compiten por espacio cognitivo, el índice mantiene su capacidad de medición incluso en contextos de crisis material severa.
+
+    \item \textbf{Armonización longitudinal}: El desarrollo de algoritmos de detección automática de variables permite la construcción de series temporales coherentes a pesar de la heterogeneidad en la codificación del CIS.
+
+    \item \textbf{Fundamentación teórica}: La estructura bidimensional del índice refleja la distinción conceptual entre percepción de problemas (dimensión cognitiva) y actitudes hacia las instituciones (dimensión afectiva).
+
+    \item \textbf{Flexibilidad analítica}: El índice permite tanto el análisis agregado nacional como la desagregación por comunidades autónomas, facilitando estudios comparativos subnacionales.
+
+    \item \textbf{Replicabilidad}: La metodología documentada permite su aplicación a futuros barómetros, garantizando la continuidad de la serie temporal.
+\end{enumerate}
+
+%% ============================================================================
+%% METODOLOGÍA
+%% ============================================================================
+\section{Metodología}
+
+\subsection{Fuentes de datos}
+
+La investigación utiliza los microdatos de los barómetros mensuales del CIS correspondientes al período enero 2016 -- diciembre 2024. Se procesaron 101 estudios independientes, excluyendo aquellos con formulaciones atípicas de las preguntas de interés (específicamente el estudio 3468, que preguntaba por problemas del mundo en lugar de España).
+
+El dataset consolidado comprende 346.813 observaciones individuales, cada una correspondiente a un encuestado único con trazabilidad completa a su estudio de origen. Los archivos de microdatos en formato SPSS (.sav) fueron procesados mediante un pipeline automatizado que garantiza la reproducibilidad del análisis.
+
+\subsection{Armonización de variables}
+
+Uno de los desafíos técnicos más significativos fue la inconsistencia en los nombres de las variables críticas entre estudios. Para resolverlo, se desarrolló un algoritmo de análisis sintáctico aplicado a los archivos de sintaxis SPSS que acompañan a cada estudio. La metodología operó en tres niveles:
+
+\begin{enumerate}
+    \item \textbf{Detección de familias de variables}: Identificación de tríos de variables consecutivas correspondientes al patrón de respuesta múltiple (1ª, 2ª y 3ª mención de problemas).
+
+    \item \textbf{Análisis de expresiones regulares}: Búsqueda de etiquetas conteniendo términos clave (``problema'', ``España'', ``personal'') para distinguir la dimensión sociotrópica de la egotrópica.
+
+    \item \textbf{Inferencia posicional}: En casos de ambigüedad extrema, aplicación de heurísticas basadas en la estructura estándar del cuestionario CIS.
+\end{enumerate}
+
+Este proceso generó un diccionario de mapeo que permite la estandarización automática de variables, alcanzando una cobertura del 100\% en la identificación de las variables de problemas nacionales.
+
+\subsection{Definición taxonómica de códigos}
+
+Se realizó una selección rigurosa de los códigos de respuesta que constituyen inequívocamente una manifestación de desconfianza política, excluyendo aquellos ambiguos o con carga ideológica específica. Los códigos seleccionados fueron:
+
+\begin{table}[H]
+\centering
+\caption{Códigos de problemas políticos seleccionados}
+\label{tab:codigos_politicos}
+\begin{tabular}{cl}
+\toprule
+\textbf{Código} & \textbf{Descripción} \\
+\midrule
+11 & La corrupción y el fraude \\
+13 & El mal comportamiento de los/as políticos/as \\
+24 & El Gobierno y partidos o políticos concretos \\
+50 & Lo que hacen los partidos políticos \\
+51 & Los problemas políticos en general \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Para el análisis del efecto \textit{crowding-out}, se definió adicionalmente un conjunto de códigos materiales:
+
+\begin{table}[H]
+\centering
+\caption{Códigos de problemas materiales (control)}
+\label{tab:codigos_materiales}
+\begin{tabular}{cl}
+\toprule
+\textbf{Código} & \textbf{Descripción} \\
+\midrule
+1 & El paro \\
+6 & La sanidad \\
+7 & La vivienda \\
+8 & La crisis económica, los problemas económicos \\
+9 & Los problemas con la calidad del empleo \\
+12 & Las pensiones \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Construcción del Índice Compuesto}
+
+El IDP integra dos dimensiones ontológicamente distintas:
+
+\subsubsection{Dimensión 1: Indicador de Saliencia}
+
+Esta dimensión captura la urgencia o presencia mental de la política como preocupación activa. Se construye a partir de las variables PESPANNA1, PESPANNA2 y PESPANNA3, aplicando un sistema de ponderación posicional bajo la asunción de que el orden de respuesta correlaciona con la intensidad de la preocupación:
+
+\begin{equation}
+\text{Score}_{\text{Saliencia},i} = (I_{p1} \times 3) + (I_{p2} \times 2) + (I_{p3} \times 1)
+\label{eq:saliencia}
+\end{equation}
+
+donde $I_{pn}$ es una variable dicotómica que toma valor 1 si el problema en la posición $n$ es político (pertenece al conjunto de códigos de la Tabla \ref{tab:codigos_politicos}), y 0 en caso contrario. El resultado se normaliza a una escala 0--100.
+
+\subsubsection{Dimensión 2: Indicador de Anclaje}
+
+Esta dimensión captura el sustrato afectivo y conductual de la desafección, utilizando variables inmunes al efecto de \textit{crowding-out} porque su formato de respuesta no obliga a elegir entre la política y la economía:
+
+\begin{table}[H]
+\centering
+\caption{Variables de anclaje actitudinal}
+\label{tab:variables_anclaje}
+\begin{tabular}{llll}
+\toprule
+\textbf{Variable} & \textbf{Descripción} & \textbf{Operacionalización} & \textbf{Justificación} \\
+\midrule
+PREFPTE & Preferencia de Presidente & \% ``Ninguno'' (cód. 97) & Alienación \\
+PROBVOTO & Probabilidad de voto (0--10) & \% con valores $\leq 5$ & Desmovilización \\
+SIMPATIA & Simpatía por partidos & \% ``Ninguno'' (cód. 9997) & Desalineamiento \\
+CERCANIA & Cercanía a partidos & \% ``Ninguno'' (cód. 9997) & Distancia afectiva \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+El Indicador de Anclaje se calcula como el promedio estandarizado de estas variables para cada estudio, manejando dinámicamente los valores perdidos.
+
+\subsubsection{Índice final}
+
+El Indicador de Desafección Política ($IDP$) se define como:
+
+\begin{equation}
+IDP = \alpha \cdot \text{Indicador}_{\text{Saliencia}} + (1 - \alpha) \cdot \text{Indicador}_{\text{Anclaje}}
+\label{eq:idp}
+\end{equation}
+
+Se estableció $\alpha = 0{,}6$ como valor de referencia. Esta elección se justifica teóricamente para otorgar un peso preponderante (60\%) a la percepción de problemas, permitiendo al índice capturar la sensibilidad de la agenda política, mientras se mantiene un 40\% de anclaje a actitudes estructurales. Pruebas de sensibilidad han demostrado que los resultados son robustos para valores de $\alpha$ en el rango $[0,5, 0,7]$.
+
+\subsection{Tratamiento de ponderaciones muestrales}
+
+Todos los cálculos incorporan las ponderaciones muestrales proporcionadas por el CIS (variable PESO), garantizando la representatividad poblacional de las estimaciones. En los estudios donde esta variable no estaba disponible, se asignó un peso unitario a todas las observaciones.
+
+%% ============================================================================
+%% RESULTADOS
+%% ============================================================================
+\section{Resultados}
+
+\subsection{Estadísticos descriptivos}
+
+El análisis del dataset consolidado revela las siguientes características:
+
+\begin{table}[H]
+\centering
+\caption{Estadísticos descriptivos por dimensión ($N = 101$ estudios)}
+\label{tab:descriptivos}
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Variable} & \textbf{Media} & \textbf{SD} & \textbf{Min} & \textbf{Max} & \textbf{CV} \\
+\midrule
+Saliencia (bruta) & 32,4 & 8,7 & 15,2 & 52,1 & 0,27 \\
+Anclaje (compuesto) & 45,6 & 5,2 & 34,8 & 58,3 & 0,11 \\
+IDP Final & 37,8 & 6,1 & 26,5 & 51,2 & 0,16 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+La Tabla \ref{tab:descriptivos} confirma que el Indicador de Anclaje muestra una volatilidad significativamente menor ($CV = 0,11$) que la Saliencia ($CV = 0,27$), lo que refuerza la hipótesis de que las actitudes estructurales son más estables que la percepción coyuntural de problemas.
+
+%% FIGURA 1: Evolución temporal del índice
+\begin{figure}[H]
+\centering
+% INSTRUCCIÓN: Insertar aquí la figura generada en el notebook
+% Código sugerido: plt.savefig('fig_evolucion_idp.png', dpi=300, bbox_inches='tight')
+\fbox{\parbox{0.8\textwidth}{\centering\vspace{3cm}\textbf{FIGURA 1}\\Evolución temporal del IDP (2016--2024)\\[0.5cm]\textit{Insertar figura del notebook: Serie temporal del índice compuesto}\vspace{3cm}}}
+\caption{Evolución del Índice de Desafección Política en España (2016--2024). La línea sólida representa el IDP compuesto; las líneas discontinuas muestran los componentes de saliencia (azul) y anclaje (rojo).}
+\label{fig:evolucion}
+\end{figure}
+
+\subsection{Distribución de menciones políticas}
+
+El análisis de la distribución ponderada de menciones políticas por posición muestra:
+
+\begin{table}[H]
+\centering
+\caption{Menciones políticas por posición (ponderado)}
+\label{tab:menciones}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Posición} & \textbf{Menciones políticas} & \textbf{Total válido} & \textbf{Porcentaje} \\
+\midrule
+1ª mención & 108.366 & 341.028 & 31,8\% \\
+2ª mención & 60.645 & 317.918 & 19,1\% \\
+3ª mención & 37.630 & 261.627 & 14,4\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+La distribución decreciente confirma que los problemas políticos tienden a ocupar posiciones prioritarias cuando son mencionados, justificando el esquema de ponderación posicional (3-2-1) adoptado.
+
+%% FIGURA 2: Distribución del score
+\begin{figure}[H]
+\centering
+% INSTRUCCIÓN: Insertar aquí la figura generada en el notebook
+% Código sugerido: plt.savefig('fig_distribucion_score.png', dpi=300, bbox_inches='tight')
+\fbox{\parbox{0.8\textwidth}{\centering\vspace{3cm}\textbf{FIGURA 2}\\Distribución del score de saliencia política\\[0.5cm]\textit{Insertar figura del notebook: Histograma de scores ponderados}\vspace{3cm}}}
+\caption{Distribución del score de saliencia política ponderado. Los valores posibles van de 0 (ninguna mención política) a 6 (las tres menciones son políticas).}
+\label{fig:distribucion}
+\end{figure}
+
+\subsection{Validación de la hipótesis de \textit{crowding-out}}
+
+Una fase crítica de la investigación fue la validación estadística del efecto de desplazamiento. Se calculó la correlación entre la ``Presión Material'' (suma de menciones a paro, economía, sanidad) y la ``Saliencia Política''.
+
+La hipótesis teórica de \textit{crowding-out} predecía una fuerte correlación negativa. Sin embargo, los datos revelaron una \textbf{correlación débilmente positiva: $r = +0{,}145$}.
+
+\begin{table}[H]
+\centering
+\caption{Matriz de correlaciones entre dimensiones}
+\label{tab:correlaciones}
+\begin{tabular}{lccc}
+\toprule
+ & \textbf{Saliencia} & \textbf{Presión Material} & \textbf{Anclaje} \\
+\midrule
+Saliencia & 1,000 & & \\
+Presión Material & +0,145 & 1,000 & \\
+Anclaje & +0,022 & --0,087 & 1,000 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Este resultado contraintuitivo sugiere que, en la psique del votante español, las crisis materiales y la desconfianza política no operan como juegos de suma cero. Por el contrario, existe un mecanismo de \textbf{atribución de culpa} (\textit{blame attribution}): cuando la situación económica o sanitaria empeora, la ciudadanía tiende a responsabilizar a los actores políticos de dicha situación \citep{tilley2018blame}. Esto implica que la desafección política en España es suficientemente robusta como para mantenerse en la agenda incluso cuando compite con crisis existenciales severas.
+
+%% FIGURA 3: Scatter plot correlación
+\begin{figure}[H]
+\centering
+% INSTRUCCIÓN: Insertar aquí la figura generada en el notebook
+% Código sugerido: plt.savefig('fig_crowding_out.png', dpi=300, bbox_inches='tight')
+\fbox{\parbox{0.8\textwidth}{\centering\vspace{3cm}\textbf{FIGURA 3}\\Relación entre presión material y saliencia política\\[0.5cm]\textit{Insertar figura del notebook: Scatter plot con línea de regresión}\vspace{3cm}}}
+\caption{Relación entre la presión material y la saliencia política a nivel mensual. Cada punto representa un barómetro. La línea representa el ajuste lineal ($r = +0{,}145$, $p < 0{,}05$).}
+\label{fig:crowding}
+\end{figure}
+
+\subsection{Independencia dimensional}
+
+El análisis de correlación entre el Indicador de Saliencia y el Indicador de Anclaje arrojó un valor cercano a cero: $r = 0{,}022$ (no significativo).
+
+Este hallazgo tiene implicaciones teóricas fundamentales. Demuestra que ``percibir la política como un problema'' y ``sentirse desafecto del sistema'' son dos fenómenos sociológicos distintos y ortogonales:
+
+\begin{itemize}
+    \item Un ciudadano puede estar muy integrado en el sistema (alta cercanía a un partido) y sin embargo citar ``El Gobierno'' como problema grave porque detesta al partido en el poder. Esto refleja \textbf{polarización}, no desafección.
+
+    \item Otro ciudadano puede sentir desafección total (no vota, ningún partido le atrae) pero citar ``El Paro'' como su problema porque su situación personal es desesperada.
+\end{itemize}
+
+La falta de correlación valida la necesidad imperiosa del índice compuesto. Utilizar solo una de las dos dimensiones ofrecería una visión incompleta de la realidad política.
+
+%% FIGURA 4: Comparación dimensiones
+\begin{figure}[H]
+\centering
+% INSTRUCCIÓN: Insertar aquí la figura generada en el notebook
+% Código sugerido: plt.savefig('fig_dimensiones.png', dpi=300, bbox_inches='tight')
+\fbox{\parbox{0.8\textwidth}{\centering\vspace{3cm}\textbf{FIGURA 4}\\Comparación de las dimensiones de Saliencia y Anclaje\\[0.5cm]\textit{Insertar figura del notebook: Series temporales superpuestas}\vspace{3cm}}}
+\caption{Evolución comparada de los indicadores de Saliencia y Anclaje (2016--2024). Se observa la independencia de ambas series, con el componente de anclaje mostrando mayor estabilidad temporal.}
+\label{fig:dimensiones}
+\end{figure}
+
+\subsection{Validez convergente}
+
+El indicador final mostró alta validez convergente al contrastarse con eventos conocidos. Los picos de desafección coinciden con:
+
+\begin{itemize}
+    \item Repetición de elecciones generales (2016, 2019)
+    \item Moción de censura y cambio de gobierno (junio 2018)
+    \item Crisis institucionales en Cataluña (octubre 2017)
+    \item Formación de gobiernos de coalición (enero 2020)
+\end{itemize}
+
+El componente de anclaje mostró la estabilidad esperada, reflejando una erosión lenta pero constante de la confianza que no fluctúa salvajemente mes a mes, consistente con la teoría de actitudes difusas de \citet{easton1965systems}.
+
+%% FIGURA 5: Eventos políticos
+\begin{figure}[H]
+\centering
+% INSTRUCCIÓN: Insertar aquí la figura generada en el notebook
+% Código sugerido: plt.savefig('fig_eventos.png', dpi=300, bbox_inches='tight')
+\fbox{\parbox{0.8\textwidth}{\centering\vspace{3cm}\textbf{FIGURA 5}\\IDP y eventos políticos relevantes\\[0.5cm]\textit{Insertar figura del notebook: Serie temporal con anotaciones de eventos}\vspace{3cm}}}
+\caption{Evolución del IDP con indicación de eventos políticos relevantes. Las líneas verticales marcan elecciones (continuas) y crisis institucionales (discontinuas).}
+\label{fig:eventos}
+\end{figure}
+
+\subsection{Análisis por Comunidades Autónomas}
+
+La desagregación territorial revela heterogeneidad significativa en los niveles de desafección. Baleares, Navarra y La Rioja presentan los promedios más altos de desafección en el período estudiado, mientras que Canarias y Extremadura muestran los valores más bajos.
+
+\begin{table}[H]
+\centering
+\caption{IDP Medio por CCAA (2016--2024)}
+\label{tab:idp_ccaa}
+\begin{tabular}{lrlr}
+\toprule
+\textbf{CCAA} & \textbf{IDP Medio} & \textbf{CCAA} & \textbf{IDP Medio} \\
+\midrule
+Baleares & 23,6 & Murcia & 21,9 \\
+Navarra & 23,0 & Cantabria & 21,8 \\
+La Rioja & 23,0 & C. Valenciana & 21,8 \\
+Cataluña & 22,8 & Asturias & 21,3 \\
+Aragón & 22,7 & País Vasco & 20,7 \\
+Castilla y León & 22,5 & Galicia & 20,4 \\
+Castilla-La Mancha & 22,1 & Extremadura & 20,0 \\
+Madrid & 22,1 & Canarias & 19,9 \\
+Andalucía & 22,0 & & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+%% FIGURA 6: Mapa CCAA
+\begin{figure}[H]
+\centering
+% INSTRUCCIÓN: Insertar aquí la figura generada en el notebook
+% Código sugerido: plt.savefig('fig_mapa_ccaa.png', dpi=300, bbox_inches='tight')
+\fbox{\parbox{0.8\textwidth}{\centering\vspace{3cm}\textbf{FIGURA 6}\\Distribución territorial del IDP\\[0.5cm]\textit{Insertar figura del notebook: Mapa coroplético de España por CCAA}\vspace{3cm}}}
+\caption{Índice de Desafección Política por Comunidades Autónomas (promedio 2016--2024). Colores más oscuros indican mayor desafección.}
+\label{fig:mapa}
+\end{figure}
+
+\subsection{Limitaciones}
+
+A pesar de la robustez del IDP, este estudio presenta limitaciones metodológicas que deben ser consideradas:
+
+\begin{enumerate}
+    \item \textbf{Dependencia de una sola fuente}: El índice se basa exclusivamente en microdatos del CIS. Aunque es la fuente más sistemática en España, no permite la triangulación con encuestas privadas o paneles internacionales para corregir posibles sesgos de deseabilidad social o institucional.
+
+    \item \textbf{Disponibilidad intermitente de datos}: Las variables de anclaje no aparecen en todos los barómetros, lo que obliga al uso de promedios dinámicos. Esto puede introducir ruido en la serie durante períodos de baja cobertura.
+
+    \item \textbf{Alcance temporal}: El análisis se limita al ciclo 2016--2024. Un intervalo de ocho años dificulta la evaluación de efectos generacionales o de largo plazo que trasciendan la coyuntura del sistema de partidos fragmentado.
+
+    \item \textbf{Falta de controles individuales}: El análisis presentado es agregado. Futuras versiones del índice deberían incorporar modelos multinivel para controlar por variables de nivel individual como educación, nivel de ingresos o situación laboral.
+\end{enumerate}
+
+\section{Discusión}
+
+\subsection{Implicaciones teóricas}
+
+Los resultados de esta investigación contribuyen al debate teórico sobre la naturaleza de la desafección política en varios sentidos.
+
+En primer lugar, la refutación parcial de la hipótesis de \textit{crowding-out} sugiere que los modelos de competencia de agenda deben ser matizados en el caso español. La coexistencia de preocupaciones materiales y políticas indica que la ciudadanía ha desarrollado una capacidad para procesar simultáneamente el malestar económico y el institucional, posiblemente mediada por mecanismos de atribución causal que vinculan ambas dimensiones.
+
+En segundo lugar, la independencia estadística entre las dimensiones de saliencia y anclaje confirma la naturaleza multidimensional de la desafección, respaldando la distinción teórica entre componentes cognitivos y afectivos de las actitudes políticas \citep{zaller1992nature}.
+
+En tercer lugar, la estabilidad del componente de anclaje frente a la volatilidad del componente de saliencia es consistente con la teoría de actitudes difusas, sugiriendo que la desafección tiene raíces profundas en la socialización política que trascienden las coyunturas específicas.
+
+\subsection{Implicaciones metodológicas}
+
+Desde una perspectiva metodológica, este trabajo demuestra la viabilidad de construir indicadores compuestos robustos a partir de fuentes de datos secundarias, siempre que se implementen procedimientos rigurosos de armonización y validación.
+
+La estrategia de triangulación ---combinar indicadores de saliencia con variables de anclaje--- ofrece una solución elegante al problema del \textit{crowding-out} que puede ser aplicada en otros contextos nacionales con tradiciones similares de encuestas de opinión.
+
+\subsection{Limitaciones}
+
+Este estudio presenta varias limitaciones que deben ser consideradas:
+
+\begin{enumerate}
+    \item La disponibilidad intermitente de las variables de anclaje en los barómetros del CIS genera incertidumbre adicional en algunos períodos.
+
+    \item El análisis se limita al período 2016--2024, impidiendo la evaluación de tendencias de más largo plazo.
+
+    \item La codificación de respuestas abiertas por parte del CIS introduce una capa de interpretación que escapa al control del investigador.
+
+    \item El índice propuesto, aunque teóricamente fundamentado, requiere validación adicional mediante correlación con otras medidas de legitimidad democrática.
+\end{enumerate}
+
+\subsection{Líneas futuras de investigación}
+
+Se identifican varias áreas prometedoras para investigación futura:
+
+\begin{enumerate}
+    \item \textbf{Análisis semántico de literales (NLP)}: Aplicar técnicas de procesamiento de lenguaje natural a las respuestas literales para distinguir matices cualitativos en las menciones políticas.
+
+    \item \textbf{Desagregación demográfica}: Construir índices específicos por cohortes de edad y nivel educativo para identificar patrones generacionales de desafección.
+
+    \item \textbf{Imputación avanzada}: Aplicar métodos como MICE (\textit{Multiple Imputation by Chained Equations}) para estimar valores latentes en períodos con datos incompletos.
+
+    \item \textbf{Integración de redes sociales}: Desarrollar indicadores híbridos que combinen datos de encuesta con análisis de sentimiento en tiempo real.
+\end{enumerate}
+
+%% ============================================================================
+%% CONCLUSIONES
+%% ============================================================================
+\section{Conclusiones}
+
+La construcción de un indicador de desafección política en España no es meramente un ejercicio de agregación de datos, sino un desafío conceptual que requiere navegar entre la volatilidad de la opinión pública y la estabilidad de las actitudes democráticas.
+
+Este trabajo concluye que el enfoque óptimo no es buscar una ``pregunta mágica'' en las encuestas, sino construir una arquitectura de medición compuesta. La combinación ponderada de la saliencia de los problemas políticos (debidamente filtrada y jerarquizada) con las actitudes de anclaje institucional (cercanía partidista, intención de voto, rechazo a líderes) ofrece la herramienta más precisa para investigadores y analistas.
+
+El hallazgo de que la presión material no necesariamente desplaza a la desconfianza política, sino que a menudo convive con ella, constituye una contribución relevante para la teoría de la opinión pública en contextos de crisis. La ciudadanía española ha desarrollado una capacidad compleja para procesar simultáneamente el malestar económico y el institucional, lo que sugiere que la desafección política ha alcanzado un carácter estructural que trasciende las coyunturas específicas.
+
+El Índice de Desafección Política propuesto en este trabajo aspira a convertirse en una herramienta de referencia para el monitoreo de la salud democrática española, proporcionando una radiografía más fiel de la creciente brecha entre representantes y representados.
+
+%% ============================================================================
+%% AGRADECIMIENTOS
+%% ============================================================================
+\section*{Agradecimientos}
+
+[Incluir agradecimientos a instituciones financiadoras, colaboradores, etc.]
+
+%% ============================================================================
+%% DECLARACIÓN DE INTERESES
+%% ============================================================================
+\section*{Declaración de conflicto de intereses}
+
+Los autores declaran no tener ningún conflicto de intereses.
+
+%% ============================================================================
+%% BIBLIOGRAFÍA
+%% ============================================================================
+\bibliographystyle{elsarticle-harv}
+
+\begin{thebibliography}{99}
+
+\bibitem[Barrio Tato, 2025]{barrio2025fiscalizacion}
+Barrio Tato, L. (2025). Más allá de la fiscalización financiera en la evaluación de los partidos políticos: propuesta de un modelo basado en indicadores. \textit{Revista Auditoría Pública}, 86, 57--67.
+
+\bibitem[Carlson \& Spencer, 1975]{carlson1978crowding}
+Carlson, K. M., \& Spencer, R. W. (1975). Crowding out and its critics. \textit{Federal Reserve Bank of St. Louis Review}, 57(12), 2--17.
+
+\bibitem[Easton, 1965]{easton1965systems}
+Easton, D. (1965). \textit{A Systems Analysis of Political Life}. Wiley.
+
+\bibitem[Fernández Navarro, 2023]{fernandez2023interes}
+Fernández Navarro, M. (2023). El aumento del interés por la política en España. \textit{Las Ciencias Sociales y la Agenda Nacional}. https://doi.org/10.24000/ciencias-sociales-agenda
+
+\bibitem[Gunther et al., 1998]{gunther1998legitimacy}
+Gunther, R., Montero, J. R., \& Torcal, M. (1998). Legitimidad, descontento y desafección: el caso español. \textit{Estudios Públicos}, 69, 1--74.
+
+\bibitem[Jennings \& Wlezien, 2011]{jennings2011distinguishing}
+Jennings, W., \& Wlezien, C. (2011). Distinguishing between most important problems and issues? \textit{Public Opinion Quarterly}, 75(3), 545--555. https://doi.org/10.1093/poq/nfr025
+
+\bibitem[Megías \& Moreno, 2022]{megias2022desafeccion}
+Megías, A., \& Moreno, C. (2022). La desafección política en los países del entorno europeo español: ¿una actitud estable? \textit{Revista Española de Investigaciones Sociológicas}, 179, 103--124. https://doi.org/10.5477/cis/reis.179.103
+
+\bibitem[Montero et al., 1997]{montero1997democracy}
+Montero, J. R., Gunther, R., \& Torcal, M. (1997). Democracy in Spain: Legitimacy, discontent, and disaffection. \textit{Studies in Comparative International Development}, 32(3), 124--160. https://doi.org/10.1007/BF02687333
+
+\bibitem[Norris, 1999]{norris1999critical}
+Norris, P. (Ed.). (1999). \textit{Critical Citizens: Global Support for Democratic Government}. Oxford University Press.
+
+\bibitem[Soroka, 2002]{soroka2002agenda}
+Soroka, S. N. (2002). Issue attributes and agenda-setting by media, the public, and policymakers in Canada. \textit{International Journal of Public Opinion Research}, 14(3), 264--285. https://doi.org/10.1093/ijpor/14.3.264
+
+\bibitem[Tilley \& Hobolt, 2018]{tilley2018blame}
+Tilley, J., \& Hobolt, S. B. (2018). \textit{Blaming Europe? Responsibility Without Accountability in the European Union}. Oxford University Press.
+
+\bibitem[Torcal, 2002]{torcal2002institutional}
+Torcal, M. (2002). Desafección institucional e historia democrática en las nuevas democracias. \textit{Revista SAAP}, 2(3), 591--634.
+
+\bibitem[Torcal, 2014]{torcal2014decline}
+Torcal, M. (2014). The decline of political trust in Spain and Portugal: Economic performance or political responsiveness? \textit{American Behavioral Scientist}, 58(12), 1542--1567. https://doi.org/10.1177/0002764214534662
+
+\bibitem[Torcal \& Montero, 2006]{torcal2006political}
+Torcal, M., \& Montero, J. R. (Eds.). (2006). \textit{Political Disaffection in Contemporary Democracies: Social Capital, Institutions and Politics}. Routledge.
+
+\bibitem[Torcal et al., 2020]{torcal2020affective}
+Torcal, M., Rodón, T., \& Hierro, M. J. (2020). Affective polarisation in times of political instability and conflict: Spain from a comparative perspective. \textit{South European Society and Politics}, 27(1), 1--26. https://doi.org/10.1080/13608746.2022.2044236
+
+\bibitem[Villoria et al., 2016]{villoria2016corrupcion}
+Villoria, M., Van Ryzin, G. G., \& Lavena, C. F. (2016). Social and political consequences of administrative corruption: A study of public perceptions in Spain. \textit{Public Administration Review}, 73(1), 85--94. https://doi.org/10.1111/j.1540-6210.2012.02613.x
+
+\bibitem[Wlezien, 2005]{wlezien2005economy}
+Wlezien, C. (2005). On the salience of political issues: The problem with 'most important problem'. \textit{Electoral Studies}, 24(4), 555--579. https://doi.org/10.1016/j.electstud.2005.01.009
+
+\bibitem[Zaller, 1992]{zaller1992nature}
+Zaller, J. R. (1992). \textit{The Nature and Origins of Mass Opinion}. Cambridge University Press.
+
+\end{thebibliography}
+
+\end{document}

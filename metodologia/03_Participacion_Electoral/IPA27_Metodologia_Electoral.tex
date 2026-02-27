@@ -1,0 +1,162 @@
+\documentclass[mathserif, utf8, aspectratio=169]{beamer}
+
+% --- Temas y Estetica ---
+\usetheme{Madrid}
+\usecolortheme{default}
+\useinnertheme{rounded}
+\useoutertheme{shadow}
+
+% --- Paquetes ---
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{bookmark}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+\usepackage{tikz}
+
+% --- Configuracion de Colores ---
+\definecolor{AndaluciaGreen}{RGB}{0, 107, 63}
+\definecolor{VibrantOrange}{RGB}{255, 127, 0}
+\definecolor{DeepBlue}{RGB}{0, 75, 147}
+
+\setbeamercolor{palette primary}{bg=AndaluciaGreen, fg=white}
+\setbeamercolor{palette secondary}{bg=DeepBlue, fg=white}
+\setbeamercolor{palette tertiary}{bg=DeepBlue, fg=white}
+\setbeamercolor{title}{bg=AndaluciaGreen, fg=white}
+\setbeamercolor{frametitle}{bg=AndaluciaGreen, fg=white}
+\setbeamercolor{block title}{bg=DeepBlue, fg=white}
+\setbeamercolor{item}{fg=VibrantOrange}
+
+% --- Configuracion de Cajas ---
+\tcbset{
+    enhanced,
+    colback=white,
+    colframe=DeepBlue,
+    arc=3mm,
+    fonttitle=\bfseries,
+    boxrule=1pt
+}
+
+% --- Metadatos ---
+\title[IPA27 - Participacion Electoral]{Indicator: Participacion Electoral (SOC\_PAR\_enlazado)}
+\subtitle{Metodologia de construccion a partir de microdatos del CIS}
+\author[Proyecto IPA27]{Analisis Tecnico de Indicadores}
+\date{\today}
+
+\begin{document}
+
+% --- Portada ---
+{
+\setbeamercolor{background canvas}{bg=AndaluciaGreen}
+\begin{frame}[plain]
+    \begin{center}
+        \vspace{1cm}
+        \textcolor{white}{\Huge \textbf{Participacion Electoral}} \\
+        \vspace{0.3cm}
+        \textcolor{white}{\Large Construccion del Indicador de Capital Social} \\
+        \vspace{1cm}
+        \begin{tikzpicture}
+            \fill[VibrantOrange] (0,0) circle (0.4cm) node[white] {\textbf{V}};
+            \draw[white, line width=2pt] (0,0) circle (0.4cm);
+        \end{tikzpicture} \\
+        \vspace{1cm}
+        \textcolor{white}{\large Fuente: Barometros CIS (2016 - 2025)} \\
+    \end{center}
+\end{frame}
+}
+
+% --- Slide 2: El Reto ---
+\begin{frame}{El Reto: Heterogeneidad en los Datos}
+    \begin{columns}
+        \begin{column}{0.6\textwidth}
+            \begin{tcolorbox}[title=¿Por que no es directo?]
+                El CIS cambia las preguntas sobre participacion electoral segun el mes y la cercania de elecciones.
+            \end{tcolorbox}
+            \begin{itemize}
+                \item \textbf{Cuestionarios variables}: No siempre se pregunta lo mismo.
+                \item \textbf{Huecos temporales}: Algunas series tienen "agujeros" (ej. 2020-2022).
+                \item \textbf{Necesidad}: Una serie mensual/trimestral continua para Andalucía y España.
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.4\textwidth}
+            \centering
+            \begin{tikzpicture}
+                \node[draw, AndaluciaGreen, line width=2pt, rounded corners] at (0,0) {Serie 1};
+                \node[draw, VibrantOrange, line width=2pt, rounded corners] at (0,-1) {Serie 2};
+                \node[draw, DeepBlue, line width=2pt, rounded corners] at (0,-2) {Serie 3};
+                \draw[->, line width=1.5pt] (0.5,-1) -- (2,-1) node[right] {IPA27};
+            \end{tikzpicture}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+% --- Slide 3: Las 3 Fuentes de Microdatos ---
+\begin{frame}{Las 3 Fuentes de "Propension al Voto"}
+    \begin{small}
+    \begin{itemize}
+        \item \textbf{1. Escala 0-10 (Probabilidad)}: 
+            \textit{"En una escala de 0 a 10... ¿con que probabilidad ira Vd. a votar?"}
+            $\rightarrow$ Se calcula el \% de abstencion probable (Nota $\leq$ 4).
+        \item \textbf{2. Categorias (4 Niveles)}: 
+            \textit{"¿Ira Vd. a votar con toda seguridad... probablemente...?"}
+            $\rightarrow$ Se agrupa "Probablemente no" + "Con seguridad no".
+        \item \textbf{3. Intencion Directa}: 
+            Pregunta de intencion de voto donde el entrevistado responde espontaneamente \textit{"No votaria / Me abstendria"}.
+    \end{itemize}
+    \end{small}
+    \begin{tcolorbox}[colframe=VibrantOrange, title=Integracion]
+        El notebook unifica estas tres series mediante un proceso de **Enlazado Historico** para evitar saltos artificiales.
+    \end{tcolorbox}
+\end{frame}
+
+% --- Slide 4: Pipeline de Procesamiento ---
+\begin{frame}{Pipeline de Calculo}
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            \begin{block}{1. Mapeo Dinamico}
+                Identificacion automatica de variables (P16, P22, PROBVOTO) en los archivos .sav segun el numero de estudio.
+            \end{block}
+            \begin{block}{2. Ponderacion Regional}
+                Uso de la variable \textbf{PESO} del CIS para asegurar la representatividad de cada CCAA.
+            \end{block}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            \begin{block}{3. Agregacion Mensual}
+                Calculo de la media de propension al voto por mes y comunidad autonoma.
+            \end{block}
+            \begin{block}{4. Transformacion a "Participacion"}
+                Inversion del indicador (100 - Abstencion) y escalado para el Pillar de Capital Social.
+            \end{block}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+% --- Slide 5: El Resultado para Andalucia ---
+\begin{frame}{Resultado: El indicador SOC\_PAR}
+    \begin{center}
+        \begin{tcolorbox}[title=Serie Consolidada, colframe=AndaluciaGreen]
+            Se obtiene una serie final sin saltos que refleja la **salud democratica** y el compromiso civil.
+        \end{tcolorbox}
+    \end{center}
+    \begin{itemize}
+        \item \textbf{Uso en el Pillar 4}: Capital Social.
+        \item \textbf{Frecuencia}: Originalmente mensual (CIS), agregada a trimestral para el IPA27.
+        \item \textbf{Interpretacion}: Valores altos (hacia 100) indican una alta movilizacion electoral potencial.
+    \end{itemize}
+\end{frame}
+
+% --- Slide 6: Cierre ---
+{
+\setbeamercolor{background canvas}{bg=DeepBlue}
+\begin{frame}[plain]
+    \begin{center}
+        \vspace{2cm}
+        \textcolor{white}{\Huge \textbf{Conectando Datos y Sociedad}} \\
+        \vspace{1.5cm}
+        \textcolor{VibrantOrange}{\large Metodologia Electoral IPA27} \\
+    \end{center}
+\end{frame}
+}
+
+\end{document}

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(powershell -Command \"cd ''G:\\\\Mi unidad\\\\Proyectos\\\\IPA27_project''; python reorganize_project.py\")",
+      "Bash(ls:*)"
+    ]
+  }
+}

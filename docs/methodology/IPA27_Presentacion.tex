@@ -1,0 +1,375 @@
+\documentclass[mathserif, utf8, aspectratio=169]{beamer}
+
+% --- Temas y Estetica ---
+\usetheme{Madrid}
+\usecolortheme{default}
+\useinnertheme{rounded}
+\useoutertheme{shadow}
+
+% --- Paquetes ---
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{bookmark}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+\usepackage{subcaption}
+\usepackage{tikz}
+
+% --- Configuracion de Colores ---
+\definecolor{AndaluciaGreen}{RGB}{0, 107, 63}
+\definecolor{VibrantOrange}{RGB}{255, 127, 0}
+\definecolor{DeepBlue}{RGB}{0, 75, 147}
+
+\setbeamercolor{palette primary}{bg=AndaluciaGreen, fg=white}
+\setbeamercolor{palette secondary}{bg=DeepBlue, fg=white}
+\setbeamercolor{palette tertiary}{bg=DeepBlue, fg=white}
+\setbeamercolor{title}{bg=AndaluciaGreen, fg=white}
+\setbeamercolor{frametitle}{bg=AndaluciaGreen, fg=white}
+\setbeamercolor{block title}{bg=DeepBlue, fg=white}
+\setbeamercolor{block body}{bg=white, fg=black}
+\setbeamercolor{block title example}{bg=AndaluciaGreen, fg=white}
+\setbeamercolor{item}{fg=VibrantOrange}
+
+% --- Configuracion de Cajas ---
+\tcbset{
+    enhanced,
+    colback=white,
+    colframe=DeepBlue,
+    arc=3mm,
+    fonttitle=\bfseries,
+    boxrule=1pt
+}
+
+% --- Metadatos ---
+\title[IPA27 - Prosperidad]{IPA27: Indice de Prosperidad Andaluz}
+\subtitle{Descifrando el Progreso de Nuestra Region}
+\author[IPA27 Project]{Proyecto IPA27}
+\institute[UGR/IECA]{Analisis Multiregional v1.0}
+\date{\today}
+
+\begin{document}
+
+% --- Diapositiva 1: Portada ---
+{
+\setbeamercolor{background canvas}{bg=AndaluciaGreen}
+\begin{frame}[plain]
+    \begin{center}
+        \vspace{1cm}
+        \textcolor{white}{\Huge \textbf{IPA27}} \\
+        \vspace{0.3cm}
+        \textcolor{white}{\Huge \textbf{Indice de Prosperidad Andaluz}} \\
+        \vspace{1cm}
+        \begin{tikzpicture}
+            \fill[VibrantOrange] (0,0) circle (0.5cm) node[white] {\textbf{27}};
+            \draw[white, line width=2pt] (0,0) circle (0.5cm);
+        \end{tikzpicture} \\
+        \vspace{1cm}
+        \textcolor{white}{\large Metodologia, Datos y Analisis Estadistico} \\
+        \vspace{1.5cm}
+        \textcolor{white}{\small \today}
+    \end{center}
+\end{frame}
+}
+
+% --- Diapositiva 2: Que es el IPA27? ---
+\begin{frame}{Que es el IPA27?}
+    \begin{columns}
+        \begin{column}{0.6\textwidth}
+            \begin{tcolorbox}[title=Mas alla del PIB]
+                El \textbf{IPA27} evalua la prosperidad de forma multidimensional: Social, Economica y Politica.
+            \end{tcolorbox}
+            \begin{itemize}
+                \item \textbf{Multidimensional}: Supera la vision centrada unicamente en la riqueza.
+                \item \textbf{Comparativo}: Permite situar a Andalucia en el contexto nacional.
+                \item \textbf{Preciso}: Datos armonizados para las 17 CC.AA.
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.4\textwidth}
+            \centering
+            \begin{tikzpicture}
+                \draw[AndaluciaGreen, line width=5pt] (0,0) circle (1.2cm);
+                \node at (0,0) {\large \textbf{IPA27}};
+            \end{tikzpicture}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+% --- Diapositiva 3: Dimensiones ---
+\begin{frame}{Dimensiones de la Prosperidad}
+    \begin{columns}
+        \begin{column}{0.33\textwidth}
+            \begin{tcolorbox}[colframe=AndaluciaGreen, title=Sociedades Inclusivas]
+                \centering Seguridad, Libertad y Gobernanza.
+            \end{tcolorbox}
+        \end{column}
+        \begin{column}{0.33\textwidth}
+            \begin{tcolorbox}[colframe=VibrantOrange, title=Economias Abiertas]
+                \centering Inversion, Empresas y Calidad Economica.
+            \end{tcolorbox}
+        \end{column}
+        \begin{column}{0.33\textwidth}
+            \begin{tcolorbox}[colframe=DeepBlue, title=Personas Empoderadas]
+                \centering Salud, Educacion y Conocimiento.
+            \end{tcolorbox}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+% --- Diapositiva 4: Indicadores I ---
+\begin{frame}{Detalle de Indicadores: Sociedades Inclusivas}
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            \begin{exampleblock}{Seguridad}
+                \begin{itemize}
+                    \item \textbf{SEG\_BAL}: Tasa criminalidad.
+                    \item \textbf{SEG\_CRI}: Delitos graves.
+                \end{itemize}
+            \end{exampleblock}
+            \begin{exampleblock}{Libertad}
+                \begin{itemize}
+                    \item \textbf{LIB\_ODI}: Delitos de odio.
+                    \item \textbf{LIB\_SEX}: Libertad sexual.
+                \end{itemize}
+            \end{exampleblock}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            \begin{exampleblock}{Gobernanza}
+                \begin{itemize}
+                    \item \textbf{GOB\_DES}: Desafeccion (CIS).
+                    \item \textbf{GOB\_EFF}: Eficiencia.
+                \end{itemize}
+            \end{exampleblock}
+            \begin{exampleblock}{Capital Social}
+                \begin{itemize}
+                    \item \textbf{SOC\_ASO}: Asociaciones.
+                    \item \textbf{SOC\_PAR}: Voto electoral.
+                \end{itemize}
+            \end{exampleblock}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+% --- Diapositiva 5: Indicadores II ---
+\begin{frame}{Detalle of Indicadores: Economias Abiertas}
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            \begin{exampleblock}{Inversion}
+                \begin{itemize}
+                    \item \textbf{INV\_HIP}: Mercado vivienda.
+                    \item \textbf{INV\_IED}: Capital extranjero.
+                \end{itemize}
+            \end{exampleblock}
+            \begin{exampleblock}{Empresas}
+                \begin{itemize}
+                    \item \textbf{EMP\_NAT}: Pymes creadas.
+                    \item \textbf{EMP\_SOC}: Sociedades.
+                \end{itemize}
+            \end{exampleblock}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            \begin{exampleblock}{Infraestructura}
+                \begin{itemize}
+                    \item \textbf{INF\_BAN}: Banda ancha.
+                    \item \textbf{INF\_TRA}: Trafico pasajeros.
+                \end{itemize}
+            \end{exampleblock}
+            \begin{exampleblock}{Calidad Economica}
+                \begin{itemize}
+                    \item \textbf{ECO\_PIBpc}: PIB per capita.
+                    \item \textbf{ECO\_COL\_sal}: Sueldos reales.
+                \end{itemize}
+            \end{exampleblock}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+% --- Diapositiva 6: Indicadores III ---
+\begin{frame}{Detalle de Indicadores: Personas Empoderadas}
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            \begin{exampleblock}{Calidad de Vida}
+                \begin{itemize}
+                    \item \textbf{VID\_ARO}: Riesgo pobreza.
+                    \item \textbf{VID\_PAR}: Paro larga duracion.
+                \end{itemize}
+            \end{exampleblock}
+            \begin{exampleblock}{Salud}
+                \begin{itemize}
+                    \item \textbf{SAL\_ESP}: Longevidad.
+                    \item \textbf{SAL\_SAT}: Satisfaccion Sanidad.
+                \end{itemize}
+            \end{exampleblock}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            \begin{exampleblock}{Educacion}
+                \begin{itemize}
+                    \item \textbf{EDU\_ABA}: Abandono escolar.
+                    \item \textbf{EDU\_SUP}: Graduados Univ.
+                \end{itemize}
+            \end{exampleblock}
+            \begin{exampleblock}{Conocimiento}
+                \begin{itemize}
+                    \item \textbf{CON\_IDI}: I+D+i Regional.
+                    \item \textbf{CON\_OCI}: Empleo tech.
+                \end{itemize}
+            \end{exampleblock}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+% --- Diapositiva 7: Metodologia I ---
+\begin{frame}{Metodologia I: Armonizacion y Tratamiento}
+    \begin{columns}
+        \begin{column}{0.6\textwidth}
+            \begin{tcolorbox}[title=Limpieza y Desestacionalizacion, colframe=AndaluciaGreen]
+                Para garantizar series comparables, aplicamos un riguroso proceso de pre-procesamiento.
+            \end{tcolorbox}
+            \begin{itemize}
+                \item \textbf{Ajuste Estacional (STL)}: Descomponemos las series mensuales para eliminar el ruido estacional.
+                \item \textbf{Deflactacion Real}: Los salarios se ajustan mediante el IPC regional para reflejar el valor real.
+                \item \textbf{Ajuste Per Capita}: Normalizamos por poblacion o PIB para evitar sesgos regionales.
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.4\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{results/figures/analysis/ipa27_desestacionalizacion_esp_and.png}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+% --- Diapositiva 8: Metodologia II ---
+\begin{frame}{Metodologia II: El motor Chow-Lin AR(1)}
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            \begin{block}{El Reto de la Frecuencia}
+                Muchos indicadores clave (como I+D) solo existen anualmente.
+            \end{block}
+            \begin{itemize}
+                \item \textbf{Tecnica Chow-Lin}: Utilizamos indicadores de alta frecuencia (trimestrales) como anclas.
+                \item \textbf{Precision}: El modelo minimiza el error de interpolacion manteniendo la coherencia anual.
+                \item \textbf{Resultado}: Un indice IPA27 trimestral actualizado.
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{results/figures/analysis/ipa27_trimestralizacion.png}
+            \vspace{0.2cm}
+            \footnotesize \textit{Ejemplo: Desagregacion del gasto en I+D.}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+% --- Diapositiva 9: Metodologia III ---
+\begin{frame}{Metodologia III: Integridad y Escala}
+    \begin{columns}
+        \begin{column}{0.6\textwidth}
+            \begin{exampleblock}{Red de Seguridad: Imputacion ESP}
+                Si falta un dato regional, el sistema usa la tendencia nacional como proxy para no dejar huecos.
+            \end{exampleblock}
+            \begin{exampleblock}{Escala Distance-to-Frontier}
+                \begin{itemize}
+                    \item \textbf{Rango 0-100}: El 100 es la frontera (mejor dato observado).
+                    \item \textbf{Inversion de Sentido}: En indicadores negativos (Paro), el 100 representa la tasa mas baja.
+                \end{itemize}
+            \end{exampleblock}
+        \end{column}
+        \begin{column}{0.4\textwidth}
+            \begin{tcolorbox}[title=Agregacion, colframe=VibrantOrange]
+                \centering
+                Indicadores \\ $\downarrow$ \\ Pilares (Media) \\ $\downarrow$ \\ Dimensiones \\ $\downarrow$ \\ \textbf{IPA27}
+            \end{tcolorbox}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+% --- Diapositiva 10: Evolucion ---
+\begin{frame}{La Trayectoria: ¿Hacia donde vamos?}
+    \begin{center}
+        \tcbox[colframe=AndaluciaGreen, boxrule=2pt]{\includegraphics[width=0.75\textwidth]{results/figures/analysis/ipa27_evolucion_temporal.png}}
+    \end{center}
+    \begin{itemize}
+        \item \textbf{Resiliencia}: Recuperacion tras el 2020.
+        \item \textbf{Foco}: Seguimos trabajando para cerrar la brecha nacional.
+    \end{itemize}
+\end{frame}
+
+% --- Diapositiva 11: Radar ---
+\begin{frame}{Radiografia 360: El Radar}
+    \begin{columns}
+        \begin{column}{0.6\textwidth}
+            \centering
+            \tcbox[colframe=DeepBlue]{\includegraphics[width=0.9\textwidth]{results/figures/analysis/ipa27_radar_dominios.png}}
+        \end{column}
+        \begin{column}{0.4\textwidth}
+            \begin{tcolorbox}[title=Analisis AND vs ESP, colframe=VibrantOrange]
+                Identificacion visual de fortalezas y areas de mejora.
+            \end{tcolorbox}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+% --- Diapositiva 12: Heatmap ---
+\begin{frame}{Panel de Control: Monitor de Pilares}
+    \begin{center}
+        \includegraphics[width=0.85\textwidth]{results/figures/analysis/ipa27_heatmap_pilares.png}
+    \end{center}
+    \centering \footnotesize Verde = Mejora | Rojo = Atencion necesaria.
+\end{frame}
+
+% --- Diapositiva 13: Ranking ---
+\begin{frame}{Andalucia en el Mapa: Ranking Regional}
+    \begin{center}
+        \tcbox{\includegraphics[width=0.8\textwidth]{results/figures/analysis/ipa27_ranking_ccaas.png}}
+    \end{center}
+\end{frame}
+
+% --- Diapositiva 14: Brechas ---
+\begin{frame}{Analisis de Brechas (Gap AND-ESP)}
+    \begin{center}
+        \includegraphics[width=0.8\textwidth]{results/figures/analysis/ipa27_brechas_dominios.png}
+    \end{center}
+\end{frame}
+
+% --- Diapositiva 15: Top/Bottom ---
+\begin{frame}{Heroes y Villanos: Top/Bottom Indicadores}
+    \begin{center}
+        \includegraphics[width=0.8\textwidth]{results/figures/analysis/ipa27_top_bottom_indicadores.png}
+    \end{center}
+\end{frame}
+
+% --- Diapositiva 16: Conclusiones ---
+\begin{frame}{Conclusiones}
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            \begin{tcolorbox}[colframe=AndaluciaGreen, title=Fortalezas]
+                Seguridad, Capital Social y dinamismo empresarial.
+            \end{tcolorbox}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            \begin{tcolorbox}[colframe=VibrantOrange, title=Retos]
+                PIB per capita y costes salariales reales.
+            \end{tcolorbox}
+        \end{column}
+    \end{columns}
+    \vspace{0.3cm}
+    \centering El IPA27 constituye una herramienta clave para politicas publicas.
+\end{frame}
+
+% --- Diapositiva 17: Cierre ---
+{
+\setbeamercolor{background canvas}{bg=DeepBlue}
+\begin{frame}[plain]
+    \begin{center}
+        \vspace{2cm}
+        \textcolor{white}{\Huge \textbf{¡Muchas gracias por su atencion!}} \\
+        \vspace{1.5cm}
+        \textcolor{VibrantOrange}{\huge ¿Preguntas?} \\
+        \vfill
+        \textcolor{white}{\small Proyecto IPA27 - Analisis de Prosperidad}
+    \end{center}
+\end{frame}
+}
+
+\end{document}

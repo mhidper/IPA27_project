@@ -1,0 +1,775 @@
+Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
+2010-01-01,2010-Q1,AND,AUX_POB,8276017.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2010-07-01,2010-Q3,AND,AUX_POB,8302917.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2011-01-01,2011-Q1,AND,AUX_POB,8332087.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2011-07-01,2011-Q3,AND,AUX_POB,8352752.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2012-01-01,2012-Q1,AND,AUX_POB,8377809.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2012-07-01,2012-Q3,AND,AUX_POB,8378277.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2013-01-01,2013-Q1,AND,AUX_POB,8387986.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2013-07-01,2013-Q3,AND,AUX_POB,8381323.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2014-01-01,2014-Q1,AND,AUX_POB,8381239.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2014-07-01,2014-Q3,AND,AUX_POB,8381448.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2015-01-01,2015-Q1,AND,AUX_POB,8388994.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2015-07-01,2015-Q3,AND,AUX_POB,8386083.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2016-01-01,2016-Q1,AND,AUX_POB,8392046.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2016-07-01,2016-Q3,AND,AUX_POB,8390669.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2017-01-01,2017-Q1,AND,AUX_POB,8394017.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2017-07-01,2017-Q3,AND,AUX_POB,8388352.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2018-01-01,2018-Q1,AND,AUX_POB,8396464.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2018-07-01,2018-Q3,AND,AUX_POB,8392082.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2019-01-01,2019-Q1,AND,AUX_POB,8412222.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2019-07-01,2019-Q3,AND,AUX_POB,8432071.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2020-01-01,2020-Q1,AND,AUX_POB,8461039.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2020-07-01,2020-Q3,AND,AUX_POB,8465909.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2021-01-01,2021-Q1,AND,AUX_POB,8484804.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2021-04-01,2021-Q2,AND,AUX_POB,8482645.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2021-07-01,2021-Q3,AND,AUX_POB,8488215.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2021-10-01,2021-Q4,AND,AUX_POB,8497126.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2022-01-01,2022-Q1,AND,AUX_POB,8511167.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2022-04-01,2022-Q2,AND,AUX_POB,8523896.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2022-07-01,2022-Q3,AND,AUX_POB,8543098.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2022-10-01,2022-Q4,AND,AUX_POB,8564311.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2023-01-01,2023-Q1,AND,AUX_POB,8584147.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2023-04-01,2023-Q2,AND,AUX_POB,8594652.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2023-07-01,2023-Q3,AND,AUX_POB,8605343.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2023-10-01,2023-Q4,AND,AUX_POB,8621027.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2024-01-01,2024-Q1,AND,AUX_POB,8631862.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2024-04-01,2024-Q2,AND,AUX_POB,8636779.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2024-07-01,2024-Q3,AND,AUX_POB,8648311.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2024-10-01,2024-Q4,AND,AUX_POB,8666148.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2025-01-01,2025-Q1,AND,AUX_POB,8676713.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2025-04-01,2025-Q2,AND,AUX_POB,8690860.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2025-07-01,2025-Q3,AND,AUX_POB,8708421.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2025-10-01,2025-Q4,AND,AUX_POB,8727944.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2026-01-01,2026-Q1,AND,AUX_POB,8733535.0,Trimestral,Total. Todas las edades. Andalucía. Población. Número. 
+2010-01-01,2010-Q1,ARA,AUX_POB,1344184.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2010-07-01,2010-Q3,ARA,AUX_POB,1343835.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2011-01-01,2011-Q1,ARA,AUX_POB,1344396.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2011-07-01,2011-Q3,ARA,AUX_POB,1344466.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2012-01-01,2012-Q1,ARA,AUX_POB,1343790.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2012-07-01,2012-Q3,ARA,AUX_POB,1339987.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2013-01-01,2013-Q1,ARA,AUX_POB,1337675.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2013-07-01,2013-Q3,ARA,AUX_POB,1333951.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2014-01-01,2014-Q1,ARA,AUX_POB,1330713.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2014-07-01,2014-Q3,ARA,AUX_POB,1327609.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2015-01-01,2015-Q1,ARA,AUX_POB,1325600.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2015-07-01,2015-Q3,ARA,AUX_POB,1320887.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2016-01-01,2016-Q1,ARA,AUX_POB,1318042.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2016-07-01,2016-Q3,ARA,AUX_POB,1316238.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2017-01-01,2017-Q1,ARA,AUX_POB,1315411.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2017-07-01,2017-Q3,ARA,AUX_POB,1315332.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2018-01-01,2018-Q1,ARA,AUX_POB,1313493.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2018-07-01,2018-Q3,ARA,AUX_POB,1315878.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2019-01-01,2019-Q1,ARA,AUX_POB,1320694.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2019-07-01,2019-Q3,ARA,AUX_POB,1324409.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2020-01-01,2020-Q1,ARA,AUX_POB,1330592.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2020-07-01,2020-Q3,ARA,AUX_POB,1331544.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2021-01-01,2021-Q1,ARA,AUX_POB,1331938.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2021-04-01,2021-Q2,ARA,AUX_POB,1331330.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2021-07-01,2021-Q3,ARA,AUX_POB,1330711.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2021-10-01,2021-Q4,ARA,AUX_POB,1332211.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2022-01-01,2022-Q1,ARA,AUX_POB,1328215.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2022-04-01,2022-Q2,ARA,AUX_POB,1329929.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2022-07-01,2022-Q3,ARA,AUX_POB,1334478.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2022-10-01,2022-Q4,ARA,AUX_POB,1337461.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2023-01-01,2023-Q1,ARA,AUX_POB,1341289.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2023-04-01,2023-Q2,ARA,AUX_POB,1343282.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2023-07-01,2023-Q3,ARA,AUX_POB,1345247.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2023-10-01,2023-Q4,ARA,AUX_POB,1348452.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2024-01-01,2024-Q1,ARA,AUX_POB,1351591.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2024-04-01,2024-Q2,ARA,AUX_POB,1352952.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2024-07-01,2024-Q3,ARA,AUX_POB,1356309.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2024-10-01,2024-Q4,ARA,AUX_POB,1360820.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2025-01-01,2025-Q1,ARA,AUX_POB,1364621.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2025-04-01,2025-Q2,ARA,AUX_POB,1366896.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2025-07-01,2025-Q3,ARA,AUX_POB,1374302.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2025-10-01,2025-Q4,ARA,AUX_POB,1379619.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2026-01-01,2026-Q1,ARA,AUX_POB,1381842.0,Trimestral,Total. Todas las edades. Aragón. Población. Número. 
+2010-01-01,2010-Q1,AST,AUX_POB,1077103.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2010-07-01,2010-Q3,AST,AUX_POB,1076165.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2011-01-01,2011-Q1,AST,AUX_POB,1075877.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2011-07-01,2011-Q3,AST,AUX_POB,1075114.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2012-01-01,2012-Q1,AST,AUX_POB,1074304.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2012-07-01,2012-Q3,AST,AUX_POB,1070365.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2013-01-01,2013-Q1,AST,AUX_POB,1067425.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2013-07-01,2013-Q3,AST,AUX_POB,1062598.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2014-01-01,2014-Q1,AST,AUX_POB,1058560.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2014-07-01,2014-Q3,AST,AUX_POB,1053538.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2015-01-01,2015-Q1,AST,AUX_POB,1049328.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2015-07-01,2015-Q3,AST,AUX_POB,1043486.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2016-01-01,2016-Q1,AST,AUX_POB,1040407.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2016-07-01,2016-Q3,AST,AUX_POB,1036480.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2017-01-01,2017-Q1,AST,AUX_POB,1033550.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2017-07-01,2017-Q3,AST,AUX_POB,1029282.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2018-01-01,2018-Q1,AST,AUX_POB,1027091.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2018-07-01,2018-Q3,AST,AUX_POB,1023596.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2019-01-01,2019-Q1,AST,AUX_POB,1021469.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2019-07-01,2019-Q3,AST,AUX_POB,1019217.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2020-01-01,2020-Q1,AST,AUX_POB,1018053.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2020-07-01,2020-Q3,AST,AUX_POB,1014604.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2021-01-01,2021-Q1,AST,AUX_POB,1012117.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2021-04-01,2021-Q2,AST,AUX_POB,1009420.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2021-07-01,2021-Q3,AST,AUX_POB,1007329.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2021-10-01,2021-Q4,AST,AUX_POB,1006430.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2022-01-01,2022-Q1,AST,AUX_POB,1004960.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2022-04-01,2022-Q2,AST,AUX_POB,1004326.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2022-07-01,2022-Q3,AST,AUX_POB,1004553.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2022-10-01,2022-Q4,AST,AUX_POB,1005533.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2023-01-01,2023-Q1,AST,AUX_POB,1006060.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2023-04-01,2023-Q2,AST,AUX_POB,1006134.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2023-07-01,2023-Q3,AST,AUX_POB,1006368.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2023-10-01,2023-Q4,AST,AUX_POB,1008299.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2024-01-01,2024-Q1,AST,AUX_POB,1009599.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2024-04-01,2024-Q2,AST,AUX_POB,1009475.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2024-07-01,2024-Q3,AST,AUX_POB,1010547.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2024-10-01,2024-Q4,AST,AUX_POB,1013182.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2025-01-01,2025-Q1,AST,AUX_POB,1015128.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2025-04-01,2025-Q2,AST,AUX_POB,1016052.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2025-07-01,2025-Q3,AST,AUX_POB,1017755.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2025-10-01,2025-Q4,AST,AUX_POB,1020794.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2026-01-01,2026-Q1,AST,AUX_POB,1021733.0,Trimestral,"Total. Todas las edades. Asturias, Principado de. Población. Número. "
+2010-01-01,2010-Q1,BAL,AUX_POB,1083683.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2010-07-01,2010-Q3,BAL,AUX_POB,1087640.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2011-01-01,2011-Q1,BAL,AUX_POB,1091656.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2011-07-01,2011-Q3,BAL,AUX_POB,1095456.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2012-01-01,2012-Q1,BAL,AUX_POB,1100715.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2012-07-01,2012-Q3,BAL,AUX_POB,1101382.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2013-01-01,2013-Q1,BAL,AUX_POB,1105131.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2013-07-01,2013-Q3,BAL,AUX_POB,1105776.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2014-01-01,2014-Q1,BAL,AUX_POB,1106617.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2014-07-01,2014-Q3,BAL,AUX_POB,1108557.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2015-01-01,2015-Q1,BAL,AUX_POB,1111002.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2015-07-01,2015-Q3,BAL,AUX_POB,1113547.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2016-01-01,2016-Q1,BAL,AUX_POB,1117353.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2016-07-01,2016-Q3,BAL,AUX_POB,1122995.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2017-01-01,2017-Q1,BAL,AUX_POB,1128492.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2017-07-01,2017-Q3,BAL,AUX_POB,1133746.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2018-01-01,2018-Q1,BAL,AUX_POB,1141233.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2018-07-01,2018-Q3,BAL,AUX_POB,1148049.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2019-01-01,2019-Q1,BAL,AUX_POB,1157928.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2019-07-01,2019-Q3,BAL,AUX_POB,1166084.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2020-01-01,2020-Q1,BAL,AUX_POB,1176816.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2020-07-01,2020-Q3,BAL,AUX_POB,1179492.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2021-01-01,2021-Q1,BAL,AUX_POB,1183415.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2021-04-01,2021-Q2,BAL,AUX_POB,1180773.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2021-07-01,2021-Q3,BAL,AUX_POB,1182298.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2021-10-01,2021-Q4,BAL,AUX_POB,1186410.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2022-01-01,2022-Q1,BAL,AUX_POB,1187043.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2022-04-01,2022-Q2,BAL,AUX_POB,1189263.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2022-07-01,2022-Q3,BAL,AUX_POB,1199002.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2022-10-01,2022-Q4,BAL,AUX_POB,1206684.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2023-01-01,2023-Q1,BAL,AUX_POB,1209906.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2023-04-01,2023-Q2,BAL,AUX_POB,1213977.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2023-07-01,2023-Q3,BAL,AUX_POB,1222509.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2023-10-01,2023-Q4,BAL,AUX_POB,1229555.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2024-01-01,2024-Q1,BAL,AUX_POB,1231768.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2024-04-01,2024-Q2,BAL,AUX_POB,1234681.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2024-07-01,2024-Q3,BAL,AUX_POB,1241571.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2024-10-01,2024-Q4,BAL,AUX_POB,1248020.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2025-01-01,2025-Q1,BAL,AUX_POB,1249844.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2025-04-01,2025-Q2,BAL,AUX_POB,1250999.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2025-07-01,2025-Q3,BAL,AUX_POB,1257667.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2025-10-01,2025-Q4,BAL,AUX_POB,1260478.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2026-01-01,2026-Q1,BAL,AUX_POB,1259545.0,Trimestral,"Total. Todas las edades. Balears, Illes. Población. Número. "
+2010-01-01,2010-Q1,CAN,AUX_POB,2045168.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2010-07-01,2010-Q3,CAN,AUX_POB,2053116.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2011-01-01,2011-Q1,CAN,AUX_POB,2064876.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2011-07-01,2011-Q3,CAN,AUX_POB,2073985.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2012-01-01,2012-Q1,CAN,AUX_POB,2085928.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2012-07-01,2012-Q3,CAN,AUX_POB,2087619.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2013-01-01,2013-Q1,CAN,AUX_POB,2096336.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2013-07-01,2013-Q3,CAN,AUX_POB,2096214.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2014-01-01,2014-Q1,CAN,AUX_POB,2098155.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2014-07-01,2014-Q3,CAN,AUX_POB,2097304.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2015-01-01,2015-Q1,CAN,AUX_POB,2101319.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2015-07-01,2015-Q3,CAN,AUX_POB,2099272.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2016-01-01,2016-Q1,CAN,AUX_POB,2103436.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2016-07-01,2016-Q3,CAN,AUX_POB,2106942.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2017-01-01,2017-Q1,CAN,AUX_POB,2115233.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2017-07-01,2017-Q3,CAN,AUX_POB,2120386.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2018-01-01,2018-Q1,CAN,AUX_POB,2131581.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2018-07-01,2018-Q3,CAN,AUX_POB,2139244.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2019-01-01,2019-Q1,CAN,AUX_POB,2153316.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2019-07-01,2019-Q3,CAN,AUX_POB,2163045.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2020-01-01,2020-Q1,CAN,AUX_POB,2176240.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2020-07-01,2020-Q3,CAN,AUX_POB,2180408.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2021-01-01,2021-Q1,CAN,AUX_POB,2178924.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2021-04-01,2021-Q2,CAN,AUX_POB,2177938.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2021-07-01,2021-Q3,CAN,AUX_POB,2176916.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2021-10-01,2021-Q4,CAN,AUX_POB,2179969.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2022-01-01,2022-Q1,CAN,AUX_POB,2185607.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2022-04-01,2022-Q2,CAN,AUX_POB,2189919.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2022-07-01,2022-Q3,CAN,AUX_POB,2197327.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2022-10-01,2022-Q4,CAN,AUX_POB,2205349.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2023-01-01,2023-Q1,CAN,AUX_POB,2213016.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2023-04-01,2023-Q2,CAN,AUX_POB,2219147.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2023-07-01,2023-Q3,CAN,AUX_POB,2224285.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2023-10-01,2023-Q4,CAN,AUX_POB,2231558.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2024-01-01,2024-Q1,CAN,AUX_POB,2238754.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2024-04-01,2024-Q2,CAN,AUX_POB,2242280.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2024-07-01,2024-Q3,CAN,AUX_POB,2246943.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2024-10-01,2024-Q4,CAN,AUX_POB,2255021.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2025-01-01,2025-Q1,CAN,AUX_POB,2258866.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2025-04-01,2025-Q2,CAN,AUX_POB,2261149.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2025-07-01,2025-Q3,CAN,AUX_POB,2265555.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2025-10-01,2025-Q4,CAN,AUX_POB,2272233.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2026-01-01,2026-Q1,CAN,AUX_POB,2272734.0,Trimestral,Total. Todas las edades. Canarias. Población. Número. 
+2010-01-01,2010-Q1,CANT,AUX_POB,588518.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2010-07-01,2010-Q3,CANT,AUX_POB,589603.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2011-01-01,2011-Q1,CANT,AUX_POB,590874.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2011-07-01,2011-Q3,CANT,AUX_POB,591564.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2012-01-01,2012-Q1,CANT,AUX_POB,592387.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2012-07-01,2012-Q3,CANT,AUX_POB,590821.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2013-01-01,2013-Q1,CANT,AUX_POB,589789.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2013-07-01,2013-Q3,CANT,AUX_POB,588408.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2014-01-01,2014-Q1,CANT,AUX_POB,587491.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2014-07-01,2014-Q3,CANT,AUX_POB,586041.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2015-01-01,2015-Q1,CANT,AUX_POB,585184.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2015-07-01,2015-Q3,CANT,AUX_POB,583437.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2016-01-01,2016-Q1,CANT,AUX_POB,582494.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2016-07-01,2016-Q3,CANT,AUX_POB,581446.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2017-01-01,2017-Q1,CANT,AUX_POB,581421.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2017-07-01,2017-Q3,CANT,AUX_POB,581027.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2018-01-01,2018-Q1,CANT,AUX_POB,581533.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2018-07-01,2018-Q3,CANT,AUX_POB,581227.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2019-01-01,2019-Q1,CANT,AUX_POB,581989.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2019-07-01,2019-Q3,CANT,AUX_POB,582260.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2020-01-01,2020-Q1,CANT,AUX_POB,583011.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2020-07-01,2020-Q3,CANT,AUX_POB,583107.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2021-01-01,2021-Q1,CANT,AUX_POB,584708.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2021-04-01,2021-Q2,CANT,AUX_POB,584705.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2021-07-01,2021-Q3,CANT,AUX_POB,584569.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2021-10-01,2021-Q4,CANT,AUX_POB,585400.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2022-01-01,2022-Q1,CANT,AUX_POB,585450.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2022-04-01,2022-Q2,CANT,AUX_POB,585451.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2022-07-01,2022-Q3,CANT,AUX_POB,586319.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2022-10-01,2022-Q4,CANT,AUX_POB,587527.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2023-01-01,2023-Q1,CANT,AUX_POB,588387.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2023-04-01,2023-Q2,CANT,AUX_POB,588356.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2023-07-01,2023-Q3,CANT,AUX_POB,588662.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2023-10-01,2023-Q4,CANT,AUX_POB,590114.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2024-01-01,2024-Q1,CANT,AUX_POB,590851.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2024-04-01,2024-Q2,CANT,AUX_POB,590781.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2024-07-01,2024-Q3,CANT,AUX_POB,591395.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2024-10-01,2024-Q4,CANT,AUX_POB,592932.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2025-01-01,2025-Q1,CANT,AUX_POB,593623.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2025-04-01,2025-Q2,CANT,AUX_POB,594066.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2025-07-01,2025-Q3,CANT,AUX_POB,594803.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2025-10-01,2025-Q4,CANT,AUX_POB,596347.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2026-01-01,2026-Q1,CANT,AUX_POB,597281.0,Trimestral,Total. Todas las edades. Cantabria. Población. Número. 
+2010-01-01,2010-Q1,CAT,AUX_POB,7463471.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2010-07-01,2010-Q3,CAT,AUX_POB,7477257.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2011-01-01,2011-Q1,CAT,AUX_POB,7493252.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2011-07-01,2011-Q3,CAT,AUX_POB,7504024.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2012-01-01,2012-Q1,CAT,AUX_POB,7514992.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2012-07-01,2012-Q3,CAT,AUX_POB,7499373.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2013-01-01,2013-Q1,CAT,AUX_POB,7488664.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2013-07-01,2013-Q3,CAT,AUX_POB,7456300.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2014-01-01,2014-Q1,CAT,AUX_POB,7432833.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2014-07-01,2014-Q3,CAT,AUX_POB,7419602.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2015-01-01,2015-Q1,CAT,AUX_POB,7420890.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2015-07-01,2015-Q3,CAT,AUX_POB,7424018.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2016-01-01,2016-Q1,CAT,AUX_POB,7440692.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2016-07-01,2016-Q3,CAT,AUX_POB,7452824.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2017-01-01,2017-Q1,CAT,AUX_POB,7480778.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2017-07-01,2017-Q3,CAT,AUX_POB,7495561.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2018-01-01,2018-Q1,CAT,AUX_POB,7539364.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2018-07-01,2018-Q3,CAT,AUX_POB,7571004.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2019-01-01,2019-Q1,CAT,AUX_POB,7624625.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2019-07-01,2019-Q3,CAT,AUX_POB,7672980.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2020-01-01,2020-Q1,CAT,AUX_POB,7720323.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2020-07-01,2020-Q3,CAT,AUX_POB,7729911.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2021-01-01,2021-Q1,CAT,AUX_POB,7749896.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2021-04-01,2021-Q2,CAT,AUX_POB,7742504.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2021-07-01,2021-Q3,CAT,AUX_POB,7734485.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2021-10-01,2021-Q4,CAT,AUX_POB,7752810.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2022-01-01,2022-Q1,CAT,AUX_POB,7761823.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2022-04-01,2022-Q2,CAT,AUX_POB,7792135.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2022-07-01,2022-Q3,CAT,AUX_POB,7829317.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2022-10-01,2022-Q4,CAT,AUX_POB,7868200.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2023-01-01,2023-Q1,CAT,AUX_POB,7901963.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2023-04-01,2023-Q2,CAT,AUX_POB,7929527.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2023-07-01,2023-Q3,CAT,AUX_POB,7958401.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2023-10-01,2023-Q4,CAT,AUX_POB,7994969.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2024-01-01,2024-Q1,CAT,AUX_POB,8012231.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2024-04-01,2024-Q2,CAT,AUX_POB,8031452.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2024-07-01,2024-Q3,CAT,AUX_POB,8061119.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2024-10-01,2024-Q4,CAT,AUX_POB,8096922.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2025-01-01,2025-Q1,CAT,AUX_POB,8124126.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2025-04-01,2025-Q2,CAT,AUX_POB,8140062.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2025-07-01,2025-Q3,CAT,AUX_POB,8161273.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2025-10-01,2025-Q4,CAT,AUX_POB,8189791.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2026-01-01,2026-Q1,CAT,AUX_POB,8208894.0,Trimestral,Total. Todas las edades. Cataluña. Población. Número. 
+2010-01-01,2010-Q1,CLM,AUX_POB,2084470.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2010-07-01,2010-Q3,CLM,AUX_POB,2090566.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2011-01-01,2011-Q1,CLM,AUX_POB,2099057.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2011-07-01,2011-Q3,CLM,AUX_POB,2103317.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2012-01-01,2012-Q1,CLM,AUX_POB,2105936.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2012-07-01,2012-Q3,CLM,AUX_POB,2098279.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2013-01-01,2013-Q1,CLM,AUX_POB,2093474.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2013-07-01,2013-Q3,CLM,AUX_POB,2083055.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2014-01-01,2014-Q1,CLM,AUX_POB,2074760.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2014-07-01,2014-Q3,CLM,AUX_POB,2067307.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2015-01-01,2015-Q1,CLM,AUX_POB,2062615.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2015-07-01,2015-Q3,CLM,AUX_POB,2054098.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2016-01-01,2016-Q1,CLM,AUX_POB,2049336.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2016-07-01,2016-Q3,CLM,AUX_POB,2043828.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2017-01-01,2017-Q1,CLM,AUX_POB,2041422.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2017-07-01,2017-Q3,CLM,AUX_POB,2034084.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2018-01-01,2018-Q1,CLM,AUX_POB,2034409.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2018-07-01,2018-Q3,CLM,AUX_POB,2032138.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2019-01-01,2019-Q1,CLM,AUX_POB,2036777.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2019-07-01,2019-Q3,CLM,AUX_POB,2040679.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2020-01-01,2020-Q1,CLM,AUX_POB,2047969.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2020-07-01,2020-Q3,CLM,AUX_POB,2045920.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2021-01-01,2021-Q1,CLM,AUX_POB,2052505.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2021-04-01,2021-Q2,CLM,AUX_POB,2052154.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2021-07-01,2021-Q3,CLM,AUX_POB,2050861.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2021-10-01,2021-Q4,CLM,AUX_POB,2053807.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2022-01-01,2022-Q1,CLM,AUX_POB,2058278.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2022-04-01,2022-Q2,CLM,AUX_POB,2062462.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2022-07-01,2022-Q3,CLM,AUX_POB,2069351.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2022-10-01,2022-Q4,CLM,AUX_POB,2076182.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2023-01-01,2023-Q1,CLM,AUX_POB,2084086.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2023-04-01,2023-Q2,CLM,AUX_POB,2088160.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2023-07-01,2023-Q3,CLM,AUX_POB,2092447.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2023-10-01,2023-Q4,CLM,AUX_POB,2099494.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2024-01-01,2024-Q1,CLM,AUX_POB,2104433.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2024-04-01,2024-Q2,CLM,AUX_POB,2107648.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2024-07-01,2024-Q3,CLM,AUX_POB,2113135.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2024-10-01,2024-Q4,CLM,AUX_POB,2120562.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2025-01-01,2025-Q1,CLM,AUX_POB,2126378.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2025-04-01,2025-Q2,CLM,AUX_POB,2130911.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2025-07-01,2025-Q3,CLM,AUX_POB,2138516.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2025-10-01,2025-Q4,CLM,AUX_POB,2148436.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2026-01-01,2026-Q1,CLM,AUX_POB,2154244.0,Trimestral,Total. Todas las edades. Castilla - La Mancha. Población. Número. 
+2010-01-01,2010-Q1,CYL,AUX_POB,2547408.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2010-07-01,2010-Q3,CYL,AUX_POB,2545387.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2011-01-01,2011-Q1,CYL,AUX_POB,2545286.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2011-07-01,2011-Q3,CYL,AUX_POB,2541364.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2012-01-01,2012-Q1,CYL,AUX_POB,2537654.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2012-07-01,2012-Q3,CYL,AUX_POB,2525537.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2013-01-01,2013-Q1,CYL,AUX_POB,2516927.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2013-07-01,2013-Q3,CYL,AUX_POB,2504683.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2014-01-01,2014-Q1,CYL,AUX_POB,2493604.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2014-07-01,2014-Q3,CYL,AUX_POB,2482991.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2015-01-01,2015-Q1,CYL,AUX_POB,2475697.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2015-07-01,2015-Q3,CYL,AUX_POB,2462191.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2016-01-01,2016-Q1,CYL,AUX_POB,2452721.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2016-07-01,2016-Q3,CYL,AUX_POB,2442259.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2017-01-01,2017-Q1,CYL,AUX_POB,2433535.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2017-07-01,2017-Q3,CYL,AUX_POB,2421556.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2018-01-01,2018-Q1,CYL,AUX_POB,2417013.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2018-07-01,2018-Q3,CYL,AUX_POB,2408617.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2019-01-01,2019-Q1,CYL,AUX_POB,2405568.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2019-07-01,2019-Q3,CYL,AUX_POB,2400492.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2020-01-01,2020-Q1,CYL,AUX_POB,2398976.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2020-07-01,2020-Q3,CYL,AUX_POB,2389195.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2021-01-01,2021-Q1,CYL,AUX_POB,2385223.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2021-04-01,2021-Q2,CYL,AUX_POB,2381418.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2021-07-01,2021-Q3,CYL,AUX_POB,2376735.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2021-10-01,2021-Q4,CYL,AUX_POB,2375948.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2022-01-01,2022-Q1,CYL,AUX_POB,2375583.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2022-04-01,2022-Q2,CYL,AUX_POB,2375530.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2022-07-01,2022-Q3,CYL,AUX_POB,2378252.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2022-10-01,2022-Q4,CYL,AUX_POB,2380598.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2023-01-01,2023-Q1,CYL,AUX_POB,2383703.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2023-04-01,2023-Q2,CYL,AUX_POB,2384028.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2023-07-01,2023-Q3,CYL,AUX_POB,2385360.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2023-10-01,2023-Q4,CYL,AUX_POB,2389072.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2024-01-01,2024-Q1,CYL,AUX_POB,2391682.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2024-04-01,2024-Q2,CYL,AUX_POB,2391138.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2024-07-01,2024-Q3,CYL,AUX_POB,2392231.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2024-10-01,2024-Q4,CYL,AUX_POB,2397071.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2025-01-01,2025-Q1,CYL,AUX_POB,2401221.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2025-04-01,2025-Q2,CYL,AUX_POB,2404291.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2025-07-01,2025-Q3,CYL,AUX_POB,2408383.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2025-10-01,2025-Q4,CYL,AUX_POB,2415007.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2026-01-01,2026-Q1,CYL,AUX_POB,2418425.0,Trimestral,Total. Todas las edades. Castilla y León. Población. Número. 
+2010-01-01,2010-Q1,ESP,AUX_POB,46486621.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2010-07-01,2010-Q3,ESP,AUX_POB,46562483.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2011-01-01,2011-Q1,ESP,AUX_POB,46667175.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2011-07-01,2011-Q3,ESP,AUX_POB,46736257.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2012-01-01,2012-Q1,ESP,AUX_POB,46818216.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2012-07-01,2012-Q3,ESP,AUX_POB,46749303.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2013-01-01,2013-Q1,ESP,AUX_POB,46712650.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2013-07-01,2013-Q3,ESP,AUX_POB,46581124.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2014-01-01,2014-Q1,ESP,AUX_POB,46495744.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2014-07-01,2014-Q3,ESP,AUX_POB,46433050.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2015-01-01,2015-Q1,ESP,AUX_POB,46425722.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2015-07-01,2015-Q3,ESP,AUX_POB,46384379.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2016-01-01,2016-Q1,ESP,AUX_POB,46418884.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2016-07-01,2016-Q3,ESP,AUX_POB,46427100.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2017-01-01,2017-Q1,ESP,AUX_POB,46497393.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2017-07-01,2017-Q3,ESP,AUX_POB,46510461.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2018-01-01,2018-Q1,ESP,AUX_POB,46645070.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2018-07-01,2018-Q3,ESP,AUX_POB,46715383.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2019-01-01,2019-Q1,ESP,AUX_POB,46918951.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2019-07-01,2019-Q3,ESP,AUX_POB,47087778.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2020-01-01,2020-Q1,ESP,AUX_POB,47318050.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2020-07-01,2020-Q3,ESP,AUX_POB,47344852.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2021-01-01,2021-Q1,ESP,AUX_POB,47400798.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2021-04-01,2021-Q2,ESP,AUX_POB,47356065.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2021-07-01,2021-Q3,ESP,AUX_POB,47346836.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2021-10-01,2021-Q4,ESP,AUX_POB,47424595.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2022-01-01,2022-Q1,ESP,AUX_POB,47486727.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2022-04-01,2022-Q2,ESP,AUX_POB,47609145.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2022-07-01,2022-Q3,ESP,AUX_POB,47781354.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2022-10-01,2022-Q4,ESP,AUX_POB,47940295.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2023-01-01,2023-Q1,ESP,AUX_POB,48085361.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2023-04-01,2023-Q2,ESP,AUX_POB,48205962.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2023-07-01,2023-Q3,ESP,AUX_POB,48320520.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2023-10-01,2023-Q4,ESP,AUX_POB,48486865.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2024-01-01,2024-Q1,ESP,AUX_POB,48619695.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2024-04-01,2024-Q2,ESP,AUX_POB,48701130.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2024-07-01,2024-Q3,ESP,AUX_POB,48821936.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2024-10-01,2024-Q4,ESP,AUX_POB,48999880.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2025-01-01,2025-Q1,ESP,AUX_POB,49128297.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2025-04-01,2025-Q2,ESP,AUX_POB,49228566.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2025-07-01,2025-Q3,ESP,AUX_POB,49355143.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2025-10-01,2025-Q4,ESP,AUX_POB,49489205.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2026-01-01,2026-Q1,ESP,AUX_POB,49570725.0,Trimestral,Total Nacional. Todas las edades. Total. Población. Número. 
+2010-01-01,2010-Q1,EXT,AUX_POB,1099605.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2010-07-01,2010-Q3,EXT,AUX_POB,1100441.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2011-01-01,2011-Q1,EXT,AUX_POB,1102300.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2011-07-01,2011-Q3,EXT,AUX_POB,1103514.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2012-01-01,2012-Q1,EXT,AUX_POB,1104343.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2012-07-01,2012-Q3,EXT,AUX_POB,1101947.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2013-01-01,2013-Q1,EXT,AUX_POB,1101024.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2013-07-01,2013-Q3,EXT,AUX_POB,1098478.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2014-01-01,2014-Q1,EXT,AUX_POB,1096708.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2014-07-01,2014-Q3,EXT,AUX_POB,1094170.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2015-01-01,2015-Q1,EXT,AUX_POB,1092217.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2015-07-01,2015-Q3,EXT,AUX_POB,1088396.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2016-01-01,2016-Q1,EXT,AUX_POB,1086153.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2016-07-01,2016-Q3,EXT,AUX_POB,1082479.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2017-01-01,2017-Q1,EXT,AUX_POB,1079108.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2017-07-01,2017-Q3,EXT,AUX_POB,1075091.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2018-01-01,2018-Q1,EXT,AUX_POB,1072721.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2018-07-01,2018-Q3,EXT,AUX_POB,1069435.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2019-01-01,2019-Q1,EXT,AUX_POB,1067925.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2019-07-01,2019-Q3,EXT,AUX_POB,1065607.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2020-01-01,2020-Q1,EXT,AUX_POB,1064970.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2020-07-01,2020-Q3,EXT,AUX_POB,1062460.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2021-01-01,2021-Q1,EXT,AUX_POB,1061636.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2021-04-01,2021-Q2,EXT,AUX_POB,1059261.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2021-07-01,2021-Q3,EXT,AUX_POB,1058385.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2021-10-01,2021-Q4,EXT,AUX_POB,1057697.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2022-01-01,2022-Q1,EXT,AUX_POB,1056808.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2022-04-01,2022-Q2,EXT,AUX_POB,1055254.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2022-07-01,2022-Q3,EXT,AUX_POB,1055080.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2022-10-01,2022-Q4,EXT,AUX_POB,1054682.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2023-01-01,2023-Q1,EXT,AUX_POB,1054306.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2023-04-01,2023-Q2,EXT,AUX_POB,1053582.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2023-07-01,2023-Q3,EXT,AUX_POB,1053870.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2023-10-01,2023-Q4,EXT,AUX_POB,1054549.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2024-01-01,2024-Q1,EXT,AUX_POB,1054681.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2024-04-01,2024-Q2,EXT,AUX_POB,1053420.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2024-07-01,2024-Q3,EXT,AUX_POB,1053034.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2024-10-01,2024-Q4,EXT,AUX_POB,1053204.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2025-01-01,2025-Q1,EXT,AUX_POB,1053345.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2025-04-01,2025-Q2,EXT,AUX_POB,1053173.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2025-07-01,2025-Q3,EXT,AUX_POB,1053625.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2025-10-01,2025-Q4,EXT,AUX_POB,1054627.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2026-01-01,2026-Q1,EXT,AUX_POB,1055197.0,Trimestral,Total. Todas las edades. Extremadura. Población. Número. 
+2010-01-01,2010-Q1,GAL,AUX_POB,2772457.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2010-07-01,2010-Q3,GAL,AUX_POB,2771750.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2011-01-01,2011-Q1,GAL,AUX_POB,2773415.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2011-07-01,2011-Q3,GAL,AUX_POB,2771651.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2012-01-01,2012-Q1,GAL,AUX_POB,2771916.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2012-07-01,2012-Q3,GAL,AUX_POB,2764582.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2013-01-01,2013-Q1,GAL,AUX_POB,2760720.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2013-07-01,2013-Q3,GAL,AUX_POB,2752086.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2014-01-01,2014-Q1,GAL,AUX_POB,2745817.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2014-07-01,2014-Q3,GAL,AUX_POB,2737551.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2015-01-01,2015-Q1,GAL,AUX_POB,2732801.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2015-07-01,2015-Q3,GAL,AUX_POB,2723357.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2016-01-01,2016-Q1,GAL,AUX_POB,2719095.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2016-07-01,2016-Q3,GAL,AUX_POB,2712055.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2017-01-01,2017-Q1,GAL,AUX_POB,2708955.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2017-07-01,2017-Q3,GAL,AUX_POB,2702734.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2018-01-01,2018-Q1,GAL,AUX_POB,2703048.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2018-07-01,2018-Q3,GAL,AUX_POB,2698954.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2019-01-01,2019-Q1,GAL,AUX_POB,2700210.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2019-07-01,2019-Q3,GAL,AUX_POB,2698685.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2020-01-01,2020-Q1,GAL,AUX_POB,2702605.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2020-07-01,2020-Q3,GAL,AUX_POB,2698830.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2021-01-01,2021-Q1,GAL,AUX_POB,2698177.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2021-04-01,2021-Q2,GAL,AUX_POB,2694297.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2021-07-01,2021-Q3,GAL,AUX_POB,2690972.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2021-10-01,2021-Q4,GAL,AUX_POB,2692220.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2022-01-01,2022-Q1,GAL,AUX_POB,2692825.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2022-04-01,2022-Q2,GAL,AUX_POB,2692515.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2022-07-01,2022-Q3,GAL,AUX_POB,2694762.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2022-10-01,2022-Q4,GAL,AUX_POB,2697287.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2023-01-01,2023-Q1,GAL,AUX_POB,2699424.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2023-04-01,2023-Q2,GAL,AUX_POB,2698437.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2023-07-01,2023-Q3,GAL,AUX_POB,2699216.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2023-10-01,2023-Q4,GAL,AUX_POB,2703586.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2024-01-01,2024-Q1,GAL,AUX_POB,2705833.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2024-04-01,2024-Q2,GAL,AUX_POB,2705549.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2024-07-01,2024-Q3,GAL,AUX_POB,2705832.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2024-10-01,2024-Q4,GAL,AUX_POB,2711503.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2025-01-01,2025-Q1,GAL,AUX_POB,2714741.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2025-04-01,2025-Q2,GAL,AUX_POB,2716327.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2025-07-01,2025-Q3,GAL,AUX_POB,2719518.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2025-10-01,2025-Q4,GAL,AUX_POB,2725033.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2026-01-01,2026-Q1,GAL,AUX_POB,2728315.0,Trimestral,Total. Todas las edades. Galicia. Población. Número. 
+2010-01-01,2010-Q1,MAD,AUX_POB,6373532.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2010-07-01,2010-Q3,MAD,AUX_POB,6384358.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2011-01-01,2011-Q1,MAD,AUX_POB,6394239.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2011-07-01,2011-Q3,MAD,AUX_POB,6409093.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2012-01-01,2012-Q1,MAD,AUX_POB,6425573.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2012-07-01,2012-Q3,MAD,AUX_POB,6424025.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2013-01-01,2013-Q1,MAD,AUX_POB,6411525.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2013-07-01,2013-Q3,MAD,AUX_POB,6388701.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2014-01-01,2014-Q1,MAD,AUX_POB,6372553.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2014-07-01,2014-Q3,MAD,AUX_POB,6369122.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2015-01-01,2015-Q1,MAD,AUX_POB,6375737.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2015-07-01,2015-Q3,MAD,AUX_POB,6389833.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2016-01-01,2016-Q1,MAD,AUX_POB,6411466.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2016-07-01,2016-Q3,MAD,AUX_POB,6430889.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2017-01-01,2017-Q1,MAD,AUX_POB,6459297.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2017-07-01,2017-Q3,MAD,AUX_POB,6486342.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2018-01-01,2018-Q1,MAD,AUX_POB,6529923.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2018-07-01,2018-Q3,MAD,AUX_POB,6565459.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2019-01-01,2019-Q1,MAD,AUX_POB,6618078.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2019-07-01,2019-Q3,MAD,AUX_POB,6661366.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2020-01-01,2020-Q1,MAD,AUX_POB,6720310.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2020-07-01,2020-Q3,MAD,AUX_POB,6728831.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2021-01-01,2021-Q1,MAD,AUX_POB,6726640.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2021-04-01,2021-Q2,MAD,AUX_POB,6716310.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2021-07-01,2021-Q3,MAD,AUX_POB,6717668.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2021-10-01,2021-Q4,MAD,AUX_POB,6732454.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2022-01-01,2022-Q1,MAD,AUX_POB,6743254.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2022-04-01,2022-Q2,MAD,AUX_POB,6784314.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2022-07-01,2022-Q3,MAD,AUX_POB,6824710.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2022-10-01,2022-Q4,MAD,AUX_POB,6851312.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2023-01-01,2023-Q1,MAD,AUX_POB,6871903.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2023-04-01,2023-Q2,MAD,AUX_POB,6911020.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2023-07-01,2023-Q3,MAD,AUX_POB,6933145.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2023-10-01,2023-Q4,MAD,AUX_POB,6965673.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2024-01-01,2024-Q1,MAD,AUX_POB,7009268.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2024-04-01,2024-Q2,MAD,AUX_POB,7026574.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2024-07-01,2024-Q3,MAD,AUX_POB,7047812.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2024-10-01,2024-Q4,MAD,AUX_POB,7085755.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2025-01-01,2025-Q1,MAD,AUX_POB,7113886.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2025-04-01,2025-Q2,MAD,AUX_POB,7135157.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2025-07-01,2025-Q3,MAD,AUX_POB,7148686.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2025-10-01,2025-Q4,MAD,AUX_POB,7153991.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2026-01-01,2026-Q1,MAD,AUX_POB,7170906.0,Trimestral,"Total. Todas las edades. Madrid, Comunidad de. Población. Número. "
+2010-01-01,2010-Q1,MUR,AUX_POB,1453545.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2010-07-01,2010-Q3,MUR,AUX_POB,1456521.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2011-01-01,2011-Q1,MUR,AUX_POB,1459076.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2011-07-01,2011-Q3,MUR,AUX_POB,1461107.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2012-01-01,2012-Q1,MUR,AUX_POB,1461928.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2012-07-01,2012-Q3,MUR,AUX_POB,1461188.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2013-01-01,2013-Q1,MUR,AUX_POB,1462271.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2013-07-01,2013-Q3,MUR,AUX_POB,1461871.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2014-01-01,2014-Q1,MUR,AUX_POB,1462734.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2014-07-01,2014-Q3,MUR,AUX_POB,1464013.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2015-01-01,2015-Q1,MUR,AUX_POB,1465195.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2015-07-01,2015-Q3,MUR,AUX_POB,1465679.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2016-01-01,2016-Q1,MUR,AUX_POB,1468367.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2016-07-01,2016-Q3,MUR,AUX_POB,1470873.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2017-01-01,2017-Q1,MUR,AUX_POB,1475275.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2017-07-01,2017-Q3,MUR,AUX_POB,1476334.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2018-01-01,2018-Q1,MUR,AUX_POB,1478718.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2018-07-01,2018-Q3,MUR,AUX_POB,1482514.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2019-01-01,2019-Q1,MUR,AUX_POB,1491312.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2019-07-01,2019-Q3,MUR,AUX_POB,1498997.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2020-01-01,2020-Q1,MUR,AUX_POB,1509077.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2020-07-01,2020-Q3,MUR,AUX_POB,1513834.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2021-01-01,2021-Q1,MUR,AUX_POB,1518279.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2021-04-01,2021-Q2,MUR,AUX_POB,1518812.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2021-07-01,2021-Q3,MUR,AUX_POB,1521411.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2021-10-01,2021-Q4,MUR,AUX_POB,1525492.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2022-01-01,2022-Q1,MUR,AUX_POB,1529658.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2022-04-01,2022-Q2,MUR,AUX_POB,1535248.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2022-07-01,2022-Q3,MUR,AUX_POB,1540774.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2022-10-01,2022-Q4,MUR,AUX_POB,1545698.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2023-01-01,2023-Q1,MUR,AUX_POB,1551692.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2023-04-01,2023-Q2,MUR,AUX_POB,1555233.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2023-07-01,2023-Q3,MUR,AUX_POB,1558016.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2023-10-01,2023-Q4,MUR,AUX_POB,1564023.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2024-01-01,2024-Q1,MUR,AUX_POB,1568492.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2024-04-01,2024-Q2,MUR,AUX_POB,1572241.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2024-07-01,2024-Q3,MUR,AUX_POB,1576891.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2024-10-01,2024-Q4,MUR,AUX_POB,1582254.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2025-01-01,2025-Q1,MUR,AUX_POB,1586989.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2025-04-01,2025-Q2,MUR,AUX_POB,1591337.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2025-07-01,2025-Q3,MUR,AUX_POB,1596882.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2025-10-01,2025-Q4,MUR,AUX_POB,1601899.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2026-01-01,2026-Q1,MUR,AUX_POB,1604043.0,Trimestral,"Total. Todas las edades. Murcia, Región de. Población. Número. "
+2010-01-01,2010-Q1,NAV,AUX_POB,633017.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2010-07-01,2010-Q3,NAV,AUX_POB,634983.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2011-01-01,2011-Q1,NAV,AUX_POB,637099.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2011-07-01,2011-Q3,NAV,AUX_POB,638581.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2012-01-01,2012-Q1,NAV,AUX_POB,640023.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2012-07-01,2012-Q3,NAV,AUX_POB,639255.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2013-01-01,2013-Q1,NAV,AUX_POB,639089.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2013-07-01,2013-Q3,NAV,AUX_POB,637447.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2014-01-01,2014-Q1,NAV,AUX_POB,637099.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2014-07-01,2014-Q3,NAV,AUX_POB,636803.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2015-01-01,2015-Q1,NAV,AUX_POB,637317.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2015-07-01,2015-Q3,NAV,AUX_POB,637476.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2016-01-01,2016-Q1,NAV,AUX_POB,638922.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2016-07-01,2016-Q3,NAV,AUX_POB,639847.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2017-01-01,2017-Q1,NAV,AUX_POB,642075.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2017-07-01,2017-Q3,NAV,AUX_POB,643105.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2018-01-01,2018-Q1,NAV,AUX_POB,646340.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2018-07-01,2018-Q3,NAV,AUX_POB,648803.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2019-01-01,2019-Q1,NAV,AUX_POB,652797.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2019-07-01,2019-Q3,NAV,AUX_POB,655668.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2020-01-01,2020-Q1,NAV,AUX_POB,659907.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2020-07-01,2020-Q3,NAV,AUX_POB,661008.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2021-01-01,2021-Q1,NAV,AUX_POB,662032.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2021-04-01,2021-Q2,NAV,AUX_POB,661769.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2021-07-01,2021-Q3,NAV,AUX_POB,661286.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2021-10-01,2021-Q4,NAV,AUX_POB,662964.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2022-01-01,2022-Q1,NAV,AUX_POB,664514.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2022-04-01,2022-Q2,NAV,AUX_POB,666111.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2022-07-01,2022-Q3,NAV,AUX_POB,667958.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2022-10-01,2022-Q4,NAV,AUX_POB,670606.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2023-01-01,2023-Q1,NAV,AUX_POB,672155.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2023-04-01,2023-Q2,NAV,AUX_POB,672873.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2023-07-01,2023-Q3,NAV,AUX_POB,674290.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2023-10-01,2023-Q4,NAV,AUX_POB,676571.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2024-01-01,2024-Q1,NAV,AUX_POB,678333.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2024-04-01,2024-Q2,NAV,AUX_POB,679090.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2024-07-01,2024-Q3,NAV,AUX_POB,680476.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2024-10-01,2024-Q4,NAV,AUX_POB,682408.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2025-01-01,2025-Q1,NAV,AUX_POB,683854.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2025-04-01,2025-Q2,NAV,AUX_POB,685331.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2025-07-01,2025-Q3,NAV,AUX_POB,686508.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2025-10-01,2025-Q4,NAV,AUX_POB,688664.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2026-01-01,2026-Q1,NAV,AUX_POB,689018.0,Trimestral,"Total. Todas las edades. Navarra, Comunidad Foral de. Población. Número. "
+2010-01-01,2010-Q1,PV,AUX_POB,2179532.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2010-07-01,2010-Q3,PV,AUX_POB,2181087.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2011-01-01,2011-Q1,PV,AUX_POB,2183134.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2011-07-01,2011-Q3,PV,AUX_POB,2184016.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2012-01-01,2012-Q1,PV,AUX_POB,2184696.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2012-07-01,2012-Q3,PV,AUX_POB,2180669.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2013-01-01,2013-Q1,PV,AUX_POB,2179274.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2013-07-01,2013-Q3,PV,AUX_POB,2174780.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2014-01-01,2014-Q1,PV,AUX_POB,2172247.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2014-07-01,2014-Q3,PV,AUX_POB,2171669.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2015-01-01,2015-Q1,PV,AUX_POB,2172707.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2015-07-01,2015-Q3,PV,AUX_POB,2171866.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2016-01-01,2016-Q1,PV,AUX_POB,2174426.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2016-07-01,2016-Q3,PV,AUX_POB,2176750.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2017-01-01,2017-Q1,PV,AUX_POB,2179944.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2017-07-01,2017-Q3,PV,AUX_POB,2181972.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2018-01-01,2018-Q1,PV,AUX_POB,2187254.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2018-07-01,2018-Q3,PV,AUX_POB,2190184.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2019-01-01,2019-Q1,PV,AUX_POB,2197306.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2019-07-01,2019-Q3,PV,AUX_POB,2203005.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2020-01-01,2020-Q1,PV,AUX_POB,2211917.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2020-07-01,2020-Q3,PV,AUX_POB,2213940.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2021-01-01,2021-Q1,PV,AUX_POB,2212628.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2021-04-01,2021-Q2,PV,AUX_POB,2207720.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2021-07-01,2021-Q3,PV,AUX_POB,2204196.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2021-10-01,2021-Q4,PV,AUX_POB,2204350.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2022-01-01,2022-Q1,PV,AUX_POB,2205826.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2022-04-01,2022-Q2,PV,AUX_POB,2207091.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2022-07-01,2022-Q3,PV,AUX_POB,2209725.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2022-10-01,2022-Q4,PV,AUX_POB,2212450.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2023-01-01,2023-Q1,PV,AUX_POB,2216302.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2023-04-01,2023-Q2,PV,AUX_POB,2218011.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2023-07-01,2023-Q3,PV,AUX_POB,2220061.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2023-10-01,2023-Q4,PV,AUX_POB,2223774.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2024-01-01,2024-Q1,PV,AUX_POB,2227684.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2024-04-01,2024-Q2,PV,AUX_POB,2229994.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2024-07-01,2024-Q3,PV,AUX_POB,2234700.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2024-10-01,2024-Q4,PV,AUX_POB,2239155.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2025-01-01,2025-Q1,PV,AUX_POB,2242343.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2025-04-01,2025-Q2,PV,AUX_POB,2244339.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2025-07-01,2025-Q3,PV,AUX_POB,2246534.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2025-10-01,2025-Q4,PV,AUX_POB,2251048.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2026-01-01,2026-Q1,PV,AUX_POB,2252730.0,Trimestral,Total. Todas las edades. País Vasco. Población. Número. 
+2010-01-01,2010-Q1,RIO,AUX_POB,319939.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2010-07-01,2010-Q3,RIO,AUX_POB,319888.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2011-01-01,2011-Q1,RIO,AUX_POB,320850.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2011-07-01,2011-Q3,RIO,AUX_POB,321050.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2012-01-01,2012-Q1,RIO,AUX_POB,320951.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2012-07-01,2012-Q3,RIO,AUX_POB,320062.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2013-01-01,2013-Q1,RIO,AUX_POB,318819.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2013-07-01,2013-Q3,RIO,AUX_POB,317224.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2014-01-01,2014-Q1,RIO,AUX_POB,315736.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2014-07-01,2014-Q3,RIO,AUX_POB,314747.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2015-01-01,2015-Q1,RIO,AUX_POB,314457.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2015-07-01,2015-Q3,RIO,AUX_POB,313863.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2016-01-01,2016-Q1,RIO,AUX_POB,314025.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2016-07-01,2016-Q3,RIO,AUX_POB,314010.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2017-01-01,2017-Q1,RIO,AUX_POB,314136.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2017-07-01,2017-Q3,RIO,AUX_POB,314155.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2018-01-01,2018-Q1,RIO,AUX_POB,314890.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2018-07-01,2018-Q3,RIO,AUX_POB,314882.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2019-01-01,2019-Q1,RIO,AUX_POB,315967.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2019-07-01,2019-Q3,RIO,AUX_POB,317044.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2020-01-01,2020-Q1,RIO,AUX_POB,318703.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2020-07-01,2020-Q3,RIO,AUX_POB,319123.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2021-01-01,2021-Q1,RIO,AUX_POB,319444.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2021-04-01,2021-Q2,RIO,AUX_POB,319457.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2021-07-01,2021-Q3,RIO,AUX_POB,319231.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2021-10-01,2021-Q4,RIO,AUX_POB,319621.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2022-01-01,2022-Q1,RIO,AUX_POB,319617.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2022-04-01,2022-Q2,RIO,AUX_POB,320156.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2022-07-01,2022-Q3,RIO,AUX_POB,320985.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2022-10-01,2022-Q4,RIO,AUX_POB,321679.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2023-01-01,2023-Q1,RIO,AUX_POB,322282.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2023-04-01,2023-Q2,RIO,AUX_POB,322837.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2023-07-01,2023-Q3,RIO,AUX_POB,323393.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2023-10-01,2023-Q4,RIO,AUX_POB,324408.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2024-01-01,2024-Q1,RIO,AUX_POB,324184.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2024-04-01,2024-Q2,RIO,AUX_POB,324609.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2024-07-01,2024-Q3,RIO,AUX_POB,325215.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2024-10-01,2024-Q4,RIO,AUX_POB,326139.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2025-01-01,2025-Q1,RIO,AUX_POB,326803.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2025-04-01,2025-Q2,RIO,AUX_POB,327673.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2025-07-01,2025-Q3,RIO,AUX_POB,328231.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2025-10-01,2025-Q4,RIO,AUX_POB,329336.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2026-01-01,2026-Q1,RIO,AUX_POB,329490.0,Trimestral,"Total. Todas las edades. Rioja, La. Población. Número. "
+2010-01-01,2010-Q1,VAL,AUX_POB,4989631.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2010-07-01,2010-Q3,VAL,AUX_POB,4988922.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2011-01-01,2011-Q1,VAL,AUX_POB,4999211.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2011-07-01,2011-Q3,VAL,AUX_POB,5002122.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2012-01-01,2012-Q1,VAL,AUX_POB,5009647.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2012-07-01,2012-Q3,VAL,AUX_POB,4999068.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2013-01-01,2013-Q1,VAL,AUX_POB,4988365.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2013-07-01,2013-Q3,VAL,AUX_POB,4969971.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2014-01-01,2014-Q1,VAL,AUX_POB,4960213.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2014-07-01,2014-Q3,VAL,AUX_POB,4951680.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2015-01-01,2015-Q1,VAL,AUX_POB,4945092.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2015-07-01,2015-Q3,VAL,AUX_POB,4937223.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2016-01-01,2016-Q1,VAL,AUX_POB,4939888.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2016-07-01,2016-Q3,VAL,AUX_POB,4936272.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2017-01-01,2017-Q1,VAL,AUX_POB,4943821.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2017-07-01,2017-Q3,VAL,AUX_POB,4940320.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2018-01-01,2018-Q1,VAL,AUX_POB,4958584.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2018-07-01,2018-Q3,VAL,AUX_POB,4961966.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2019-01-01,2019-Q1,VAL,AUX_POB,4989308.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2019-07-01,2019-Q3,VAL,AUX_POB,5015051.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2020-01-01,2020-Q1,VAL,AUX_POB,5046482.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2020-07-01,2020-Q3,VAL,AUX_POB,5055729.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2021-01-01,2021-Q1,VAL,AUX_POB,5067911.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2021-04-01,2021-Q2,VAL,AUX_POB,5065939.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2021-07-01,2021-Q3,VAL,AUX_POB,5072694.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2021-10-01,2021-Q4,VAL,AUX_POB,5091166.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2022-01-01,2022-Q1,VAL,AUX_POB,5108116.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2022-04-01,2022-Q2,VAL,AUX_POB,5128178.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2022-07-01,2022-Q3,VAL,AUX_POB,5158046.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2022-10-01,2022-Q4,VAL,AUX_POB,5186582.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2023-01-01,2023-Q1,VAL,AUX_POB,5216195.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2023-04-01,2023-Q2,VAL,AUX_POB,5238354.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2023-07-01,2023-Q3,VAL,AUX_POB,5261489.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2023-10-01,2023-Q4,VAL,AUX_POB,5293007.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2024-01-01,2024-Q1,VAL,AUX_POB,5319285.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2024-04-01,2024-Q2,VAL,AUX_POB,5343025.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2024-07-01,2024-Q3,VAL,AUX_POB,5366621.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2024-10-01,2024-Q4,VAL,AUX_POB,5398671.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2025-01-01,2025-Q1,VAL,AUX_POB,5425182.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2025-04-01,2025-Q2,VAL,AUX_POB,5449092.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2025-07-01,2025-Q3,VAL,AUX_POB,5477618.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2025-10-01,2025-Q4,VAL,AUX_POB,5502731.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 
+2026-01-01,2026-Q1,VAL,AUX_POB,5521600.0,Trimestral,Total. Todas las edades. Comunitat Valenciana. Población. Número. 

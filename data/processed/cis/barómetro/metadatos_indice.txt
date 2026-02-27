@@ -1,0 +1,11 @@
+fecha_generacion: 2026-01-20 09:22
+n_estudios: 101
+n_observaciones: 346813
+peso_total_poblacion: 346812.8447400001
+rango_estudios: 3124 - 3536
+codigos_politicos: [11, 13, 24, 50, 51]
+codigos_materiales: [1, 6, 7, 8, 9, 12]
+pesos_posicion: {1: 3, 2: 2, 3: 1}
+peso_problemas_indice_final: 0.6
+peso_anclaje_indice_final: 0.4
+indicadores_anclaje: ['ANCLAJE_NINGUN_LIDER', 'ANCLAJE_NINGUN_PARTIDO', 'ANCLAJE_SIN_SIMPATIA', 'ANCLAJE_BAJA_PARTICIP', 'ANCLAJE_SIN_IDEOL']

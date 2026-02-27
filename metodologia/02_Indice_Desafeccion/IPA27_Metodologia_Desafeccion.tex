@@ -1,0 +1,168 @@
+\documentclass[mathserif, utf8, aspectratio=169]{beamer}
+
+% --- Temas y Estetica ---
+\usetheme{Madrid}
+\usecolortheme{default}
+\useinnertheme{rounded}
+\useoutertheme{shadow}
+
+% --- Paquetes ---
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{bookmark}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+\usepackage{tikz}
+
+% --- Configuracion de Colores ---
+\definecolor{AndaluciaGreen}{RGB}{0, 107, 63}
+\definecolor{VibrantOrange}{RGB}{255, 127, 0}
+\definecolor{DeepBlue}{RGB}{0, 75, 147}
+
+\setbeamercolor{palette primary}{bg=AndaluciaGreen, fg=white}
+\setbeamercolor{palette secondary}{bg=DeepBlue, fg=white}
+\setbeamercolor{palette tertiary}{bg=DeepBlue, fg=white}
+\setbeamercolor{title}{bg=AndaluciaGreen, fg=white}
+\setbeamercolor{frametitle}{bg=AndaluciaGreen, fg=white}
+\setbeamercolor{block title}{bg=DeepBlue, fg=white}
+\setbeamercolor{item}{fg=VibrantOrange}
+
+% --- Configuracion de Cajas ---
+\tcbset{
+    enhanced,
+    colback=white,
+    colframe=DeepBlue,
+    arc=3mm,
+    fonttitle=\bfseries,
+    boxrule=1pt
+}
+
+% --- Metadatos ---
+\title[IPA27 - Desafeccion Politica]{Indicator: Indice de Desafeccion (GOB\_DES)}
+\subtitle{Metodologia de analisis de sentimientos y percepcion de problemas (CIS)}
+\author[Proyecto IPA27]{Analisis Tecnico de Indicadores}
+\date{\today}
+
+\begin{document}
+
+% --- Portada ---
+{
+\setbeamercolor{background canvas}{bg=AndaluciaGreen}
+\begin{frame}[plain]
+    \begin{center}
+        \vspace{1cm}
+        \textcolor{white}{\Huge \textbf{Indice de Desafeccion Politica}} \\
+        \vspace{0.3cm}
+        \textcolor{white}{\Large Cuantificando el descontento institucional} \\
+        \vspace{1cm}
+        \begin{tikzpicture}
+            \fill[VibrantOrange] (0,0) circle (0.4cm) node[white] {\textbf{D}};
+            \draw[white, line width=2pt] (0,0) circle (0.4cm);
+        \end{tikzpicture} \\
+        \vspace{1cm}
+        \textcolor{white}{\large Fuente: Barometros CIS (PESPANNA1/2/3)} \\
+    \end{center}
+\end{frame}
+}
+
+% --- Slide 2: El Concepto ---
+\begin{frame}{¿Como medimos la desafeccion?}
+    \begin{columns}
+        \begin{column}{0.6\textwidth}
+            \begin{tcolorbox}[title=Definicion Operativa]
+                La desafeccion se mide indirectamente a traves de la **importancia relativa** que los ciudadanos otorgan a los problemas politicos en su agenda personal.
+            \end{tcolorbox}
+            \begin{itemize}
+                \item No es solo "opinar mal", es considerar que **la politica en si misma es un problema**.
+                \item Se basa en las tres menciones de "Principales problemas de España".
+                \item Captura la fatiga institucional y la desconfianza.
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.4\textwidth}
+            \centering
+            \begin{tikzpicture}
+                \node[draw=VibrantOrange, circle, inner sep=5pt] (P) at (0,0) {Politicos};
+                \node[draw=AndaluciaGreen, circle, inner sep=5pt] (M) at (2,0) {Materiales};
+                \draw[<->, line width=1.5pt] (P) -- (M) node[midway, above] {Crowding-out};
+            \end{tikzpicture}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+% --- Slide 3: Codigos de Identificacion ---
+\begin{frame}{Identificando el "Problema Politico"}
+    \begin{tcolorbox}[colframe=AndaluciaGreen, title=Foco en Desafeccion (Score Rojo)]
+        Filtramos menciones especificas que reflejan descontento estructural:
+    \end{tcolorbox}
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            \begin{itemize}
+                \item \textbf{Cod. 11}: Corrupcion y fraude.
+                \item \textbf{Cod. 13}: Mal comportamiento de los politicos.
+                \item \textbf{Cod. 51}: Problemas politicos en general.
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            \begin{itemize}
+                \item \textbf{Cod. 24}: El Gobierno.
+                \item \textbf{Cod. 50}: Partidos politicos.
+            \end{itemize}
+        \end{column}
+    \end{columns}
+    \vspace{0.3cm}
+    \begin{small}
+    *Estos codigos se comparan con problemas "Materiales" (Paro, Sanidad, Vivienda) para entender la competencia en la agenda ciudadana.
+    \end{small}
+\end{frame}
+
+% --- Slide 4: Algoritmo de Calculo ---
+\begin{frame}{Algoritmo de Ponderacion}
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            \begin{block}{1. Jerarquia de Mencíon}
+                No todos los problemas pesan igual:
+                \begin{itemize}
+                    \item \textbf{1er Problema}: Peso 3.
+                    \item \textbf{2do Problema}: Peso 2.
+                    \item \textbf{3er Problema}: Peso 1.
+                \end{itemize}
+            \end{block}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            \begin{block}{2. Normalización (0-100)}
+                Se suma el score (max. 6 puntos) y se escala a centiles.
+            \end{block}
+            \begin{block}{3. Agregación Regional}
+                Calculo de la media para cada CCAA usando los pesos muestrales del CIS.
+            \end{block}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+% --- Slide 5: El Factor de "Crowding-Out" ---
+\begin{frame}{Desafeccion vs Realidad Material}
+    \begin{tcolorbox}[title=Ajuste por Urgencia Social, colframe=VibrantOrange]
+        El indice final tiene en cuenta si la desafeccion sube porque **realmente hay mas descontento** o porque **otros problemas (como el paro) han bajado**.
+    \end{tcolorbox}
+    \begin{itemize}
+        \item \textbf{Analisis Factorial}: Se limpian sesgos mediante tecnicas de factorizacion para aislar la "desafeccion pura".
+        \item \textbf{Sensibilidad}: El indicador es altamente sensible a ciclos electorales y crisis de gobernanza.
+        \item \textbf{Aplicacion}: Clave en la dimension de **Sociedades Inclusivas (Pillar 3)**.
+    \end{itemize}
+\end{frame}
+
+% --- Slide 6: Cierre ---
+{
+\setbeamercolor{background canvas}{bg=DeepBlue}
+\begin{frame}[plain]
+    \begin{center}
+        \vspace{2cm}
+        \textcolor{white}{\Huge \textbf{Escuchando el Pulso de la Ciudadania}} \\
+        \vspace{1.5cm}
+        \textcolor{VibrantOrange}{\large Metodologia Desafeccion IPA27} \\
+    \end{center}
+\end{frame}
+}
+
+\end{document}

@@ -1,0 +1,97 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{multirow}
+\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+
+\title{\textbf{Metodología del Índice de Prosperidad Andaluz (IPA27)}}
+\author{Documento Técnico Actualizado}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Este documento técnico detalla exhaustivamente la metodología subyacente a la construcción del Índice de Prosperidad Andaluz (IPA27). El índice evalúa la prosperidad a través de un marco multidimensional de frecuencia trimestral. A lo largo del documento se detallan las fuentes documentales y estadísticas, los procesos del pipeline de pre-procesamiento (desestacionalización, trimestralización y nowcasting), el innovador esquema de normalización por Techos Fijos y el cálculo final del índice mediante agregación jerárquica con media geométrica.
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+\section{Introducción y Marco Conceptual}
+El Índice de Prosperidad Andaluz (IPA27) es una herramienta de medición sistémica y continua cuyo objetivo es comparar el progreso socioeconómico de Andalucía frente a España y otras regiones. Superando los límites unidimensionales del Producto Interior Bruto (PIB), el IPA27 está estructurado en tres grandes dominios:
+\begin{enumerate}
+    \item \textbf{Sociedades Inclusivas:} Seguridad, Libertad, Gobernanza y Capital Social.
+    \item \textbf{Economías Abiertas:} Inversión, Empresas, Infraestructura y Calidad Económica.
+    \item \textbf{Personas Empoderadas:} Vida, Salud, Educación y Conocimiento.
+\end{enumerate}
+Cada uno de estos dominios consta de 4 pilares, y cada pilar se sustenta en 2 indicadores (sumando un total de 24 indicadores macro).
+
+\section{Fuentes de Datos}
+La matriz de datos del IPA27 se alimenta de fuentes oficiales de alta confiabilidad:
+\begin{itemize}
+    \item \textbf{Instituto Nacional de Estadística (INE):} Provee datos provenientes de la Encuesta de Población Activa (EPA), Encuesta de Condiciones de Vida (ECV), Padrón Continuo y Cuentas Trimestrales no Financieras de los Sectores Institucionales.
+    \item \textbf{Instituto de Estadística y Cartografía de Andalucía (IECA):} Fuente esencial para indicadores económicos territoriales, proporcionando el PIB regional mediante agregados y población cruzada local.
+    \item \textbf{Ministerio del Interior (Portal Estadístico de Criminalidad):} Provee balances de seguridad desglosados (criminalidad general, delitos de odio y delitos contra la libertad sexual).
+\end{itemize}
+
+\section{Pipeline de Procesamiento y Filtrado Temporal}
+Dado que el índice se mide de forma trimestral, no todas las fuentes de datos publican en la misma frecuencia ni en la misma escala. El pipeline soluciona estas discrepancias a través de las siguientes fases:
+
+\subsection{Normalización Per Cápita e Inversión de Sentido Algorítmica}
+Las variables que vienen en formatos de volumen bruto (Ej: total de entidades asociativas, número de robos) son transformadas a tasas poblacionales empleando un denominador común de población (proyecciones de habitantes). Asimismo, en lugar de alterar los datos brutos en esta etapa, el pipeline identifica taxonómicamente la \textbf{dirección} del indicador (si es "normal" donde mayor valor es mejor, o "invertido" donde menor valor es mejor, como la tasa de paro o la criminalidad).
+
+\subsection{Desestacionalización STL}
+Las fluctuaciones predecibles por calendarios estacionales (Ej. vacaciones en turismo que afectan el desempleo trimestral o crímenes en verano) se suavizan utilizando algoritmos STL (\textit{Seasonal and Trend decomposition using Loess}), aislando la verdadera tendencia económica de la región.
+
+\subsection{Trimestralización de Series (Método de Chow-Lin)}
+Las series que únicamente se publican de forma anual (como la Esperanza de Vida o Riesgo de Pobreza AROPE) se desagregan en ventanas trimestrales empleando el método econométrico de Chow-Lin, el cual usa marcadores de alta frecuencia muy correlacionados como regresores (por ejemplo, emparejando AROPE con el desempleo o la esperanza de vida con la satisfacción sanitaria). Cuando esto no es posible, se acude a enfoques de Denton.
+
+\subsection{Nowcasting (ARIMA)}
+Toda estadística cuenta con rezagos de informe (\textit{publication lag}). Para poder reportar hasta el trimestre vivo (\textit{Q Objetivo}), el pipeline implementa módulos \textit{Nowcasting} mediante algoritmos \texttt{auto\_arima}. Esto predice hasta el trimestre en curso permitiendo comparar la foto sincrónica actual sin depender del retraso gubernamental de ciertos ministerios. 
+
+\section{Metodología de Normalización: Techos Fijos}
+Recientemente, el proyecto abandonó las normalizaciones puramente relativas de tipología "min-max" (cuyas fronteras dependían artificialmente de mínimos o máximos temporales creando inestabilidades). El actual estándar de evaluación es la **Normalización por Techos Fijos**.
+
+A cada indicador se le fija un techo o anclaje asintótico que determina el "Nivel Aspiracional" mediante la siguiente formulación de calibración de tendencia histórica:
+\begin{equation}
+techo_i = \overline{x}_{top3} + k \times \Delta_{anual} \times horizonte
+\end{equation}
+Donde:
+\begin{itemize}
+    \item $\overline{x}_{top3}$: Es la media de las 3 regiones con mejor desempeño en el área.
+    \item $\Delta_{anual}$: Es el ritmo medio de mejora del Top 3 (última serie de tendencia quinquenal).
+    \item $k$: Margen de ajuste (generalmente 1.0).
+    \item $horizonte$: Proyección en años hacia adelante (generalmente 5 años).
+\end{itemize}
+
+Para normalizar los valores al espacio de \textbf{[0-100]}, la metodología reacciona a la dirección del indicador de la siguiente manera:
+\begin{itemize}
+    \item \textbf{Normal (Mayor es mejor):} $\text{Score} = \left( \frac{x}{techo} \right) \times 100$
+    \item \textbf{Invertido (Menor es mejor):} $\text{Score} = \left( 1 - \frac{x}{techo} \right) \times 100$. (En indicadores inversos el "techo" simboliza el peor valor posible aceptable).
+\end{itemize}
+Por diseño, la técnica cuenta con un efecto \textit{Clamping} límite de $120$ puntos, lo que recompensa excelencias particulares sin abultar desastrosamente un pilar entero.
+
+\section{Agregación Jerárquica: Penalización Geométrica}
+La etapa final de construcción del índice consiste en la consolidación. Pasando de indicadores $\rightarrow$ pilares $\rightarrow$ dominios $\rightarrow$ IPA27. El cálculo utiliza una \textbf{Media Geométrica Robusta}:
+\begin{equation}
+\text{Agregado} = \left( \prod_{i=1}^{n} \text{componente}_i^{w_i} \right)^{\frac{1}{\sum w_i}}
+\end{equation}
+(Actualmente el índice es de equiponderancia técnica donde $w_i = 1$).
+
+La decisión de usar medias geométricas es deliberada y se debe a que éstas **penalizan fuertemente los desequilibrios**. En la medición de prosperidad contemporánea se asume \textit{complementariedad} más que sustitución total: no se debe solventar una nota pésima en la calidad de la educación o el riesgo de pobreza con un aumento altísimo en exportaciones corporativas. 
+
+\textbf{Detalles del cálculo:} Para garantizar que la media geométrica no colapse a infinito o entropía asintótica en caso de que un componente individual aterrice en un score total de 0 puntos por anomalía, la fórmula se apuntala aplicando matemáticamente un umbral piso de estabilización (base de 1.0 previo a las transformaciones logarítmicas) asegurando convergencia y penalidad de varianza estable.
+
+\section{Conclusión}
+La moderna arquitectura técnica adoptada por el índice (Techos Fijos e interpolación Geométrica) permite a las administraciones leer a Andalucía no tan sólo contra fronteras relativas cambiantes, sino ante horizontes concretos y robustos, castigando inequidades sistémicas sectoriales y proveyendo un mapa temporal confiable, inmutable en su escala normativa.
+
+\end{document}

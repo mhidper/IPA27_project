@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Office temporales
+~$*
+*.tmp
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.spl
+*.synctex.gz
+*.toc
+*.fls
+*.fdb_latexmk
+
+# Data
+data/raw/
+!data/processed/
+results/debug/
+*.zip
+*.csv
+*.xlsx
+!data/processed/**/*.csv
+!data/processed/**/*.xlsx
+!results/data/**/*.csv
+!results/data/**/*.xlsx
+!results/data/**/*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backups
+*.bak
+*~backup*
+*_backup
+
+# Temporary files
+temp/
+tmp/
+*.temp

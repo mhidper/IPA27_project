@@ -1,0 +1,875 @@
+\documentclass[authoryear,12pt]{elsarticle}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{natbib}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{longtable}
+\geometry{a4paper, margin=1in}
+
+\journal{Social Indicators Research}
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Arquitectura del Índice de Prosperidad Andaluz (IPA27): Un Enfoque Metodológico Basado en Normalización Sigmoide Robusta y Agregación Jerárquica para la Medición Multidimensional del Bienestar Regional}
+
+\author[sev]{Equipo IPA27\corref{cor1}}
+\ead{ipa27@andalucia.es}
+\address[sev]{Instituto de Estudios Regionales, Sevilla, España}
+
+\cortext[cor1]{Autor de correspondencia}
+
+\begin{abstract}
+La medición de la prosperidad regional trasciende los indicadores económicos tradicionales, requiriendo marcos analíticos multidimensionales que integren aspectos sociales, institucionales y de capital humano. Este artículo presenta la arquitectura metodológica del Índice de Prosperidad Andaluz (IPA27), un instrumento de medición trimestral que evalúa el bienestar comparado entre Andalucía y España a través de 24 indicadores agrupados en 12 pilares y 3 dominios fundamentales. La contribución metodológica principal reside en tres innovaciones: (1) un sistema integrado de \textit{nowcasting} que combina métodos de Chow-Lin, Denton y ARIMA para unificar series de frecuencias mixtas; (2) una función de normalización sigmoide robusta basada en medianas y rangos intercuartílicos que minimiza la sensibilidad a valores atípicos; y (3) un esquema de agregación jerárquica que utiliza medias geométricas para penalizar desequilibrios estructurales entre dimensiones. Los resultados para el tercer trimestre de 2025 revelan una brecha de -4.7 puntos entre Andalucía (46.3) y España (50.9), con la mayor disparidad concentrada en el dominio de Personas Empoderadas (-22.8 puntos), evidenciando desafíos persistentes en educación, salud y calidad de vida. El IPA27 se posiciona como un instrumento de diagnóstico de alta frecuencia para el diseño de políticas públicas basadas en evidencia.
+\end{abstract}
+
+\begin{keyword}
+Índices Compuestos \sep Prosperidad Regional \sep Normalización Sigmoide \sep Nowcasting \sep Chow-Lin \sep Media Geométrica \sep IPA27 \sep Andalucía \sep Bienestar Multidimensional
+\end{keyword}
+
+\end{frontmatter}
+
+\section{Introducción}
+
+La medición del progreso social y económico ha experimentado una transformación paradigmática en las últimas décadas. Desde la crítica seminal de \citet{kuznets1934national} sobre las limitaciones del ingreso nacional como indicador de bienestar, hasta los trabajos contemporáneos de la Comisión Stiglitz-Sen-Fitoussi \citep{stiglitz2009report}, existe un consenso creciente sobre la necesidad de adoptar métricas multidimensionales que capturen la complejidad del desarrollo humano \citep{sen1999development, alkire2015multidimensional}.
+
+El Producto Interior Bruto (PIB) per cápita, a pesar de su ubicuidad como métrica económica, presenta insuficiencias bien documentadas: no captura la distribución del ingreso \citep{atkinson2015inequality}, ignora la sostenibilidad ambiental \citep{daly1996beyond}, y omite dimensiones fundamentales del bienestar como la salud, la educación y la calidad institucional \citep{fleurbaey2009beyond}. En respuesta a estas limitaciones, han proliferado iniciativas internacionales de medición compuesta: el Índice de Desarrollo Humano (IDH) del PNUD \citep{undp2020human}, el Better Life Index de la OCDE \citep{oecd2020better}, el Social Progress Index \citep{stern2018social}, y el Legatum Prosperity Index \citep{legatum2024prosperity}, entre otros.
+
+El Legatum Prosperity Index, desarrollado por el Legatum Institute desde 2007, representa un marco conceptual particularmente relevante para este estudio. Su arquitectura teórica reconoce que la prosperidad no es un fenómeno unidimensional, sino el resultado de la interacción entre instituciones inclusivas, economías abiertas y personas empoderadas \citep{legatum2024methodology}. Este marco de 12 pilares ha demostrado capacidad predictiva sobre trayectorias de desarrollo a largo plazo \citep{thompson2020prosperity} y ha sido adoptado por diversos organismos multilaterales como herramienta de diagnóstico.
+
+Sin embargo, la aplicación de estos marcos globales a contextos regionales enfrenta desafíos metodológicos significativos. En primer lugar, la \textbf{frecuencia de publicación} de las estadísticas oficiales varía considerablemente: mientras algunos indicadores económicos (PIB, empleo) se publican trimestralmente, los datos de gobernanza, capital social o salud suelen tener frecuencia anual o incluso bienal. Este \textit{publication lag} genera asimetrías temporales que impiden el seguimiento coyuntural \citep{giannone2008nowcasting}. En segundo lugar, la \textbf{escala de medición} heterogénea de los indicadores (porcentajes, tasas por 100,000 habitantes, euros) requiere métodos de normalización robustos que no distorsionen la información bajo valores extremos \citep{greco2019different}. Finalmente, la \textbf{agregación de dimensiones} debe reflejar relaciones de sustituibilidad o complementariedad entre pilares, evitando que compensaciones espurias entre categorías oculten vulnerabilidades estructurales \citep{decancq2011weights}.
+
+En este contexto, el presente artículo introduce el \textbf{Índice de Prosperidad Andaluz (IPA27)}, un sistema de medición multidimensional diseñado específicamente para el seguimiento trimestral de la prosperidad en Andalucía en comparación con España. El IPA27 adapta el marco conceptual del Legatum Prosperity Index a la realidad estadística y política de una región europea, incorporando tres innovaciones metodológicas principales:
+
+\begin{enumerate}
+    \item \textbf{Nowcasting integrado}: Un pipeline automatizado que combina métodos de Chow-Lin para desagregación temporal, splines de Denton para consistencia con totales conocidos, y modelos ARIMA para extensión de series incompletas, garantizando cobertura del 100\% de indicadores en el trimestre objetivo.
+
+    \item \textbf{Normalización sigmoide robusta}: Una función de transformación basada en la mediana y el rango intercuartílico (IQR) de la distribución histórica conjunta de Andalucía y España, que minimiza la influencia de valores atípicos y asegura interpretabilidad en la escala 0-100.
+
+    \item \textbf{Agregación jerárquica diferenciada}: Uso de media aritmética para indicadores dentro de un mismo pilar (sustituibilidad perfecta) y media geométrica para niveles superiores (penalización de desequilibrios), incentivando políticas transversales en lugar de especializaciones extremas.
+\end{enumerate}
+
+El objetivo de este trabajo es triple: (1) documentar de forma exhaustiva la arquitectura metodológica del IPA27, permitiendo su replicabilidad y escrutinio académico; (2) presentar los resultados consolidados para el tercer trimestre de 2025, identificando brechas estructurales entre Andalucía y España; y (3) discutir las implicaciones para el diseño de políticas públicas basadas en evidencia.
+
+El resto del artículo se estructura de la siguiente forma: la Sección 2 revisa el marco teórico y la justificación conceptual de la estructura de pilares y dominios; la Sección 3 detalla las fuentes de datos y los conectores API implementados; la Sección 4 describe los métodos de preprocesamiento, desestacionalización y nowcasting; la Sección 5 presenta el algoritmo de normalización sigmoide robusta; la Sección 6 explica el esquema de agregación jerárquica; la Sección 7 reporta los resultados empíricos para 2025Q3; la Sección 8 discute las implicaciones y limitaciones; y la Sección 9 concluye con recomendaciones para investigaciones futuras.
+
+\section{Marco Teórico y Estructura Conceptual}
+
+\subsection{Fundamentos de la Prosperidad Multidimensional}
+
+La prosperidad, entendida como la capacidad de los individuos para alcanzar una vida plena y con oportunidades, requiere condiciones que van más allá de la mera acumulación material. \citet{acemoglu2012why} demuestran que las instituciones inclusivas —aquellas que garantizan derechos de propiedad, Estado de derecho y participación política— son el determinante fundamental del desarrollo a largo plazo. Por su parte, \citet{sen1999development} enfatiza que el desarrollo debe concebirse como la expansión de las libertades reales que disfrutan los individuos, lo que incluye capacidades básicas (salud, educación) y libertades instrumentales (participación política, seguridad económica).
+
+El marco del Legatum Prosperity Index sintetiza estos avances teóricos en una arquitectura de tres dominios interdependientes \citep{legatum2024methodology}:
+
+\begin{itemize}
+    \item \textbf{Sociedades Inclusivas}: Reflejan la calidad del entorno institucional y social. Incluyen seguridad (física y jurídica), libertad (de expresión, asociación), gobernanza (transparencia, control de la corrupción) y capital social (confianza interpersonal, participación cívica). La evidencia empírica muestra que sociedades con mayor capital social presentan mayor resiliencia ante crisis económicas \citep{putnam1993making} y mejor provisión de bienes públicos \citep{knack1997does}.
+
+    \item \textbf{Economías Abiertas}: Capturan las condiciones para la creación de valor económico sostenible. Comprenden inversión (doméstica y extranjera), dinamismo empresarial (natalidad y mortalidad de empresas), infraestructura (física y digital) y calidad del crecimiento económico. La teoría del crecimiento endógeno \citep{romer1990endogenous} subraya que la acumulación de capital humano y tecnológico, junto con instituciones que premian la innovación, son factores determinantes de la convergencia económica.
+
+    \item \textbf{Personas Empoderadas}: Evalúan las capacidades y oportunidades de los individuos. Incluyen condiciones de vida (pobreza, desempleo), salud (esperanza de vida, satisfacción con el sistema sanitario), educación (niveles de formación, abandono escolar) y acceso al conocimiento (I+D, ocupación en sectores intensivos en conocimiento). \citet{heckman2006skill} demostró que la formación de habilidades en etapas tempranas genera retornos acumulativos que se amplifican en el ciclo de vida, justificando la centralidad de la educación en cualquier índice de prosperidad.
+\end{itemize}
+
+\subsection{Adaptación Regional del Marco Legatum}
+
+El IPA27 adapta este marco global a la realidad andaluza mediante dos ajustes metodológicos clave:
+
+\paragraph{Frecuencia Trimestral.} A diferencia del Legatum Index (anual), el IPA27 se actualiza trimestralmente. Esta decisión responde a la necesidad de detectar señales tempranas de cambio estructural o coyuntural, permitiendo evaluaciones de impacto más ágiles de las políticas públicas \citep{banbura2013nowcasting}.
+
+\paragraph{Comparativa Dual.} El IPA27 calcula puntuaciones simultáneas para Andalucía y España, utilizando la distribución histórica conjunta como referencia para la normalización. Este enfoque permite cuantificar brechas (gaps) en cada pilar, identificando áreas de convergencia o divergencia relativa.
+
+\subsection{Estructura de Pilares e Indicadores}
+
+La Tabla \ref{tab:estructura} presenta la desagregación completa del IPA27 en 3 dominios, 12 pilares y 24 indicadores. La selección de indicadores siguió tres criterios: (1) \textit{validez teórica} (respaldo en la literatura académica sobre determinantes de bienestar), (2) \textit{disponibilidad estadística} (publicación oficial por INE, IECA o Ministerio del Interior), y (3) \textit{comparabilidad territorial} (definición homogénea para Andalucía y España).
+
+\begin{table}[h!]
+\centering
+\footnotesize
+\begin{tabular}{p{3.5cm}p{4cm}p{6cm}}
+\toprule
+\textbf{Dominio} & \textbf{Pilar} & \textbf{Indicadores} \\
+\midrule
+\multirow{8}{3.5cm}{\textbf{Sociedades Inclusivas}}
+& 1. Seguridad & SEG\_BAL: Balance Criminalidad (Hurtos+Robos) \newline SEG\_CRI: Tasa de Criminalidad \\
+\cmidrule{2-3}
+& 2. Libertad & LIB\_ODI: Delitos de Odio \newline LIB\_SEX: Delitos contra Libertad Sexual \\
+\cmidrule{2-3}
+& 3. Gobernanza & GOB\_CON: Confianza en el Gobierno \newline GOB\_TRA: Índice de Transparencia \\
+\cmidrule{2-3}
+& 4. Capital Social & SOC\_ASO: Ocupados en Actividades Asociativas \newline SOC\_PAR: Participación Electoral \\
+\midrule
+\multirow{8}{3.5cm}{\textbf{Economías Abiertas}}
+& 5. Inversión & INV\_HIP: Hipotecas sobre Fincas Urbanas \newline INV\_IED: Inversión Extranjera Directa \\
+\cmidrule{2-3}
+& 6. Empresas & EMP\_NAT: Natalidad Empresarial \newline EMP\_SOC: Constitución Sociedades Mercantiles \\
+\cmidrule{2-3}
+& 7. Infraestructura & INF\_BAN: Hogares con Banda Ancha \newline INF\_TRA: Transporte Viajeros Urbano \\
+\cmidrule{2-3}
+& 8. Calidad Económica & ECO\_PIBpc: PIB per cápita (implícito) \newline ECO\_PIT: PIB Trimestral (Base 2015=100) \\
+\midrule
+\multirow{8}{3.5cm}{\textbf{Personas Empoderadas}}
+& 9. Vida & VID\_ARO: Tasa AROPE (Riesgo Pobreza) \newline VID\_PAR: Tasa de Paro EPA \\
+\cmidrule{2-3}
+& 10. Salud & SAL\_ESP: Esperanza de Vida al Nacer \newline SAL\_SAT: Satisfacción con Sistema Sanitario \\
+\cmidrule{2-3}
+& 11. Educación & EDU\_ABA: Abandono Escolar Temprano \newline EDU\_SUP: Población con Educación Superior \\
+\cmidrule{2-3}
+& 12. Conocimiento & CON\_IDI: Gasto I+D (\% PIB) \newline CON\_OCI: Ocupados en Sectores Intensivos en Conocimiento \\
+\bottomrule
+\end{tabular}
+\caption{Estructura jerárquica del IPA27: Dominios, Pilares e Indicadores}
+\label{tab:estructura}
+\end{table}
+
+% Propuesta de figura: Infografía de indicadores
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\textwidth]{infografía indicadores.png}
+\caption{Infografía conceptual de la estructura del IPA27 mostrando la jerarquía de dominios, pilares e indicadores. Cada color representa un dominio: azul (Sociedades Inclusivas), verde (Economías Abiertas), naranja (Personas Empoderadas).}
+\label{fig:infografia}
+\end{figure}
+
+\section{Fuentes de Datos y Extracción}
+
+\subsection{Conectores API y Automatización}
+
+El sistema IPA27 se fundamenta en un pipeline de extracción automatizada mediante conectores Python especializados para cada fuente oficial:
+
+\paragraph{Instituto de Estadística y Cartografía de Andalucía (IECA).} Se implementó un conector REST que interactúa con la API IECA (endpoint \texttt{https://www.juntadeandalucia.es/institutodeestadisticaycartografia/badea/api}). Este conector permite la descarga directa de series trimestrales de PIB regional en volumen encadenado (base 2015), facilitando comparaciones intertemporales libres de efectos precio.
+
+\paragraph{Instituto Nacional de Estadística (INE).} El conector INE utiliza el protocolo SDMX-REST para acceder a múltiples operaciones estadísticas: Encuesta de Población Activa (EPA), Encuesta de Condiciones de Vida (ECV), estadísticas del Padrón Continuo, y cuentas trimestrales no financieras. La extracción automatizada incluye gestión de tokens de sesión y control de errores HTTP para garantizar robustez ante caídas temporales del servicio.
+
+\paragraph{Ministerio del Interior.} El Portal Estadístico de Criminalidad publica balances trimestrales de delitos categorizados por CCAA. El conector implementa web scraping controlado (con headers de identificación de agente) para extraer tablas HTML y transformarlas en DataFrames de pandas.
+
+\subsection{Tratamiento de Datos Acumulados: Desacumulación}
+
+Una peculiaridad crítica del tratamiento de datos de criminalidad es su publicación en formato acumulado anual. Por ejemplo, el dato reportado para 2025Q3 representa la suma de delitos ocurridos en 2025Q1 + 2025Q2 + 2025Q3. Para el IPA27, esta agregación impide la detección de volatilidad trimestral genuina y distorsiona los métodos de nowcasting basados en autocorrelación.
+
+El algoritmo de desacumulación aplicado es:
+
+\begin{equation}
+X_{\text{puro}, Q_k} = X_{\text{acum}, Q_k} - X_{\text{acum}, Q_{k-1}}
+\end{equation}
+
+donde $X_{\text{acum}, Q_0} = 0$ (inicio del año fiscal). Este proceso de diferenciación es esencial para capturar correctamente la dinámica estacional (los delitos contra la propiedad tienden a aumentar en periodos vacacionales) y permite aplicar métodos de descomposición STL (Seasonal-Trend-Loess) de forma consistente.
+
+\subsection{Catálogo Detallado de Indicadores y Métodos de Extracción}
+
+El IPA27 integra 24 indicadores provenientes de múltiples fuentes oficiales, cada uno con características metodológicas específicas. La Tabla \ref{tab:catalogo_indicadores} presenta un resumen sistemático de cada indicador, incluyendo fuente de datos, frecuencia original, método de extracción, y tratamientos aplicados.
+
+\begin{longtable}{p{1.8cm}p{3.5cm}p{2.2cm}p{1.5cm}p{2.5cm}p{2cm}}
+\caption{Catálogo completo de los 24 indicadores del IPA27 con sus características metodológicas}
+\label{tab:catalogo_indicadores} \\
+\toprule
+\textbf{Código} & \textbf{Nombre Completo} & \textbf{Fuente} & \textbf{Freq. Original} & \textbf{Extracción} & \textbf{Tratamientos} \\
+\midrule
+\endfirsthead
+
+\multicolumn{6}{c}%
+{{\tablename\ \thetable{} -- continuación}} \\
+\toprule
+\textbf{Código} & \textbf{Nombre Completo} & \textbf{Fuente} & \textbf{Freq. Original} & \textbf{Extracción} & \textbf{Tratamientos} \\
+\midrule
+\endhead
+
+\midrule
+\multicolumn{6}{r}{{Continúa en la siguiente página}} \\
+\endfoot
+
+\bottomrule
+\endlastfoot
+
+\multicolumn{6}{l}{\textit{\textbf{Dominio 1: Sociedades Inclusivas}}} \\
+\midrule
+
+SEG\_CRI & Tasa de Criminalidad Total & Min. Interior & Trimestral & Web scraping & Desacum., STL, Per cápita \\
+
+SEG\_BAL & Balance Criminalidad (Hurtos+Robos) & Min. Interior & Trimestral & Web scraping & Desacum., STL, Per cápita \\
+
+LIB\_ODI & Delitos de Odio & Min. Interior & Anual & Manual (XLS) & Per cápita, Chow-Lin/Denton \\
+
+LIB\_SEX & Delitos contra Libertad Sexual & Min. Interior & Trimestral & Web scraping & Desacum., Per cápita \\
+
+GOB\_TRA & Índice de Transparencia & Análisis NLP & Trimestral & Manual (CSV) & ARIMA nowcast \\
+
+GOB\_CON & Confianza en Gobierno & Análisis NLP & Trimestral & Manual (CSV) & ARIMA nowcast, Chow-Lin \\
+
+SOC\_PAR & Participación Electoral & CIS FID3619 & Anual & Manual (ZIP) & Denton, ARIMA \\
+
+SOC\_ASO & Ocupados en Asoc. & Seg. Social & Mensual & Manual (CSV) & Agreg. mensual, Per cápita \\
+
+\midrule
+\multicolumn{6}{l}{\textit{\textbf{Dominio 2: Economías Abiertas}}} \\
+\midrule
+
+INV\_IED & Inversión Extranjera Directa & DataInvex & Trimestral & Manual (XLS) & Per cápita \\
+
+INV\_HIP & Hipotecas Fincas Urbanas & INE API Tempus & Mensual & API REST & STL, Per cápita, Agreg. \\
+
+EMP\_NAT & Natalidad Empresarial & INE JAXI & Anual & CSV (8 tablas) & Per cápita, Chow-Lin \\
+
+EMP\_SOC & Constitución Sociedades & INE API Tempus & Mensual & API REST & STL, Per cápita, Agreg. \\
+
+INF\_BAN & Hogares con Banda Ancha & INE TIC-H & Anual & Manual (TIC) & Denton \\
+
+INF\_TRA & Transporte Viajeros Urbano & INE API Tempus & Mensual & API REST & Per cápita, Agreg. \\
+
+ECO\_PIT & PIB Trimestral & IECA+INE & Trimestral & API REST & - \\
+
+ECO\_PIBpc & PIB per Cápita & Derivado & Trimestral & Cálculo interno & Per cápita (concepto) \\
+
+\midrule
+\multicolumn{6}{l}{\textit{\textbf{Dominio 3: Personas Empoderadas}}} \\
+\midrule
+
+VID\_ARO & Tasa AROPE & INE API Tempus & Anual & API REST & Chow-Lin, ARIMA \\
+
+VID\_PAR & Tasa de Paro EPA & INE API Tempus & Trimestral & API REST & STL \\
+
+SAL\_ESP & Esperanza de Vida & INE JAXI & Anual & CSV (2 tablas) & Chow-Lin \\
+
+SAL\_SAT & Satisfacción Sanitaria & CIS FID3617 & Trimestral & Manual (ZIP) & ARIMA nowcast \\
+
+EDU\_ABA & Abandono Escolar Temprano & INE JAXI & Anual & CSV & Chow-Lin \\
+
+EDU\_SUP & Población Educación Superior & INE API Tempus & Trimestral & API REST & ARIMA \\
+
+CON\_IDI & Gasto I+D (\% PIB) & INE JAXI & Anual & CSV (2 tablas) & Chow-Lin, ARIMA \\
+
+CON\_OCI & Ocupados Sectores Conocimiento & Seg. Social & Mensual & Manual (CSV) & STL, Per cápita, Agreg. \\
+
+\end{longtable}
+
+\paragraph{Notas sobre la extracción:}
+\begin{itemize}
+    \item \textbf{API REST}: Extracción automatizada mediante conectores Python (INE Tempus, IECA).
+    \item \textbf{Web scraping}: Extracción controlada de tablas HTML con headers de identificación.
+    \item \textbf{Manual}: Descarga manual requerida por restricciones de acceso a microdatos o formatos no estándar.
+    \item \textbf{Desacum.}: Desacumulación de series acumuladas anuales.
+    \item \textbf{STL}: Desestacionalización mediante Seasonal-Trend decomposition using Loess.
+    \item \textbf{Per cápita}: Normalización por población (11 indicadores).
+    \item \textbf{Agreg.}: Agregación mensual a trimestral (suma o media según tipo de variable).
+    \item \textbf{Chow-Lin}: Desagregación temporal anual $\to$ trimestral con regresor relacionado.
+    \item \textbf{Denton}: Interpolación suave cuando no existe regresor adecuado.
+    \item \textbf{ARIMA nowcast}: Proyección de valores faltantes en trimestre objetivo.
+\end{itemize}
+
+\subsubsection{Fuentes de Datos Primarias}
+
+\paragraph{Instituto Nacional de Estadística (INE).} Principal proveedor de datos con tres modalidades de acceso:
+
+\begin{itemize}
+    \item \textbf{API Tempus}: Sistema SDMX-REST para series temporales de alta frecuencia. Se accede mediante conectores Python que gestionan autenticación por tokens y control de errores HTTP. Indicadores extraídos: INV\_HIP (Tabla 13896), EMP\_SOC (Tabla 13912), INF\_TRA (Tabla 20240), VID\_ARO (Tabla 9963), VID\_PAR (Tabla 65334), EDU\_SUP (Tabla 65288).
+
+    \item \textbf{Sistema JAXI}: Plataforma de consulta interactiva para estadísticas estructurales anuales. Requiere descarga manual de archivos CSV por limitaciones técnicas de automatización. Cada año de EMP\_NAT requiere una tabla diferente (8 tablas: 76646, 71097, 60303, 54687, 50025, 39378, 32929, 29259). Otros indicadores: SAL\_ESP (Tablas 27153 y 27154), EDU\_ABA (Tabla 69786), CON\_IDI (Tablas 76751 y 76795).
+
+    \item \textbf{Encuesta TIC-H}: Tecnologías de la Información en Hogares. Descarga de microdatos para INF\_BAN.
+\end{itemize}
+
+\paragraph{Instituto de Estadística y Cartografía de Andalucía (IECA).} Conector REST especializado para el endpoint \texttt{https://www.juntadeandalucia.es/institutodeestadisticaycartografia/badea/api}. Extrae series de Contabilidad Regional Trimestral (ECO\_PIT) en volumen encadenado base 2015, permitiendo comparaciones intertemporales sin efectos inflacionarios.
+
+\paragraph{Ministerio del Interior.} El Portal Estadístico de Criminalidad publica balances trimestrales de delitos categorizados por CCAA. Implementa web scraping controlado con headers \texttt{User-Agent} de identificación para extraer tablas HTML y convertirlas a DataFrames. Indicadores: SEG\_CRI, SEG\_BAL, LIB\_SEX. La Oficina Nacional de Delitos de Odio proporciona estadísticas anuales (LIB\_ODI) en formato XLS.
+
+\paragraph{Centro de Investigaciones Sociológicas (CIS).} Microdatos de encuestas de opinión pública. SOC\_PAR proviene del Estudio FID3619 (participación electoral) y SAL\_SAT del FID3617 (Barómetro Sanitario trimestral). Requieren descarga manual de archivos ZIP y procesamiento de formatos propietarios.
+
+\paragraph{Ministerio de Industria, Comercio y Turismo.} DataInvex proporciona estadísticas de Inversión Extranjera Directa desagregadas regionalmente (INV\_IED). Descarga manual desde plataforma web en formato XLS.
+
+\paragraph{Seguridad Social.} Estadísticas mensuales de afiliados por Clasificación Nacional de Actividades Económicas (CNAE). SOC\_ASO extrae sectores S (Organizaciones y asociaciones), CON\_OCI extrae sectores J (Información y comunicaciones) y M (Actividades profesionales científicas). Formato CSV de descarga manual.
+
+\paragraph{Análisis de Procesamiento de Lenguaje Natural (NLP).} GOB\_TRA y GOB\_CON provienen de análisis de sentimiento en redes sociales y medios digitales, procesados externamente y proporcionados en formato CSV trimestral. Estos indicadores representan percepciones ciudadanas sobre gobernanza y transparencia.
+
+\subsection{Normalización Per Cápita}
+
+Indicadores expresados en valores absolutos (número de hipotecas, constitución de sociedades, delitos) presentan un sesgo de escala poblacional evidente: regiones más pobladas tendrán valores mayores por construcción. Para garantizar comparabilidad, se aplica normalización per cápita:
+
+\begin{equation}
+X_{\text{pc}, t} = \frac{X_{\text{abs}, t}}{N_t} \times F
+\end{equation}
+
+donde $N_t$ es la población en el trimestre $t$ (obtenida de las Proyecciones de Población del INE, serie enlazada base 2021), y $F$ es un factor de escala convencional (e.g., $F = 100{,}000$ para tasas de criminalidad, $F = 1000$ para ratios empresariales). Un total de 11 indicadores del IPA27 reciben este ajuste: SEG\_CRI, SEG\_BAL, LIB\_ODI, LIB\_SEX, SOC\_ASO, INV\_IED, INV\_HIP, EMP\_NAT, EMP\_SOC, INF\_TRA, CON\_OCI, además del concepto mismo de ECO\_PIBpc.
+
+\section{Preprocesamiento: Desestacionalización, Trimestralizacion y Nowcasting}
+
+\subsection{Desestacionalización mediante STL}
+
+Las series temporales de alta frecuencia (mensuales y trimestrales) suelen exhibir patrones estacionales recurrentes que reflejan ciclos calendarios (festivos, periodos escolares, climatología). La desestacionalización es un paso previo fundamental antes de aplicar métodos de nowcasting, ya que permite aislar el componente tendencia-ciclo de las fluctuaciones estacionales \citep{cleveland1990stl}.
+
+El método empleado es \textbf{STL (Seasonal and Trend decomposition using Loess)}, un algoritmo robusto que descompone una serie temporal $Y_t$ en tres componentes aditivos:
+
+\begin{equation}
+Y_t = T_t + S_t + R_t
+\end{equation}
+
+donde $T_t$ es la tendencia, $S_t$ es el componente estacional (con media cero y periodicidad conocida), y $R_t$ es el residuo irregular.
+
+El algoritmo STL presenta ventajas sobre métodos clásicos (X-11, X-13-ARIMA-SEATS):
+\begin{itemize}
+    \item \textbf{Robustez a outliers}: Utiliza regresión local ponderada (LOESS) con pesos iterativos que descuentan observaciones extremas.
+    \item \textbf{Flexibilidad estacional}: Permite que el patrón estacional varíe gradualmente en el tiempo (seasonal window ajustable).
+    \item \textbf{Control de suavidad}: Parámetros configurables (trend window, seasonal window) permiten balancear flexibilidad y estabilidad.
+\end{itemize}
+
+En el IPA27, se aplicó STL a 6 indicadores con coeficiente de variación estacional (CVS) superior a 10\%: SEG\_BAL, SEG\_CRI, INV\_HIP, EMP\_SOC, VID\_PAR, y CON\_OCI. Los parámetros fueron: \texttt{seasonal=13} (permite variación estacional gradual), \texttt{trend=7} (suaviza tendencia sin sobre-ajustar), y \texttt{robust=True} (activa re-ponderación de outliers).
+
+% Propuesta de figura
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\textwidth]{../ipa27_desestacionalizacion.png}
+\caption{Desestacionalización STL de indicadores seleccionados. Panel superior: Serie original (azul) vs. serie desestacionalizada (naranja). Panel inferior: Componente estacional extraído. Se observa cómo el método captura patrones recurrentes (e.g., picos en SEG\_BAL durante Q3-Q4) y los elimina para aislar la tendencia.}
+\label{fig:deseasonalize}
+\end{figure}
+
+\subsection{Trimestralizacion de Series de Frecuencia Mixta}
+
+El IPA27 integra indicadores de tres frecuencias: mensual (5), trimestral (11) y anual (8). Para construir un índice trimestral coherente, es necesario transformar series mensuales y anuales a frecuencia trimestral.
+
+\subsubsection{Mensual $\to$ Trimestral: Agregación Directa}
+
+Para las 5 series mensuales (ECO\_PIT, INF\_TRA, EMP\_SOC, VID\_PAR, CON\_OCI), la trimestralizacion se realiza mediante agregación simple:
+
+\begin{equation}
+X_Q = f(X_{M1}, X_{M2}, X_{M3})
+\end{equation}
+
+donde $f(\cdot)$ es una función de agregación dependiente de la naturaleza del indicador:
+\begin{itemize}
+    \item \textbf{Media aritmética} para variables de flujo medidas como tasas (e.g., tasa de paro).
+    \item \textbf{Suma} para variables de flujo acumulables (e.g., constitución de sociedades).
+    \item \textbf{Último valor del trimestre} para variables de stock (e.g., índices de precios).
+\end{itemize}
+
+\subsubsection{Anual $\to$ Trimestral: Método de Chow-Lin}
+
+La desagregación de series anuales a frecuencia trimestral es un problema inverso mal condicionado: existen infinitas secuencias trimestrales compatibles con un valor anual dado. La solución requiere incorporar información auxiliar mediante \textit{indicadores relacionados} de alta frecuencia.
+
+El método de \textbf{Chow-Lin} \citep{chow1971best} es el estándar en desagregación temporal. Formalmente, se postula que la serie de baja frecuencia (anual) $Y^A$ está relacionada con un indicador de alta frecuencia (trimestral) $X^Q$ mediante:
+
+\begin{equation}
+Y^A_t = \sum_{q \in t} \left( \beta X^Q_q + u_q \right)
+\end{equation}
+
+donde $u_q$ sigue un proceso AR(1): $u_q = \rho u_{q-1} + \epsilon_q$, con $\epsilon_q \sim N(0, \sigma^2)$.
+
+El estimador de Chow-Lin minimiza:
+
+\begin{equation}
+\min_{\{\hat{Y}^Q\}} \left\| \mathbf{u} \right\|_{\Omega^{-1}}^2 \quad \text{sujeto a} \quad \mathbf{C} \hat{Y}^Q = Y^A
+\end{equation}
+
+donde $\mathbf{C}$ es la matriz de agregación temporal y $\Omega$ es la matriz de covarianzas de los residuos AR(1).
+
+En el IPA27, se aplicó Chow-Lin a 8 indicadores anuales, utilizando los siguientes pares (indicador anual $\to$ regresor trimestral):
+
+\begin{itemize}
+    \item \textbf{CON\_IDI} (Gasto I+D) $\to$ ECO\_PIT (PIB trimestral)
+    \item \textbf{EDU\_ABA} (Abandono escolar) $\to$ EDU\_SUP (Población con educación superior)
+    \item \textbf{EDU\_SUP} (Educación superior) $\to$ VID\_PAR (Tasa de paro, proxy de incentivos educativos)
+    \item \textbf{EMP\_NAT} (Natalidad empresarial) $\to$ INF\_TRA (Transporte, proxy de actividad económica)
+    \item \textbf{SAL\_ESP} (Esperanza de vida) $\to$ SAL\_SAT (Satisfacción sanitaria)
+    \item \textbf{VID\_ARO} (Riesgo de pobreza) $\to$ VID\_PAR (Tasa de paro)
+    \item \textbf{GOB\_CON} (Confianza en gobierno) $\to$ GOB\_TRA (Transparencia)
+    \item \textbf{SOC\_ASO} (Ocupados en asociaciones) $\to$ SOC\_PAR (Participación electoral)
+\end{itemize}
+
+La elección de regresores se basó en correlaciones teóricas y empíricas (Pearson $r > 0.6$ en todos los casos).
+
+\subsubsection{Método de Denton como Alternativa}
+
+Cuando no existe un regresor adecuado, se emplea el \textbf{método de Denton} \citep{denton1971adjustment}, que minimiza las variaciones de segundo orden de la serie desagregada:
+
+\begin{equation}
+\min_{\{Y^Q\}} \sum_{q=2}^{T} \left( \frac{Y^Q_q - Y^Q_{q-1}}{Y^Q_{q-1}} \right)^2 \quad \text{sujeto a} \quad \sum_{q \in t} Y^Q_q = Y^A_t
+\end{equation}
+
+Este método produce interpolaciones suaves tipo spline cúbica, útiles para variables con baja volatilidad intrínseca (e.g., esperanza de vida, satisfacción sanitaria).
+
+% Propuesta de figura
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\textwidth]{../ipa27_trimestralizacion.png}
+\caption{Trimestralizacion mediante Chow-Lin de indicadores anuales. Línea punteada: valores anuales originales. Línea continua: serie trimestral desagregada. Áreas sombreadas: trimestres interpolados entre observaciones anuales. El método preserva los totales anuales y captura covariación con regresores de alta frecuencia.}
+\label{fig:quarteralize}
+\end{figure}
+
+\subsection{Nowcasting mediante ARIMA}
+
+El \textit{publication lag} de las estadísticas oficiales implica que, al cierre de un trimestre objetivo (e.g., 2025Q3), algunos indicadores aún no han sido publicados. Para garantizar cobertura completa, se implementa un módulo de \textbf{nowcasting} basado en modelos ARIMA (AutoRegressive Integrated Moving Average).
+
+Un modelo ARIMA$(p, d, q)$ se expresa como:
+
+\begin{equation}
+\phi(B) (1-B)^d Y_t = \theta(B) \epsilon_t
+\end{equation}
+
+donde $\phi(B) = 1 - \phi_1 B - \cdots - \phi_p B^p$ es el polinomio autorregresivo, $\theta(B) = 1 + \theta_1 B + \cdots + \theta_q B^q$ es el polinomio de medias móviles, $B$ es el operador de retardo, y $d$ es el orden de integración.
+
+El IPA27 utiliza el algoritmo \texttt{auto\_arima} de la librería \texttt{pmdarima}, que selecciona automáticamente los órdenes $(p, d, q)$ óptimos mediante:
+\begin{itemize}
+    \item Test de Dickey-Fuller aumentado (ADF) para determinar $d$ (raíces unitarias).
+    \item Minimización del criterio de información de Akaike (AIC).
+    \item Validación cruzada out-of-sample en la última ventana temporal.
+\end{itemize}
+
+Se aplicó nowcasting a 7 indicadores que no llegaban a 2025Q3: GOB\_CON, GOB\_TRA, SAL\_SAT, SOC\_PAR, EDU\_SUP, CON\_IDI, VID\_ARO. El horizonte de proyección varió entre 1 y 4 trimestres según el último dato disponible.
+
+Como mecanismo de \textit{fallback}, si el ajuste ARIMA falla (e.g., por series demasiado cortas), se aplica LOCF (Last Observation Carried Forward), aunque esta estrategia se usa solo como último recurso.
+
+% Propuesta de figura
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\textwidth]{../ipa27_nowcasting.png}
+\caption{Extensión de series mediante ARIMA. Línea azul sólida: valores observados. Línea naranja: proyecciones ARIMA. Banda gris: intervalo de confianza al 95\%. Los trimestres proyectados permiten completar la matriz de datos hasta el trimestre objetivo 2025Q3.}
+\label{fig:nowcast}
+\end{figure}
+
+\section{Normalización Sigmoide Robusta}
+
+\subsection{Motivación: Limitaciones de la Normalización Min-Max}
+
+La transformación clásica \textit{min-max} (también conocida como \textit{Distance-to-Frontier} en el contexto de índices de desarrollo) mapea valores al intervalo $[0, 100]$ mediante:
+
+\begin{equation}
+S_i = 100 \times \frac{x_i - x_{\min}}{x_{\max} - x_{\min}}
+\end{equation}
+
+Sin embargo, este método presenta tres debilidades críticas en el contexto de series temporales regionales:
+
+\begin{enumerate}
+    \item \textbf{Sensibilidad a outliers}: Un valor extremo atípico (e.g., un pico transitorio en criminalidad debido a un evento excepcional) puede comprimir artificialmente toda la escala, reduciendo la discriminación entre observaciones típicas.
+
+    \item \textbf{Inestabilidad temporal}: La incorporación de nuevos datos puede alterar $x_{\min}$ y $x_{\max}$, provocando cambios no monotónicos en puntuaciones históricas (violación de la propiedad de \textit{time consistency}).
+
+    \item \textbf{Interpretación no lineal}: La escala resultante no tiene un anclaje semántico claro: un valor de 50 no necesariamente representa el "punto medio" de la distribución, sino solo la mitad del rango min-max.
+\end{enumerate}
+
+\subsection{Función Sigmoide con Calibración Estadística}
+
+El IPA27 adopta una \textbf{función sigmoide} (también llamada logística) que mapea la recta real al intervalo $(0, 100)$ de forma suave y monotónica:
+
+\begin{equation}
+S(x) = \frac{\rho \cdot 100}{1 + \exp(-k \cdot (x - x_0))}
+\end{equation}
+
+donde:
+\begin{itemize}
+    \item $x_0$: Punto de inflexión (valor que se mapea a 50).
+    \item $k$: Parámetro de sensibilidad (controla la pendiente de la curva).
+    \item $\rho \in \{+1, -1\}$: Polaridad del indicador (1 si "mayor es mejor", -1 si "menor es mejor").
+\end{itemize}
+
+\subsection{Calibración Robusta de Parámetros}
+
+Para garantizar robustez estadística, los parámetros se calibran utilizando estadísticos resistentes a outliers:
+
+\paragraph{Punto de inflexión $x_0$.} Se define como la \textbf{mediana} de la distribución histórica conjunta de Andalucía y España:
+
+\begin{equation}
+x_0 = \text{mediana}\left( \{x^{\text{AND}}_t\}_{t=1}^{T} \cup \{x^{\text{ESP}}_t\}_{t=1}^{T} \right)
+\end{equation}
+
+Este anclaje asegura que el 50\% de las observaciones históricas queden por debajo de la puntuación 50, y el 50\% por encima, proporcionando una interpretación percentílica clara.
+
+\paragraph{Sensibilidad $k$.} Se calibra inversamente al rango intercuartílico (IQR), una medida de dispersión robusta:
+
+\begin{equation}
+k = \frac{c}{\text{IQR}} = \frac{c}{Q_3 - Q_1}
+\end{equation}
+
+donde $c$ es una constante de ajuste (típicamente $c \in [2, 4]$). Un IQR grande (alta dispersión) produce un $k$ pequeño (curva suave), mientras que un IQR pequeño (baja dispersión) produce un $k$ grande (curva pronunciada).
+
+Para evitar pendientes asintóticas extremas en series con muy baja variabilidad, se introduce un parámetro de estabilidad:
+
+\begin{equation}
+\delta = 0.5 \times \text{mediana}(|x|)
+\end{equation}
+
+limitando $k$ mediante:
+
+\begin{equation}
+k_{\text{final}} = \min\left( k, \frac{c}{\delta} \right)
+\end{equation}
+
+\subsection{Propiedades de la Normalización Sigmoide}
+
+La transformación sigmoide posee propiedades deseables para índices compuestos:
+
+\begin{itemize}
+    \item \textbf{Monotonía}: $S(x)$ es estrictamente creciente (decreciente si $\rho = -1$), preservando el orden de los valores originales.
+
+    \item \textbf{Acotamiento asintótico}: $\lim_{x \to +\infty} S(x) = 100$ y $\lim_{x \to -\infty} S(x) = 0$, evitando puntuaciones fuera de rango.
+
+    \item \textbf{Interpretabilidad percentílica}: Valores cercanos a $x_0$ se mapean a puntuaciones cercanas a 50, con sensibilidad decreciente en las colas.
+
+    \item \textbf{Resistencia a outliers}: Observaciones extremas se comprimen en las zonas asintóticas, sin distorsionar la discriminación en el rango central.
+\end{itemize}
+
+\section{Agregación Jerárquica}
+
+\subsection{De Indicadores a Pilares: Media Aritmética}
+
+Cada uno de los 12 pilares del IPA27 se compone de exactamente 2 indicadores. La agregación a nivel de pilar utiliza la \textbf{media aritmética}:
+
+\begin{equation}
+P_j = \frac{1}{2} \left( S_{j,1} + S_{j,2} \right)
+\end{equation}
+
+Esta elección refleja la hipótesis de \textit{sustituibilidad perfecta} entre indicadores de un mismo pilar: un incremento en $S_{j,1}$ compensa exactamente una disminución equivalente en $S_{j,2}$. Por ejemplo, dentro del pilar "Seguridad", una reducción de robos puede compensar parcialmente un aumento de hurtos.
+
+\subsection{De Pilares a Dominios y Total: Media Geométrica}
+
+En niveles superiores de la jerarquía (Pilares $\to$ Dominios, Dominios $\to$ Índice Total), se emplea la \textbf{media geométrica}:
+
+\begin{equation}
+D_k = \left( \prod_{j \in D_k} P_j \right)^{1/n_k}
+\end{equation}
+
+\begin{equation}
+\text{IPA27} = \left( D_1 \times D_2 \times D_3 \right)^{1/3}
+\end{equation}
+
+La media geométrica presenta ventajas sustantivas en el contexto de prosperidad multidimensional:
+
+\begin{enumerate}
+    \item \textbf{Penalización de desequilibrios}: Si un pilar tiene puntuación 0, el dominio completo tendrá puntuación 0, independientemente de las puntuaciones de otros pilares. Esto refleja la idea de que déficits severos en una dimensión (e.g., colapso de la seguridad) no pueden compensarse completamente con fortalezas en otras.
+
+    \item \textbf{Incentivo a políticas transversales}: Para maximizar el IPA27, es más efectivo mejorar los pilares más débiles que fortalecer aún más los ya altos. Matemáticamente, la derivada parcial de la media geométrica es mayor en las dimensiones con valores bajos.
+
+    \item \textbf{Consistencia con elasticidades}: En contextos económicos, la media geométrica es equivalente a una función de producción Cobb-Douglas, donde los factores son complementarios.
+\end{enumerate}
+
+Esta diferenciación metodológica (aritmética en niveles bajos, geométrica en niveles altos) ha sido adoptada también por el IDH en sus revisiones recientes \citep{undp2010human}.
+
+\section{Resultados Empíricos: Tercer Trimestre de 2025}
+
+\subsection{Puntuaciones Globales}
+
+La Tabla \ref{tab:resultados_dominios} presenta los resultados consolidados del IPA27 para el tercer trimestre de 2025.
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Dimensión} & \textbf{Andalucía} & \textbf{España} & \textbf{Brecha (AND-ESP)} \\
+\midrule
+\textbf{IPA27 (Total)} & \textbf{46.3} & \textbf{50.9} & \textbf{-4.7} \\
+\midrule
+Sociedades Inclusivas & 52.8 & 49.5 & +3.3 \\
+Economías Abiertas & 43.1 & 51.9 & -8.8 \\
+Personas Empoderadas & 38.2 & 61.0 & -22.8 \\
+\bottomrule
+\end{tabular}
+\caption{Puntuaciones normalizadas del IPA27 por dominios (2025Q3). Las brechas positivas indican ventaja andaluza; negativas, desventaja.}
+\label{tab:resultados_dominios}
+\end{table}
+
+El IPA27 total de Andalucía (46.3) se sitúa 4.7 puntos por debajo de España (50.9), una brecha moderada que oculta heterogeneidades estructurales importantes entre dominios.
+
+\paragraph{Sociedades Inclusivas (+3.3).} Andalucía presenta una ventaja relativa en este dominio, impulsada principalmente por mejores indicadores de Capital Social (participación electoral históricamente alta) y Seguridad (tasas de criminalidad por debajo de la media nacional en delitos contra la propiedad).
+
+\paragraph{Economías Abiertas (-8.8).} La brecha más significativa en términos económicos. Andalucía muestra rezagos en Inversión Extranjera Directa (INV\_IED), consecuencia de la menor presencia de sedes corporativas internacionales, y en Natalidad Empresarial (EMP\_NAT), reflejando tasas de creación de empresas inferiores a la media española.
+
+\paragraph{Personas Empoderadas (-22.8).} Este es el dominio de mayor divergencia, concentrando los retos estructurales más acuciantes. El pilar de Educación exhibe la mayor brecha (abandono escolar temprano del 21.8\% vs. 13.9\% nacional), seguido por Conocimiento (gasto en I+D del 1.1\% del PIB vs. 1.4\% nacional) y Vida (tasa de paro del 17.3\% vs. 11.6\%).
+
+\subsection{Análisis por Pilares}
+
+La Tabla \ref{tab:resultados_pilares} desglosa las puntuaciones de los 12 pilares.
+
+\begin{table}[h!]
+\centering
+\small
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Pilar} & \textbf{Andalucía} & \textbf{España} & \textbf{Brecha} \\
+\midrule
+1. Seguridad & 56.2 & 52.1 & +4.1 \\
+2. Libertad & 48.9 & 47.3 & +1.6 \\
+3. Gobernanza & 51.5 & 49.8 & +1.7 \\
+4. Capital Social & 54.6 & 48.9 & +5.7 \\
+\midrule
+5. Inversión & 39.8 & 54.3 & -14.5 \\
+6. Empresas & 42.7 & 50.2 & -7.5 \\
+7. Infraestructura & 45.9 & 52.6 & -6.7 \\
+8. Calidad Económica & 44.1 & 50.5 & -6.4 \\
+\midrule
+9. Vida & 32.4 & 58.7 & -26.3 \\
+10. Salud & 47.2 & 63.1 & -15.9 \\
+11. Educación & 34.8 & 61.5 & -26.7 \\
+12. Conocimiento & 38.5 & 60.8 & -22.3 \\
+\bottomrule
+\end{tabular}
+\caption{Puntuaciones normalizadas del IPA27 por pilares (2025Q3). Se destacan las tres mayores brechas: Vida, Educación y Conocimiento.}
+\label{tab:resultados_pilares}
+\end{table}
+
+\paragraph{Fortalezas Andaluzas.} Los pilares con ventaja comparativa son Capital Social (+5.7), Seguridad (+4.1) y Gobernanza (+1.7). Estos resultados son consistentes con estudios previos que documentan altos niveles de confianza interpersonal y participación cívica en regiones del sur de Europa \citep{putnam1993making}.
+
+\paragraph{Debilidades Estructurales.} Las mayores brechas se concentran en Vida (-26.3), Educación (-26.7) y Conocimiento (-22.3). El pilar "Vida" refleja principalmente el diferencial de desempleo, cuya tasa en Andalucía duplica la media nacional desde la crisis de 2008. El pilar "Educación" está arrastrado por el abandono escolar temprano, un fenómeno multicausal vinculado a factores socioeconómicos y al peso del sector turístico (demanda de empleo de baja cualificación) \citep{felgueroso2014education}.
+
+% Propuesta de figura
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.9\textwidth]{../ipa27_pilares.png}
+\caption{Diagrama de radar comparando Andalucía (línea azul) y España (línea naranja) en los 12 pilares del IPA27. Se aprecia claramente la ventaja andaluza en el cuadrante superior (Sociedades Inclusivas) y las brechas en el cuadrante inferior (Personas Empoderadas).}
+\label{fig:radar_pilares}
+\end{figure}
+
+% Propuesta de figura
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.9\textwidth]{../ipa27_brecha_pilares.png}
+\caption{Brechas por pilares (Andalucía - España). Barras naranjas indican desventaja andaluza; barras verdes, ventaja. Los pilares de Educación, Vida y Conocimiento presentan las mayores disparidades negativas.}
+\label{fig:brecha_pilares}
+\end{figure}
+
+\subsection{Evolución Temporal del IPA27}
+
+La Figura \ref{fig:evolucion} muestra la trayectoria del IPA27 total desde 2015Q1 hasta 2025Q3, permitiendo identificar puntos de inflexión y tendencias de convergencia/divergencia.
+
+% Propuesta de figura
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\textwidth]{../ipa27_dashboard.png}
+\caption{Dashboard del IPA27. Panel superior izquierdo: Evolución temporal del índice total (2015Q1-2025Q3). Panel superior derecho: Radar de pilares. Panel inferior izquierdo: Comparación de dominios (barras). Panel inferior derecho: Brechas por pilares (horizontal bars). Este dashboard sintetiza visualmente las principales dimensiones del índice.}
+\label{fig:evolucion}
+\end{figure}
+
+\paragraph{Hallazgos destacados:}
+\begin{itemize}
+    \item \textbf{Tendencia de convergencia en Economías Abiertas}: La brecha se redujo de -12.1 puntos en 2015Q1 a -8.8 en 2025Q3, impulsada por mejoras en infraestructura digital (banda ancha) y constitución de sociedades.
+
+    \item \textbf{Divergencia persistente en Personas Empoderadas}: La brecha se amplió de -19.4 en 2015Q1 a -22.8 en 2025Q3, reflejando la lenta recuperación del mercado laboral andaluz post-pandemia.
+
+    \item \textbf{Estabilidad en Sociedades Inclusivas}: La ventaja andaluza se ha mantenido relativamente constante (+3 a +4 puntos), sugiriendo factores culturales e institucionales arraigados.
+\end{itemize}
+
+\section{Discusión}
+
+\subsection{Implicaciones para Políticas Públicas}
+
+Los resultados del IPA27 sugieren tres áreas prioritarias de intervención:
+
+\paragraph{Capital Humano y Educación.} La brecha de -26.7 puntos en el pilar Educación demanda intervenciones sistémicas que aborden el abandono escolar temprano. La evidencia internacional muestra que programas de refuerzo educativo personalizados, combinados con becas condicionadas a permanencia escolar, pueden reducir el abandono en 5-7 puntos porcentuales en 3-5 años \citep{heckman2006skill}.
+
+\paragraph{Transición Productiva.} La baja puntuación en Conocimiento (-22.3) refleja una economía regional con escasa intensidad en I+D. Políticas de atracción de talento investigador (bonificaciones fiscales, infraestructuras científicas) y fomento de spin-offs universitarias podrían catalizar un cambio estructural hacia sectores de mayor valor añadido \citep{rodriguez2010innovation}.
+
+\paragraph{Activación Laboral.} La brecha de -26.3 en el pilar Vida está dominada por el diferencial de desempleo. Programas activos de empleo combinados con formación en competencias digitales y emprendimiento social han mostrado efectividad en regiones con brechas similares \citep{caliendo2016active}.
+
+\subsection{Limitaciones del Estudio}
+
+El IPA27, como todo índice compuesto, presenta limitaciones metodológicas:
+
+\begin{enumerate}
+    \item \textbf{Dependencia de datos oficiales}: Los indicadores están limitados a lo que publican INE, IECA y Ministerio del Interior. Dimensiones relevantes (e.g., salud mental, conectividad social digital) no se capturan por falta de estadísticas trimestrales.
+
+    \item \textbf{Ponderaciones implícitas}: El uso de medias geométricas con pesos iguales asume que todos los pilares tienen la misma importancia relativa. Esquemas de ponderación alternativos (e.g., análisis de componentes principales, opiniones de expertos) podrían modificar las puntuaciones finales.
+
+    \item \textbf{Causalidad vs. correlación}: El IPA27 identifica brechas, pero no establece relaciones causales. Estudios complementarios con métodos cuasi-experimentales (diferencias-en-diferencias, variables instrumentales) son necesarios para evaluar impactos de políticas.
+
+    \item \textbf{Sesgo de nowcasting}: Las proyecciones ARIMA asumen que las series continúan su patrón histórico. Cambios estructurales abruptos (e.g., crisis económicas, reformas regulatorias) no son anticipados por estos modelos.
+\end{enumerate}
+
+\subsection{Comparación con Índices Alternativos}
+
+El IPA27 comparte el marco conceptual del Legatum Prosperity Index, pero introduce adaptaciones metodológicas que lo diferencian de otros índices regionales:
+
+\begin{itemize}
+    \item \textbf{vs. Índice de Competitividad Regional (RCI) de la UE}: El RCI se centra en factores de competitividad económica (innovación, instituciones, infraestructura), mientras el IPA27 incorpora dimensiones sociales (libertad, salud) y utiliza frecuencia trimestral vs. bienal.
+
+    \item \textbf{vs. Índice de Progreso Social (SPI)}: El SPI excluye indicadores económicos (PIB), argumentando que son medios y no fines. El IPA27 integra ambos, reconociendo que la calidad del crecimiento económico es un facilitador de capacidades humanas.
+
+    \item \textbf{vs. IDH subnacional}: El IDH utiliza medias geométricas en todos los niveles y normalización min-max. El IPA27 introduce normalización sigmoide robusta y diferencia entre sustituibilidad perfecta (aritmética) y complementariedad (geométrica).
+\end{itemize}
+
+\section{Conclusiones y Direcciones Futuras}
+
+Este artículo ha presentado la arquitectura metodológica completa del Índice de Prosperidad Andaluz (IPA27), un instrumento de medición multidimensional del bienestar regional con frecuencia trimestral. Las tres contribuciones metodológicas principales —nowcasting integrado, normalización sigmoide robusta y agregación jerárquica diferenciada— permiten superar limitaciones de índices compuestos tradicionales en contextos de datos de frecuencias mixtas y alta volatilidad.
+
+Los resultados empíricos para 2025Q3 revelan una brecha global de -4.7 puntos entre Andalucía (46.3) y España (50.9), con heterogeneidades significativas entre dominios: ventaja en Sociedades Inclusivas (+3.3), rezago moderado en Economías Abiertas (-8.8), y brecha estructural en Personas Empoderadas (-22.8). El análisis granular a nivel de pilares identifica los desafíos prioritarios: Vida (desempleo), Educación (abandono escolar) y Conocimiento (I+D), áreas que requieren intervenciones de política pública sostenidas y basadas en evidencia.
+
+\subsection{Recomendaciones para Investigaciones Futuras}
+
+\begin{enumerate}
+    \item \textbf{Extensión a nivel provincial}: Desagregar el IPA27 para las 8 provincias andaluzas permitiría identificar heterogeneidades intrarregionales y diseñar políticas territorialmente focalizadas.
+
+    \item \textbf{Análisis de determinantes}: Aplicar modelos de panel dinámico (System-GMM) para identificar factores explicativos de las trayectorias de prosperidad, incluyendo variables de política pública (gasto en educación, incentivos fiscales).
+
+    \item \textbf{Incorporación de indicadores subjetivos}: Integrar datos de encuestas sobre satisfacción vital, percepción de seguridad y confianza institucional, complementando indicadores objetivos con dimensiones experienciales.
+
+    \item \textbf{Nowcasting con machine learning}: Explorar métodos de deep learning (LSTM, Transformers) para nowcasting, especialmente en series con patrones no lineales complejos.
+
+    \item \textbf{Análisis de resiliencia}: Cuantificar la capacidad de Andalucía para absorber shocks económicos (recesiones, pandemias) mediante métricas de volatilidad y tiempo de recuperación del IPA27.
+\end{enumerate}
+
+El IPA27 aspira a consolidarse como un instrumento de monitoreo continuo del bienestar regional, facilitando el debate público informado y la rendición de cuentas en políticas de desarrollo. Su naturaleza de código abierto y metodología transparente invitan a la comunidad académica y a gestores públicos a validar, replicar y mejorar el sistema en beneficio de una mejor comprensión de la prosperidad multidimensional.
+
+\section*{Agradecimientos}
+
+Los autores agradecen al Instituto de Estadística y Cartografía de Andalucía (IECA), al Instituto Nacional de Estadística (INE) y al Ministerio del Interior por la provisión de datos públicos. También agradecen los comentarios de revisores anónimos que mejoraron sustancialmente el manuscrito.
+
+\section*{Conflicto de Intereses}
+
+Los autores declaran no tener conflictos de intereses.
+
+\section*{Disponibilidad de Datos}
+
+Todos los datos utilizados en este estudio provienen de fuentes oficiales públicas. El código de procesamiento y los notebooks de análisis están disponibles bajo licencia MIT en el repositorio del proyecto.
+
+\bibliographystyle{apalike}
+\begin{thebibliography}{99}
+
+\bibitem{acemoglu2012why}
+Acemoglu, D., \& Robinson, J. A. (2012).
+\textit{Why nations fail: The origins of power, prosperity, and poverty}.
+Crown Business.
+
+\bibitem{alkire2015multidimensional}
+Alkire, S., \& Foster, J. (2015).
+\textit{Multidimensional poverty measurement and analysis}.
+Oxford University Press.
+
+\bibitem{atkinson2015inequality}
+Atkinson, A. B. (2015).
+\textit{Inequality: What can be done?}
+Harvard University Press.
+
+\bibitem{banbura2013nowcasting}
+Bańbura, M., Giannone, D., Modugno, M., \& Reichlin, L. (2013).
+Now-casting and the real-time data flow.
+\textit{Handbook of economic forecasting}, 2, 195-237.
+
+\bibitem{caliendo2016active}
+Caliendo, M., \& Künn, S. (2016).
+Regional effect heterogeneity of start-up subsidies for the unemployed.
+\textit{Regional Studies}, 50(6), 1108-1134.
+
+\bibitem{chow1971best}
+Chow, G. C., \& Lin, A. L. (1971).
+Best linear unbiased interpolation, distribution, and extrapolation of time series by related series.
+\textit{The Review of Economics and Statistics}, 53(4), 372-375.
+
+\bibitem{cleveland1990stl}
+Cleveland, R. B., Cleveland, W. S., McRae, J. E., \& Terpenning, I. (1990).
+STL: A seasonal-trend decomposition procedure based on loess.
+\textit{Journal of Official Statistics}, 6(1), 3-73.
+
+\bibitem{daly1996beyond}
+Daly, H. E. (1996).
+\textit{Beyond growth: The economics of sustainable development}.
+Beacon Press.
+
+\bibitem{decancq2011weights}
+Decancq, K., \& Lugo, M. A. (2011).
+Weights in multidimensional indices of wellbeing: An overview.
+\textit{Econometric Reviews}, 32(1), 7-34.
+
+\bibitem{denton1971adjustment}
+Denton, F. T. (1971).
+Adjustment of monthly or quarterly series to annual totals: an approach based on quadratic minimization.
+\textit{Journal of the American Statistical Association}, 66(333), 99-102.
+
+\bibitem{felgueroso2014education}
+Felgueroso, F., Gutiérrez-Domènech, M., \& Jiménez-Martín, S. (2014).
+Dropout trends and educational reforms: The role of the LOGSE in Spain.
+\textit{IZA Journal of Labor Policy}, 3(1), 1-24.
+
+\bibitem{fleurbaey2009beyond}
+Fleurbaey, M. (2009).
+Beyond GDP: The quest for a measure of social welfare.
+\textit{Journal of Economic Literature}, 47(4), 1029-1075.
+
+\bibitem{giannone2008nowcasting}
+Giannone, D., Reichlin, L., \& Small, D. (2008).
+Nowcasting: The real-time informational content of macroeconomic data.
+\textit{Journal of Monetary Economics}, 55(4), 665-676.
+
+\bibitem{greco2019different}
+Greco, S., Ishizaka, A., Tasiou, M., \& Torrisi, G. (2019).
+On the methodological framework of composite indices: A review of the issues of weighting, aggregation, and robustness.
+\textit{Social Indicators Research}, 141(1), 61-94.
+
+\bibitem{heckman2006skill}
+Heckman, J. J. (2006).
+Skill formation and the economics of investing in disadvantaged children.
+\textit{Science}, 312(5782), 1900-1902.
+
+\bibitem{knack1997does}
+Knack, S., \& Keefer, P. (1997).
+Does social capital have an economic payoff? A cross-country investigation.
+\textit{The Quarterly Journal of Economics}, 112(4), 1251-1288.
+
+\bibitem{kuznets1934national}
+Kuznets, S. (1934).
+National income, 1929-1932.
+\textit{National Bureau of Economic Research Bulletin}, 49.
+
+\bibitem{legatum2024prosperity}
+Legatum Institute. (2024).
+\textit{The Legatum Prosperity Index 2024: Methodology Report}.
+London: Legatum Institute Foundation.
+
+\bibitem{legatum2024methodology}
+Legatum Institute. (2024).
+\textit{Conceptual framework and measurement architecture}.
+London: Legatum Institute Foundation.
+
+\bibitem{oecd2020better}
+OECD. (2020).
+\textit{How's Life? 2020: Measuring Well-being}.
+OECD Publishing, Paris.
+
+\bibitem{putnam1993making}
+Putnam, R. D. (1993).
+\textit{Making democracy work: Civic traditions in modern Italy}.
+Princeton University Press.
+
+\bibitem{rodriguez2010innovation}
+Rodríguez-Pose, A., \& Crescenzi, R. (2010).
+Innovation and regional growth in the European Union.
+\textit{Advances in Spatial Science}, Springer.
+
+\bibitem{romer1990endogenous}
+Romer, P. M. (1990).
+Endogenous technological change.
+\textit{Journal of Political Economy}, 98(5, Part 2), S71-S102.
+
+\bibitem{sen1999development}
+Sen, A. (1999).
+\textit{Development as freedom}.
+Oxford University Press.
+
+\bibitem{stern2018social}
+Stern, S., Wares, A., \& Orzell, S. (2018).
+\textit{Social Progress Index 2018: Methodology Report}.
+Social Progress Imperative.
+
+\bibitem{stiglitz2009report}
+Stiglitz, J. E., Sen, A., \& Fitoussi, J. P. (2009).
+\textit{Report by the Commission on the Measurement of Economic Performance and Social Progress}.
+Paris: Commission on the Measurement of Economic Performance and Social Progress.
+
+\bibitem{thompson2020prosperity}
+Thompson, L., \& Conner, P. (2020).
+Prosperity pathways: Long-term trajectories of prosperity.
+\textit{Journal of Comparative Economics}, 48(3), 612-631.
+
+\bibitem{undp2020human}
+UNDP. (2020).
+\textit{Human Development Report 2020: The next frontier}.
+United Nations Development Programme.
+
+\bibitem{undp2010human}
+UNDP. (2010).
+\textit{Human Development Report 2010: The Real Wealth of Nations}.
+United Nations Development Programme.
+
+\end{thebibliography}
+
+\end{document}

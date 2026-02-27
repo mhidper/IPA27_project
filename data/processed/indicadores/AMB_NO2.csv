@@ -1,0 +1,2053 @@
+Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
+2016-01-01,2016-01,Andalucía,AMB_NO2,26.98,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-02-01,2016-02,Andalucía,AMB_NO2,26.36,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-03-01,2016-03,Andalucía,AMB_NO2,28.47,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-04-01,2016-04,Andalucía,AMB_NO2,27.37,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-05-01,2016-05,Andalucía,AMB_NO2,26.87,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-06-01,2016-06,Andalucía,AMB_NO2,24.39,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-07-01,2016-07,Andalucía,AMB_NO2,22.46,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-08-01,2016-08,Andalucía,AMB_NO2,19.81,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-09-01,2016-09,Andalucía,AMB_NO2,25.23,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-10-01,2016-10,Andalucía,AMB_NO2,22.97,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-11-01,2016-11,Andalucía,AMB_NO2,32.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-12-01,2016-12,Andalucía,AMB_NO2,29.56,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-01-01,2017-01,Andalucía,AMB_NO2,26.92,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-02-01,2017-02,Andalucía,AMB_NO2,28.44,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-03-01,2017-03,Andalucía,AMB_NO2,25.74,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-04-01,2017-04,Andalucía,AMB_NO2,22.81,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-05-01,2017-05,Andalucía,AMB_NO2,22.03,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-06-01,2017-06,Andalucía,AMB_NO2,22.78,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-07-01,2017-07,Andalucía,AMB_NO2,22.78,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-08-01,2017-08,Andalucía,AMB_NO2,20.53,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-09-01,2017-09,Andalucía,AMB_NO2,23.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-10-01,2017-10,Andalucía,AMB_NO2,25.2,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-11-01,2017-11,Andalucía,AMB_NO2,25.06,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-12-01,2017-12,Andalucía,AMB_NO2,25.18,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-01-01,2018-01,Andalucía,AMB_NO2,26.64,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-02-01,2018-02,Andalucía,AMB_NO2,28.16,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-03-01,2018-03,Andalucía,AMB_NO2,24.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-04-01,2018-04,Andalucía,AMB_NO2,28.43,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-05-01,2018-05,Andalucía,AMB_NO2,26.57,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-06-01,2018-06,Andalucía,AMB_NO2,21.12,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-07-01,2018-07,Andalucía,AMB_NO2,21.54,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-08-01,2018-08,Andalucía,AMB_NO2,18.59,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-09-01,2018-09,Andalucía,AMB_NO2,23.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-10-01,2018-10,Andalucía,AMB_NO2,23.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-11-01,2018-11,Andalucía,AMB_NO2,29.77,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-12-01,2018-12,Andalucía,AMB_NO2,26.32,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-01-01,2019-01,Andalucía,AMB_NO2,29.76,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-02-01,2019-02,Andalucía,AMB_NO2,32.8,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-03-01,2019-03,Andalucía,AMB_NO2,23.17,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-04-01,2019-04,Andalucía,AMB_NO2,24.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-05-01,2019-05,Andalucía,AMB_NO2,25.57,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-06-01,2019-06,Andalucía,AMB_NO2,19.95,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-07-01,2019-07,Andalucía,AMB_NO2,21.82,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-08-01,2019-08,Andalucía,AMB_NO2,21.19,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-09-01,2019-09,Andalucía,AMB_NO2,23.79,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-10-01,2019-10,Andalucía,AMB_NO2,21.18,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-11-01,2019-11,Andalucía,AMB_NO2,28.27,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-12-01,2019-12,Andalucía,AMB_NO2,29.69,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-01-01,2020-01,Andalucía,AMB_NO2,31.95,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-02-01,2020-02,Andalucía,AMB_NO2,30.48,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-03-01,2020-03,Andalucía,AMB_NO2,29.46,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-04-01,2020-04,Andalucía,AMB_NO2,20.7,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-05-01,2020-05,Andalucía,AMB_NO2,25.62,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-06-01,2020-06,Andalucía,AMB_NO2,21.25,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-07-01,2020-07,Andalucía,AMB_NO2,27.27,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-08-01,2020-08,Andalucía,AMB_NO2,18.28,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-09-01,2020-09,Andalucía,AMB_NO2,20.48,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-10-01,2020-10,Andalucía,AMB_NO2,21.2,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-11-01,2020-11,Andalucía,AMB_NO2,21.23,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-12-01,2020-12,Andalucía,AMB_NO2,26.02,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-01-01,2021-01,Andalucía,AMB_NO2,24.72,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-02-01,2021-02,Andalucía,AMB_NO2,27.45,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-03-01,2021-03,Andalucía,AMB_NO2,23.53,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-04-01,2021-04,Andalucía,AMB_NO2,28.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-05-01,2021-05,Andalucía,AMB_NO2,25.35,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-06-01,2021-06,Andalucía,AMB_NO2,18.52,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-07-01,2021-07,Andalucía,AMB_NO2,17.55,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-08-01,2021-08,Andalucía,AMB_NO2,21.73,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-09-01,2021-09,Andalucía,AMB_NO2,18.54,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-10-01,2021-10,Andalucía,AMB_NO2,27.99,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-11-01,2021-11,Andalucía,AMB_NO2,30.54,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-12-01,2021-12,Andalucía,AMB_NO2,25.59,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-01-01,2022-01,Andalucía,AMB_NO2,21.26,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-02-01,2022-02,Andalucía,AMB_NO2,30.46,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-03-01,2022-03,Andalucía,AMB_NO2,21.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-04-01,2022-04,Andalucía,AMB_NO2,25.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-05-01,2022-05,Andalucía,AMB_NO2,17.22,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-06-01,2022-06,Andalucía,AMB_NO2,18.0,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-07-01,2022-07,Andalucía,AMB_NO2,19.82,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-08-01,2022-08,Andalucía,AMB_NO2,19.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-09-01,2022-09,Andalucía,AMB_NO2,20.65,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-10-01,2022-10,Andalucía,AMB_NO2,23.87,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-11-01,2022-11,Andalucía,AMB_NO2,23.2,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-12-01,2022-12,Andalucía,AMB_NO2,25.97,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-01-01,2023-01,Andalucía,AMB_NO2,26.16,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-02-01,2023-02,Andalucía,AMB_NO2,27.34,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-03-01,2023-03,Andalucía,AMB_NO2,23.63,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-04-01,2023-04,Andalucía,AMB_NO2,18.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-05-01,2023-05,Andalucía,AMB_NO2,16.9,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-06-01,2023-06,Andalucía,AMB_NO2,23.18,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-07-01,2023-07,Andalucía,AMB_NO2,20.35,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-08-01,2023-08,Andalucía,AMB_NO2,17.1,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-09-01,2023-09,Andalucía,AMB_NO2,26.15,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-10-01,2023-10,Andalucía,AMB_NO2,21.85,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-11-01,2023-11,Andalucía,AMB_NO2,29.34,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-12-01,2023-12,Andalucía,AMB_NO2,26.0,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-01-01,2024-01,Andalucía,AMB_NO2,31.38,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-02-01,2024-02,Andalucía,AMB_NO2,30.47,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-03-01,2024-03,Andalucía,AMB_NO2,20.25,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-04-01,2024-04,Andalucía,AMB_NO2,23.91,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-05-01,2024-05,Andalucía,AMB_NO2,22.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-06-01,2024-06,Andalucía,AMB_NO2,23.01,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-07-01,2024-07,Andalucía,AMB_NO2,16.01,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-08-01,2024-08,Andalucía,AMB_NO2,20.96,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-09-01,2024-09,Andalucía,AMB_NO2,24.18,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-10-01,2024-10,Andalucía,AMB_NO2,15.72,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-11-01,2024-11,Andalucía,AMB_NO2,21.65,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-12-01,2024-12,Andalucía,AMB_NO2,19.08,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-01-01,2016-01,Aragón,AMB_NO2,26.52,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-02-01,2016-02,Aragón,AMB_NO2,22.04,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-03-01,2016-03,Aragón,AMB_NO2,18.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-04-01,2016-04,Aragón,AMB_NO2,14.33,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-05-01,2016-05,Aragón,AMB_NO2,18.64,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-06-01,2016-06,Aragón,AMB_NO2,10.73,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-07-01,2016-07,Aragón,AMB_NO2,13.25,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-08-01,2016-08,Aragón,AMB_NO2,20.28,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-09-01,2016-09,Aragón,AMB_NO2,22.36,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-10-01,2016-10,Aragón,AMB_NO2,21.28,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-11-01,2016-11,Aragón,AMB_NO2,21.1,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-12-01,2016-12,Aragón,AMB_NO2,23.86,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-01-01,2017-01,Aragón,AMB_NO2,23.51,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-02-01,2017-02,Aragón,AMB_NO2,20.04,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-03-01,2017-03,Aragón,AMB_NO2,24.11,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-04-01,2017-04,Aragón,AMB_NO2,22.23,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-05-01,2017-05,Aragón,AMB_NO2,18.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-06-01,2017-06,Aragón,AMB_NO2,17.72,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-07-01,2017-07,Aragón,AMB_NO2,18.27,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-08-01,2017-08,Aragón,AMB_NO2,11.51,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-09-01,2017-09,Aragón,AMB_NO2,18.86,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-10-01,2017-10,Aragón,AMB_NO2,17.55,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-11-01,2017-11,Aragón,AMB_NO2,20.52,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-12-01,2017-12,Aragón,AMB_NO2,22.68,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-01-01,2018-01,Aragón,AMB_NO2,28.43,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-02-01,2018-02,Aragón,AMB_NO2,24.96,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-03-01,2018-03,Aragón,AMB_NO2,17.49,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-04-01,2018-04,Aragón,AMB_NO2,20.92,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-05-01,2018-05,Aragón,AMB_NO2,23.4,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-06-01,2018-06,Aragón,AMB_NO2,20.05,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-07-01,2018-07,Aragón,AMB_NO2,17.46,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-08-01,2018-08,Aragón,AMB_NO2,15.34,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-09-01,2018-09,Aragón,AMB_NO2,21.29,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-10-01,2018-10,Aragón,AMB_NO2,20.38,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-11-01,2018-11,Aragón,AMB_NO2,25.73,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-12-01,2018-12,Aragón,AMB_NO2,24.95,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-01-01,2019-01,Aragón,AMB_NO2,25.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-02-01,2019-02,Aragón,AMB_NO2,20.95,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-03-01,2019-03,Aragón,AMB_NO2,22.75,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-04-01,2019-04,Aragón,AMB_NO2,19.39,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-05-01,2019-05,Aragón,AMB_NO2,25.03,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-06-01,2019-06,Aragón,AMB_NO2,14.85,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-07-01,2019-07,Aragón,AMB_NO2,22.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-08-01,2019-08,Aragón,AMB_NO2,17.51,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-09-01,2019-09,Aragón,AMB_NO2,16.85,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-10-01,2019-10,Aragón,AMB_NO2,17.35,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-11-01,2019-11,Aragón,AMB_NO2,21.6,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-12-01,2019-12,Aragón,AMB_NO2,23.83,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-01-01,2020-01,Aragón,AMB_NO2,23.65,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-02-01,2020-02,Aragón,AMB_NO2,20.36,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-03-01,2020-03,Aragón,AMB_NO2,18.33,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-04-01,2020-04,Aragón,AMB_NO2,24.83,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-05-01,2020-05,Aragón,AMB_NO2,23.58,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-06-01,2020-06,Aragón,AMB_NO2,17.87,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-07-01,2020-07,Aragón,AMB_NO2,16.67,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-08-01,2020-08,Aragón,AMB_NO2,16.92,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-09-01,2020-09,Aragón,AMB_NO2,20.24,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-10-01,2020-10,Aragón,AMB_NO2,15.33,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-11-01,2020-11,Aragón,AMB_NO2,21.31,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-12-01,2020-12,Aragón,AMB_NO2,17.07,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-01-01,2021-01,Aragón,AMB_NO2,22.8,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-02-01,2021-02,Aragón,AMB_NO2,23.54,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-03-01,2021-03,Aragón,AMB_NO2,16.55,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-04-01,2021-04,Aragón,AMB_NO2,22.72,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-05-01,2021-05,Aragón,AMB_NO2,14.32,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-06-01,2021-06,Aragón,AMB_NO2,11.81,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-07-01,2021-07,Aragón,AMB_NO2,16.87,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-08-01,2021-08,Aragón,AMB_NO2,19.34,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-09-01,2021-09,Aragón,AMB_NO2,23.05,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-10-01,2021-10,Aragón,AMB_NO2,16.62,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-11-01,2021-11,Aragón,AMB_NO2,24.84,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-12-01,2021-12,Aragón,AMB_NO2,21.48,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-01-01,2022-01,Aragón,AMB_NO2,20.6,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-02-01,2022-02,Aragón,AMB_NO2,23.77,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-03-01,2022-03,Aragón,AMB_NO2,19.56,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-04-01,2022-04,Aragón,AMB_NO2,12.87,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-05-01,2022-05,Aragón,AMB_NO2,22.03,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-06-01,2022-06,Aragón,AMB_NO2,19.98,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-07-01,2022-07,Aragón,AMB_NO2,13.96,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-08-01,2022-08,Aragón,AMB_NO2,17.03,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-09-01,2022-09,Aragón,AMB_NO2,19.08,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-10-01,2022-10,Aragón,AMB_NO2,18.38,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-11-01,2022-11,Aragón,AMB_NO2,19.47,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-12-01,2022-12,Aragón,AMB_NO2,19.11,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-01-01,2023-01,Aragón,AMB_NO2,20.56,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-02-01,2023-02,Aragón,AMB_NO2,24.16,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-03-01,2023-03,Aragón,AMB_NO2,18.83,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-04-01,2023-04,Aragón,AMB_NO2,16.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-05-01,2023-05,Aragón,AMB_NO2,19.52,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-06-01,2023-06,Aragón,AMB_NO2,6.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-07-01,2023-07,Aragón,AMB_NO2,18.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-08-01,2023-08,Aragón,AMB_NO2,10.26,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-09-01,2023-09,Aragón,AMB_NO2,16.11,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-10-01,2023-10,Aragón,AMB_NO2,13.84,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-11-01,2023-11,Aragón,AMB_NO2,16.76,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-12-01,2023-12,Aragón,AMB_NO2,24.12,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-01-01,2024-01,Aragón,AMB_NO2,18.76,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-02-01,2024-02,Aragón,AMB_NO2,21.2,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-03-01,2024-03,Aragón,AMB_NO2,16.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-04-01,2024-04,Aragón,AMB_NO2,18.23,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-05-01,2024-05,Aragón,AMB_NO2,17.03,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-06-01,2024-06,Aragón,AMB_NO2,11.27,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-07-01,2024-07,Aragón,AMB_NO2,18.11,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-08-01,2024-08,Aragón,AMB_NO2,13.64,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-09-01,2024-09,Aragón,AMB_NO2,12.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-10-01,2024-10,Aragón,AMB_NO2,15.52,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-11-01,2024-11,Aragón,AMB_NO2,24.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-12-01,2024-12,Aragón,AMB_NO2,22.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-01-01,2016-01,Canarias,AMB_NO2,21.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-02-01,2016-02,Canarias,AMB_NO2,17.29,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-03-01,2016-03,Canarias,AMB_NO2,20.76,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-04-01,2016-04,Canarias,AMB_NO2,16.0,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-05-01,2016-05,Canarias,AMB_NO2,23.62,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-06-01,2016-06,Canarias,AMB_NO2,19.44,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-07-01,2016-07,Canarias,AMB_NO2,14.86,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-08-01,2016-08,Canarias,AMB_NO2,20.04,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-09-01,2016-09,Canarias,AMB_NO2,18.2,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-10-01,2016-10,Canarias,AMB_NO2,20.56,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-11-01,2016-11,Canarias,AMB_NO2,23.05,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-12-01,2016-12,Canarias,AMB_NO2,19.06,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-01-01,2017-01,Canarias,AMB_NO2,19.24,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-02-01,2017-02,Canarias,AMB_NO2,24.26,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-03-01,2017-03,Canarias,AMB_NO2,16.64,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-04-01,2017-04,Canarias,AMB_NO2,16.43,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-05-01,2017-05,Canarias,AMB_NO2,14.77,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-06-01,2017-06,Canarias,AMB_NO2,17.15,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-07-01,2017-07,Canarias,AMB_NO2,22.06,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-08-01,2017-08,Canarias,AMB_NO2,12.67,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-09-01,2017-09,Canarias,AMB_NO2,17.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-10-01,2017-10,Canarias,AMB_NO2,21.88,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-11-01,2017-11,Canarias,AMB_NO2,20.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-12-01,2017-12,Canarias,AMB_NO2,22.53,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-01-01,2018-01,Canarias,AMB_NO2,17.55,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-02-01,2018-02,Canarias,AMB_NO2,22.02,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-03-01,2018-03,Canarias,AMB_NO2,16.72,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-04-01,2018-04,Canarias,AMB_NO2,20.24,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-05-01,2018-05,Canarias,AMB_NO2,20.84,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-06-01,2018-06,Canarias,AMB_NO2,23.32,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-07-01,2018-07,Canarias,AMB_NO2,17.29,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-08-01,2018-08,Canarias,AMB_NO2,16.53,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-09-01,2018-09,Canarias,AMB_NO2,17.86,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-10-01,2018-10,Canarias,AMB_NO2,16.22,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-11-01,2018-11,Canarias,AMB_NO2,21.75,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-12-01,2018-12,Canarias,AMB_NO2,19.85,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-01-01,2019-01,Canarias,AMB_NO2,20.81,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-02-01,2019-02,Canarias,AMB_NO2,24.26,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-03-01,2019-03,Canarias,AMB_NO2,13.9,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-04-01,2019-04,Canarias,AMB_NO2,20.34,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-05-01,2019-05,Canarias,AMB_NO2,20.87,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-06-01,2019-06,Canarias,AMB_NO2,14.87,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-07-01,2019-07,Canarias,AMB_NO2,8.86,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-08-01,2019-08,Canarias,AMB_NO2,13.4,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-09-01,2019-09,Canarias,AMB_NO2,20.81,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-10-01,2019-10,Canarias,AMB_NO2,16.85,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-11-01,2019-11,Canarias,AMB_NO2,17.31,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-12-01,2019-12,Canarias,AMB_NO2,18.79,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-01-01,2020-01,Canarias,AMB_NO2,22.39,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-02-01,2020-02,Canarias,AMB_NO2,21.51,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-03-01,2020-03,Canarias,AMB_NO2,15.84,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-04-01,2020-04,Canarias,AMB_NO2,15.46,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-05-01,2020-05,Canarias,AMB_NO2,15.38,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-06-01,2020-06,Canarias,AMB_NO2,12.14,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-07-01,2020-07,Canarias,AMB_NO2,19.75,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-08-01,2020-08,Canarias,AMB_NO2,13.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-09-01,2020-09,Canarias,AMB_NO2,20.21,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-10-01,2020-10,Canarias,AMB_NO2,21.12,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-11-01,2020-11,Canarias,AMB_NO2,22.87,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-12-01,2020-12,Canarias,AMB_NO2,18.58,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-01-01,2021-01,Canarias,AMB_NO2,20.65,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-02-01,2021-02,Canarias,AMB_NO2,19.37,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-03-01,2021-03,Canarias,AMB_NO2,13.49,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-04-01,2021-04,Canarias,AMB_NO2,17.17,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-05-01,2021-05,Canarias,AMB_NO2,12.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-06-01,2021-06,Canarias,AMB_NO2,18.14,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-07-01,2021-07,Canarias,AMB_NO2,13.19,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-08-01,2021-08,Canarias,AMB_NO2,15.18,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-09-01,2021-09,Canarias,AMB_NO2,17.05,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-10-01,2021-10,Canarias,AMB_NO2,15.42,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-11-01,2021-11,Canarias,AMB_NO2,21.2,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-12-01,2021-12,Canarias,AMB_NO2,18.02,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-01-01,2022-01,Canarias,AMB_NO2,21.62,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-02-01,2022-02,Canarias,AMB_NO2,14.97,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-03-01,2022-03,Canarias,AMB_NO2,16.22,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-04-01,2022-04,Canarias,AMB_NO2,21.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-05-01,2022-05,Canarias,AMB_NO2,12.84,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-06-01,2022-06,Canarias,AMB_NO2,12.22,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-07-01,2022-07,Canarias,AMB_NO2,15.8,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-08-01,2022-08,Canarias,AMB_NO2,14.79,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-09-01,2022-09,Canarias,AMB_NO2,16.89,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-10-01,2022-10,Canarias,AMB_NO2,17.31,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-11-01,2022-11,Canarias,AMB_NO2,20.91,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-12-01,2022-12,Canarias,AMB_NO2,22.34,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-01-01,2023-01,Canarias,AMB_NO2,19.81,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-02-01,2023-02,Canarias,AMB_NO2,17.85,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-03-01,2023-03,Canarias,AMB_NO2,17.5,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-04-01,2023-04,Canarias,AMB_NO2,21.18,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-05-01,2023-05,Canarias,AMB_NO2,15.08,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-06-01,2023-06,Canarias,AMB_NO2,11.01,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-07-01,2023-07,Canarias,AMB_NO2,17.25,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-08-01,2023-08,Canarias,AMB_NO2,13.57,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-09-01,2023-09,Canarias,AMB_NO2,8.96,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-10-01,2023-10,Canarias,AMB_NO2,18.02,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-11-01,2023-11,Canarias,AMB_NO2,16.97,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-12-01,2023-12,Canarias,AMB_NO2,18.3,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-01-01,2024-01,Canarias,AMB_NO2,19.14,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-02-01,2024-02,Canarias,AMB_NO2,18.72,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-03-01,2024-03,Canarias,AMB_NO2,17.25,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-04-01,2024-04,Canarias,AMB_NO2,13.81,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-05-01,2024-05,Canarias,AMB_NO2,16.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-06-01,2024-06,Canarias,AMB_NO2,12.83,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-07-01,2024-07,Canarias,AMB_NO2,15.82,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-08-01,2024-08,Canarias,AMB_NO2,15.45,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-09-01,2024-09,Canarias,AMB_NO2,12.31,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-10-01,2024-10,Canarias,AMB_NO2,18.38,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-11-01,2024-11,Canarias,AMB_NO2,16.54,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-12-01,2024-12,Canarias,AMB_NO2,20.57,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-01-01,2016-01,Cantabria,AMB_NO2,22.7,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-02-01,2016-02,Cantabria,AMB_NO2,27.11,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-03-01,2016-03,Cantabria,AMB_NO2,17.33,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-04-01,2016-04,Cantabria,AMB_NO2,16.95,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-05-01,2016-05,Cantabria,AMB_NO2,17.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-06-01,2016-06,Cantabria,AMB_NO2,15.29,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-07-01,2016-07,Cantabria,AMB_NO2,18.6,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-08-01,2016-08,Cantabria,AMB_NO2,11.35,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-09-01,2016-09,Cantabria,AMB_NO2,14.84,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-10-01,2016-10,Cantabria,AMB_NO2,14.8,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-11-01,2016-11,Cantabria,AMB_NO2,24.45,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-12-01,2016-12,Cantabria,AMB_NO2,26.73,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-01-01,2017-01,Cantabria,AMB_NO2,20.85,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-02-01,2017-02,Cantabria,AMB_NO2,20.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-03-01,2017-03,Cantabria,AMB_NO2,17.85,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-04-01,2017-04,Cantabria,AMB_NO2,21.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-05-01,2017-05,Cantabria,AMB_NO2,14.86,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-06-01,2017-06,Cantabria,AMB_NO2,16.59,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-07-01,2017-07,Cantabria,AMB_NO2,18.8,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-08-01,2017-08,Cantabria,AMB_NO2,17.38,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-09-01,2017-09,Cantabria,AMB_NO2,18.21,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-10-01,2017-10,Cantabria,AMB_NO2,20.64,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-11-01,2017-11,Cantabria,AMB_NO2,13.06,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-12-01,2017-12,Cantabria,AMB_NO2,23.2,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-01-01,2018-01,Cantabria,AMB_NO2,18.77,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-02-01,2018-02,Cantabria,AMB_NO2,15.24,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-03-01,2018-03,Cantabria,AMB_NO2,18.81,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-04-01,2018-04,Cantabria,AMB_NO2,21.4,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-05-01,2018-05,Cantabria,AMB_NO2,16.87,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-06-01,2018-06,Cantabria,AMB_NO2,18.41,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-07-01,2018-07,Cantabria,AMB_NO2,20.39,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-08-01,2018-08,Cantabria,AMB_NO2,19.5,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-09-01,2018-09,Cantabria,AMB_NO2,22.2,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-10-01,2018-10,Cantabria,AMB_NO2,19.51,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-11-01,2018-11,Cantabria,AMB_NO2,20.96,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-12-01,2018-12,Cantabria,AMB_NO2,15.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-01-01,2019-01,Cantabria,AMB_NO2,19.57,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-02-01,2019-02,Cantabria,AMB_NO2,17.77,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-03-01,2019-03,Cantabria,AMB_NO2,23.43,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-04-01,2019-04,Cantabria,AMB_NO2,16.39,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-05-01,2019-05,Cantabria,AMB_NO2,17.29,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-06-01,2019-06,Cantabria,AMB_NO2,16.88,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-07-01,2019-07,Cantabria,AMB_NO2,15.36,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-08-01,2019-08,Cantabria,AMB_NO2,20.31,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-09-01,2019-09,Cantabria,AMB_NO2,15.05,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-10-01,2019-10,Cantabria,AMB_NO2,17.5,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-11-01,2019-11,Cantabria,AMB_NO2,18.08,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-12-01,2019-12,Cantabria,AMB_NO2,16.34,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-01-01,2020-01,Cantabria,AMB_NO2,18.04,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-02-01,2020-02,Cantabria,AMB_NO2,19.76,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-03-01,2020-03,Cantabria,AMB_NO2,15.27,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-04-01,2020-04,Cantabria,AMB_NO2,14.48,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-05-01,2020-05,Cantabria,AMB_NO2,12.34,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-06-01,2020-06,Cantabria,AMB_NO2,14.65,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-07-01,2020-07,Cantabria,AMB_NO2,10.39,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-08-01,2020-08,Cantabria,AMB_NO2,17.18,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-09-01,2020-09,Cantabria,AMB_NO2,16.81,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-10-01,2020-10,Cantabria,AMB_NO2,12.19,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-11-01,2020-11,Cantabria,AMB_NO2,18.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-12-01,2020-12,Cantabria,AMB_NO2,17.62,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-01-01,2021-01,Cantabria,AMB_NO2,20.4,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-02-01,2021-02,Cantabria,AMB_NO2,23.46,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-03-01,2021-03,Cantabria,AMB_NO2,10.57,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-04-01,2021-04,Cantabria,AMB_NO2,16.55,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-05-01,2021-05,Cantabria,AMB_NO2,15.72,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-06-01,2021-06,Cantabria,AMB_NO2,16.59,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-07-01,2021-07,Cantabria,AMB_NO2,15.22,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-08-01,2021-08,Cantabria,AMB_NO2,12.32,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-09-01,2021-09,Cantabria,AMB_NO2,15.24,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-10-01,2021-10,Cantabria,AMB_NO2,13.81,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-11-01,2021-11,Cantabria,AMB_NO2,22.67,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-12-01,2021-12,Cantabria,AMB_NO2,19.5,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-01-01,2022-01,Cantabria,AMB_NO2,24.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-02-01,2022-02,Cantabria,AMB_NO2,18.83,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-03-01,2022-03,Cantabria,AMB_NO2,13.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-04-01,2022-04,Cantabria,AMB_NO2,11.3,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-05-01,2022-05,Cantabria,AMB_NO2,10.43,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-06-01,2022-06,Cantabria,AMB_NO2,9.5,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-07-01,2022-07,Cantabria,AMB_NO2,15.06,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-08-01,2022-08,Cantabria,AMB_NO2,15.78,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-09-01,2022-09,Cantabria,AMB_NO2,11.1,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-10-01,2022-10,Cantabria,AMB_NO2,18.53,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-11-01,2022-11,Cantabria,AMB_NO2,17.56,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-12-01,2022-12,Cantabria,AMB_NO2,19.45,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-01-01,2023-01,Cantabria,AMB_NO2,23.41,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-02-01,2023-02,Cantabria,AMB_NO2,21.27,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-03-01,2023-03,Cantabria,AMB_NO2,14.67,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-04-01,2023-04,Cantabria,AMB_NO2,12.81,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-05-01,2023-05,Cantabria,AMB_NO2,9.02,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-06-01,2023-06,Cantabria,AMB_NO2,11.77,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-07-01,2023-07,Cantabria,AMB_NO2,13.3,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-08-01,2023-08,Cantabria,AMB_NO2,10.97,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-09-01,2023-09,Cantabria,AMB_NO2,15.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-10-01,2023-10,Cantabria,AMB_NO2,15.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-11-01,2023-11,Cantabria,AMB_NO2,17.9,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-12-01,2023-12,Cantabria,AMB_NO2,16.63,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-01-01,2024-01,Cantabria,AMB_NO2,18.65,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-02-01,2024-02,Cantabria,AMB_NO2,19.47,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-03-01,2024-03,Cantabria,AMB_NO2,11.85,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-04-01,2024-04,Cantabria,AMB_NO2,19.35,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-05-01,2024-05,Cantabria,AMB_NO2,14.82,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-06-01,2024-06,Cantabria,AMB_NO2,13.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-07-01,2024-07,Cantabria,AMB_NO2,15.73,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-08-01,2024-08,Cantabria,AMB_NO2,14.31,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-09-01,2024-09,Cantabria,AMB_NO2,17.98,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-10-01,2024-10,Cantabria,AMB_NO2,15.98,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-11-01,2024-11,Cantabria,AMB_NO2,16.31,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-12-01,2024-12,Cantabria,AMB_NO2,19.23,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-01-01,2016-01,Castilla - La Mancha,AMB_NO2,19.97,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-02-01,2016-02,Castilla - La Mancha,AMB_NO2,18.98,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-03-01,2016-03,Castilla - La Mancha,AMB_NO2,10.24,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-04-01,2016-04,Castilla - La Mancha,AMB_NO2,15.92,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-05-01,2016-05,Castilla - La Mancha,AMB_NO2,16.18,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-06-01,2016-06,Castilla - La Mancha,AMB_NO2,21.79,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-07-01,2016-07,Castilla - La Mancha,AMB_NO2,13.82,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-08-01,2016-08,Castilla - La Mancha,AMB_NO2,15.3,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-09-01,2016-09,Castilla - La Mancha,AMB_NO2,15.9,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-10-01,2016-10,Castilla - La Mancha,AMB_NO2,12.49,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-11-01,2016-11,Castilla - La Mancha,AMB_NO2,22.63,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-12-01,2016-12,Castilla - La Mancha,AMB_NO2,21.46,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-01-01,2017-01,Castilla - La Mancha,AMB_NO2,21.19,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-02-01,2017-02,Castilla - La Mancha,AMB_NO2,16.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-03-01,2017-03,Castilla - La Mancha,AMB_NO2,19.89,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-04-01,2017-04,Castilla - La Mancha,AMB_NO2,11.47,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-05-01,2017-05,Castilla - La Mancha,AMB_NO2,17.44,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-06-01,2017-06,Castilla - La Mancha,AMB_NO2,20.68,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-07-01,2017-07,Castilla - La Mancha,AMB_NO2,11.14,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-08-01,2017-08,Castilla - La Mancha,AMB_NO2,12.41,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-09-01,2017-09,Castilla - La Mancha,AMB_NO2,15.98,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-10-01,2017-10,Castilla - La Mancha,AMB_NO2,14.17,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-11-01,2017-11,Castilla - La Mancha,AMB_NO2,14.16,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-12-01,2017-12,Castilla - La Mancha,AMB_NO2,19.02,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-01-01,2018-01,Castilla - La Mancha,AMB_NO2,15.25,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-02-01,2018-02,Castilla - La Mancha,AMB_NO2,19.85,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-03-01,2018-03,Castilla - La Mancha,AMB_NO2,12.6,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-04-01,2018-04,Castilla - La Mancha,AMB_NO2,20.01,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-05-01,2018-05,Castilla - La Mancha,AMB_NO2,13.01,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-06-01,2018-06,Castilla - La Mancha,AMB_NO2,12.86,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-07-01,2018-07,Castilla - La Mancha,AMB_NO2,16.26,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-08-01,2018-08,Castilla - La Mancha,AMB_NO2,10.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-09-01,2018-09,Castilla - La Mancha,AMB_NO2,16.04,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-10-01,2018-10,Castilla - La Mancha,AMB_NO2,19.28,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-11-01,2018-11,Castilla - La Mancha,AMB_NO2,13.61,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-12-01,2018-12,Castilla - La Mancha,AMB_NO2,18.99,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-01-01,2019-01,Castilla - La Mancha,AMB_NO2,18.83,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-02-01,2019-02,Castilla - La Mancha,AMB_NO2,20.39,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-03-01,2019-03,Castilla - La Mancha,AMB_NO2,11.33,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-04-01,2019-04,Castilla - La Mancha,AMB_NO2,11.08,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-05-01,2019-05,Castilla - La Mancha,AMB_NO2,16.61,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-06-01,2019-06,Castilla - La Mancha,AMB_NO2,14.43,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-07-01,2019-07,Castilla - La Mancha,AMB_NO2,14.29,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-08-01,2019-08,Castilla - La Mancha,AMB_NO2,14.58,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-09-01,2019-09,Castilla - La Mancha,AMB_NO2,13.0,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-10-01,2019-10,Castilla - La Mancha,AMB_NO2,15.74,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-11-01,2019-11,Castilla - La Mancha,AMB_NO2,18.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-12-01,2019-12,Castilla - La Mancha,AMB_NO2,15.9,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-01-01,2020-01,Castilla - La Mancha,AMB_NO2,23.26,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-02-01,2020-02,Castilla - La Mancha,AMB_NO2,19.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-03-01,2020-03,Castilla - La Mancha,AMB_NO2,11.15,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-04-01,2020-04,Castilla - La Mancha,AMB_NO2,16.69,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-05-01,2020-05,Castilla - La Mancha,AMB_NO2,11.8,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-06-01,2020-06,Castilla - La Mancha,AMB_NO2,15.61,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-07-01,2020-07,Castilla - La Mancha,AMB_NO2,16.72,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-08-01,2020-08,Castilla - La Mancha,AMB_NO2,10.79,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-09-01,2020-09,Castilla - La Mancha,AMB_NO2,17.61,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-10-01,2020-10,Castilla - La Mancha,AMB_NO2,15.96,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-11-01,2020-11,Castilla - La Mancha,AMB_NO2,20.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-12-01,2020-12,Castilla - La Mancha,AMB_NO2,23.35,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-01-01,2021-01,Castilla - La Mancha,AMB_NO2,16.54,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-02-01,2021-02,Castilla - La Mancha,AMB_NO2,15.02,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-03-01,2021-03,Castilla - La Mancha,AMB_NO2,11.73,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-04-01,2021-04,Castilla - La Mancha,AMB_NO2,11.95,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-05-01,2021-05,Castilla - La Mancha,AMB_NO2,14.17,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-06-01,2021-06,Castilla - La Mancha,AMB_NO2,13.98,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-07-01,2021-07,Castilla - La Mancha,AMB_NO2,13.79,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-08-01,2021-08,Castilla - La Mancha,AMB_NO2,15.44,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-09-01,2021-09,Castilla - La Mancha,AMB_NO2,14.44,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-10-01,2021-10,Castilla - La Mancha,AMB_NO2,18.76,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-11-01,2021-11,Castilla - La Mancha,AMB_NO2,16.49,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-12-01,2021-12,Castilla - La Mancha,AMB_NO2,25.44,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-01-01,2022-01,Castilla - La Mancha,AMB_NO2,18.77,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-02-01,2022-02,Castilla - La Mancha,AMB_NO2,14.32,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-03-01,2022-03,Castilla - La Mancha,AMB_NO2,10.87,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-04-01,2022-04,Castilla - La Mancha,AMB_NO2,15.53,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-05-01,2022-05,Castilla - La Mancha,AMB_NO2,13.41,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-06-01,2022-06,Castilla - La Mancha,AMB_NO2,14.81,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-07-01,2022-07,Castilla - La Mancha,AMB_NO2,14.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-08-01,2022-08,Castilla - La Mancha,AMB_NO2,12.45,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-09-01,2022-09,Castilla - La Mancha,AMB_NO2,11.54,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-10-01,2022-10,Castilla - La Mancha,AMB_NO2,9.54,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-11-01,2022-11,Castilla - La Mancha,AMB_NO2,15.56,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-12-01,2022-12,Castilla - La Mancha,AMB_NO2,19.47,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-01-01,2023-01,Castilla - La Mancha,AMB_NO2,17.15,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-02-01,2023-02,Castilla - La Mancha,AMB_NO2,12.77,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-03-01,2023-03,Castilla - La Mancha,AMB_NO2,14.28,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-04-01,2023-04,Castilla - La Mancha,AMB_NO2,14.92,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-05-01,2023-05,Castilla - La Mancha,AMB_NO2,11.11,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-06-01,2023-06,Castilla - La Mancha,AMB_NO2,12.85,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-07-01,2023-07,Castilla - La Mancha,AMB_NO2,12.56,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-08-01,2023-08,Castilla - La Mancha,AMB_NO2,8.96,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-09-01,2023-09,Castilla - La Mancha,AMB_NO2,14.83,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-10-01,2023-10,Castilla - La Mancha,AMB_NO2,15.44,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-11-01,2023-11,Castilla - La Mancha,AMB_NO2,19.76,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-12-01,2023-12,Castilla - La Mancha,AMB_NO2,19.67,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-01-01,2024-01,Castilla - La Mancha,AMB_NO2,11.99,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-02-01,2024-02,Castilla - La Mancha,AMB_NO2,13.31,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-03-01,2024-03,Castilla - La Mancha,AMB_NO2,14.99,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-04-01,2024-04,Castilla - La Mancha,AMB_NO2,14.98,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-05-01,2024-05,Castilla - La Mancha,AMB_NO2,14.99,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-06-01,2024-06,Castilla - La Mancha,AMB_NO2,23.65,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-07-01,2024-07,Castilla - La Mancha,AMB_NO2,13.81,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-08-01,2024-08,Castilla - La Mancha,AMB_NO2,15.5,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-09-01,2024-09,Castilla - La Mancha,AMB_NO2,16.3,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-10-01,2024-10,Castilla - La Mancha,AMB_NO2,15.39,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-11-01,2024-11,Castilla - La Mancha,AMB_NO2,15.18,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-12-01,2024-12,Castilla - La Mancha,AMB_NO2,18.4,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-01-01,2016-01,Castilla y León,AMB_NO2,20.79,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-02-01,2016-02,Castilla y León,AMB_NO2,23.75,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-03-01,2016-03,Castilla y León,AMB_NO2,22.51,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-04-01,2016-04,Castilla y León,AMB_NO2,18.22,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-05-01,2016-05,Castilla y León,AMB_NO2,22.89,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-06-01,2016-06,Castilla y León,AMB_NO2,12.06,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-07-01,2016-07,Castilla y León,AMB_NO2,11.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-08-01,2016-08,Castilla y León,AMB_NO2,16.03,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-09-01,2016-09,Castilla y León,AMB_NO2,19.15,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-10-01,2016-10,Castilla y León,AMB_NO2,17.9,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-11-01,2016-11,Castilla y León,AMB_NO2,15.4,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-12-01,2016-12,Castilla y León,AMB_NO2,21.33,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-01-01,2017-01,Castilla y León,AMB_NO2,17.25,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-02-01,2017-02,Castilla y León,AMB_NO2,23.18,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-03-01,2017-03,Castilla y León,AMB_NO2,18.74,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-04-01,2017-04,Castilla y León,AMB_NO2,14.82,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-05-01,2017-05,Castilla y León,AMB_NO2,16.1,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-06-01,2017-06,Castilla y León,AMB_NO2,12.7,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-07-01,2017-07,Castilla y León,AMB_NO2,15.69,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-08-01,2017-08,Castilla y León,AMB_NO2,18.74,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-09-01,2017-09,Castilla y León,AMB_NO2,14.68,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-10-01,2017-10,Castilla y León,AMB_NO2,19.15,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-11-01,2017-11,Castilla y León,AMB_NO2,19.58,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-12-01,2017-12,Castilla y León,AMB_NO2,18.79,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-01-01,2018-01,Castilla y León,AMB_NO2,20.41,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-02-01,2018-02,Castilla y León,AMB_NO2,17.63,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-03-01,2018-03,Castilla y León,AMB_NO2,15.62,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-04-01,2018-04,Castilla y León,AMB_NO2,13.69,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-05-01,2018-05,Castilla y León,AMB_NO2,23.17,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-06-01,2018-06,Castilla y León,AMB_NO2,15.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-07-01,2018-07,Castilla y León,AMB_NO2,13.45,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-08-01,2018-08,Castilla y León,AMB_NO2,16.19,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-09-01,2018-09,Castilla y León,AMB_NO2,16.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-10-01,2018-10,Castilla y León,AMB_NO2,16.62,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-11-01,2018-11,Castilla y León,AMB_NO2,22.58,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-12-01,2018-12,Castilla y León,AMB_NO2,23.01,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-01-01,2019-01,Castilla y León,AMB_NO2,18.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-02-01,2019-02,Castilla y León,AMB_NO2,18.58,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-03-01,2019-03,Castilla y León,AMB_NO2,16.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-04-01,2019-04,Castilla y León,AMB_NO2,10.01,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-05-01,2019-05,Castilla y León,AMB_NO2,12.37,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-06-01,2019-06,Castilla y León,AMB_NO2,19.33,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-07-01,2019-07,Castilla y León,AMB_NO2,20.16,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-08-01,2019-08,Castilla y León,AMB_NO2,14.48,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-09-01,2019-09,Castilla y León,AMB_NO2,18.65,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-10-01,2019-10,Castilla y León,AMB_NO2,17.85,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-11-01,2019-11,Castilla y León,AMB_NO2,29.54,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-12-01,2019-12,Castilla y León,AMB_NO2,23.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-01-01,2020-01,Castilla y León,AMB_NO2,19.49,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-02-01,2020-02,Castilla y León,AMB_NO2,17.01,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-03-01,2020-03,Castilla y León,AMB_NO2,11.74,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-04-01,2020-04,Castilla y León,AMB_NO2,17.17,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-05-01,2020-05,Castilla y León,AMB_NO2,14.29,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-06-01,2020-06,Castilla y León,AMB_NO2,10.64,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-07-01,2020-07,Castilla y León,AMB_NO2,12.96,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-08-01,2020-08,Castilla y León,AMB_NO2,11.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-09-01,2020-09,Castilla y León,AMB_NO2,21.62,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-10-01,2020-10,Castilla y León,AMB_NO2,19.2,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-11-01,2020-11,Castilla y León,AMB_NO2,19.85,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-12-01,2020-12,Castilla y León,AMB_NO2,24.31,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-01-01,2021-01,Castilla y León,AMB_NO2,19.67,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-02-01,2021-02,Castilla y León,AMB_NO2,16.86,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-03-01,2021-03,Castilla y León,AMB_NO2,20.77,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-04-01,2021-04,Castilla y León,AMB_NO2,17.82,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-05-01,2021-05,Castilla y León,AMB_NO2,13.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-06-01,2021-06,Castilla y León,AMB_NO2,14.01,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-07-01,2021-07,Castilla y León,AMB_NO2,11.95,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-08-01,2021-08,Castilla y León,AMB_NO2,10.43,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-09-01,2021-09,Castilla y León,AMB_NO2,18.98,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-10-01,2021-10,Castilla y León,AMB_NO2,21.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-11-01,2021-11,Castilla y León,AMB_NO2,15.24,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-12-01,2021-12,Castilla y León,AMB_NO2,21.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-01-01,2022-01,Castilla y León,AMB_NO2,17.06,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-02-01,2022-02,Castilla y León,AMB_NO2,17.55,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-03-01,2022-03,Castilla y León,AMB_NO2,14.06,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-04-01,2022-04,Castilla y León,AMB_NO2,13.25,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-05-01,2022-05,Castilla y León,AMB_NO2,15.99,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-06-01,2022-06,Castilla y León,AMB_NO2,11.76,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-07-01,2022-07,Castilla y León,AMB_NO2,15.07,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-08-01,2022-08,Castilla y León,AMB_NO2,14.11,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-09-01,2022-09,Castilla y León,AMB_NO2,15.12,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-10-01,2022-10,Castilla y León,AMB_NO2,13.12,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-11-01,2022-11,Castilla y León,AMB_NO2,17.28,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-12-01,2022-12,Castilla y León,AMB_NO2,21.27,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-01-01,2023-01,Castilla y León,AMB_NO2,20.08,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-02-01,2023-02,Castilla y León,AMB_NO2,15.64,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-03-01,2023-03,Castilla y León,AMB_NO2,15.78,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-04-01,2023-04,Castilla y León,AMB_NO2,17.73,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-05-01,2023-05,Castilla y León,AMB_NO2,10.47,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-06-01,2023-06,Castilla y León,AMB_NO2,15.56,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-07-01,2023-07,Castilla y León,AMB_NO2,11.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-08-01,2023-08,Castilla y León,AMB_NO2,15.64,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-09-01,2023-09,Castilla y León,AMB_NO2,13.19,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-10-01,2023-10,Castilla y León,AMB_NO2,10.07,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-11-01,2023-11,Castilla y León,AMB_NO2,13.69,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-12-01,2023-12,Castilla y León,AMB_NO2,18.72,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-01-01,2024-01,Castilla y León,AMB_NO2,18.92,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-02-01,2024-02,Castilla y León,AMB_NO2,15.43,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-03-01,2024-03,Castilla y León,AMB_NO2,17.04,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-04-01,2024-04,Castilla y León,AMB_NO2,10.14,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-05-01,2024-05,Castilla y León,AMB_NO2,14.92,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-06-01,2024-06,Castilla y León,AMB_NO2,9.97,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-07-01,2024-07,Castilla y León,AMB_NO2,11.65,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-08-01,2024-08,Castilla y León,AMB_NO2,13.75,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-09-01,2024-09,Castilla y León,AMB_NO2,12.54,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-10-01,2024-10,Castilla y León,AMB_NO2,13.97,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-11-01,2024-11,Castilla y León,AMB_NO2,21.16,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-12-01,2024-12,Castilla y León,AMB_NO2,16.41,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-01-01,2016-01,Cataluña,AMB_NO2,39.88,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-02-01,2016-02,Cataluña,AMB_NO2,38.95,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-03-01,2016-03,Cataluña,AMB_NO2,29.42,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-04-01,2016-04,Cataluña,AMB_NO2,34.1,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-05-01,2016-05,Cataluña,AMB_NO2,30.27,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-06-01,2016-06,Cataluña,AMB_NO2,29.17,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-07-01,2016-07,Cataluña,AMB_NO2,36.48,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-08-01,2016-08,Cataluña,AMB_NO2,28.51,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-09-01,2016-09,Cataluña,AMB_NO2,35.45,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-10-01,2016-10,Cataluña,AMB_NO2,29.89,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-11-01,2016-11,Cataluña,AMB_NO2,38.3,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-12-01,2016-12,Cataluña,AMB_NO2,43.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-01-01,2017-01,Cataluña,AMB_NO2,35.75,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-02-01,2017-02,Cataluña,AMB_NO2,43.07,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-03-01,2017-03,Cataluña,AMB_NO2,33.48,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-04-01,2017-04,Cataluña,AMB_NO2,29.67,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-05-01,2017-05,Cataluña,AMB_NO2,33.26,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-06-01,2017-06,Cataluña,AMB_NO2,31.14,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-07-01,2017-07,Cataluña,AMB_NO2,30.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-08-01,2017-08,Cataluña,AMB_NO2,23.51,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-09-01,2017-09,Cataluña,AMB_NO2,29.18,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-10-01,2017-10,Cataluña,AMB_NO2,30.62,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-11-01,2017-11,Cataluña,AMB_NO2,37.41,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-12-01,2017-12,Cataluña,AMB_NO2,39.49,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-01-01,2018-01,Cataluña,AMB_NO2,37.4,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-02-01,2018-02,Cataluña,AMB_NO2,32.86,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-03-01,2018-03,Cataluña,AMB_NO2,31.86,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-04-01,2018-04,Cataluña,AMB_NO2,32.55,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-05-01,2018-05,Cataluña,AMB_NO2,32.4,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-06-01,2018-06,Cataluña,AMB_NO2,30.89,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-07-01,2018-07,Cataluña,AMB_NO2,30.15,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-08-01,2018-08,Cataluña,AMB_NO2,29.03,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-09-01,2018-09,Cataluña,AMB_NO2,30.51,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-10-01,2018-10,Cataluña,AMB_NO2,25.74,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-11-01,2018-11,Cataluña,AMB_NO2,38.15,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-12-01,2018-12,Cataluña,AMB_NO2,37.49,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-01-01,2019-01,Cataluña,AMB_NO2,36.91,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-02-01,2019-02,Cataluña,AMB_NO2,32.27,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-03-01,2019-03,Cataluña,AMB_NO2,26.84,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-04-01,2019-04,Cataluña,AMB_NO2,33.24,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-05-01,2019-05,Cataluña,AMB_NO2,29.96,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-06-01,2019-06,Cataluña,AMB_NO2,29.12,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-07-01,2019-07,Cataluña,AMB_NO2,27.16,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-08-01,2019-08,Cataluña,AMB_NO2,27.16,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-09-01,2019-09,Cataluña,AMB_NO2,32.89,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-10-01,2019-10,Cataluña,AMB_NO2,28.53,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-11-01,2019-11,Cataluña,AMB_NO2,36.38,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-12-01,2019-12,Cataluña,AMB_NO2,34.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-01-01,2020-01,Cataluña,AMB_NO2,34.02,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-02-01,2020-02,Cataluña,AMB_NO2,34.4,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-03-01,2020-03,Cataluña,AMB_NO2,30.11,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-04-01,2020-04,Cataluña,AMB_NO2,28.0,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-05-01,2020-05,Cataluña,AMB_NO2,33.21,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-06-01,2020-06,Cataluña,AMB_NO2,23.81,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-07-01,2020-07,Cataluña,AMB_NO2,25.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-08-01,2020-08,Cataluña,AMB_NO2,25.18,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-09-01,2020-09,Cataluña,AMB_NO2,33.78,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-10-01,2020-10,Cataluña,AMB_NO2,30.03,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-11-01,2020-11,Cataluña,AMB_NO2,38.42,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-12-01,2020-12,Cataluña,AMB_NO2,30.87,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-01-01,2021-01,Cataluña,AMB_NO2,35.36,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-02-01,2021-02,Cataluña,AMB_NO2,37.23,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-03-01,2021-03,Cataluña,AMB_NO2,29.05,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-04-01,2021-04,Cataluña,AMB_NO2,32.0,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-05-01,2021-05,Cataluña,AMB_NO2,27.25,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-06-01,2021-06,Cataluña,AMB_NO2,30.15,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-07-01,2021-07,Cataluña,AMB_NO2,32.82,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-08-01,2021-08,Cataluña,AMB_NO2,24.83,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-09-01,2021-09,Cataluña,AMB_NO2,27.46,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-10-01,2021-10,Cataluña,AMB_NO2,33.16,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-11-01,2021-11,Cataluña,AMB_NO2,39.3,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-12-01,2021-12,Cataluña,AMB_NO2,32.99,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-01-01,2022-01,Cataluña,AMB_NO2,32.53,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-02-01,2022-02,Cataluña,AMB_NO2,32.95,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-03-01,2022-03,Cataluña,AMB_NO2,24.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-04-01,2022-04,Cataluña,AMB_NO2,25.4,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-05-01,2022-05,Cataluña,AMB_NO2,25.15,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-06-01,2022-06,Cataluña,AMB_NO2,23.04,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-07-01,2022-07,Cataluña,AMB_NO2,25.24,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-08-01,2022-08,Cataluña,AMB_NO2,26.05,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-09-01,2022-09,Cataluña,AMB_NO2,32.81,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-10-01,2022-10,Cataluña,AMB_NO2,25.16,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-11-01,2022-11,Cataluña,AMB_NO2,36.74,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-12-01,2022-12,Cataluña,AMB_NO2,33.15,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-01-01,2023-01,Cataluña,AMB_NO2,32.88,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-02-01,2023-02,Cataluña,AMB_NO2,35.05,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-03-01,2023-03,Cataluña,AMB_NO2,24.15,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-04-01,2023-04,Cataluña,AMB_NO2,28.67,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-05-01,2023-05,Cataluña,AMB_NO2,28.02,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-06-01,2023-06,Cataluña,AMB_NO2,26.25,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-07-01,2023-07,Cataluña,AMB_NO2,25.64,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-08-01,2023-08,Cataluña,AMB_NO2,32.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-09-01,2023-09,Cataluña,AMB_NO2,25.61,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-10-01,2023-10,Cataluña,AMB_NO2,25.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-11-01,2023-11,Cataluña,AMB_NO2,31.15,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-12-01,2023-12,Cataluña,AMB_NO2,31.36,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-01-01,2024-01,Cataluña,AMB_NO2,30.34,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-02-01,2024-02,Cataluña,AMB_NO2,35.82,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-03-01,2024-03,Cataluña,AMB_NO2,31.14,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-04-01,2024-04,Cataluña,AMB_NO2,25.17,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-05-01,2024-05,Cataluña,AMB_NO2,24.38,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-06-01,2024-06,Cataluña,AMB_NO2,25.61,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-07-01,2024-07,Cataluña,AMB_NO2,22.54,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-08-01,2024-08,Cataluña,AMB_NO2,26.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-09-01,2024-09,Cataluña,AMB_NO2,27.49,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-10-01,2024-10,Cataluña,AMB_NO2,22.33,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-11-01,2024-11,Cataluña,AMB_NO2,36.9,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-12-01,2024-12,Cataluña,AMB_NO2,37.64,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-01-01,2016-01,Ceuta,AMB_NO2,20.57,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-02-01,2016-02,Ceuta,AMB_NO2,24.33,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-03-01,2016-03,Ceuta,AMB_NO2,19.9,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-04-01,2016-04,Ceuta,AMB_NO2,19.38,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-05-01,2016-05,Ceuta,AMB_NO2,19.61,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-06-01,2016-06,Ceuta,AMB_NO2,12.35,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-07-01,2016-07,Ceuta,AMB_NO2,16.35,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-08-01,2016-08,Ceuta,AMB_NO2,18.28,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-09-01,2016-09,Ceuta,AMB_NO2,20.48,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-10-01,2016-10,Ceuta,AMB_NO2,16.92,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-11-01,2016-11,Ceuta,AMB_NO2,27.8,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-12-01,2016-12,Ceuta,AMB_NO2,21.4,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-01-01,2017-01,Ceuta,AMB_NO2,26.43,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-02-01,2017-02,Ceuta,AMB_NO2,24.8,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-03-01,2017-03,Ceuta,AMB_NO2,17.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-04-01,2017-04,Ceuta,AMB_NO2,24.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-05-01,2017-05,Ceuta,AMB_NO2,16.02,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-06-01,2017-06,Ceuta,AMB_NO2,20.4,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-07-01,2017-07,Ceuta,AMB_NO2,20.64,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-08-01,2017-08,Ceuta,AMB_NO2,15.63,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-09-01,2017-09,Ceuta,AMB_NO2,23.78,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-10-01,2017-10,Ceuta,AMB_NO2,18.85,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-11-01,2017-11,Ceuta,AMB_NO2,24.39,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-12-01,2017-12,Ceuta,AMB_NO2,24.3,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-01-01,2018-01,Ceuta,AMB_NO2,22.64,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-02-01,2018-02,Ceuta,AMB_NO2,25.47,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-03-01,2018-03,Ceuta,AMB_NO2,21.58,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-04-01,2018-04,Ceuta,AMB_NO2,13.95,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-05-01,2018-05,Ceuta,AMB_NO2,23.11,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-06-01,2018-06,Ceuta,AMB_NO2,12.29,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-07-01,2018-07,Ceuta,AMB_NO2,20.38,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-08-01,2018-08,Ceuta,AMB_NO2,20.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-09-01,2018-09,Ceuta,AMB_NO2,15.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-10-01,2018-10,Ceuta,AMB_NO2,17.97,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-11-01,2018-11,Ceuta,AMB_NO2,19.72,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-12-01,2018-12,Ceuta,AMB_NO2,22.4,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-01-01,2019-01,Ceuta,AMB_NO2,21.64,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-02-01,2019-02,Ceuta,AMB_NO2,24.9,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-03-01,2019-03,Ceuta,AMB_NO2,22.73,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-04-01,2019-04,Ceuta,AMB_NO2,22.99,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-05-01,2019-05,Ceuta,AMB_NO2,17.11,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-06-01,2019-06,Ceuta,AMB_NO2,16.29,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-07-01,2019-07,Ceuta,AMB_NO2,11.87,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-08-01,2019-08,Ceuta,AMB_NO2,14.5,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-09-01,2019-09,Ceuta,AMB_NO2,21.69,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-10-01,2019-10,Ceuta,AMB_NO2,23.65,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-11-01,2019-11,Ceuta,AMB_NO2,18.86,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-12-01,2019-12,Ceuta,AMB_NO2,20.78,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-01-01,2020-01,Ceuta,AMB_NO2,22.0,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-02-01,2020-02,Ceuta,AMB_NO2,22.92,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-03-01,2020-03,Ceuta,AMB_NO2,15.97,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-04-01,2020-04,Ceuta,AMB_NO2,19.67,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-05-01,2020-05,Ceuta,AMB_NO2,16.98,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-06-01,2020-06,Ceuta,AMB_NO2,16.52,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-07-01,2020-07,Ceuta,AMB_NO2,18.2,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-08-01,2020-08,Ceuta,AMB_NO2,16.58,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-09-01,2020-09,Ceuta,AMB_NO2,17.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-10-01,2020-10,Ceuta,AMB_NO2,18.07,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-11-01,2020-11,Ceuta,AMB_NO2,21.81,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-12-01,2020-12,Ceuta,AMB_NO2,20.97,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-01-01,2021-01,Ceuta,AMB_NO2,20.82,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-02-01,2021-02,Ceuta,AMB_NO2,26.4,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-03-01,2021-03,Ceuta,AMB_NO2,19.68,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-04-01,2021-04,Ceuta,AMB_NO2,17.11,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-05-01,2021-05,Ceuta,AMB_NO2,20.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-06-01,2021-06,Ceuta,AMB_NO2,15.2,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-07-01,2021-07,Ceuta,AMB_NO2,19.72,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-08-01,2021-08,Ceuta,AMB_NO2,17.31,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-09-01,2021-09,Ceuta,AMB_NO2,17.68,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-10-01,2021-10,Ceuta,AMB_NO2,19.34,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-11-01,2021-11,Ceuta,AMB_NO2,16.89,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-12-01,2021-12,Ceuta,AMB_NO2,18.22,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-01-01,2022-01,Ceuta,AMB_NO2,17.54,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-02-01,2022-02,Ceuta,AMB_NO2,21.55,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-03-01,2022-03,Ceuta,AMB_NO2,22.8,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-04-01,2022-04,Ceuta,AMB_NO2,24.29,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-05-01,2022-05,Ceuta,AMB_NO2,19.51,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-06-01,2022-06,Ceuta,AMB_NO2,17.34,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-07-01,2022-07,Ceuta,AMB_NO2,10.44,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-08-01,2022-08,Ceuta,AMB_NO2,14.21,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-09-01,2022-09,Ceuta,AMB_NO2,15.24,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-10-01,2022-10,Ceuta,AMB_NO2,15.74,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-11-01,2022-11,Ceuta,AMB_NO2,20.62,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-12-01,2022-12,Ceuta,AMB_NO2,19.7,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-01-01,2023-01,Ceuta,AMB_NO2,14.7,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-02-01,2023-02,Ceuta,AMB_NO2,22.88,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-03-01,2023-03,Ceuta,AMB_NO2,13.98,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-04-01,2023-04,Ceuta,AMB_NO2,17.92,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-05-01,2023-05,Ceuta,AMB_NO2,23.42,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-06-01,2023-06,Ceuta,AMB_NO2,12.72,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-07-01,2023-07,Ceuta,AMB_NO2,7.89,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-08-01,2023-08,Ceuta,AMB_NO2,14.62,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-09-01,2023-09,Ceuta,AMB_NO2,20.5,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-10-01,2023-10,Ceuta,AMB_NO2,23.08,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-11-01,2023-11,Ceuta,AMB_NO2,16.95,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-12-01,2023-12,Ceuta,AMB_NO2,22.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-01-01,2024-01,Ceuta,AMB_NO2,18.76,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-02-01,2024-02,Ceuta,AMB_NO2,19.84,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-03-01,2024-03,Ceuta,AMB_NO2,24.73,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-04-01,2024-04,Ceuta,AMB_NO2,12.29,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-05-01,2024-05,Ceuta,AMB_NO2,17.56,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-06-01,2024-06,Ceuta,AMB_NO2,16.52,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-07-01,2024-07,Ceuta,AMB_NO2,18.38,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-08-01,2024-08,Ceuta,AMB_NO2,15.41,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-09-01,2024-09,Ceuta,AMB_NO2,17.72,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-10-01,2024-10,Ceuta,AMB_NO2,15.63,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-11-01,2024-11,Ceuta,AMB_NO2,20.97,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-12-01,2024-12,Ceuta,AMB_NO2,19.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-01-01,2016-01,Comunidad Foral de Navarra,AMB_NO2,23.39,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-02-01,2016-02,Comunidad Foral de Navarra,AMB_NO2,18.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-03-01,2016-03,Comunidad Foral de Navarra,AMB_NO2,12.73,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-04-01,2016-04,Comunidad Foral de Navarra,AMB_NO2,21.5,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-05-01,2016-05,Comunidad Foral de Navarra,AMB_NO2,16.03,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-06-01,2016-06,Comunidad Foral de Navarra,AMB_NO2,14.55,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-07-01,2016-07,Comunidad Foral de Navarra,AMB_NO2,19.28,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-08-01,2016-08,Comunidad Foral de Navarra,AMB_NO2,16.97,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-09-01,2016-09,Comunidad Foral de Navarra,AMB_NO2,18.37,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-10-01,2016-10,Comunidad Foral de Navarra,AMB_NO2,23.5,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-11-01,2016-11,Comunidad Foral de Navarra,AMB_NO2,18.47,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-12-01,2016-12,Comunidad Foral de Navarra,AMB_NO2,23.18,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-01-01,2017-01,Comunidad Foral de Navarra,AMB_NO2,20.16,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-02-01,2017-02,Comunidad Foral de Navarra,AMB_NO2,20.8,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-03-01,2017-03,Comunidad Foral de Navarra,AMB_NO2,21.25,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-04-01,2017-04,Comunidad Foral de Navarra,AMB_NO2,18.18,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-05-01,2017-05,Comunidad Foral de Navarra,AMB_NO2,18.27,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-06-01,2017-06,Comunidad Foral de Navarra,AMB_NO2,18.21,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-07-01,2017-07,Comunidad Foral de Navarra,AMB_NO2,13.9,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-08-01,2017-08,Comunidad Foral de Navarra,AMB_NO2,12.48,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-09-01,2017-09,Comunidad Foral de Navarra,AMB_NO2,13.53,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-10-01,2017-10,Comunidad Foral de Navarra,AMB_NO2,10.76,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-11-01,2017-11,Comunidad Foral de Navarra,AMB_NO2,26.16,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-12-01,2017-12,Comunidad Foral de Navarra,AMB_NO2,16.68,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-01-01,2018-01,Comunidad Foral de Navarra,AMB_NO2,18.92,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-02-01,2018-02,Comunidad Foral de Navarra,AMB_NO2,18.75,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-03-01,2018-03,Comunidad Foral de Navarra,AMB_NO2,17.24,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-04-01,2018-04,Comunidad Foral de Navarra,AMB_NO2,18.77,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-05-01,2018-05,Comunidad Foral de Navarra,AMB_NO2,18.9,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-06-01,2018-06,Comunidad Foral de Navarra,AMB_NO2,12.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-07-01,2018-07,Comunidad Foral de Navarra,AMB_NO2,14.19,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-08-01,2018-08,Comunidad Foral de Navarra,AMB_NO2,15.54,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-09-01,2018-09,Comunidad Foral de Navarra,AMB_NO2,15.57,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-10-01,2018-10,Comunidad Foral de Navarra,AMB_NO2,21.14,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-11-01,2018-11,Comunidad Foral de Navarra,AMB_NO2,21.06,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-12-01,2018-12,Comunidad Foral de Navarra,AMB_NO2,21.79,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-01-01,2019-01,Comunidad Foral de Navarra,AMB_NO2,21.16,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-02-01,2019-02,Comunidad Foral de Navarra,AMB_NO2,22.7,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-03-01,2019-03,Comunidad Foral de Navarra,AMB_NO2,16.52,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-04-01,2019-04,Comunidad Foral de Navarra,AMB_NO2,12.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-05-01,2019-05,Comunidad Foral de Navarra,AMB_NO2,17.18,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-06-01,2019-06,Comunidad Foral de Navarra,AMB_NO2,12.43,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-07-01,2019-07,Comunidad Foral de Navarra,AMB_NO2,12.8,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-08-01,2019-08,Comunidad Foral de Navarra,AMB_NO2,16.14,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-09-01,2019-09,Comunidad Foral de Navarra,AMB_NO2,19.69,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-10-01,2019-10,Comunidad Foral de Navarra,AMB_NO2,16.04,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-11-01,2019-11,Comunidad Foral de Navarra,AMB_NO2,20.1,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-12-01,2019-12,Comunidad Foral de Navarra,AMB_NO2,24.28,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-01-01,2020-01,Comunidad Foral de Navarra,AMB_NO2,19.49,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-02-01,2020-02,Comunidad Foral de Navarra,AMB_NO2,26.57,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-03-01,2020-03,Comunidad Foral de Navarra,AMB_NO2,17.34,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-04-01,2020-04,Comunidad Foral de Navarra,AMB_NO2,10.36,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-05-01,2020-05,Comunidad Foral de Navarra,AMB_NO2,17.9,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-06-01,2020-06,Comunidad Foral de Navarra,AMB_NO2,15.22,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-07-01,2020-07,Comunidad Foral de Navarra,AMB_NO2,17.95,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-08-01,2020-08,Comunidad Foral de Navarra,AMB_NO2,16.1,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-09-01,2020-09,Comunidad Foral de Navarra,AMB_NO2,15.22,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-10-01,2020-10,Comunidad Foral de Navarra,AMB_NO2,11.97,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-11-01,2020-11,Comunidad Foral de Navarra,AMB_NO2,18.14,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-12-01,2020-12,Comunidad Foral de Navarra,AMB_NO2,16.22,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-01-01,2021-01,Comunidad Foral de Navarra,AMB_NO2,16.62,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-02-01,2021-02,Comunidad Foral de Navarra,AMB_NO2,20.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-03-01,2021-03,Comunidad Foral de Navarra,AMB_NO2,20.31,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-04-01,2021-04,Comunidad Foral de Navarra,AMB_NO2,16.48,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-05-01,2021-05,Comunidad Foral de Navarra,AMB_NO2,11.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-06-01,2021-06,Comunidad Foral de Navarra,AMB_NO2,15.1,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-07-01,2021-07,Comunidad Foral de Navarra,AMB_NO2,17.36,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-08-01,2021-08,Comunidad Foral de Navarra,AMB_NO2,11.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-09-01,2021-09,Comunidad Foral de Navarra,AMB_NO2,14.9,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-10-01,2021-10,Comunidad Foral de Navarra,AMB_NO2,15.34,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-11-01,2021-11,Comunidad Foral de Navarra,AMB_NO2,16.01,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-12-01,2021-12,Comunidad Foral de Navarra,AMB_NO2,20.3,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-01-01,2022-01,Comunidad Foral de Navarra,AMB_NO2,17.59,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-02-01,2022-02,Comunidad Foral de Navarra,AMB_NO2,19.21,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-03-01,2022-03,Comunidad Foral de Navarra,AMB_NO2,12.3,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-04-01,2022-04,Comunidad Foral de Navarra,AMB_NO2,13.65,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-05-01,2022-05,Comunidad Foral de Navarra,AMB_NO2,17.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-06-01,2022-06,Comunidad Foral de Navarra,AMB_NO2,12.35,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-07-01,2022-07,Comunidad Foral de Navarra,AMB_NO2,18.64,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-08-01,2022-08,Comunidad Foral de Navarra,AMB_NO2,12.27,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-09-01,2022-09,Comunidad Foral de Navarra,AMB_NO2,15.63,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-10-01,2022-10,Comunidad Foral de Navarra,AMB_NO2,17.76,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-11-01,2022-11,Comunidad Foral de Navarra,AMB_NO2,13.7,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-12-01,2022-12,Comunidad Foral de Navarra,AMB_NO2,12.67,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-01-01,2023-01,Comunidad Foral de Navarra,AMB_NO2,12.97,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-02-01,2023-02,Comunidad Foral de Navarra,AMB_NO2,21.33,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-03-01,2023-03,Comunidad Foral de Navarra,AMB_NO2,12.96,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-04-01,2023-04,Comunidad Foral de Navarra,AMB_NO2,22.29,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-05-01,2023-05,Comunidad Foral de Navarra,AMB_NO2,12.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-06-01,2023-06,Comunidad Foral de Navarra,AMB_NO2,13.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-07-01,2023-07,Comunidad Foral de Navarra,AMB_NO2,17.78,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-08-01,2023-08,Comunidad Foral de Navarra,AMB_NO2,19.18,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-09-01,2023-09,Comunidad Foral de Navarra,AMB_NO2,20.8,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-10-01,2023-10,Comunidad Foral de Navarra,AMB_NO2,18.25,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-11-01,2023-11,Comunidad Foral de Navarra,AMB_NO2,20.62,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-12-01,2023-12,Comunidad Foral de Navarra,AMB_NO2,19.32,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-01-01,2024-01,Comunidad Foral de Navarra,AMB_NO2,19.47,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-02-01,2024-02,Comunidad Foral de Navarra,AMB_NO2,15.48,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-03-01,2024-03,Comunidad Foral de Navarra,AMB_NO2,11.83,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-04-01,2024-04,Comunidad Foral de Navarra,AMB_NO2,14.27,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-05-01,2024-05,Comunidad Foral de Navarra,AMB_NO2,13.77,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-06-01,2024-06,Comunidad Foral de Navarra,AMB_NO2,11.49,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-07-01,2024-07,Comunidad Foral de Navarra,AMB_NO2,14.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-08-01,2024-08,Comunidad Foral de Navarra,AMB_NO2,15.72,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-09-01,2024-09,Comunidad Foral de Navarra,AMB_NO2,14.55,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-10-01,2024-10,Comunidad Foral de Navarra,AMB_NO2,18.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-11-01,2024-11,Comunidad Foral de Navarra,AMB_NO2,13.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-12-01,2024-12,Comunidad Foral de Navarra,AMB_NO2,16.56,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-01-01,2016-01,Comunidad de Madrid,AMB_NO2,43.65,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-02-01,2016-02,Comunidad de Madrid,AMB_NO2,39.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-03-01,2016-03,Comunidad de Madrid,AMB_NO2,35.32,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-04-01,2016-04,Comunidad de Madrid,AMB_NO2,31.0,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-05-01,2016-05,Comunidad de Madrid,AMB_NO2,33.2,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-06-01,2016-06,Comunidad de Madrid,AMB_NO2,32.46,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-07-01,2016-07,Comunidad de Madrid,AMB_NO2,26.72,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-08-01,2016-08,Comunidad de Madrid,AMB_NO2,32.82,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-09-01,2016-09,Comunidad de Madrid,AMB_NO2,34.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-10-01,2016-10,Comunidad de Madrid,AMB_NO2,36.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-11-01,2016-11,Comunidad de Madrid,AMB_NO2,42.67,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-12-01,2016-12,Comunidad de Madrid,AMB_NO2,46.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-01-01,2017-01,Comunidad de Madrid,AMB_NO2,41.54,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-02-01,2017-02,Comunidad de Madrid,AMB_NO2,39.87,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-03-01,2017-03,Comunidad de Madrid,AMB_NO2,34.67,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-04-01,2017-04,Comunidad de Madrid,AMB_NO2,35.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-05-01,2017-05,Comunidad de Madrid,AMB_NO2,34.45,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-06-01,2017-06,Comunidad de Madrid,AMB_NO2,30.99,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-07-01,2017-07,Comunidad de Madrid,AMB_NO2,28.76,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-08-01,2017-08,Comunidad de Madrid,AMB_NO2,28.88,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-09-01,2017-09,Comunidad de Madrid,AMB_NO2,30.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-10-01,2017-10,Comunidad de Madrid,AMB_NO2,39.55,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-11-01,2017-11,Comunidad de Madrid,AMB_NO2,37.43,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-12-01,2017-12,Comunidad de Madrid,AMB_NO2,39.08,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-01-01,2018-01,Comunidad de Madrid,AMB_NO2,38.16,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-02-01,2018-02,Comunidad de Madrid,AMB_NO2,43.0,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-03-01,2018-03,Comunidad de Madrid,AMB_NO2,32.72,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-04-01,2018-04,Comunidad de Madrid,AMB_NO2,37.34,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-05-01,2018-05,Comunidad de Madrid,AMB_NO2,31.58,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-06-01,2018-06,Comunidad de Madrid,AMB_NO2,31.08,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-07-01,2018-07,Comunidad de Madrid,AMB_NO2,27.73,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-08-01,2018-08,Comunidad de Madrid,AMB_NO2,36.68,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-09-01,2018-09,Comunidad de Madrid,AMB_NO2,30.04,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-10-01,2018-10,Comunidad de Madrid,AMB_NO2,34.53,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-11-01,2018-11,Comunidad de Madrid,AMB_NO2,42.22,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-12-01,2018-12,Comunidad de Madrid,AMB_NO2,41.56,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-01-01,2019-01,Comunidad de Madrid,AMB_NO2,38.92,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-02-01,2019-02,Comunidad de Madrid,AMB_NO2,39.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-03-01,2019-03,Comunidad de Madrid,AMB_NO2,33.03,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-04-01,2019-04,Comunidad de Madrid,AMB_NO2,32.46,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-05-01,2019-05,Comunidad de Madrid,AMB_NO2,35.79,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-06-01,2019-06,Comunidad de Madrid,AMB_NO2,36.24,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-07-01,2019-07,Comunidad de Madrid,AMB_NO2,27.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-08-01,2019-08,Comunidad de Madrid,AMB_NO2,25.5,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-09-01,2019-09,Comunidad de Madrid,AMB_NO2,32.64,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-10-01,2019-10,Comunidad de Madrid,AMB_NO2,40.64,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-11-01,2019-11,Comunidad de Madrid,AMB_NO2,37.07,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-12-01,2019-12,Comunidad de Madrid,AMB_NO2,44.4,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-01-01,2020-01,Comunidad de Madrid,AMB_NO2,43.67,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-02-01,2020-02,Comunidad de Madrid,AMB_NO2,36.98,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-03-01,2020-03,Comunidad de Madrid,AMB_NO2,33.91,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-04-01,2020-04,Comunidad de Madrid,AMB_NO2,37.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-05-01,2020-05,Comunidad de Madrid,AMB_NO2,31.06,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-06-01,2020-06,Comunidad de Madrid,AMB_NO2,28.37,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-07-01,2020-07,Comunidad de Madrid,AMB_NO2,27.23,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-08-01,2020-08,Comunidad de Madrid,AMB_NO2,25.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-09-01,2020-09,Comunidad de Madrid,AMB_NO2,30.25,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-10-01,2020-10,Comunidad de Madrid,AMB_NO2,28.53,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-11-01,2020-11,Comunidad de Madrid,AMB_NO2,38.74,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-12-01,2020-12,Comunidad de Madrid,AMB_NO2,36.33,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-01-01,2021-01,Comunidad de Madrid,AMB_NO2,38.5,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-02-01,2021-02,Comunidad de Madrid,AMB_NO2,33.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-03-01,2021-03,Comunidad de Madrid,AMB_NO2,32.49,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-04-01,2021-04,Comunidad de Madrid,AMB_NO2,34.0,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-05-01,2021-05,Comunidad de Madrid,AMB_NO2,25.52,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-06-01,2021-06,Comunidad de Madrid,AMB_NO2,29.47,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-07-01,2021-07,Comunidad de Madrid,AMB_NO2,32.03,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-08-01,2021-08,Comunidad de Madrid,AMB_NO2,24.72,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-09-01,2021-09,Comunidad de Madrid,AMB_NO2,36.52,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-10-01,2021-10,Comunidad de Madrid,AMB_NO2,32.76,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-11-01,2021-11,Comunidad de Madrid,AMB_NO2,35.68,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-12-01,2021-12,Comunidad de Madrid,AMB_NO2,37.63,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-01-01,2022-01,Comunidad de Madrid,AMB_NO2,38.63,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-02-01,2022-02,Comunidad de Madrid,AMB_NO2,37.19,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-03-01,2022-03,Comunidad de Madrid,AMB_NO2,32.42,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-04-01,2022-04,Comunidad de Madrid,AMB_NO2,28.04,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-05-01,2022-05,Comunidad de Madrid,AMB_NO2,31.31,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-06-01,2022-06,Comunidad de Madrid,AMB_NO2,23.48,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-07-01,2022-07,Comunidad de Madrid,AMB_NO2,27.39,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-08-01,2022-08,Comunidad de Madrid,AMB_NO2,25.01,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-09-01,2022-09,Comunidad de Madrid,AMB_NO2,28.59,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-10-01,2022-10,Comunidad de Madrid,AMB_NO2,34.51,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-11-01,2022-11,Comunidad de Madrid,AMB_NO2,40.23,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-12-01,2022-12,Comunidad de Madrid,AMB_NO2,38.79,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-01-01,2023-01,Comunidad de Madrid,AMB_NO2,32.84,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-02-01,2023-02,Comunidad de Madrid,AMB_NO2,35.17,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-03-01,2023-03,Comunidad de Madrid,AMB_NO2,33.74,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-04-01,2023-04,Comunidad de Madrid,AMB_NO2,30.53,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-05-01,2023-05,Comunidad de Madrid,AMB_NO2,37.06,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-06-01,2023-06,Comunidad de Madrid,AMB_NO2,28.27,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-07-01,2023-07,Comunidad de Madrid,AMB_NO2,27.67,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-08-01,2023-08,Comunidad de Madrid,AMB_NO2,26.16,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-09-01,2023-09,Comunidad de Madrid,AMB_NO2,30.5,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-10-01,2023-10,Comunidad de Madrid,AMB_NO2,29.64,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-11-01,2023-11,Comunidad de Madrid,AMB_NO2,38.24,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-12-01,2023-12,Comunidad de Madrid,AMB_NO2,38.99,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-01-01,2024-01,Comunidad de Madrid,AMB_NO2,32.92,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-02-01,2024-02,Comunidad de Madrid,AMB_NO2,31.29,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-03-01,2024-03,Comunidad de Madrid,AMB_NO2,23.89,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-04-01,2024-04,Comunidad de Madrid,AMB_NO2,30.92,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-05-01,2024-05,Comunidad de Madrid,AMB_NO2,26.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-06-01,2024-06,Comunidad de Madrid,AMB_NO2,20.0,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-07-01,2024-07,Comunidad de Madrid,AMB_NO2,27.63,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-08-01,2024-08,Comunidad de Madrid,AMB_NO2,33.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-09-01,2024-09,Comunidad de Madrid,AMB_NO2,29.38,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-10-01,2024-10,Comunidad de Madrid,AMB_NO2,31.92,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-11-01,2024-11,Comunidad de Madrid,AMB_NO2,35.53,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-12-01,2024-12,Comunidad de Madrid,AMB_NO2,34.98,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-01-01,2016-01,Comunitat Valenciana,AMB_NO2,31.28,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-02-01,2016-02,Comunitat Valenciana,AMB_NO2,32.89,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-03-01,2016-03,Comunitat Valenciana,AMB_NO2,26.54,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-04-01,2016-04,Comunitat Valenciana,AMB_NO2,28.25,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-05-01,2016-05,Comunitat Valenciana,AMB_NO2,34.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-06-01,2016-06,Comunitat Valenciana,AMB_NO2,19.6,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-07-01,2016-07,Comunitat Valenciana,AMB_NO2,27.26,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-08-01,2016-08,Comunitat Valenciana,AMB_NO2,20.36,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-09-01,2016-09,Comunitat Valenciana,AMB_NO2,26.58,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-10-01,2016-10,Comunitat Valenciana,AMB_NO2,31.27,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-11-01,2016-11,Comunitat Valenciana,AMB_NO2,33.79,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-12-01,2016-12,Comunitat Valenciana,AMB_NO2,30.37,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-01-01,2017-01,Comunitat Valenciana,AMB_NO2,30.78,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-02-01,2017-02,Comunitat Valenciana,AMB_NO2,34.97,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-03-01,2017-03,Comunitat Valenciana,AMB_NO2,25.25,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-04-01,2017-04,Comunitat Valenciana,AMB_NO2,28.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-05-01,2017-05,Comunitat Valenciana,AMB_NO2,27.58,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-06-01,2017-06,Comunitat Valenciana,AMB_NO2,22.74,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-07-01,2017-07,Comunitat Valenciana,AMB_NO2,31.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-08-01,2017-08,Comunitat Valenciana,AMB_NO2,26.6,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-09-01,2017-09,Comunitat Valenciana,AMB_NO2,21.36,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-10-01,2017-10,Comunitat Valenciana,AMB_NO2,28.0,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-11-01,2017-11,Comunitat Valenciana,AMB_NO2,30.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-12-01,2017-12,Comunitat Valenciana,AMB_NO2,35.49,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-01-01,2018-01,Comunitat Valenciana,AMB_NO2,29.88,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-02-01,2018-02,Comunitat Valenciana,AMB_NO2,31.91,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-03-01,2018-03,Comunitat Valenciana,AMB_NO2,28.39,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-04-01,2018-04,Comunitat Valenciana,AMB_NO2,29.48,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-05-01,2018-05,Comunitat Valenciana,AMB_NO2,23.28,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-06-01,2018-06,Comunitat Valenciana,AMB_NO2,23.19,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-07-01,2018-07,Comunitat Valenciana,AMB_NO2,22.77,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-08-01,2018-08,Comunitat Valenciana,AMB_NO2,22.23,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-09-01,2018-09,Comunitat Valenciana,AMB_NO2,32.18,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-10-01,2018-10,Comunitat Valenciana,AMB_NO2,28.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-11-01,2018-11,Comunitat Valenciana,AMB_NO2,28.47,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-12-01,2018-12,Comunitat Valenciana,AMB_NO2,35.01,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-01-01,2019-01,Comunitat Valenciana,AMB_NO2,37.95,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-02-01,2019-02,Comunitat Valenciana,AMB_NO2,34.68,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-03-01,2019-03,Comunitat Valenciana,AMB_NO2,21.76,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-04-01,2019-04,Comunitat Valenciana,AMB_NO2,24.87,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-05-01,2019-05,Comunitat Valenciana,AMB_NO2,30.12,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-06-01,2019-06,Comunitat Valenciana,AMB_NO2,21.56,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-07-01,2019-07,Comunitat Valenciana,AMB_NO2,25.02,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-08-01,2019-08,Comunitat Valenciana,AMB_NO2,26.01,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-09-01,2019-09,Comunitat Valenciana,AMB_NO2,23.54,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-10-01,2019-10,Comunitat Valenciana,AMB_NO2,26.14,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-11-01,2019-11,Comunitat Valenciana,AMB_NO2,21.86,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-12-01,2019-12,Comunitat Valenciana,AMB_NO2,28.51,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-01-01,2020-01,Comunitat Valenciana,AMB_NO2,30.15,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-02-01,2020-02,Comunitat Valenciana,AMB_NO2,27.17,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-03-01,2020-03,Comunitat Valenciana,AMB_NO2,30.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-04-01,2020-04,Comunitat Valenciana,AMB_NO2,21.47,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-05-01,2020-05,Comunitat Valenciana,AMB_NO2,24.44,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-06-01,2020-06,Comunitat Valenciana,AMB_NO2,23.58,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-07-01,2020-07,Comunitat Valenciana,AMB_NO2,27.51,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-08-01,2020-08,Comunitat Valenciana,AMB_NO2,18.88,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-09-01,2020-09,Comunitat Valenciana,AMB_NO2,29.25,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-10-01,2020-10,Comunitat Valenciana,AMB_NO2,25.79,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-11-01,2020-11,Comunitat Valenciana,AMB_NO2,27.97,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-12-01,2020-12,Comunitat Valenciana,AMB_NO2,32.3,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-01-01,2021-01,Comunitat Valenciana,AMB_NO2,30.84,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-02-01,2021-02,Comunitat Valenciana,AMB_NO2,28.44,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-03-01,2021-03,Comunitat Valenciana,AMB_NO2,25.41,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-04-01,2021-04,Comunitat Valenciana,AMB_NO2,24.04,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-05-01,2021-05,Comunitat Valenciana,AMB_NO2,25.54,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-06-01,2021-06,Comunitat Valenciana,AMB_NO2,24.67,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-07-01,2021-07,Comunitat Valenciana,AMB_NO2,27.44,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-08-01,2021-08,Comunitat Valenciana,AMB_NO2,18.97,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-09-01,2021-09,Comunitat Valenciana,AMB_NO2,31.6,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-10-01,2021-10,Comunitat Valenciana,AMB_NO2,19.34,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-11-01,2021-11,Comunitat Valenciana,AMB_NO2,29.78,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-12-01,2021-12,Comunitat Valenciana,AMB_NO2,32.0,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-01-01,2022-01,Comunitat Valenciana,AMB_NO2,30.41,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-02-01,2022-02,Comunitat Valenciana,AMB_NO2,27.7,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-03-01,2022-03,Comunitat Valenciana,AMB_NO2,24.02,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-04-01,2022-04,Comunitat Valenciana,AMB_NO2,23.16,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-05-01,2022-05,Comunitat Valenciana,AMB_NO2,22.87,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-06-01,2022-06,Comunitat Valenciana,AMB_NO2,24.72,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-07-01,2022-07,Comunitat Valenciana,AMB_NO2,23.25,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-08-01,2022-08,Comunitat Valenciana,AMB_NO2,20.1,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-09-01,2022-09,Comunitat Valenciana,AMB_NO2,27.34,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-10-01,2022-10,Comunitat Valenciana,AMB_NO2,25.56,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-11-01,2022-11,Comunitat Valenciana,AMB_NO2,32.01,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-12-01,2022-12,Comunitat Valenciana,AMB_NO2,31.46,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-01-01,2023-01,Comunitat Valenciana,AMB_NO2,26.41,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-02-01,2023-02,Comunitat Valenciana,AMB_NO2,27.22,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-03-01,2023-03,Comunitat Valenciana,AMB_NO2,26.32,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-04-01,2023-04,Comunitat Valenciana,AMB_NO2,25.91,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-05-01,2023-05,Comunitat Valenciana,AMB_NO2,24.02,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-06-01,2023-06,Comunitat Valenciana,AMB_NO2,22.02,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-07-01,2023-07,Comunitat Valenciana,AMB_NO2,25.5,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-08-01,2023-08,Comunitat Valenciana,AMB_NO2,19.9,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-09-01,2023-09,Comunitat Valenciana,AMB_NO2,25.72,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-10-01,2023-10,Comunitat Valenciana,AMB_NO2,23.47,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-11-01,2023-11,Comunitat Valenciana,AMB_NO2,28.24,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-12-01,2023-12,Comunitat Valenciana,AMB_NO2,32.19,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-01-01,2024-01,Comunitat Valenciana,AMB_NO2,30.7,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-02-01,2024-02,Comunitat Valenciana,AMB_NO2,30.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-03-01,2024-03,Comunitat Valenciana,AMB_NO2,27.44,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-04-01,2024-04,Comunitat Valenciana,AMB_NO2,23.58,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-05-01,2024-05,Comunitat Valenciana,AMB_NO2,25.57,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-06-01,2024-06,Comunitat Valenciana,AMB_NO2,20.24,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-07-01,2024-07,Comunitat Valenciana,AMB_NO2,22.14,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-08-01,2024-08,Comunitat Valenciana,AMB_NO2,20.78,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-09-01,2024-09,Comunitat Valenciana,AMB_NO2,23.81,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-10-01,2024-10,Comunitat Valenciana,AMB_NO2,25.31,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-11-01,2024-11,Comunitat Valenciana,AMB_NO2,25.77,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-12-01,2024-12,Comunitat Valenciana,AMB_NO2,34.5,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-01-01,2016-01,Extremadura,AMB_NO2,19.31,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-02-01,2016-02,Extremadura,AMB_NO2,13.41,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-03-01,2016-03,Extremadura,AMB_NO2,15.59,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-04-01,2016-04,Extremadura,AMB_NO2,18.32,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-05-01,2016-05,Extremadura,AMB_NO2,6.59,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-06-01,2016-06,Extremadura,AMB_NO2,10.21,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-07-01,2016-07,Extremadura,AMB_NO2,14.33,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-08-01,2016-08,Extremadura,AMB_NO2,11.99,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-09-01,2016-09,Extremadura,AMB_NO2,15.11,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-10-01,2016-10,Extremadura,AMB_NO2,12.19,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-11-01,2016-11,Extremadura,AMB_NO2,17.06,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-12-01,2016-12,Extremadura,AMB_NO2,16.33,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-01-01,2017-01,Extremadura,AMB_NO2,19.97,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-02-01,2017-02,Extremadura,AMB_NO2,17.23,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-03-01,2017-03,Extremadura,AMB_NO2,14.73,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-04-01,2017-04,Extremadura,AMB_NO2,12.48,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-05-01,2017-05,Extremadura,AMB_NO2,12.26,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-06-01,2017-06,Extremadura,AMB_NO2,11.05,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-07-01,2017-07,Extremadura,AMB_NO2,13.53,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-08-01,2017-08,Extremadura,AMB_NO2,11.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-09-01,2017-09,Extremadura,AMB_NO2,14.59,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-10-01,2017-10,Extremadura,AMB_NO2,19.95,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-11-01,2017-11,Extremadura,AMB_NO2,19.08,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-12-01,2017-12,Extremadura,AMB_NO2,15.49,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-01-01,2018-01,Extremadura,AMB_NO2,19.73,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-02-01,2018-02,Extremadura,AMB_NO2,14.9,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-03-01,2018-03,Extremadura,AMB_NO2,7.33,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-04-01,2018-04,Extremadura,AMB_NO2,10.42,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-05-01,2018-05,Extremadura,AMB_NO2,7.83,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-06-01,2018-06,Extremadura,AMB_NO2,11.04,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-07-01,2018-07,Extremadura,AMB_NO2,12.15,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-08-01,2018-08,Extremadura,AMB_NO2,17.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-09-01,2018-09,Extremadura,AMB_NO2,14.42,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-10-01,2018-10,Extremadura,AMB_NO2,12.78,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-11-01,2018-11,Extremadura,AMB_NO2,18.62,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-12-01,2018-12,Extremadura,AMB_NO2,9.49,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-01-01,2019-01,Extremadura,AMB_NO2,16.5,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-02-01,2019-02,Extremadura,AMB_NO2,18.1,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-03-01,2019-03,Extremadura,AMB_NO2,8.72,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-04-01,2019-04,Extremadura,AMB_NO2,16.59,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-05-01,2019-05,Extremadura,AMB_NO2,14.18,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-06-01,2019-06,Extremadura,AMB_NO2,10.6,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-07-01,2019-07,Extremadura,AMB_NO2,13.74,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-08-01,2019-08,Extremadura,AMB_NO2,18.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-09-01,2019-09,Extremadura,AMB_NO2,13.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-10-01,2019-10,Extremadura,AMB_NO2,13.9,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-11-01,2019-11,Extremadura,AMB_NO2,14.41,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-12-01,2019-12,Extremadura,AMB_NO2,13.24,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-01-01,2020-01,Extremadura,AMB_NO2,17.95,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-02-01,2020-02,Extremadura,AMB_NO2,12.89,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-03-01,2020-03,Extremadura,AMB_NO2,13.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-04-01,2020-04,Extremadura,AMB_NO2,11.45,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-05-01,2020-05,Extremadura,AMB_NO2,14.32,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-06-01,2020-06,Extremadura,AMB_NO2,12.59,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-07-01,2020-07,Extremadura,AMB_NO2,14.7,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-08-01,2020-08,Extremadura,AMB_NO2,10.06,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-09-01,2020-09,Extremadura,AMB_NO2,12.07,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-10-01,2020-10,Extremadura,AMB_NO2,9.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-11-01,2020-11,Extremadura,AMB_NO2,14.12,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-12-01,2020-12,Extremadura,AMB_NO2,16.59,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-01-01,2021-01,Extremadura,AMB_NO2,17.39,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-02-01,2021-02,Extremadura,AMB_NO2,12.35,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-03-01,2021-03,Extremadura,AMB_NO2,15.21,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-04-01,2021-04,Extremadura,AMB_NO2,16.67,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-05-01,2021-05,Extremadura,AMB_NO2,13.84,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-06-01,2021-06,Extremadura,AMB_NO2,16.97,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-07-01,2021-07,Extremadura,AMB_NO2,9.02,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-08-01,2021-08,Extremadura,AMB_NO2,7.61,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-09-01,2021-09,Extremadura,AMB_NO2,7.26,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-10-01,2021-10,Extremadura,AMB_NO2,17.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-11-01,2021-11,Extremadura,AMB_NO2,17.08,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-12-01,2021-12,Extremadura,AMB_NO2,14.95,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-01-01,2022-01,Extremadura,AMB_NO2,15.62,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-02-01,2022-02,Extremadura,AMB_NO2,11.41,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-03-01,2022-03,Extremadura,AMB_NO2,19.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-04-01,2022-04,Extremadura,AMB_NO2,12.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-05-01,2022-05,Extremadura,AMB_NO2,12.65,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-06-01,2022-06,Extremadura,AMB_NO2,13.27,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-07-01,2022-07,Extremadura,AMB_NO2,12.53,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-08-01,2022-08,Extremadura,AMB_NO2,11.76,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-09-01,2022-09,Extremadura,AMB_NO2,9.95,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-10-01,2022-10,Extremadura,AMB_NO2,13.73,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-11-01,2022-11,Extremadura,AMB_NO2,20.43,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-12-01,2022-12,Extremadura,AMB_NO2,18.82,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-01-01,2023-01,Extremadura,AMB_NO2,19.23,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-02-01,2023-02,Extremadura,AMB_NO2,12.91,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-03-01,2023-03,Extremadura,AMB_NO2,9.07,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-04-01,2023-04,Extremadura,AMB_NO2,11.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-05-01,2023-05,Extremadura,AMB_NO2,12.21,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-06-01,2023-06,Extremadura,AMB_NO2,14.12,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-07-01,2023-07,Extremadura,AMB_NO2,5.76,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-08-01,2023-08,Extremadura,AMB_NO2,15.42,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-09-01,2023-09,Extremadura,AMB_NO2,11.57,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-10-01,2023-10,Extremadura,AMB_NO2,10.76,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-11-01,2023-11,Extremadura,AMB_NO2,11.41,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-12-01,2023-12,Extremadura,AMB_NO2,9.48,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-01-01,2024-01,Extremadura,AMB_NO2,16.58,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-02-01,2024-02,Extremadura,AMB_NO2,14.33,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-03-01,2024-03,Extremadura,AMB_NO2,7.89,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-04-01,2024-04,Extremadura,AMB_NO2,7.87,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-05-01,2024-05,Extremadura,AMB_NO2,10.75,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-06-01,2024-06,Extremadura,AMB_NO2,15.59,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-07-01,2024-07,Extremadura,AMB_NO2,9.81,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-08-01,2024-08,Extremadura,AMB_NO2,6.07,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-09-01,2024-09,Extremadura,AMB_NO2,11.02,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-10-01,2024-10,Extremadura,AMB_NO2,10.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-11-01,2024-11,Extremadura,AMB_NO2,6.02,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-12-01,2024-12,Extremadura,AMB_NO2,13.95,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-01-01,2016-01,Galicia,AMB_NO2,19.76,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-02-01,2016-02,Galicia,AMB_NO2,20.44,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-03-01,2016-03,Galicia,AMB_NO2,18.86,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-04-01,2016-04,Galicia,AMB_NO2,19.0,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-05-01,2016-05,Galicia,AMB_NO2,19.98,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-06-01,2016-06,Galicia,AMB_NO2,22.23,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-07-01,2016-07,Galicia,AMB_NO2,15.67,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-08-01,2016-08,Galicia,AMB_NO2,13.81,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-09-01,2016-09,Galicia,AMB_NO2,13.86,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-10-01,2016-10,Galicia,AMB_NO2,15.81,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-11-01,2016-11,Galicia,AMB_NO2,21.5,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-12-01,2016-12,Galicia,AMB_NO2,26.98,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-01-01,2017-01,Galicia,AMB_NO2,19.62,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-02-01,2017-02,Galicia,AMB_NO2,21.84,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-03-01,2017-03,Galicia,AMB_NO2,17.59,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-04-01,2017-04,Galicia,AMB_NO2,21.21,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-05-01,2017-05,Galicia,AMB_NO2,25.22,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-06-01,2017-06,Galicia,AMB_NO2,14.28,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-07-01,2017-07,Galicia,AMB_NO2,14.41,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-08-01,2017-08,Galicia,AMB_NO2,19.01,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-09-01,2017-09,Galicia,AMB_NO2,19.69,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-10-01,2017-10,Galicia,AMB_NO2,23.18,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-11-01,2017-11,Galicia,AMB_NO2,22.92,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-12-01,2017-12,Galicia,AMB_NO2,20.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-01-01,2018-01,Galicia,AMB_NO2,22.51,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-02-01,2018-02,Galicia,AMB_NO2,24.06,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-03-01,2018-03,Galicia,AMB_NO2,19.74,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-04-01,2018-04,Galicia,AMB_NO2,18.8,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-05-01,2018-05,Galicia,AMB_NO2,20.48,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-06-01,2018-06,Galicia,AMB_NO2,19.06,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-07-01,2018-07,Galicia,AMB_NO2,19.7,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-08-01,2018-08,Galicia,AMB_NO2,17.5,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-09-01,2018-09,Galicia,AMB_NO2,16.78,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-10-01,2018-10,Galicia,AMB_NO2,17.72,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-11-01,2018-11,Galicia,AMB_NO2,24.36,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-12-01,2018-12,Galicia,AMB_NO2,18.29,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-01-01,2019-01,Galicia,AMB_NO2,21.41,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-02-01,2019-02,Galicia,AMB_NO2,19.12,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-03-01,2019-03,Galicia,AMB_NO2,17.01,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-04-01,2019-04,Galicia,AMB_NO2,20.76,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-05-01,2019-05,Galicia,AMB_NO2,17.49,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-06-01,2019-06,Galicia,AMB_NO2,15.37,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-07-01,2019-07,Galicia,AMB_NO2,11.15,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-08-01,2019-08,Galicia,AMB_NO2,17.47,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-09-01,2019-09,Galicia,AMB_NO2,18.86,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-10-01,2019-10,Galicia,AMB_NO2,23.41,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-11-01,2019-11,Galicia,AMB_NO2,19.38,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-12-01,2019-12,Galicia,AMB_NO2,20.96,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-01-01,2020-01,Galicia,AMB_NO2,20.62,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-02-01,2020-02,Galicia,AMB_NO2,24.6,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-03-01,2020-03,Galicia,AMB_NO2,16.27,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-04-01,2020-04,Galicia,AMB_NO2,17.4,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-05-01,2020-05,Galicia,AMB_NO2,18.38,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-06-01,2020-06,Galicia,AMB_NO2,15.46,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-07-01,2020-07,Galicia,AMB_NO2,13.56,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-08-01,2020-08,Galicia,AMB_NO2,15.49,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-09-01,2020-09,Galicia,AMB_NO2,19.78,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-10-01,2020-10,Galicia,AMB_NO2,13.48,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-11-01,2020-11,Galicia,AMB_NO2,20.27,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-12-01,2020-12,Galicia,AMB_NO2,17.77,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-01-01,2021-01,Galicia,AMB_NO2,23.03,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-02-01,2021-02,Galicia,AMB_NO2,14.87,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-03-01,2021-03,Galicia,AMB_NO2,14.52,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-04-01,2021-04,Galicia,AMB_NO2,17.33,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-05-01,2021-05,Galicia,AMB_NO2,20.9,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-06-01,2021-06,Galicia,AMB_NO2,14.38,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-07-01,2021-07,Galicia,AMB_NO2,12.91,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-08-01,2021-08,Galicia,AMB_NO2,20.22,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-09-01,2021-09,Galicia,AMB_NO2,11.86,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-10-01,2021-10,Galicia,AMB_NO2,9.6,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-11-01,2021-11,Galicia,AMB_NO2,20.76,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-12-01,2021-12,Galicia,AMB_NO2,17.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-01-01,2022-01,Galicia,AMB_NO2,15.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-02-01,2022-02,Galicia,AMB_NO2,21.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-03-01,2022-03,Galicia,AMB_NO2,16.57,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-04-01,2022-04,Galicia,AMB_NO2,14.15,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-05-01,2022-05,Galicia,AMB_NO2,12.0,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-06-01,2022-06,Galicia,AMB_NO2,16.87,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-07-01,2022-07,Galicia,AMB_NO2,16.21,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-08-01,2022-08,Galicia,AMB_NO2,13.96,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-09-01,2022-09,Galicia,AMB_NO2,21.38,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-10-01,2022-10,Galicia,AMB_NO2,12.63,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-11-01,2022-11,Galicia,AMB_NO2,14.43,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-12-01,2022-12,Galicia,AMB_NO2,16.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-01-01,2023-01,Galicia,AMB_NO2,18.44,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-02-01,2023-02,Galicia,AMB_NO2,19.31,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-03-01,2023-03,Galicia,AMB_NO2,14.76,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-04-01,2023-04,Galicia,AMB_NO2,16.54,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-05-01,2023-05,Galicia,AMB_NO2,11.73,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-06-01,2023-06,Galicia,AMB_NO2,18.26,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-07-01,2023-07,Galicia,AMB_NO2,13.69,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-08-01,2023-08,Galicia,AMB_NO2,17.28,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-09-01,2023-09,Galicia,AMB_NO2,16.51,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-10-01,2023-10,Galicia,AMB_NO2,16.85,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-11-01,2023-11,Galicia,AMB_NO2,20.29,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-12-01,2023-12,Galicia,AMB_NO2,19.92,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-01-01,2024-01,Galicia,AMB_NO2,20.07,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-02-01,2024-02,Galicia,AMB_NO2,22.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-03-01,2024-03,Galicia,AMB_NO2,15.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-04-01,2024-04,Galicia,AMB_NO2,17.25,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-05-01,2024-05,Galicia,AMB_NO2,14.85,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-06-01,2024-06,Galicia,AMB_NO2,17.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-07-01,2024-07,Galicia,AMB_NO2,11.58,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-08-01,2024-08,Galicia,AMB_NO2,19.01,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-09-01,2024-09,Galicia,AMB_NO2,15.0,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-10-01,2024-10,Galicia,AMB_NO2,10.83,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-11-01,2024-11,Galicia,AMB_NO2,18.53,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-12-01,2024-12,Galicia,AMB_NO2,16.1,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-01-01,2016-01,Illes Balears,AMB_NO2,23.31,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-02-01,2016-02,Illes Balears,AMB_NO2,26.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-03-01,2016-03,Illes Balears,AMB_NO2,25.55,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-04-01,2016-04,Illes Balears,AMB_NO2,23.38,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-05-01,2016-05,Illes Balears,AMB_NO2,19.19,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-06-01,2016-06,Illes Balears,AMB_NO2,14.68,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-07-01,2016-07,Illes Balears,AMB_NO2,25.72,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-08-01,2016-08,Illes Balears,AMB_NO2,18.18,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-09-01,2016-09,Illes Balears,AMB_NO2,20.04,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-10-01,2016-10,Illes Balears,AMB_NO2,19.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-11-01,2016-11,Illes Balears,AMB_NO2,24.59,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-12-01,2016-12,Illes Balears,AMB_NO2,23.57,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-01-01,2017-01,Illes Balears,AMB_NO2,21.8,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-02-01,2017-02,Illes Balears,AMB_NO2,21.88,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-03-01,2017-03,Illes Balears,AMB_NO2,19.5,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-04-01,2017-04,Illes Balears,AMB_NO2,17.97,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-05-01,2017-05,Illes Balears,AMB_NO2,17.46,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-06-01,2017-06,Illes Balears,AMB_NO2,17.96,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-07-01,2017-07,Illes Balears,AMB_NO2,16.88,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-08-01,2017-08,Illes Balears,AMB_NO2,22.15,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-09-01,2017-09,Illes Balears,AMB_NO2,11.65,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-10-01,2017-10,Illes Balears,AMB_NO2,22.87,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-11-01,2017-11,Illes Balears,AMB_NO2,27.26,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-12-01,2017-12,Illes Balears,AMB_NO2,17.3,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-01-01,2018-01,Illes Balears,AMB_NO2,22.01,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-02-01,2018-02,Illes Balears,AMB_NO2,21.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-03-01,2018-03,Illes Balears,AMB_NO2,14.98,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-04-01,2018-04,Illes Balears,AMB_NO2,16.87,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-05-01,2018-05,Illes Balears,AMB_NO2,15.87,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-06-01,2018-06,Illes Balears,AMB_NO2,22.54,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-07-01,2018-07,Illes Balears,AMB_NO2,20.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-08-01,2018-08,Illes Balears,AMB_NO2,21.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-09-01,2018-09,Illes Balears,AMB_NO2,21.37,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-10-01,2018-10,Illes Balears,AMB_NO2,15.81,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-11-01,2018-11,Illes Balears,AMB_NO2,21.47,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-12-01,2018-12,Illes Balears,AMB_NO2,24.51,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-01-01,2019-01,Illes Balears,AMB_NO2,18.89,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-02-01,2019-02,Illes Balears,AMB_NO2,24.7,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-03-01,2019-03,Illes Balears,AMB_NO2,18.08,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-04-01,2019-04,Illes Balears,AMB_NO2,17.68,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-05-01,2019-05,Illes Balears,AMB_NO2,20.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-06-01,2019-06,Illes Balears,AMB_NO2,18.25,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-07-01,2019-07,Illes Balears,AMB_NO2,15.84,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-08-01,2019-08,Illes Balears,AMB_NO2,20.4,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-09-01,2019-09,Illes Balears,AMB_NO2,15.56,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-10-01,2019-10,Illes Balears,AMB_NO2,20.65,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-11-01,2019-11,Illes Balears,AMB_NO2,24.34,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-12-01,2019-12,Illes Balears,AMB_NO2,21.63,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-01-01,2020-01,Illes Balears,AMB_NO2,23.06,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-02-01,2020-02,Illes Balears,AMB_NO2,18.33,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-03-01,2020-03,Illes Balears,AMB_NO2,21.17,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-04-01,2020-04,Illes Balears,AMB_NO2,17.85,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-05-01,2020-05,Illes Balears,AMB_NO2,16.83,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-06-01,2020-06,Illes Balears,AMB_NO2,19.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-07-01,2020-07,Illes Balears,AMB_NO2,14.45,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-08-01,2020-08,Illes Balears,AMB_NO2,12.33,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-09-01,2020-09,Illes Balears,AMB_NO2,13.73,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-10-01,2020-10,Illes Balears,AMB_NO2,20.22,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-11-01,2020-11,Illes Balears,AMB_NO2,18.24,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-12-01,2020-12,Illes Balears,AMB_NO2,27.34,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-01-01,2021-01,Illes Balears,AMB_NO2,15.35,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-02-01,2021-02,Illes Balears,AMB_NO2,26.69,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-03-01,2021-03,Illes Balears,AMB_NO2,18.63,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-04-01,2021-04,Illes Balears,AMB_NO2,17.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-05-01,2021-05,Illes Balears,AMB_NO2,16.37,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-06-01,2021-06,Illes Balears,AMB_NO2,17.4,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-07-01,2021-07,Illes Balears,AMB_NO2,16.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-08-01,2021-08,Illes Balears,AMB_NO2,19.51,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-09-01,2021-09,Illes Balears,AMB_NO2,18.34,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-10-01,2021-10,Illes Balears,AMB_NO2,18.45,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-11-01,2021-11,Illes Balears,AMB_NO2,20.51,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-12-01,2021-12,Illes Balears,AMB_NO2,21.43,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-01-01,2022-01,Illes Balears,AMB_NO2,22.04,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-02-01,2022-02,Illes Balears,AMB_NO2,15.99,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-03-01,2022-03,Illes Balears,AMB_NO2,13.56,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-04-01,2022-04,Illes Balears,AMB_NO2,19.83,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-05-01,2022-05,Illes Balears,AMB_NO2,18.11,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-06-01,2022-06,Illes Balears,AMB_NO2,15.29,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-07-01,2022-07,Illes Balears,AMB_NO2,15.9,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-08-01,2022-08,Illes Balears,AMB_NO2,16.88,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-09-01,2022-09,Illes Balears,AMB_NO2,15.98,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-10-01,2022-10,Illes Balears,AMB_NO2,15.27,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-11-01,2022-11,Illes Balears,AMB_NO2,21.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-12-01,2022-12,Illes Balears,AMB_NO2,18.18,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-01-01,2023-01,Illes Balears,AMB_NO2,21.86,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-02-01,2023-02,Illes Balears,AMB_NO2,15.53,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-03-01,2023-03,Illes Balears,AMB_NO2,20.29,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-04-01,2023-04,Illes Balears,AMB_NO2,18.62,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-05-01,2023-05,Illes Balears,AMB_NO2,17.97,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-06-01,2023-06,Illes Balears,AMB_NO2,18.43,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-07-01,2023-07,Illes Balears,AMB_NO2,20.48,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-08-01,2023-08,Illes Balears,AMB_NO2,18.52,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-09-01,2023-09,Illes Balears,AMB_NO2,11.68,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-10-01,2023-10,Illes Balears,AMB_NO2,13.36,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-11-01,2023-11,Illes Balears,AMB_NO2,18.77,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-12-01,2023-12,Illes Balears,AMB_NO2,20.72,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-01-01,2024-01,Illes Balears,AMB_NO2,21.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-02-01,2024-02,Illes Balears,AMB_NO2,17.98,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-03-01,2024-03,Illes Balears,AMB_NO2,17.36,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-04-01,2024-04,Illes Balears,AMB_NO2,14.53,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-05-01,2024-05,Illes Balears,AMB_NO2,14.97,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-06-01,2024-06,Illes Balears,AMB_NO2,10.9,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-07-01,2024-07,Illes Balears,AMB_NO2,12.35,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-08-01,2024-08,Illes Balears,AMB_NO2,11.06,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-09-01,2024-09,Illes Balears,AMB_NO2,13.87,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-10-01,2024-10,Illes Balears,AMB_NO2,19.96,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-11-01,2024-11,Illes Balears,AMB_NO2,17.31,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-12-01,2024-12,Illes Balears,AMB_NO2,28.06,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-01-01,2016-01,La Rioja,AMB_NO2,16.95,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-02-01,2016-02,La Rioja,AMB_NO2,16.95,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-03-01,2016-03,La Rioja,AMB_NO2,14.04,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-04-01,2016-04,La Rioja,AMB_NO2,21.23,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-05-01,2016-05,La Rioja,AMB_NO2,16.15,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-06-01,2016-06,La Rioja,AMB_NO2,14.79,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-07-01,2016-07,La Rioja,AMB_NO2,16.59,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-08-01,2016-08,La Rioja,AMB_NO2,14.22,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-09-01,2016-09,La Rioja,AMB_NO2,14.22,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-10-01,2016-10,La Rioja,AMB_NO2,14.41,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-11-01,2016-11,La Rioja,AMB_NO2,17.79,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-12-01,2016-12,La Rioja,AMB_NO2,17.89,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-01-01,2017-01,La Rioja,AMB_NO2,19.82,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-02-01,2017-02,La Rioja,AMB_NO2,17.8,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-03-01,2017-03,La Rioja,AMB_NO2,16.9,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-04-01,2017-04,La Rioja,AMB_NO2,14.46,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-05-01,2017-05,La Rioja,AMB_NO2,14.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-06-01,2017-06,La Rioja,AMB_NO2,7.24,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-07-01,2017-07,La Rioja,AMB_NO2,15.98,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-08-01,2017-08,La Rioja,AMB_NO2,14.27,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-09-01,2017-09,La Rioja,AMB_NO2,17.69,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-10-01,2017-10,La Rioja,AMB_NO2,6.01,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-11-01,2017-11,La Rioja,AMB_NO2,23.91,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-12-01,2017-12,La Rioja,AMB_NO2,17.22,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-01-01,2018-01,La Rioja,AMB_NO2,20.6,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-02-01,2018-02,La Rioja,AMB_NO2,14.16,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-03-01,2018-03,La Rioja,AMB_NO2,16.24,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-04-01,2018-04,La Rioja,AMB_NO2,11.24,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-05-01,2018-05,La Rioja,AMB_NO2,12.53,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-06-01,2018-06,La Rioja,AMB_NO2,18.7,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-07-01,2018-07,La Rioja,AMB_NO2,12.39,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-08-01,2018-08,La Rioja,AMB_NO2,13.61,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-09-01,2018-09,La Rioja,AMB_NO2,17.01,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-10-01,2018-10,La Rioja,AMB_NO2,15.89,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-11-01,2018-11,La Rioja,AMB_NO2,17.73,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-12-01,2018-12,La Rioja,AMB_NO2,18.37,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-01-01,2019-01,La Rioja,AMB_NO2,24.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-02-01,2019-02,La Rioja,AMB_NO2,16.75,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-03-01,2019-03,La Rioja,AMB_NO2,14.7,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-04-01,2019-04,La Rioja,AMB_NO2,17.25,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-05-01,2019-05,La Rioja,AMB_NO2,17.42,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-06-01,2019-06,La Rioja,AMB_NO2,16.25,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-07-01,2019-07,La Rioja,AMB_NO2,14.61,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-08-01,2019-08,La Rioja,AMB_NO2,9.26,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-09-01,2019-09,La Rioja,AMB_NO2,19.0,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-10-01,2019-10,La Rioja,AMB_NO2,10.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-11-01,2019-11,La Rioja,AMB_NO2,17.83,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-12-01,2019-12,La Rioja,AMB_NO2,14.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-01-01,2020-01,La Rioja,AMB_NO2,16.37,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-02-01,2020-02,La Rioja,AMB_NO2,17.55,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-03-01,2020-03,La Rioja,AMB_NO2,14.76,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-04-01,2020-04,La Rioja,AMB_NO2,15.07,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-05-01,2020-05,La Rioja,AMB_NO2,18.64,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-06-01,2020-06,La Rioja,AMB_NO2,13.78,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-07-01,2020-07,La Rioja,AMB_NO2,11.69,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-08-01,2020-08,La Rioja,AMB_NO2,15.31,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-09-01,2020-09,La Rioja,AMB_NO2,17.37,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-10-01,2020-10,La Rioja,AMB_NO2,10.12,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-11-01,2020-11,La Rioja,AMB_NO2,18.35,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-12-01,2020-12,La Rioja,AMB_NO2,18.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-01-01,2021-01,La Rioja,AMB_NO2,15.31,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-02-01,2021-02,La Rioja,AMB_NO2,20.33,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-03-01,2021-03,La Rioja,AMB_NO2,13.05,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-04-01,2021-04,La Rioja,AMB_NO2,13.88,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-05-01,2021-05,La Rioja,AMB_NO2,12.98,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-06-01,2021-06,La Rioja,AMB_NO2,12.2,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-07-01,2021-07,La Rioja,AMB_NO2,8.86,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-08-01,2021-08,La Rioja,AMB_NO2,7.83,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-09-01,2021-09,La Rioja,AMB_NO2,18.28,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-10-01,2021-10,La Rioja,AMB_NO2,10.96,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-11-01,2021-11,La Rioja,AMB_NO2,13.23,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-12-01,2021-12,La Rioja,AMB_NO2,9.74,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-01-01,2022-01,La Rioja,AMB_NO2,13.92,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-02-01,2022-02,La Rioja,AMB_NO2,11.87,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-03-01,2022-03,La Rioja,AMB_NO2,18.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-04-01,2022-04,La Rioja,AMB_NO2,16.23,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-05-01,2022-05,La Rioja,AMB_NO2,11.14,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-06-01,2022-06,La Rioja,AMB_NO2,18.64,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-07-01,2022-07,La Rioja,AMB_NO2,14.83,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-08-01,2022-08,La Rioja,AMB_NO2,10.91,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-09-01,2022-09,La Rioja,AMB_NO2,5.7,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-10-01,2022-10,La Rioja,AMB_NO2,20.07,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-11-01,2022-11,La Rioja,AMB_NO2,11.67,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-12-01,2022-12,La Rioja,AMB_NO2,10.9,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-01-01,2023-01,La Rioja,AMB_NO2,18.55,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-02-01,2023-02,La Rioja,AMB_NO2,22.8,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-03-01,2023-03,La Rioja,AMB_NO2,17.05,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-04-01,2023-04,La Rioja,AMB_NO2,14.59,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-05-01,2023-05,La Rioja,AMB_NO2,14.68,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-06-01,2023-06,La Rioja,AMB_NO2,14.17,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-07-01,2023-07,La Rioja,AMB_NO2,13.89,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-08-01,2023-08,La Rioja,AMB_NO2,12.45,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-09-01,2023-09,La Rioja,AMB_NO2,13.21,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-10-01,2023-10,La Rioja,AMB_NO2,12.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-11-01,2023-11,La Rioja,AMB_NO2,13.22,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-12-01,2023-12,La Rioja,AMB_NO2,14.64,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-01-01,2024-01,La Rioja,AMB_NO2,10.04,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-02-01,2024-02,La Rioja,AMB_NO2,14.82,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-03-01,2024-03,La Rioja,AMB_NO2,9.63,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-04-01,2024-04,La Rioja,AMB_NO2,9.29,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-05-01,2024-05,La Rioja,AMB_NO2,13.14,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-06-01,2024-06,La Rioja,AMB_NO2,15.52,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-07-01,2024-07,La Rioja,AMB_NO2,14.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-08-01,2024-08,La Rioja,AMB_NO2,6.63,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-09-01,2024-09,La Rioja,AMB_NO2,9.63,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-10-01,2024-10,La Rioja,AMB_NO2,15.42,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-11-01,2024-11,La Rioja,AMB_NO2,12.17,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-12-01,2024-12,La Rioja,AMB_NO2,14.45,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-01-01,2016-01,Melilla,AMB_NO2,25.86,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-02-01,2016-02,Melilla,AMB_NO2,22.89,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-03-01,2016-03,Melilla,AMB_NO2,21.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-04-01,2016-04,Melilla,AMB_NO2,19.91,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-05-01,2016-05,Melilla,AMB_NO2,23.38,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-06-01,2016-06,Melilla,AMB_NO2,17.85,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-07-01,2016-07,Melilla,AMB_NO2,12.68,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-08-01,2016-08,Melilla,AMB_NO2,21.79,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-09-01,2016-09,Melilla,AMB_NO2,17.28,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-10-01,2016-10,Melilla,AMB_NO2,18.04,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-11-01,2016-11,Melilla,AMB_NO2,22.21,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-12-01,2016-12,Melilla,AMB_NO2,28.12,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-01-01,2017-01,Melilla,AMB_NO2,17.11,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-02-01,2017-02,Melilla,AMB_NO2,32.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-03-01,2017-03,Melilla,AMB_NO2,22.77,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-04-01,2017-04,Melilla,AMB_NO2,20.27,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-05-01,2017-05,Melilla,AMB_NO2,19.44,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-06-01,2017-06,Melilla,AMB_NO2,18.5,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-07-01,2017-07,Melilla,AMB_NO2,19.2,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-08-01,2017-08,Melilla,AMB_NO2,19.58,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-09-01,2017-09,Melilla,AMB_NO2,21.27,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-10-01,2017-10,Melilla,AMB_NO2,19.87,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-11-01,2017-11,Melilla,AMB_NO2,22.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-12-01,2017-12,Melilla,AMB_NO2,23.07,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-01-01,2018-01,Melilla,AMB_NO2,22.46,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-02-01,2018-02,Melilla,AMB_NO2,26.44,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-03-01,2018-03,Melilla,AMB_NO2,20.98,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-04-01,2018-04,Melilla,AMB_NO2,10.38,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-05-01,2018-05,Melilla,AMB_NO2,21.17,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-06-01,2018-06,Melilla,AMB_NO2,17.86,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-07-01,2018-07,Melilla,AMB_NO2,17.22,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-08-01,2018-08,Melilla,AMB_NO2,16.11,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-09-01,2018-09,Melilla,AMB_NO2,22.57,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-10-01,2018-10,Melilla,AMB_NO2,22.04,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-11-01,2018-11,Melilla,AMB_NO2,20.72,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-12-01,2018-12,Melilla,AMB_NO2,24.26,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-01-01,2019-01,Melilla,AMB_NO2,19.65,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-02-01,2019-02,Melilla,AMB_NO2,18.42,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-03-01,2019-03,Melilla,AMB_NO2,16.92,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-04-01,2019-04,Melilla,AMB_NO2,21.39,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-05-01,2019-05,Melilla,AMB_NO2,21.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-06-01,2019-06,Melilla,AMB_NO2,18.46,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-07-01,2019-07,Melilla,AMB_NO2,19.1,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-08-01,2019-08,Melilla,AMB_NO2,18.47,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-09-01,2019-09,Melilla,AMB_NO2,16.88,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-10-01,2019-10,Melilla,AMB_NO2,20.1,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-11-01,2019-11,Melilla,AMB_NO2,24.96,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-12-01,2019-12,Melilla,AMB_NO2,24.82,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-01-01,2020-01,Melilla,AMB_NO2,25.65,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-02-01,2020-02,Melilla,AMB_NO2,24.2,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-03-01,2020-03,Melilla,AMB_NO2,19.45,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-04-01,2020-04,Melilla,AMB_NO2,21.61,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-05-01,2020-05,Melilla,AMB_NO2,18.32,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-06-01,2020-06,Melilla,AMB_NO2,13.91,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-07-01,2020-07,Melilla,AMB_NO2,16.07,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-08-01,2020-08,Melilla,AMB_NO2,14.33,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-09-01,2020-09,Melilla,AMB_NO2,16.37,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-10-01,2020-10,Melilla,AMB_NO2,17.97,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-11-01,2020-11,Melilla,AMB_NO2,19.7,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-12-01,2020-12,Melilla,AMB_NO2,21.16,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-01-01,2021-01,Melilla,AMB_NO2,15.92,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-02-01,2021-02,Melilla,AMB_NO2,22.24,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-03-01,2021-03,Melilla,AMB_NO2,18.0,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-04-01,2021-04,Melilla,AMB_NO2,15.55,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-05-01,2021-05,Melilla,AMB_NO2,19.98,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-06-01,2021-06,Melilla,AMB_NO2,19.01,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-07-01,2021-07,Melilla,AMB_NO2,11.38,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-08-01,2021-08,Melilla,AMB_NO2,13.91,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-09-01,2021-09,Melilla,AMB_NO2,15.69,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-10-01,2021-10,Melilla,AMB_NO2,15.18,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-11-01,2021-11,Melilla,AMB_NO2,24.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-12-01,2021-12,Melilla,AMB_NO2,21.02,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-01-01,2022-01,Melilla,AMB_NO2,20.33,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-02-01,2022-02,Melilla,AMB_NO2,15.11,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-03-01,2022-03,Melilla,AMB_NO2,19.51,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-04-01,2022-04,Melilla,AMB_NO2,13.88,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-05-01,2022-05,Melilla,AMB_NO2,17.78,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-06-01,2022-06,Melilla,AMB_NO2,16.67,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-07-01,2022-07,Melilla,AMB_NO2,19.92,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-08-01,2022-08,Melilla,AMB_NO2,11.91,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-09-01,2022-09,Melilla,AMB_NO2,8.54,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-10-01,2022-10,Melilla,AMB_NO2,18.15,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-11-01,2022-11,Melilla,AMB_NO2,26.52,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-12-01,2022-12,Melilla,AMB_NO2,24.84,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-01-01,2023-01,Melilla,AMB_NO2,21.27,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-02-01,2023-02,Melilla,AMB_NO2,19.17,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-03-01,2023-03,Melilla,AMB_NO2,19.62,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-04-01,2023-04,Melilla,AMB_NO2,14.28,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-05-01,2023-05,Melilla,AMB_NO2,18.63,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-06-01,2023-06,Melilla,AMB_NO2,17.0,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-07-01,2023-07,Melilla,AMB_NO2,18.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-08-01,2023-08,Melilla,AMB_NO2,23.76,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-09-01,2023-09,Melilla,AMB_NO2,18.38,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-10-01,2023-10,Melilla,AMB_NO2,15.67,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-11-01,2023-11,Melilla,AMB_NO2,20.56,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-12-01,2023-12,Melilla,AMB_NO2,15.33,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-01-01,2024-01,Melilla,AMB_NO2,18.08,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-02-01,2024-02,Melilla,AMB_NO2,18.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-03-01,2024-03,Melilla,AMB_NO2,15.23,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-04-01,2024-04,Melilla,AMB_NO2,17.26,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-05-01,2024-05,Melilla,AMB_NO2,14.33,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-06-01,2024-06,Melilla,AMB_NO2,18.48,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-07-01,2024-07,Melilla,AMB_NO2,15.12,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-08-01,2024-08,Melilla,AMB_NO2,15.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-09-01,2024-09,Melilla,AMB_NO2,15.82,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-10-01,2024-10,Melilla,AMB_NO2,17.27,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-11-01,2024-11,Melilla,AMB_NO2,22.64,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-12-01,2024-12,Melilla,AMB_NO2,17.56,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-01-01,2016-01,País Vasco,AMB_NO2,27.89,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-02-01,2016-02,País Vasco,AMB_NO2,25.99,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-03-01,2016-03,País Vasco,AMB_NO2,23.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-04-01,2016-04,País Vasco,AMB_NO2,26.57,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-05-01,2016-05,País Vasco,AMB_NO2,21.3,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-06-01,2016-06,País Vasco,AMB_NO2,19.1,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-07-01,2016-07,País Vasco,AMB_NO2,24.54,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-08-01,2016-08,País Vasco,AMB_NO2,22.1,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-09-01,2016-09,País Vasco,AMB_NO2,20.59,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-10-01,2016-10,País Vasco,AMB_NO2,23.63,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-11-01,2016-11,País Vasco,AMB_NO2,25.01,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-12-01,2016-12,País Vasco,AMB_NO2,25.0,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-01-01,2017-01,País Vasco,AMB_NO2,26.6,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-02-01,2017-02,País Vasco,AMB_NO2,20.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-03-01,2017-03,País Vasco,AMB_NO2,16.39,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-04-01,2017-04,País Vasco,AMB_NO2,19.87,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-05-01,2017-05,País Vasco,AMB_NO2,18.52,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-06-01,2017-06,País Vasco,AMB_NO2,20.35,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-07-01,2017-07,País Vasco,AMB_NO2,16.68,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-08-01,2017-08,País Vasco,AMB_NO2,15.17,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-09-01,2017-09,País Vasco,AMB_NO2,25.96,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-10-01,2017-10,País Vasco,AMB_NO2,20.88,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-11-01,2017-11,País Vasco,AMB_NO2,26.07,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-12-01,2017-12,País Vasco,AMB_NO2,21.6,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-01-01,2018-01,País Vasco,AMB_NO2,23.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-02-01,2018-02,País Vasco,AMB_NO2,25.68,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-03-01,2018-03,País Vasco,AMB_NO2,17.67,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-04-01,2018-04,País Vasco,AMB_NO2,22.25,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-05-01,2018-05,País Vasco,AMB_NO2,19.32,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-06-01,2018-06,País Vasco,AMB_NO2,18.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-07-01,2018-07,País Vasco,AMB_NO2,17.2,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-08-01,2018-08,País Vasco,AMB_NO2,24.56,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-09-01,2018-09,País Vasco,AMB_NO2,21.08,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-10-01,2018-10,País Vasco,AMB_NO2,17.95,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-11-01,2018-11,País Vasco,AMB_NO2,27.81,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-12-01,2018-12,País Vasco,AMB_NO2,21.68,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-01-01,2019-01,País Vasco,AMB_NO2,25.44,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-02-01,2019-02,País Vasco,AMB_NO2,18.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-03-01,2019-03,País Vasco,AMB_NO2,16.7,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-04-01,2019-04,País Vasco,AMB_NO2,21.27,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-05-01,2019-05,País Vasco,AMB_NO2,22.9,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-06-01,2019-06,País Vasco,AMB_NO2,19.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-07-01,2019-07,País Vasco,AMB_NO2,18.27,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-08-01,2019-08,País Vasco,AMB_NO2,17.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-09-01,2019-09,País Vasco,AMB_NO2,16.24,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-10-01,2019-10,País Vasco,AMB_NO2,18.52,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-11-01,2019-11,País Vasco,AMB_NO2,23.43,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-12-01,2019-12,País Vasco,AMB_NO2,27.99,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-01-01,2020-01,País Vasco,AMB_NO2,25.32,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-02-01,2020-02,País Vasco,AMB_NO2,19.0,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-03-01,2020-03,País Vasco,AMB_NO2,21.21,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-04-01,2020-04,País Vasco,AMB_NO2,19.08,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-05-01,2020-05,País Vasco,AMB_NO2,18.21,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-06-01,2020-06,País Vasco,AMB_NO2,20.05,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-07-01,2020-07,País Vasco,AMB_NO2,21.31,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-08-01,2020-08,País Vasco,AMB_NO2,21.01,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-09-01,2020-09,País Vasco,AMB_NO2,17.72,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-10-01,2020-10,País Vasco,AMB_NO2,19.31,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-11-01,2020-11,País Vasco,AMB_NO2,25.28,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-12-01,2020-12,País Vasco,AMB_NO2,27.21,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-01-01,2021-01,País Vasco,AMB_NO2,22.32,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-02-01,2021-02,País Vasco,AMB_NO2,23.2,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-03-01,2021-03,País Vasco,AMB_NO2,16.48,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-04-01,2021-04,País Vasco,AMB_NO2,16.21,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-05-01,2021-05,País Vasco,AMB_NO2,22.24,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-06-01,2021-06,País Vasco,AMB_NO2,21.89,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-07-01,2021-07,País Vasco,AMB_NO2,17.6,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-08-01,2021-08,País Vasco,AMB_NO2,20.83,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-09-01,2021-09,País Vasco,AMB_NO2,20.88,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-10-01,2021-10,País Vasco,AMB_NO2,17.86,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-11-01,2021-11,País Vasco,AMB_NO2,24.84,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-12-01,2021-12,País Vasco,AMB_NO2,28.37,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-01-01,2022-01,País Vasco,AMB_NO2,23.12,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-02-01,2022-02,País Vasco,AMB_NO2,27.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-03-01,2022-03,País Vasco,AMB_NO2,11.5,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-04-01,2022-04,País Vasco,AMB_NO2,21.83,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-05-01,2022-05,País Vasco,AMB_NO2,19.62,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-06-01,2022-06,País Vasco,AMB_NO2,16.53,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-07-01,2022-07,País Vasco,AMB_NO2,17.7,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-08-01,2022-08,País Vasco,AMB_NO2,11.46,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-09-01,2022-09,País Vasco,AMB_NO2,18.7,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-10-01,2022-10,País Vasco,AMB_NO2,20.43,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-11-01,2022-11,País Vasco,AMB_NO2,27.67,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-12-01,2022-12,País Vasco,AMB_NO2,21.68,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-01-01,2023-01,País Vasco,AMB_NO2,20.28,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-02-01,2023-02,País Vasco,AMB_NO2,21.2,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-03-01,2023-03,País Vasco,AMB_NO2,21.67,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-04-01,2023-04,País Vasco,AMB_NO2,19.91,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-05-01,2023-05,País Vasco,AMB_NO2,17.33,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-06-01,2023-06,País Vasco,AMB_NO2,18.57,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-07-01,2023-07,País Vasco,AMB_NO2,17.32,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-08-01,2023-08,País Vasco,AMB_NO2,19.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-09-01,2023-09,País Vasco,AMB_NO2,16.81,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-10-01,2023-10,País Vasco,AMB_NO2,17.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-11-01,2023-11,País Vasco,AMB_NO2,21.53,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-12-01,2023-12,País Vasco,AMB_NO2,18.31,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-01-01,2024-01,País Vasco,AMB_NO2,23.06,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-02-01,2024-02,País Vasco,AMB_NO2,22.96,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-03-01,2024-03,País Vasco,AMB_NO2,18.5,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-04-01,2024-04,País Vasco,AMB_NO2,17.78,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-05-01,2024-05,País Vasco,AMB_NO2,14.23,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-06-01,2024-06,País Vasco,AMB_NO2,15.37,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-07-01,2024-07,País Vasco,AMB_NO2,15.6,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-08-01,2024-08,País Vasco,AMB_NO2,14.23,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-09-01,2024-09,País Vasco,AMB_NO2,18.0,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-10-01,2024-10,País Vasco,AMB_NO2,19.69,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-11-01,2024-11,País Vasco,AMB_NO2,27.83,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-12-01,2024-12,País Vasco,AMB_NO2,22.7,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-01-01,2016-01,Principado de Asturias,AMB_NO2,21.85,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-02-01,2016-02,Principado de Asturias,AMB_NO2,18.4,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-03-01,2016-03,Principado de Asturias,AMB_NO2,19.75,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-04-01,2016-04,Principado de Asturias,AMB_NO2,19.63,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-05-01,2016-05,Principado de Asturias,AMB_NO2,24.54,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-06-01,2016-06,Principado de Asturias,AMB_NO2,19.89,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-07-01,2016-07,Principado de Asturias,AMB_NO2,14.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-08-01,2016-08,Principado de Asturias,AMB_NO2,23.56,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-09-01,2016-09,Principado de Asturias,AMB_NO2,23.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-10-01,2016-10,Principado de Asturias,AMB_NO2,21.75,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-11-01,2016-11,Principado de Asturias,AMB_NO2,23.32,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-12-01,2016-12,Principado de Asturias,AMB_NO2,21.12,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-01-01,2017-01,Principado de Asturias,AMB_NO2,22.4,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-02-01,2017-02,Principado de Asturias,AMB_NO2,26.79,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-03-01,2017-03,Principado de Asturias,AMB_NO2,25.25,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-04-01,2017-04,Principado de Asturias,AMB_NO2,24.23,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-05-01,2017-05,Principado de Asturias,AMB_NO2,18.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-06-01,2017-06,Principado de Asturias,AMB_NO2,14.28,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-07-01,2017-07,Principado de Asturias,AMB_NO2,18.06,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-08-01,2017-08,Principado de Asturias,AMB_NO2,12.33,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-09-01,2017-09,Principado de Asturias,AMB_NO2,20.57,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-10-01,2017-10,Principado de Asturias,AMB_NO2,19.16,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-11-01,2017-11,Principado de Asturias,AMB_NO2,22.12,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-12-01,2017-12,Principado de Asturias,AMB_NO2,18.74,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-01-01,2018-01,Principado de Asturias,AMB_NO2,24.58,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-02-01,2018-02,Principado de Asturias,AMB_NO2,21.44,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-03-01,2018-03,Principado de Asturias,AMB_NO2,15.69,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-04-01,2018-04,Principado de Asturias,AMB_NO2,10.58,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-05-01,2018-05,Principado de Asturias,AMB_NO2,19.12,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-06-01,2018-06,Principado de Asturias,AMB_NO2,22.6,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-07-01,2018-07,Principado de Asturias,AMB_NO2,22.26,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-08-01,2018-08,Principado de Asturias,AMB_NO2,15.91,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-09-01,2018-09,Principado de Asturias,AMB_NO2,17.39,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-10-01,2018-10,Principado de Asturias,AMB_NO2,20.61,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-11-01,2018-11,Principado de Asturias,AMB_NO2,20.04,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-12-01,2018-12,Principado de Asturias,AMB_NO2,23.95,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-01-01,2019-01,Principado de Asturias,AMB_NO2,24.86,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-02-01,2019-02,Principado de Asturias,AMB_NO2,26.24,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-03-01,2019-03,Principado de Asturias,AMB_NO2,18.5,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-04-01,2019-04,Principado de Asturias,AMB_NO2,18.19,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-05-01,2019-05,Principado de Asturias,AMB_NO2,16.17,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-06-01,2019-06,Principado de Asturias,AMB_NO2,14.44,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-07-01,2019-07,Principado de Asturias,AMB_NO2,16.24,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-08-01,2019-08,Principado de Asturias,AMB_NO2,18.02,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-09-01,2019-09,Principado de Asturias,AMB_NO2,21.54,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-10-01,2019-10,Principado de Asturias,AMB_NO2,16.39,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-11-01,2019-11,Principado de Asturias,AMB_NO2,27.04,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-12-01,2019-12,Principado de Asturias,AMB_NO2,21.75,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-01-01,2020-01,Principado de Asturias,AMB_NO2,22.02,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-02-01,2020-02,Principado de Asturias,AMB_NO2,19.84,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-03-01,2020-03,Principado de Asturias,AMB_NO2,11.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-04-01,2020-04,Principado de Asturias,AMB_NO2,21.05,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-05-01,2020-05,Principado de Asturias,AMB_NO2,20.61,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-06-01,2020-06,Principado de Asturias,AMB_NO2,15.72,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-07-01,2020-07,Principado de Asturias,AMB_NO2,16.76,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-08-01,2020-08,Principado de Asturias,AMB_NO2,18.11,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-09-01,2020-09,Principado de Asturias,AMB_NO2,13.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-10-01,2020-10,Principado de Asturias,AMB_NO2,16.81,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-11-01,2020-11,Principado de Asturias,AMB_NO2,24.46,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-12-01,2020-12,Principado de Asturias,AMB_NO2,18.32,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-01-01,2021-01,Principado de Asturias,AMB_NO2,22.48,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-02-01,2021-02,Principado de Asturias,AMB_NO2,17.53,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-03-01,2021-03,Principado de Asturias,AMB_NO2,19.4,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-04-01,2021-04,Principado de Asturias,AMB_NO2,17.89,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-05-01,2021-05,Principado de Asturias,AMB_NO2,13.15,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-06-01,2021-06,Principado de Asturias,AMB_NO2,19.69,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-07-01,2021-07,Principado de Asturias,AMB_NO2,14.0,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-08-01,2021-08,Principado de Asturias,AMB_NO2,13.77,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-09-01,2021-09,Principado de Asturias,AMB_NO2,18.6,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-10-01,2021-10,Principado de Asturias,AMB_NO2,21.45,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-11-01,2021-11,Principado de Asturias,AMB_NO2,18.55,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-12-01,2021-12,Principado de Asturias,AMB_NO2,21.79,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-01-01,2022-01,Principado de Asturias,AMB_NO2,22.41,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-02-01,2022-02,Principado de Asturias,AMB_NO2,23.2,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-03-01,2022-03,Principado de Asturias,AMB_NO2,18.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-04-01,2022-04,Principado de Asturias,AMB_NO2,16.5,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-05-01,2022-05,Principado de Asturias,AMB_NO2,15.12,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-06-01,2022-06,Principado de Asturias,AMB_NO2,16.1,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-07-01,2022-07,Principado de Asturias,AMB_NO2,12.62,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-08-01,2022-08,Principado de Asturias,AMB_NO2,7.08,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-09-01,2022-09,Principado de Asturias,AMB_NO2,18.91,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-10-01,2022-10,Principado de Asturias,AMB_NO2,20.31,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-11-01,2022-11,Principado de Asturias,AMB_NO2,14.03,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-12-01,2022-12,Principado de Asturias,AMB_NO2,18.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-01-01,2023-01,Principado de Asturias,AMB_NO2,22.5,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-02-01,2023-02,Principado de Asturias,AMB_NO2,26.81,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-03-01,2023-03,Principado de Asturias,AMB_NO2,17.26,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-04-01,2023-04,Principado de Asturias,AMB_NO2,15.02,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-05-01,2023-05,Principado de Asturias,AMB_NO2,16.65,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-06-01,2023-06,Principado de Asturias,AMB_NO2,19.6,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-07-01,2023-07,Principado de Asturias,AMB_NO2,13.54,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-08-01,2023-08,Principado de Asturias,AMB_NO2,13.08,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-09-01,2023-09,Principado de Asturias,AMB_NO2,15.75,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-10-01,2023-10,Principado de Asturias,AMB_NO2,14.34,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-11-01,2023-11,Principado de Asturias,AMB_NO2,21.01,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-12-01,2023-12,Principado de Asturias,AMB_NO2,25.51,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-01-01,2024-01,Principado de Asturias,AMB_NO2,21.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-02-01,2024-02,Principado de Asturias,AMB_NO2,19.4,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-03-01,2024-03,Principado de Asturias,AMB_NO2,15.92,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-04-01,2024-04,Principado de Asturias,AMB_NO2,12.11,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-05-01,2024-05,Principado de Asturias,AMB_NO2,19.45,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-06-01,2024-06,Principado de Asturias,AMB_NO2,14.89,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-07-01,2024-07,Principado de Asturias,AMB_NO2,14.58,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-08-01,2024-08,Principado de Asturias,AMB_NO2,24.7,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-09-01,2024-09,Principado de Asturias,AMB_NO2,17.7,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-10-01,2024-10,Principado de Asturias,AMB_NO2,14.54,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-11-01,2024-11,Principado de Asturias,AMB_NO2,18.88,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-12-01,2024-12,Principado de Asturias,AMB_NO2,23.61,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-01-01,2016-01,Región de Murcia,AMB_NO2,29.16,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-02-01,2016-02,Región de Murcia,AMB_NO2,25.53,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-03-01,2016-03,Región de Murcia,AMB_NO2,22.8,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-04-01,2016-04,Región de Murcia,AMB_NO2,22.97,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-05-01,2016-05,Región de Murcia,AMB_NO2,20.0,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-06-01,2016-06,Región de Murcia,AMB_NO2,22.78,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-07-01,2016-07,Región de Murcia,AMB_NO2,19.28,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-08-01,2016-08,Región de Murcia,AMB_NO2,17.53,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-09-01,2016-09,Región de Murcia,AMB_NO2,23.61,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-10-01,2016-10,Región de Murcia,AMB_NO2,19.3,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-11-01,2016-11,Región de Murcia,AMB_NO2,26.48,Mensual,EEA Air Quality - NO2 Monthly Mean
+2016-12-01,2016-12,Región de Murcia,AMB_NO2,26.37,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-01-01,2017-01,Región de Murcia,AMB_NO2,29.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-02-01,2017-02,Región de Murcia,AMB_NO2,27.3,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-03-01,2017-03,Región de Murcia,AMB_NO2,21.48,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-04-01,2017-04,Región de Murcia,AMB_NO2,24.01,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-05-01,2017-05,Región de Murcia,AMB_NO2,25.73,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-06-01,2017-06,Región de Murcia,AMB_NO2,21.08,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-07-01,2017-07,Región de Murcia,AMB_NO2,19.44,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-08-01,2017-08,Región de Murcia,AMB_NO2,15.47,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-09-01,2017-09,Región de Murcia,AMB_NO2,18.36,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-10-01,2017-10,Región de Murcia,AMB_NO2,20.64,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-11-01,2017-11,Región de Murcia,AMB_NO2,24.04,Mensual,EEA Air Quality - NO2 Monthly Mean
+2017-12-01,2017-12,Región de Murcia,AMB_NO2,25.31,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-01-01,2018-01,Región de Murcia,AMB_NO2,25.51,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-02-01,2018-02,Región de Murcia,AMB_NO2,26.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-03-01,2018-03,Región de Murcia,AMB_NO2,20.91,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-04-01,2018-04,Región de Murcia,AMB_NO2,22.58,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-05-01,2018-05,Región de Murcia,AMB_NO2,21.31,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-06-01,2018-06,Región de Murcia,AMB_NO2,13.08,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-07-01,2018-07,Región de Murcia,AMB_NO2,16.19,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-08-01,2018-08,Región de Murcia,AMB_NO2,18.58,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-09-01,2018-09,Región de Murcia,AMB_NO2,17.49,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-10-01,2018-10,Región de Murcia,AMB_NO2,22.92,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-11-01,2018-11,Región de Murcia,AMB_NO2,29.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2018-12-01,2018-12,Región de Murcia,AMB_NO2,29.0,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-01-01,2019-01,Región de Murcia,AMB_NO2,24.18,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-02-01,2019-02,Región de Murcia,AMB_NO2,29.29,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-03-01,2019-03,Región de Murcia,AMB_NO2,21.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-04-01,2019-04,Región de Murcia,AMB_NO2,19.67,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-05-01,2019-05,Región de Murcia,AMB_NO2,18.84,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-06-01,2019-06,Región de Murcia,AMB_NO2,17.7,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-07-01,2019-07,Región de Murcia,AMB_NO2,17.45,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-08-01,2019-08,Región de Murcia,AMB_NO2,19.12,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-09-01,2019-09,Región de Murcia,AMB_NO2,21.16,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-10-01,2019-10,Región de Murcia,AMB_NO2,20.69,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-11-01,2019-11,Región de Murcia,AMB_NO2,26.13,Mensual,EEA Air Quality - NO2 Monthly Mean
+2019-12-01,2019-12,Región de Murcia,AMB_NO2,28.39,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-01-01,2020-01,Región de Murcia,AMB_NO2,27.14,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-02-01,2020-02,Región de Murcia,AMB_NO2,19.83,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-03-01,2020-03,Región de Murcia,AMB_NO2,12.58,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-04-01,2020-04,Región de Murcia,AMB_NO2,23.04,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-05-01,2020-05,Región de Murcia,AMB_NO2,16.14,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-06-01,2020-06,Región de Murcia,AMB_NO2,17.54,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-07-01,2020-07,Región de Murcia,AMB_NO2,14.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-08-01,2020-08,Región de Murcia,AMB_NO2,12.81,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-09-01,2020-09,Región de Murcia,AMB_NO2,21.86,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-10-01,2020-10,Región de Murcia,AMB_NO2,22.52,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-11-01,2020-11,Región de Murcia,AMB_NO2,22.56,Mensual,EEA Air Quality - NO2 Monthly Mean
+2020-12-01,2020-12,Región de Murcia,AMB_NO2,16.51,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-01-01,2021-01,Región de Murcia,AMB_NO2,22.12,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-02-01,2021-02,Región de Murcia,AMB_NO2,24.94,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-03-01,2021-03,Región de Murcia,AMB_NO2,15.36,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-04-01,2021-04,Región de Murcia,AMB_NO2,20.35,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-05-01,2021-05,Región de Murcia,AMB_NO2,19.75,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-06-01,2021-06,Región de Murcia,AMB_NO2,19.56,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-07-01,2021-07,Región de Murcia,AMB_NO2,18.18,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-08-01,2021-08,Región de Murcia,AMB_NO2,14.9,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-09-01,2021-09,Región de Murcia,AMB_NO2,23.39,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-10-01,2021-10,Región de Murcia,AMB_NO2,19.32,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-11-01,2021-11,Región de Murcia,AMB_NO2,23.68,Mensual,EEA Air Quality - NO2 Monthly Mean
+2021-12-01,2021-12,Región de Murcia,AMB_NO2,20.96,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-01-01,2022-01,Región de Murcia,AMB_NO2,21.9,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-02-01,2022-02,Región de Murcia,AMB_NO2,20.58,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-03-01,2022-03,Región de Murcia,AMB_NO2,18.84,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-04-01,2022-04,Región de Murcia,AMB_NO2,24.5,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-05-01,2022-05,Región de Murcia,AMB_NO2,15.24,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-06-01,2022-06,Región de Murcia,AMB_NO2,12.58,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-07-01,2022-07,Región de Murcia,AMB_NO2,21.84,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-08-01,2022-08,Región de Murcia,AMB_NO2,16.8,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-09-01,2022-09,Región de Murcia,AMB_NO2,17.35,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-10-01,2022-10,Región de Murcia,AMB_NO2,22.48,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-11-01,2022-11,Región de Murcia,AMB_NO2,21.42,Mensual,EEA Air Quality - NO2 Monthly Mean
+2022-12-01,2022-12,Región de Murcia,AMB_NO2,28.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-01-01,2023-01,Región de Murcia,AMB_NO2,24.74,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-02-01,2023-02,Región de Murcia,AMB_NO2,21.24,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-03-01,2023-03,Región de Murcia,AMB_NO2,25.39,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-04-01,2023-04,Región de Murcia,AMB_NO2,17.1,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-05-01,2023-05,Región de Murcia,AMB_NO2,21.15,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-06-01,2023-06,Región de Murcia,AMB_NO2,17.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-07-01,2023-07,Región de Murcia,AMB_NO2,20.93,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-08-01,2023-08,Región de Murcia,AMB_NO2,21.71,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-09-01,2023-09,Región de Murcia,AMB_NO2,19.02,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-10-01,2023-10,Región de Murcia,AMB_NO2,16.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-11-01,2023-11,Región de Murcia,AMB_NO2,24.08,Mensual,EEA Air Quality - NO2 Monthly Mean
+2023-12-01,2023-12,Región de Murcia,AMB_NO2,20.67,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-01-01,2024-01,Región de Murcia,AMB_NO2,28.22,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-02-01,2024-02,Región de Murcia,AMB_NO2,22.59,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-03-01,2024-03,Región de Murcia,AMB_NO2,17.38,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-04-01,2024-04,Región de Murcia,AMB_NO2,19.03,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-05-01,2024-05,Región de Murcia,AMB_NO2,14.44,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-06-01,2024-06,Región de Murcia,AMB_NO2,13.72,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-07-01,2024-07,Región de Murcia,AMB_NO2,20.23,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-08-01,2024-08,Región de Murcia,AMB_NO2,14.66,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-09-01,2024-09,Región de Murcia,AMB_NO2,15.34,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-10-01,2024-10,Región de Murcia,AMB_NO2,20.09,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-11-01,2024-11,Región de Murcia,AMB_NO2,25.73,Mensual,EEA Air Quality - NO2 Monthly Mean
+2024-12-01,2024-12,Región de Murcia,AMB_NO2,24.33,Mensual,EEA Air Quality - NO2 Monthly Mean
