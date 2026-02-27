@@ -137,6 +137,40 @@ const Dashboard = () => {
     ],
   };
 
+  // Datos para Histórico Dominios
+  const lineDataDominios = {
+    labels: evolution.labels,
+    datasets: [
+      {
+        label: 'Sociedades Inclusivas',
+        data: evolution.and_dominios?.['Sociedades Inclusivas'] || [],
+        borderColor: '#0284c7', // Sky 600
+        backgroundColor: '#0284c7',
+        tension: 0.3,
+        pointRadius: 0,
+        borderWidth: 2,
+      },
+      {
+        label: 'Economías Abiertas',
+        data: evolution.and_dominios?.['Economías Abiertas'] || [],
+        borderColor: '#f59e0b', // Amber 500
+        backgroundColor: '#f59e0b',
+        tension: 0.3,
+        pointRadius: 0,
+        borderWidth: 2,
+      },
+      {
+        label: 'Personas Empoderadas',
+        data: evolution.and_dominios?.['Personas Empoderadas'] || [],
+        borderColor: '#8b5cf6', // Violet 500
+        backgroundColor: '#8b5cf6',
+        tension: 0.3,
+        pointRadius: 0,
+        borderWidth: 2,
+      },
+    ],
+  };
+
   // Brechas por Dominio
   const dominiosKeys = Object.keys(current.and.dominios);
   const barData = {
@@ -211,19 +245,13 @@ const Dashboard = () => {
         {/* Charts Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
 
-          {/* Evolución Histórica */}
-          <div className="lg:col-span-12 bg-white border border-slate-100 rounded-[2.5rem] p-10 shadow-sm">
-            <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-8">
-              <div>
-                <h2 className="text-2xl font-black text-slate-800 tracking-tight">Evolución e Impacto Temporal</h2>
-                <p className="text-slate-400 font-medium">Convergencia regional en la última década</p>
-              </div>
-              <div className="flex items-center gap-6">
-                <div className="flex items-center gap-2"><div className="w-3 h-3 rounded-full bg-[#008751]"></div> <span className="text-sm font-bold text-slate-600">Andalucía</span></div>
-                <div className="flex items-center gap-2"><div className="w-3 h-3 border-2 border-slate-400 rounded-full"></div> <span className="text-sm font-bold text-slate-400">España</span></div>
-              </div>
+          {/* Evolución Histórica Global */}
+          <div className="lg:col-span-6 bg-white border border-slate-100 rounded-[2.5rem] p-8 shadow-sm">
+            <div className="mb-6">
+              <h2 className="text-xl font-black text-slate-800 tracking-tight leading-tight">Evolución Global</h2>
+              <p className="text-xs text-slate-400 font-bold uppercase tracking-widest mt-1">Convergencia Andalucía vs España</p>
             </div>
-            <div className="h-[350px]">
+            <div className="h-[250px]">
               <Line
                 data={lineData}
                 options={{
@@ -231,8 +259,36 @@ const Dashboard = () => {
                   maintainAspectRatio: false,
                   plugins: { legend: { display: false } },
                   scales: {
-                    y: { min: 40, max: 55, grid: { color: '#f1f5f9' }, ticks: { font: { weight: 'bold' } } },
-                    x: { grid: { display: false }, ticks: { font: { weight: 'bold' } } }
+                    y: { min: 40, max: 55, grid: { color: '#f8fafc' }, ticks: { font: { weight: 'bold', size: 10 } } },
+                    x: { grid: { display: false }, ticks: { font: { weight: 'bold', size: 10 } } }
+                  }
+                }}
+              />
+            </div>
+          </div>
+
+          {/* Evolución Histórica por Dominio */}
+          <div className="lg:col-span-6 bg-white border border-slate-100 rounded-[2.5rem] p-8 shadow-sm">
+            <div className="mb-6">
+              <h2 className="text-xl font-black text-slate-800 tracking-tight leading-tight">Evolución por Dominio</h2>
+              <p className="text-xs text-slate-400 font-bold uppercase tracking-widest mt-1">Trayectoria de las 3 áreas maestras</p>
+            </div>
+            <div className="h-[250px]">
+              <Line
+                data={lineDataDominios}
+                options={{
+                  responsive: true,
+                  maintainAspectRatio: false,
+                  plugins: {
+                    legend: {
+                      display: true,
+                      position: 'bottom',
+                      labels: { boxWidth: 8, usePointStyle: true, font: { size: 10, weight: 'bold' } }
+                    }
+                  },
+                  scales: {
+                    y: { min: 30, max: 60, grid: { color: '#f8fafc' }, ticks: { font: { weight: 'bold', size: 10 } } },
+                    x: { grid: { display: false }, ticks: { font: { weight: 'bold', size: 10 } } }
                   }
                 }}
               />
