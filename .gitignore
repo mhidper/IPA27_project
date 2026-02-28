@@ -64,3 +64,6 @@ desktop.ini
 temp/
 tmp/
 *.temp
+
+# Auditories PDF
+results/auditoria/
