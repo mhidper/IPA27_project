@@ -500,7 +500,7 @@ const App = () => {
                                   key={ind}
                                   name={metadata.indicator_names[ind] || ind}
                                   value={current.and.indicadores[ind]}
-                                  espValue={current.and.indicadores[ind] - (current.and.indicadores[ind] - (current.esp.pilares[pilar.split('. ')[1]] || 50))}
+                                  espValue={current.esp.indicadores ? current.esp.indicadores[ind] : 50}
                                 />
                               ))}
                             </div>
