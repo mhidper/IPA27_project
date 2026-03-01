@@ -164,7 +164,8 @@ const App = () => {
   const [currentView, setCurrentView] = useState('dashboard');
 
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}data/dashboard_data.json`)
+    // Evitamos caché del navegador añadiendo un timestamp paramétrico
+    fetch(`${import.meta.env.BASE_URL}data/dashboard_data.json?t=${new Date().getTime()}`)
       .then(res => res.json())
       .then(json => {
         setData(json);
