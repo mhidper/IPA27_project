@@ -368,7 +368,7 @@ const App = () => {
                       maintainAspectRatio: false,
                       plugins: { legend: { display: false } },
                       scales: {
-                        y: { min: 40, max: 55, grid: { color: '#f8fafc' }, ticks: { font: { weight: 'bold', size: 10 } } },
+                        y: { grid: { color: '#f8fafc' }, ticks: { font: { weight: 'bold', size: 10 } } },
                         x: { grid: { display: false }, ticks: { font: { weight: 'bold', size: 10 } } }
                       }
                     }}
@@ -395,7 +395,7 @@ const App = () => {
                         }
                       },
                       scales: {
-                        y: { min: 30, max: 60, grid: { color: '#f8fafc' }, ticks: { font: { weight: 'bold', size: 10 } } },
+                        y: { grid: { color: '#f8fafc' }, ticks: { font: { weight: 'bold', size: 10 } } },
                         x: { grid: { display: false }, ticks: { font: { weight: 'bold', size: 10 } } }
                       }
                     }}
@@ -414,8 +414,8 @@ const App = () => {
                         r: {
                           angleLines: { color: '#f1f5f9' },
                           grid: { color: '#f1f5f9' },
-                          suggestedMin: 30,
-                          suggestedMax: 70,
+                          suggestedMin: 20,
+                          suggestedMax: 100,
                           pointLabels: {
                             color: '#64748b',
                             font: { family: 'Outfit', size: 12, weight: '800' },
