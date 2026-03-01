@@ -282,6 +282,32 @@
         "10. Salud": 95.7,
         "11. Educación": 83.7,
         "12. Conocimiento": 61.3
+      },
+      "indicadores": {
+        "SEG_BAL": 41.0,
+        "SEG_CRI": 29.1,
+        "LIB_ODI": 66.1,
+        "LIB_SEX": 43.5,
+        "GOB_DES": 88.6,
+        "GOB_EFF": 57.8,
+        "SOC_ASO": 79.7,
+        "SOC_PAR_enlazado": 93.8,
+        "INV_HIP": 75.0,
+        "INV_IED": 34.3,
+        "EMP_NAT": 82.0,
+        "EMP_SOC": 60.0,
+        "INF_BAN": 95.6,
+        "INF_TRA": 42.9,
+        "ECO_RBHpc": 73.3,
+        "ECO_COL_sal": 88.2,
+        "VID_ARO": 88.0,
+        "VID_PAR": 93.1,
+        "SAL_ESP": 98.6,
+        "SAL_SAT_enlazado": 92.9,
+        "EDU_ABA": 90.9,
+        "EDU_SUP": 77.1,
+        "CON_IDI": 64.3,
+        "CON_OCI": 58.5
       }
     }
   },
