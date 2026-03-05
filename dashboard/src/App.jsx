@@ -15,6 +15,7 @@ import {
 import { Radar, Bar, Line } from 'react-chartjs-2';
 import {
   TrendingUp,
+  TrendingDown,
   AlertTriangle,
   Award,
   Info,
@@ -287,6 +288,43 @@ const App = () => {
     ],
   };
 
+  const momentumYoy = current.and.momentum_yoy || [];
+  const momentumLabels = momentumYoy.map(d => d.Trimestre);
+  const momentumData = {
+    labels: momentumLabels,
+    datasets: [
+      {
+        type: 'line',
+        label: 'Variación IPA27 YoY',
+        data: momentumYoy.map(d => d.Variacion_Total),
+        borderColor: '#2e2925',
+        backgroundColor: '#2e2925',
+        borderWidth: 2,
+        tension: 0.1,
+        pointRadius: 3,
+      },
+      {
+        type: 'bar',
+        label: 'Economías Abiertas',
+        data: momentumYoy.map(d => d['Economías Abiertas'] || 0),
+        backgroundColor: '#007932',
+      },
+      {
+        type: 'bar',
+        label: 'Sociedades Inclusivas',
+        data: momentumYoy.map(d => d['Sociedades Inclusivas'] || 0),
+        backgroundColor: '#A8DADC',
+      },
+      {
+        type: 'bar',
+        label: 'Personas Empoderadas',
+        data: momentumYoy.map(d => d['Personas Empoderadas'] || 0),
+        backgroundColor: '#F4A261',
+      }
+    ]
+  };
+
+
   return (
     <div className="min-h-screen bg-[#fcfcfc] text-brand-dark font-sans pb-20">
       {/* Navbar Institucional */}
@@ -346,6 +384,12 @@ const App = () => {
                   <div className="flex items-baseline gap-2 mt-2">
                     <span className="text-6xl font-black text-brand-dark tracking-tighter">{current.and.global}</span>
                     <span className="text-slate-400 font-bold text-xl">/100</span>
+                    {current.and.momentum_global !== undefined && (
+                      <div className={`flex items-center gap-0.5 text-sm font-black ml-2 ${current.and.momentum_global >= 0 ? 'text-brand' : 'text-rose-600'}`}>
+                        {current.and.momentum_global >= 0 ? <TrendingUp size={16} /> : <TrendingDown size={16} />}
+                        {current.and.momentum_global > 0 ? '+' : ''}{current.and.momentum_global.toFixed(2)}
+                      </div>
+                    )}
                   </div>
                   <div className={`mt-6 inline-flex items-center gap-2 px-4 py-2 rounded-2xl font-bold text-sm ${current.and.global >= current.esp.global ? 'bg-brand/10 text-brand' : 'bg-rose-50 text-rose-700'}`}>
                     Gap: {(current.and.global - current.esp.global).toFixed(1)} vs España
@@ -402,6 +446,46 @@ const App = () => {
                   />
                 </div>
               </div>
+
+              {momentumYoy.length > 0 && (
+                <div className="lg:col-span-12 card-premium p-8">
+                  <div className="mb-6">
+                    <h2 className="text-xl font-black text-brand-dark tracking-tight leading-tight">Aportaciones al IPA27 Andaluz</h2>
+                    <p className="text-xs text-slate-400 font-bold uppercase tracking-widest mt-1">Descomposición de la variación interanual (YoY) por dominios clave</p>
+                  </div>
+                  <div className="h-[300px]">
+                    <Bar
+                      data={momentumData}
+                      options={{
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        interaction: { mode: 'index', intersect: false },
+                        plugins: {
+                          legend: {
+                            display: true,
+                            position: 'bottom',
+                            labels: { boxWidth: 8, usePointStyle: true, font: { size: 10, weight: 'bold' } }
+                          }
+                        },
+                        scales: {
+                          x: {
+                            stacked: true,
+                            grid: { display: false },
+                            ticks: { font: { weight: 'bold', size: 10 } }
+                          },
+                          y: {
+                            stacked: true,
+                            grid: { color: '#f8fafc' },
+                            ticks: { font: { weight: 'bold', size: 10 } },
+                            title: { display: true, text: 'Puntos (Variación YoY)', font: { size: 11, weight: 'bold' } }
+                          }
+                        }
+                      }}
+                    />
+                  </div>
+                </div>
+              )}
+
 
               <div className="lg:col-span-7 card-premium p-10 relative group">
                 <h2 className="text-2xl font-black text-brand-dark mb-2 tracking-tight">Mapa de Pilares</h2>
@@ -485,14 +569,29 @@ const App = () => {
                     <div key={dominio}>
                       <div className="flex items-center gap-2 mb-6">
                         <div className="w-2 h-8 bg-brand rounded-full"></div>
-                        <h3 className="text-lg font-black text-brand-dark">{dominio}</h3>
+                        <h3 className="text-lg font-black text-brand-dark flex items-center justify-between w-full">
+                          {dominio}
+                          {current.and.momentum_dominios && current.and.momentum_dominios[dominio] !== undefined && (
+                            <span className={`text-[11px] font-black px-2 py-0.5 rounded-full ${current.and.momentum_dominios[dominio] >= 0 ? 'bg-brand/10 text-brand' : 'bg-rose-50 text-rose-600'}`}>
+                              {current.and.momentum_dominios[dominio] >= 0 ? '↑' : '↓'} {Math.abs(current.and.momentum_dominios[dominio]).toFixed(2)}
+                            </span>
+                          )}
+                        </h3>
                       </div>
                       <div className="space-y-6">
                         {Object.keys(metadata.structure[dominio]).map(pilar => (
                           <div key={pilar} className="space-y-1">
                             <h4 className="text-xs font-black text-slate-400 uppercase tracking-widest flex items-center justify-between">
                               {pilar}
-                              <span className="text-brand font-bold">{current.and.pilares[pilar.split('. ')[1]]}</span>
+                              <div className="flex items-center gap-2">
+                                <span className="text-brand font-bold">{current.and.pilares[pilar.split('. ')[1]]}</span>
+                                {current.and.momentum_pilares && current.and.momentum_pilares[pilar.split('. ')[1]] !== undefined && (
+                                  <span className={`text-[10px] font-black flex items-center ${current.and.momentum_pilares[pilar.split('. ')[1]] >= 0 ? 'text-brand' : 'text-rose-500'}`}>
+                                    {current.and.momentum_pilares[pilar.split('. ')[1]] >= 0 ? '↑' : '↓'}
+                                    {Math.abs(current.and.momentum_pilares[pilar.split('. ')[1]]).toFixed(1)}
+                                  </span>
+                                )}
+                              </div>
                             </h4>
                             <div className="pt-2">
                               {metadata.structure[dominio][pilar].map(ind => (
