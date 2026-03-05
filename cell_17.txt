@@ -1,0 +1,96 @@
+# %% CELDA 6: DESESTACIONALIZACIÓN
+print("=" * 60)
+print("DESESTACIONALIZACIÓN (18 Regiones)")
+print("=" * 60)
+
+# Guardar originales para comparación
+mensual_orig = mensual.copy()
+trimestral_orig = trimestral.copy()
+
+# Añadir INV_IED a trimestrales si no está
+DESEST_TRIMESTRAL_FULL = list(set(DESEST_TRIMESTRAL + ['INV_IED']))
+
+info_desest = {}
+n_series_procesadas = 0
+
+# --- SERIES MENSUALES ---
+print("\n📊 MENSUALES (periodo=12)")
+print("-" * 40)
+
+for ind in DESEST_MENSUAL:
+    for terr in REGIONES:
+        col = f"{ind}_{terr}"
+        if col not in mensual.columns:
+            continue
+        
+        serie_orig = mensual[col]
+        if serie_orig.dropna().empty:
+            continue
+            
+        sa, info = desestacionalizar(serie_orig, periodo=12)
+        
+        # Guardar serie ajustada
+        mensual[col] = sa.reindex(mensual.index)
+        info_desest[col] = info
+        n_series_procesadas += 1
+        
+        # Solo mostrar detalle para AND y ESP
+        if terr in ['AND', 'ESP']:
+            n_out = len(info['outliers'])
+            cv = info['cv_estacional']
+            print(f"  {col}: CV={cv:.1f}%, outliers={n_out}", end="")
+            if n_out > 0:
+                fechas_out = [str(o.date()) for o in info['outliers'][:3]]
+                print(f" → {fechas_out}")
+            else:
+                print()
+
+# Resumen por indicador mensual
+for ind in DESEST_MENSUAL:
+    n_reg = sum(1 for r in REGIONES if f"{ind}_{r}" in info_desest)
+    print(f"  → {ind}: {n_reg} regiones procesadas")
+
+# --- SERIES TRIMESTRALES ---
+print("\n📊 TRIMESTRALES (periodo=4)")
+print("-" * 40)
+
+for ind in DESEST_TRIMESTRAL_FULL:
+    for terr in REGIONES:
+        col = f"{ind}_{terr}"
+        if col not in trimestral.columns:
+            continue
+        
+        serie_orig = trimestral[col]
+        if serie_orig.dropna().empty:
+            continue
+        
+        # Convertir Period a Timestamp para STL
+        serie_ts = serie_orig.copy()
+        serie_ts.index = serie_ts.index.to_timestamp()
+        
+        sa, info = desestacionalizar(serie_ts, periodo=4)
+        
+        # Reconvertir a Period
+        sa.index = sa.index.to_period('Q')
+        trimestral[col] = sa.reindex(trimestral.index)
+        info_desest[col] = info
+        n_series_procesadas += 1
+        
+        # Solo mostrar detalle para AND y ESP
+        if terr in ['AND', 'ESP']:
+            n_out = len(info['outliers'])
+            cv = info['cv_estacional']
+            print(f"  {col}: CV={cv:.1f}%, outliers={n_out}", end="")
+            if n_out > 0:
+                fechas_out = [str(o.date()) for o in info['outliers'][:3]]
+                print(f" → {fechas_out}")
+            else:
+                print()
+
+# Resumen por indicador trimestral
+for ind in DESEST_TRIMESTRAL_FULL:
+    n_reg = sum(1 for r in REGIONES if f"{ind}_{r}" in info_desest)
+    if n_reg > 0:
+        print(f"  → {ind}: {n_reg} regiones procesadas")
+
+print(f"\n✓ Desestacionalización completada ({n_series_procesadas} series en {len(info_desest)} columnas)")

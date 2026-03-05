@@ -1,0 +1,37 @@
+# %% SUAVIZADO DE INDICADORES DE GOBERNANZA (Pre-Normalización)
+print("=" * 60)
+print("SUAVIZADO TEMPORAL (Rolling Mean 4 Trimestres) para GOBERNANZA")
+print("=" * 60)
+
+# Indicadores a suavizar (Eventos raros o muy volátiles)
+# GOB_DES lo quitamos por petición tuya.
+SMOOTH_VARS = ['GOB_EFF']
+
+suavizados = 0
+
+# Verificamos si existe 'trimestral', si no, intentamos con 'df_trim' (si vienes de unificación)
+# Pero como estamos en Celda 28, probablemente usas 'trimestral'.
+target_df = None
+if 'trimestral' in locals():
+    target_df = trimestral
+elif 'df_trim' in locals(): # Por si acaso el flujo cambio
+    target_df = df_trim
+
+if target_df is None:
+    print("⚠️ DataFrame 'trimestral' no encontrado. No se puede suavizar.")
+else:
+    for ind in SMOOTH_VARS:
+        # Buscar todas las columnas de este indicador
+        cols = [c for c in target_df.columns if c.startswith(f"{ind}_")]
+        
+        for col in cols:
+            # Aplicar media móvil de 4 periodos (1 año)
+            # min_periods=1 para no perder datos al principio
+            serie_original = target_df[col]
+            serie_suave = serie_original.rolling(window=4, min_periods=1).mean()
+            
+            target_df[col] = serie_suave
+            suavizados += 1
+
+    print(f"✓ Suavizado aplicado a {suavizados} series de Gobernanza ({SMOOTH_VARS})")
+    print("  (Reduce volatilidad de eventos raros)")

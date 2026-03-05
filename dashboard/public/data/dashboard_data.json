@@ -128,88 +128,88 @@
       "2025Q4"
     ],
     "and_global": [
-      53.36,
-      53.05,
-      52.31,
+      53.68,
       53.29,
-      51.71,
-      52.1,
-      53.56,
-      52.25,
-      53.33,
-      53.8,
-      53.38,
-      51.78,
-      52.78,
-      56.05,
-      55.84,
-      56.32,
-      56.48,
-      54.82,
-      50.66,
-      53.89,
-      54.93,
-      54.84,
+      53.01,
+      53.18,
+      52.07,
+      52.67,
+      53.66,
+      52.93,
+      53.51,
+      54.17,
+      53.65,
+      53.13,
+      52.98,
+      54.66,
+      55.94,
+      56.53,
+      57.72,
+      53.74,
+      55.33,
+      55.56,
+      55.67,
+      54.04,
+      55.58,
+      54.85,
+      57.01,
+      58.82,
+      58.36,
+      57.97,
+      55.88,
+      55.63,
+      55.16,
       55.54,
-      55.12,
-      58.64,
-      56.67,
-      52.34,
-      55.51,
-      56.03,
-      56.12,
-      54.36,
-      54.82,
-      57.46,
-      56.64,
-      52.73,
-      59.29,
-      59.11,
-      60.97,
-      62.81,
-      60.62
+      56.75,
+      56.15,
+      57.06,
+      58.65,
+      59.44,
+      60.09,
+      62.71,
+      62.27
     ],
     "esp_global": [
-      62.75,
-      63.47,
-      62.76,
-      61.83,
-      62.46,
-      62.12,
-      61.17,
-      62.89,
-      63.17,
-      65.44,
-      62.85,
-      62.38,
-      62.69,
-      62.49,
-      61.84,
-      61.88,
-      64.17,
-      60.46,
-      62.84,
-      63.86,
-      63.08,
-      62.61,
-      62.82,
-      63.42,
-      62.3,
-      64.1,
-      63.06,
-      62.34,
-      64.93,
-      63.12,
-      64.09,
-      63.62,
-      65.44,
-      66.26,
+      63.21,
+      63.53,
+      62.94,
+      62.45,
+      62.33,
+      62.6,
+      62.53,
+      62.4,
+      63.35,
+      64.37,
+      63.64,
+      63.48,
+      64.13,
+      63.98,
       63.43,
-      65.88,
-      65.21,
-      67.04,
-      68.11,
-      67.65
+      63.96,
+      64.45,
+      60.24,
+      63.23,
+      64.31,
+      63.94,
+      63.29,
+      63.08,
+      63.06,
+      62.88,
+      64.26,
+      64.02,
+      63.67,
+      64.76,
+      64.73,
+      64.58,
+      64.8,
+      65.38,
+      65.35,
+      66.0,
+      66.92,
+      66.87,
+      66.91,
+      68.12,
+      68.09
     ],
     "and_dominios": {
       "Sociedades Inclusivas": [
@@ -255,117 +255,117 @@
         66.0
       ],
       "Economías Abiertas": [
-        39.56,
-        39.83,
-        38.05,
-        40.21,
-        39.03,
-        38.1,
-        40.42,
-        38.49,
-        40.6,
-        41.11,
-        41.5,
-        37.99,
-        40.6,
-        46.68,
-        43.0,
-        44.2,
-        40.76,
-        35.15,
-        31.86,
-        36.34,
-        39.62,
-        41.69,
+        40.29,
+        40.37,
+        39.63,
+        39.95,
+        39.79,
+        39.31,
+        40.59,
+        39.97,
+        41.0,
+        41.95,
+        42.15,
+        41.07,
+        41.09,
+        43.32,
+        43.24,
+        44.68,
+        43.35,
+        32.8,
+        41.27,
+        39.59,
+        41.03,
+        39.68,
+        43.07,
+        44.27,
+        48.11,
+        48.24,
+        47.62,
+        47.39,
         43.18,
-        45.11,
-        52.63,
-        43.37,
-        34.51,
-        41.79,
-        43.67,
-        43.92,
-        41.33,
-        42.07,
-        47.08,
-        48.25,
-        37.11,
-        50.62,
-        47.0,
-        51.26,
-        52.8,
-        48.33
+        42.64,
+        43.04,
+        43.55,
+        45.03,
+        46.65,
+        46.71,
+        48.88,
+        47.72,
+        49.05,
+        52.47,
+        52.27
       ],
       "Personas Empoderadas": [
-        60.96,
-        60.7,
-        61.43,
-        61.61,
-        61.55,
-        61.81,
-        62.71,
-        63.06,
-        62.66,
-        62.9,
-        63.51,
-        63.71,
-        63.92,
-        64.09,
-        64.72,
-        65.04,
-        65.71,
-        65.99,
-        65.93,
-        66.04,
-        66.05,
-        66.18,
-        66.45,
-        66.85,
-        67.25,
-        67.71,
-        68.15,
-        68.15,
-        68.68,
-        69.22,
+        60.93,
+        60.68,
+        61.41,
+        61.63,
+        61.62,
+        61.9,
+        62.8,
+        63.13,
+        62.69,
+        62.91,
+        63.5,
+        63.69,
+        63.9,
+        64.07,
+        64.7,
+        65.06,
+        65.96,
+        66.65,
+        66.31,
+        66.42,
+        66.41,
+        66.51,
+        66.75,
+        67.16,
+        67.6,
+        68.06,
+        68.48,
+        68.46,
+        68.92,
+        69.43,
+        70.12,
+        69.97,
+        69.84,
         69.89,
-        69.67,
-        69.32,
-        69.34,
-        69.85,
-        69.31,
-        69.35,
-        69.53,
-        70.0,
-        69.84
+        70.31,
+        69.49,
+        69.44,
+        69.59,
+        70.07,
+        69.98
       ]
     }
   },
   "current": {
     "periodo": "2025Q4",
     "and": {
-      "global": 60.6,
-      "momentum_global": -2.19,
+      "global": 62.3,
+      "momentum_global": -0.44,
       "dominios": {
         "Sociedades Inclusivas": 66.0,
-        "Economías Abiertas": 48.3,
-        "Personas Empoderadas": 69.8
+        "Economías Abiertas": 52.3,
+        "Personas Empoderadas": 70.0
       },
       "momentum_dominios": {
         "Sociedades Inclusivas": -1.06,
-        "Economías Abiertas": -4.47,
-        "Personas Empoderadas": -0.16
+        "Economías Abiertas": -0.2,
+        "Personas Empoderadas": -0.09
       },
       "pilares": {
         "1. Seguridad": 42.1,
         "2. Libertad": 65.1,
         "3. Gobernanza": 84.2,
         "4. Capital Social": 82.3,
-        "5. Inversión": 21.4,
+        "5. Inversión": 29.3,
         "6. Empresas": 69.2,
         "7. Infraestructura": 54.3,
         "8. Calidad Económica": 67.8,
         "9. Vida": 83.6,
-        "10. Salud": 87.3,
+        "10. Salud": 88.0,
         "11. Educación": 77.6,
         "12. Conocimiento": 42.0
       },
@@ -374,12 +374,12 @@
         "2. Libertad": -0.48,
         "3. Gobernanza": -4.85,
         "4. Capital Social": 0.16,
-        "5. Inversión": -9.99,
+        "5. Inversión": -1.32,
         "6. Empresas": 0.93,
         "7. Infraestructura": 0.71,
         "8. Calidad Económica": 0.15,
         "9. Vida": 0.09,
-        "10. Salud": -2.06,
+        "10. Salud": -1.73,
         "11. Educación": 0.42,
         "12. Conocimiento": 0.32
       },
@@ -393,7 +393,7 @@
         "SOC_ASO": 72.5,
         "SOC_PAR_enlazado": 93.3,
         "INV_HIP": 81.8,
-        "INV_IED": 5.6,
+        "INV_IED": 10.5,
         "EMP_NAT": 82.7,
         "EMP_SOC": 57.9,
         "INF_BAN": 96.2,
@@ -402,7 +402,7 @@
         "ECO_COL_sal": 77.3,
         "VID_ARO": 79.1,
         "VID_PAR": 88.3,
-        "SAL_ESP": 95.3,
+        "SAL_ESP": 96.9,
         "SAL_SAT_enlazado": 79.9,
         "EDU_ABA": 88.8,
         "EDU_SUP": 67.8,
@@ -412,276 +412,414 @@
       "momentum_yoy": [
         {
           "Trimestre": "2017Q1",
-          "Variacion_Total": -1.6481032653404881,
-          "Sociedades Inclusivas": -1.5806562954972687,
-          "Economías Abiertas": -0.2372890310573068,
-          "Personas Empoderadas": 0.16984206121407214
+          "Variacion_Total": -1.6128332061155959,
+          "Sociedades Inclusivas": -1.5907806122666137,
+          "Economías Abiertas": -0.22038377927420985,
+          "Personas Empoderadas": 0.19833118542524336
         },
         {
           "Trimestre": "2017Q2",
-          "Variacion_Total": -0.955906608631075,
-          "Sociedades Inclusivas": -0.49609346309254004,
-          "Economías Abiertas": -0.7782710065954885,
-          "Personas Empoderadas": 0.3184578610569459
+          "Variacion_Total": -0.616379209677504,
+          "Sociedades Inclusivas": -0.4999022577048999,
+          "Economías Abiertas": -0.4682248855238935,
+          "Personas Empoderadas": 0.3517479335513051
         },
         {
           "Trimestre": "2017Q3",
-          "Variacion_Total": 1.2520762133902466,
-          "Sociedades Inclusivas": -0.18058853345754675,
-          "Economías Abiertas": 1.0663654272172067,
-          "Personas Empoderadas": 0.3662993196305786
+          "Variacion_Total": 0.6432239810854412,
+          "Sociedades Inclusivas": -0.18197166083961477,
+          "Economías Abiertas": 0.4275127431494198,
+          "Personas Empoderadas": 0.39768289877559665
         },
         {
           "Trimestre": "2017Q4",
-          "Variacion_Total": -1.0368896994148855,
-          "Sociedades Inclusivas": -0.6788041779000091,
-          "Economías Abiertas": -0.7674656225360247,
-          "Personas Empoderadas": 0.40938010102111716
+          "Variacion_Total": -0.2504551664130972,
+          "Sociedades Inclusivas": -0.6825030221748524,
+          "Economías Abiertas": 0.007435066695787488,
+          "Personas Empoderadas": 0.42461278906595196
         },
         {
           "Trimestre": "2018Q1",
-          "Variacion_Total": 1.612500614319572,
-          "Sociedades Inclusivas": 0.6100916579960797,
-          "Economías Abiertas": 0.6896813438147961,
-          "Personas Empoderadas": 0.31272761250871156
+          "Variacion_Total": 1.4434317174226692,
+          "Sociedades Inclusivas": 0.613230794963614,
+          "Economías Abiertas": 0.5279609791231666,
+          "Personas Empoderadas": 0.3022399433359041
         },
         {
           "Trimestre": "2018Q2",
-          "Variacion_Total": 1.7022113145263305,
-          "Sociedades Inclusivas": 0.05270723353957769,
-          "Economías Abiertas": 1.3404169426170913,
-          "Personas Empoderadas": 0.3090871383696692
+          "Variacion_Total": 1.4962232189291598,
+          "Sociedades Inclusivas": 0.05317575435364162,
+          "Economías Abiertas": 1.1562553557862478,
+          "Personas Empoderadas": 0.2867921087892702
         },
         {
           "Trimestre": "2018Q3",
-          "Variacion_Total": -0.18041322519623293,
-          "Sociedades Inclusivas": -0.8723728729165452,
-          "Economías Abiertas": 0.4664030924312211,
-          "Personas Empoderadas": 0.22555655528912294
+          "Variacion_Total": -0.004822337328960202,
+          "Sociedades Inclusivas": -0.8754236758548954,
+          "Economías Abiertas": 0.6732577185861864,
+          "Personas Empoderadas": 0.1973436199397329
         },
         {
           "Trimestre": "2018Q4",
-          "Variacion_Total": -0.47580777071102176,
-          "Sociedades Inclusivas": -0.4260773307682911,
-          "Economías Abiertas": -0.22595271960158195,
-          "Personas Empoderadas": 0.17622227965886672
+          "Variacion_Total": 0.1982364940001986,
+          "Sociedades Inclusivas": -0.43440399235572685,
+          "Economías Abiertas": 0.4774819636541249,
+          "Personas Empoderadas": 0.1551585227018163
         },
         {
           "Trimestre": "2019Q1",
-          "Variacion_Total": -0.5481807421420442,
-          "Sociedades Inclusivas": -0.8999447402588372,
-          "Economías Abiertas": 0.0005374858502906766,
-          "Personas Empoderadas": 0.35122651226650237
+          "Variacion_Total": -0.5297465514913284,
+          "Sociedades Inclusivas": -0.9032372184826121,
+          "Economías Abiertas": 0.03613680865216,
+          "Personas Empoderadas": 0.33735385833913156
         },
         {
           "Trimestre": "2019Q2",
-          "Variacion_Total": 2.2472822367274716,
-          "Sociedades Inclusivas": -0.42406993724319964,
-          "Economías Abiertas": 2.327767156742604,
-          "Personas Empoderadas": 0.34358501722806745
+          "Variacion_Total": 0.4943419868150869,
+          "Sociedades Inclusivas": -0.4201888454468688,
+          "Economías Abiertas": 0.5814910958737534,
+          "Personas Empoderadas": 0.3330397363882185
         },
         {
           "Trimestre": "2019Q3",
-          "Variacion_Total": 2.4625747816161407,
-          "Sociedades Inclusivas": 1.471790472917656,
-          "Economías Abiertas": 0.6482633225333639,
-          "Personas Empoderadas": 0.3425209861650965
+          "Variacion_Total": 2.286592913769603,
+          "Sociedades Inclusivas": 1.4768593023114704,
+          "Economías Abiertas": 0.46751155184550663,
+          "Personas Empoderadas": 0.3422220596126418
         },
         {
           "Trimestre": "2019Q4",
-          "Variacion_Total": 4.539697910362605,
-          "Sociedades Inclusivas": 1.4418630418239393,
-          "Economías Abiertas": 2.725657901911605,
-          "Personas Empoderadas": 0.37217696662703675
+          "Variacion_Total": 3.397057606232181,
+          "Sociedades Inclusivas": 1.4631150732363751,
+          "Economías Abiertas": 1.5427270799935915,
+          "Personas Empoderadas": 0.3912154530022065
         },
         {
           "Trimestre": "2020Q1",
-          "Variacion_Total": 3.7004604184751315,
-          "Sociedades Inclusivas": 3.125431535055366,
-          "Economías Abiertas": 0.07185433122364875,
-          "Personas Empoderadas": 0.5031745521961168
+          "Variacion_Total": 4.742965080652873,
+          "Sociedades Inclusivas": 3.1661562011276887,
+          "Economías Abiertas": 0.9892406197217678,
+          "Personas Empoderadas": 0.5875682598034078
         },
         {
           "Trimestre": "2020Q2",
-          "Variacion_Total": -1.231741161028367,
-          "Sociedades Inclusivas": 3.4697036402677317,
-          "Economías Abiertas": -5.24115531077029,
-          "Personas Empoderadas": 0.5397105094742083
+          "Variacion_Total": -0.9204546254270056,
+          "Sociedades Inclusivas": 3.3927271975087794,
+          "Economías Abiertas": -5.025565189216817,
+          "Personas Empoderadas": 0.7123833662810075
         },
         {
           "Trimestre": "2020Q3",
-          "Variacion_Total": -5.180955607124915,
-          "Sociedades Inclusivas": -0.19271064664696874,
-          "Economías Abiertas": -5.317651553697244,
-          "Personas Empoderadas": 0.3294065932193219
+          "Variacion_Total": -0.6114939235968109,
+          "Sociedades Inclusivas": -0.20149353293294445,
+          "Economías Abiertas": -0.8673399088233518,
+          "Personas Empoderadas": 0.45733951815952667
         },
         {
           "Trimestre": "2020Q4",
-          "Variacion_Total": -2.424917581008721,
-          "Sociedades Inclusivas": 0.8920796643519272,
-          "Economías Abiertas": -3.5969201618999813,
-          "Personas Empoderadas": 0.27992291653935003
+          "Variacion_Total": -0.9660226297469592,
+          "Sociedades Inclusivas": 0.9074216856291588,
+          "Economías Abiertas": -2.2586026073636116,
+          "Personas Empoderadas": 0.38515829198751045
         },
         {
           "Trimestre": "2021Q1",
-          "Variacion_Total": -1.5503158825538819,
-          "Sociedades Inclusivas": -1.1175949903475015,
-          "Economías Abiertas": -0.5289320949808772,
-          "Personas Empoderadas": 0.09621120277448068
+          "Variacion_Total": -2.050822977662712,
+          "Sociedades Inclusivas": -1.1375179730024303,
+          "Economías Abiertas": -1.0400066620302852,
+          "Personas Empoderadas": 0.12670165736997857
         },
         {
           "Trimestre": "2021Q2",
-          "Variacion_Total": 0.02596603642383144,
-          "Sociedades Inclusivas": -3.1426980386571035,
-          "Economías Abiertas": 3.116767599272239,
-          "Personas Empoderadas": 0.0518964758086799
+          "Variacion_Total": 0.2968864771426851,
+          "Sociedades Inclusivas": -3.0888340287918896,
+          "Economías Abiertas": 3.4223505085421273,
+          "Personas Empoderadas": -0.03663000260756062
         },
         {
           "Trimestre": "2021Q3",
-          "Variacion_Total": 4.882758161637668,
-          "Sociedades Inclusivas": -0.629983717895009,
-          "Economías Abiertas": 5.375057761211846,
-          "Personas Empoderadas": 0.13768411832079772
+          "Variacion_Total": 0.25368431974873573,
+          "Sociedades Inclusivas": -0.6583707896475556,
+          "Economías Abiertas": 0.7903920378918997,
+          "Personas Empoderadas": 0.1216630715043505
         },
         {
           "Trimestre": "2021Q4",
-          "Variacion_Total": 1.2251430214431096,
-          "Sociedades Inclusivas": -2.924387009405007,
-          "Economías Abiertas": 3.9277050820988983,
-          "Personas Empoderadas": 0.221824948749218
+          "Variacion_Total": -0.7061327099720103,
+          "Sociedades Inclusivas": -2.962234839462014,
+          "Economías Abiertas": 2.05328717255972,
+          "Personas Empoderadas": 0.2028149569302677
         },
         {
           "Trimestre": "2022Q1",
-          "Variacion_Total": 3.715005763924495,
-          "Sociedades Inclusivas": -1.9999465967755934,
-          "Economías Abiertas": 5.373572979266945,
-          "Personas Empoderadas": 0.34137938143312596
+          "Variacion_Total": 1.3385572404802986,
+          "Sociedades Inclusivas": -1.9849610448885908,
+          "Economías Abiertas": 2.988898777363624,
+          "Personas Empoderadas": 0.33461950800527385
         },
         {
           "Trimestre": "2022Q2",
-          "Variacion_Total": 1.8264665466048555,
-          "Sociedades Inclusivas": 0.6660256260392822,
-          "Economías Abiertas": 0.7371081364301946,
-          "Personas Empoderadas": 0.42333278413536224
+          "Variacion_Total": 4.777641594541805,
+          "Sociedades Inclusivas": 0.673703504367314,
+          "Economías Abiertas": 3.672068237267001,
+          "Personas Empoderadas": 0.4318698529075065
         },
         {
           "Trimestre": "2022Q3",
-          "Variacion_Total": -3.204899912359437,
-          "Sociedades Inclusivas": 0.3686763422936398,
-          "Economías Abiertas": -4.028271381483509,
-          "Personas Empoderadas": 0.4546951268304322
+          "Variacion_Total": 2.7828730300122615,
+          "Sociedades Inclusivas": 0.3894443158830341,
+          "Economías Abiertas": 1.9071750438789568,
+          "Personas Empoderadas": 0.4862536702502621
         },
         {
           "Trimestre": "2022Q4",
-          "Variacion_Total": 0.39211781788556266,
-          "Sociedades Inclusivas": 1.4443985202410878,
-          "Economías Abiertas": -1.4081390304514365,
-          "Personas Empoderadas": 0.35585832809592766
+          "Variacion_Total": 3.1137462884433162,
+          "Sociedades Inclusivas": 1.472729369557741,
+          "Economías Abiertas": 1.2796021435243965,
+          "Personas Empoderadas": 0.3614147753611872
         },
         {
           "Trimestre": "2023Q1",
-          "Variacion_Total": -2.6161805428087774,
-          "Sociedades Inclusivas": 0.5493852562035515,
-          "Economías Abiertas": -3.5671390553516997,
-          "Personas Empoderadas": 0.40157325633941304
+          "Variacion_Total": -1.131035787357483,
+          "Sociedades Inclusivas": 0.5409464315334266,
+          "Economías Abiertas": -2.0352335904014325,
+          "Personas Empoderadas": 0.3632513715104979
         },
         {
           "Trimestre": "2023Q2",
-          "Variacion_Total": -0.5531961433457369,
-          "Sociedades Inclusivas": -1.2002403592865456,
-          "Economías Abiertas": 0.23290366718276226,
-          "Personas Empoderadas": 0.4141405487580548
+          "Variacion_Total": -3.190812582786016,
+          "Sociedades Inclusivas": -1.2175618173041953,
+          "Economías Abiertas": -2.3543884539211963,
+          "Personas Empoderadas": 0.38113768843938434
         },
         {
           "Trimestre": "2023Q3",
-          "Variacion_Total": 2.024478116850709,
-          "Sociedades Inclusivas": -1.6326929237715906,
-          "Economías Abiertas": 3.209502365624221,
-          "Personas Empoderadas": 0.44766867499806196
+          "Variacion_Total": -3.204331495183311,
+          "Sociedades Inclusivas": -1.7368762300710818,
+          "Economías Abiertas": -1.9130743736778617,
+          "Personas Empoderadas": 0.4456191085656495
         },
         {
           "Trimestre": "2023Q4",
-          "Variacion_Total": -0.6883290098315982,
-          "Sociedades Inclusivas": -1.2156081688572813,
-          "Economías Abiertas": 0.1226133164389853,
-          "Personas Empoderadas": 0.40466584258668137
+          "Variacion_Total": -2.432326963305684,
+          "Sociedades Inclusivas": -1.2504224007137994,
+          "Economías Abiertas": -1.5959712457944801,
+          "Personas Empoderadas": 0.4140666832025536
         },
         {
           "Trimestre": "2024Q1",
-          "Variacion_Total": 1.4286916179303972,
-          "Sociedades Inclusivas": -0.16985009229540857,
-          "Economías Abiertas": 1.4222202670023927,
-          "Personas Empoderadas": 0.1763214432233794
+          "Variacion_Total": 0.8681962833827797,
+          "Sociedades Inclusivas": -0.16857963499659565,
+          "Economías Abiertas": 0.7886377118035867,
+          "Personas Empoderadas": 0.248138206575797
         },
         {
           "Trimestre": "2024Q2",
-          "Variacion_Total": 0.5201758785801971,
-          "Sociedades Inclusivas": -1.2805537907087354,
-          "Economías Abiertas": 1.767544969374759,
-          "Personas Empoderadas": 0.03318469991417346
+          "Variacion_Total": 0.5277762129226033,
+          "Sociedades Inclusivas": -1.2694960405304447,
+          "Economías Abiertas": 1.674923940466487,
+          "Personas Empoderadas": 0.12234831298654449
         },
         {
           "Trimestre": "2024Q3",
-          "Variacion_Total": -1.629642630983156,
-          "Sociedades Inclusivas": 0.3058799671741729,
-          "Economías Abiertas": -1.9257508470873481,
-          "Personas Empoderadas": -0.009771751069956843
+          "Variacion_Total": 1.9023034219106165,
+          "Sociedades Inclusivas": 0.320521076527648,
+          "Economías Abiertas": 1.5314392296719452,
+          "Personas Empoderadas": 0.05034311571103973
         },
         {
           "Trimestre": "2024Q4",
-          "Variacion_Total": 4.46836889648516,
-          "Sociedades Inclusivas": 1.0526937630823643,
-          "Economías Abiertas": 3.513396216320891,
-          "Personas Empoderadas": -0.09772108291806214
+          "Variacion_Total": 3.115260696288594,
+          "Sociedades Inclusivas": 1.0536954801174494,
+          "Economías Abiertas": 2.19428585383461,
+          "Personas Empoderadas": -0.13272063766341471
         },
         {
           "Trimestre": "2025Q1",
-          "Variacion_Total": 1.6565436119267503,
-          "Sociedades Inclusivas": 1.6806706202266821,
-          "Economías Abiertas": -0.030432083105936588,
-          "Personas Empoderadas": 0.006305074806004408
+          "Variacion_Total": 2.6880774621390415,
+          "Sociedades Inclusivas": 1.6749837426988812,
+          "Economías Abiertas": 1.1229818984222866,
+          "Personas Empoderadas": -0.10988817898213515
         },
         {
           "Trimestre": "2025Q2",
-          "Variacion_Total": 4.329249535560777,
-          "Sociedades Inclusivas": 3.088682711796387,
-          "Economías Abiertas": 1.185894372596503,
-          "Personas Empoderadas": 0.054672451167895084
+          "Variacion_Total": 3.9391565794464256,
+          "Sociedades Inclusivas": 3.053277359649391,
+          "Economías Abiertas": 0.9695061937787285,
+          "Personas Empoderadas": -0.08362697398166885
         },
         {
           "Trimestre": "2025Q3",
-          "Variacion_Total": 10.08182998103242,
-          "Sociedades Inclusivas": 3.2661265012429253,
-          "Economías Abiertas": 6.774486866752962,
-          "Personas Empoderadas": 0.04121661303652261
+          "Variacion_Total": 5.644217489903724,
+          "Sociedades Inclusivas": 3.391600743629527,
+          "Economías Abiertas": 2.3183041522168386,
+          "Personas Empoderadas": -0.06568740594265073
         },
         {
           "Trimestre": "2025Q4",
-          "Variacion_Total": 1.3316895971165792,
-          "Sociedades Inclusivas": 2.1039858359087145,
-          "Economías Abiertas": -0.925158805046635,
-          "Personas Empoderadas": 0.15286256625448189
+          "Variacion_Total": 3.617319905085367,
+          "Sociedades Inclusivas": 2.1211802909189386,
+          "Economías Abiertas": 1.3524278464446522,
+          "Personas Empoderadas": 0.1437117677217225
         }
-      ]
+      ],
+      "diagnostico": {
+        "indicadores_ranking": [
+          {
+            "code": "INV_IED",
+            "name": "Inversión Extranjera",
+            "score": 10.5
+          },
+          {
+            "code": "INF_TRA",
+            "name": "Tráfico Ferroviario",
+            "score": 30.7
+          },
+          {
+            "code": "SEG_CRI",
+            "name": "Tasa de Delitos",
+            "score": 33.4
+          },
+          {
+            "code": "CON_OCI",
+            "name": "Ocupación Conocimiento",
+            "score": 37.7
+          },
+          {
+            "code": "CON_IDI",
+            "name": "Inversión I+D",
+            "score": 46.9
+          },
+          {
+            "code": "SEG_BAL",
+            "name": "Balance de Criminalidad",
+            "score": 53.1
+          },
+          {
+            "code": "LIB_SEX",
+            "name": "Violencia Género",
+            "score": 54.1
+          },
+          {
+            "code": "EMP_SOC",
+            "name": "Sociedades Mercantiles",
+            "score": 57.9
+          },
+          {
+            "code": "ECO_RBHpc",
+            "name": "Renta Bruta Habitante",
+            "score": 59.4
+          },
+          {
+            "code": "EDU_SUP",
+            "name": "Educación Superior",
+            "score": 67.8
+          },
+          {
+            "code": "SOC_ASO",
+            "name": "Asociacionismo",
+            "score": 72.5
+          },
+          {
+            "code": "ECO_COL_sal",
+            "name": "Coste Salarial Real",
+            "score": 77.3
+          },
+          {
+            "code": "LIB_ODI",
+            "name": "Delitos de Odio",
+            "score": 78.2
+          },
+          {
+            "code": "VID_ARO",
+            "name": "Población fuera de la pobreza",
+            "score": 79.1
+          },
+          {
+            "code": "SAL_SAT_enlazado",
+            "name": "Satisfacción Sanitaria",
+            "score": 79.9
+          },
+          {
+            "code": "INV_HIP",
+            "name": "Hipotecas",
+            "score": 81.8
+          },
+          {
+            "code": "GOB_DES",
+            "name": "Desempleo (Pilar Gob.)",
+            "score": 82.4
+          },
+          {
+            "code": "EMP_NAT",
+            "name": "Nacimientos Empresas",
+            "score": 82.7
+          },
+          {
+            "code": "GOB_EFF",
+            "name": "Eficacia Institucional",
+            "score": 86.0
+          },
+          {
+            "code": "VID_PAR",
+            "name": "Tasa de ocupación",
+            "score": 88.3
+          },
+          {
+            "code": "EDU_ABA",
+            "name": "Población que acaba educación obligatoria",
+            "score": 88.8
+          },
+          {
+            "code": "SOC_PAR_enlazado",
+            "name": "Participación Electoral",
+            "score": 93.3
+          },
+          {
+            "code": "INF_BAN",
+            "name": "Bancarización",
+            "score": 96.2
+          },
+          {
+            "code": "SAL_ESP",
+            "name": "Esperanza de Vida",
+            "score": 96.9
+          }
+        ],
+        "penalizacion_pilares": {
+          "1. Seguridad": 1.14,
+          "2. Libertad": 1.1,
+          "3. Gobernanza": 0.02,
+          "4. Capital Social": 0.65,
+          "5. Inversión": 16.84,
+          "6. Empresas": 1.1,
+          "7. Infraestructura": 9.1,
+          "8. Calidad Económica": 0.59,
+          "9. Vida": 0.13,
+          "10. Salud": 0.41,
+          "11. Educación": 0.71,
+          "12. Conocimiento": 0.25
+        }
+      }
     },
     "esp": {
-      "global": 67.6,
+      "global": 68.1,
       "dominios": {
         "Sociedades Inclusivas": 58.2,
-        "Economías Abiertas": 65.4,
-        "Personas Empoderadas": 81.3
+        "Economías Abiertas": 66.4,
+        "Personas Empoderadas": 81.7
       },
       "pilares": {
         "1. Seguridad": 34.6,
         "2. Libertad": 53.6,
         "3. Gobernanza": 71.5,
         "4. Capital Social": 86.4,
-        "5. Inversión": 50.7,
+        "5. Inversión": 53.9,
         "6. Empresas": 70.2,
         "7. Infraestructura": 64.1,
         "8. Calidad Económica": 80.4,
         "9. Vida": 90.5,
-        "10. Salud": 94.0,
+        "10. Salud": 95.7,
         "11. Educación": 83.7,
         "12. Conocimiento": 61.3
       },
@@ -695,7 +833,7 @@
         "SOC_ASO": 79.7,
         "SOC_PAR_enlazado": 93.8,
         "INV_HIP": 75.0,
-        "INV_IED": 34.3,
+        "INV_IED": 38.7,
         "EMP_NAT": 82.0,
         "EMP_SOC": 60.0,
         "INF_BAN": 95.6,
@@ -704,7 +842,7 @@
         "ECO_COL_sal": 88.2,
         "VID_ARO": 88.0,
         "VID_PAR": 93.1,
-        "SAL_ESP": 95.1,
+        "SAL_ESP": 98.6,
         "SAL_SAT_enlazado": 92.9,
         "EDU_ABA": 90.9,
         "EDU_SUP": 77.1,
@@ -717,7 +855,7 @@
     {
       "code": "INV_IED",
       "name": "Inversión Extranjera",
-      "value": 5.6
+      "value": 10.5
     },
     {
       "code": "INF_TRA",

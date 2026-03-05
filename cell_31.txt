@@ -1,0 +1,130 @@
+# %% CELDA 4: NORMALIZACIÓN PER CÁPITA (CORREGIDA)
+print("=" * 60)
+print("NORMALIZACIÓN PER CÁPITA (18 Regiones)")
+print("=" * 60)
+
+# 0. CAPTURAR MUESTRA PARA AUDITORÍA (Antes de modificar)
+sample_ind = 'SEG_BAL_AND'
+sample_val_pre = None
+sample_pob = None
+if sample_ind in trimestral.columns:
+    sample_val_pre = trimestral[sample_ind].dropna().iloc[-1]
+    if 'AUX_POB_AND' in trimestral.columns:
+        sample_pob = trimestral['AUX_POB_AND'].loc[trimestral[sample_ind].dropna().index[-1]]
+    elif 'AUX_POB_enlazado_AND' in trimestral.columns:
+        sample_pob = trimestral['AUX_POB_enlazado_AND'].loc[trimestral[sample_ind].dropna().index[-1]]
+
+# 1. CONFIGURACIÓN CORREGIDA
+PER_CAPITA_CONFIG = {
+    'SEG_BAL': 'POB',   # Balance criminalidad -> tasa x 100k hab
+    'SEG_CRI': 'POB',   # Tasa criminalidad -> tasa x 100k hab
+    'LIB_SEX': 'POB',   # Delitos sexuales -> tasa x 100k hab
+    'LIB_ODI': 'POB',   # Delitos odio -> tasa x 100k hab
+    'EDU_SUP': 'POB',   # Educación superior -> tasa x 100 hab (%)
+    'EMP_SOC': 'POB',   # Sociedades mercantiles -> x 100k hab
+    'EMP_NAT': 'POB',   # Nacimientos empresas -> x 100k hab
+    'INV_HIP': 'POB',   # Hipotecas -> x 100k hab
+    'INF_TRA': 'POB',   # Pasajeros transporte -> x 1k hab
+    'SOC_ASO': 'POB',   # Asociaciones -> x 1k hab
+    'CON_OCI': 'POB',   # Afiliados conocimiento intensivo -> x 1k hab (CORREGIDO)
+    'INV_IED': 'PIB',   # Inversión extranjera directa -> % RBH (proxy PIB)
+}
+
+# Factores de escala
+FACTORES_CONVERSION = {
+    'SEG_CRI': 100_000, 'SEG_BAL': 100_000, 'LIB_SEX': 100_000, 'LIB_ODI': 100_000,
+    'EMP_SOC': 100_000, 'EMP_NAT': 100_000, 'INV_HIP': 100_000,
+    'INF_TRA': 1_000,   'SOC_ASO': 1_000,   'CON_OCI': 1_000,
+    'EDU_SUP': 100,     'INV_IED': 100  # Para INV_IED: resultado en % de RBH (proxy PIB)
+}
+
+normalizados = 0
+errores = []
+
+for ind, denom_tipo in PER_CAPITA_CONFIG.items():
+    factor = FACTORES_CONVERSION.get(ind, 1)
+    
+    for terr in REGIONES:
+        col = f"{ind}_{terr}"
+        
+        # Buscar DataFrame objetivo
+        target_df = None
+        if col in trimestral.columns:
+            target_df = trimestral
+        elif 'mensual_trim' in globals() and col in mensual_trim.columns:
+            target_df = mensual_trim
+        elif col in anuales_trim:
+            target_df = None  # Caso especial dict
+        else:
+            continue
+        
+        # === SELECCIONAR DENOMINADOR ===
+        if denom_tipo == 'PIB':
+            # Reconstruir PIB TOTAL = PIBpc * Población / 1000 (en millones €)
+            col_pibpc = f"ECO_RBHpc_{terr}"
+            col_pob = f"AUX_POB_{terr}"
+            if col_pob not in trimestral.columns:
+                col_pob = f"AUX_POB_enlazado_{terr}"
+            
+            if col_pibpc not in trimestral.columns or col_pob not in trimestral.columns:
+                errores.append(f"{col}: No se puede reconstruir PIB (faltan PIBpc o POB)")
+                continue
+            
+            # PIB total en millones de euros
+            denom = (trimestral[col_pibpc] * trimestral[col_pob]) / 1_000_000
+            
+        else:  # 'POB'
+            col_denom = f"AUX_POB_{terr}"
+            if col_denom not in trimestral.columns:
+                col_denom = f"AUX_POB_enlazado_{terr}"
+            
+            if col_denom not in trimestral.columns:
+                errores.append(f"{col}: No se encuentra población")
+                continue
+            
+            denom = trimestral[col_denom]
+        
+        # === APLICAR NORMALIZACIÓN ===
+        if target_df is not None:
+            serie = target_df[col]
+            denom_aligned = denom.reindex(serie.index)
+            target_df[col] = (serie / denom_aligned) * factor
+            normalizados += 1
+        elif col in anuales_trim:
+            serie = anuales_trim[col]
+            denom_aligned = denom.reindex(serie.index)
+            anuales_trim[col] = (serie / denom_aligned) * factor
+            normalizados += 1
+
+print(f"✓ Normalización completada: {normalizados} series procesadas")
+
+if errores:
+    print(f"\n⚠️ Errores ({len(errores)}):")
+    for e in errores[:5]:
+        print(f"  - {e}")
+
+# 3. AUDITORÍA FINAL
+if sample_val_pre is not None and sample_pob is not None:
+    sample_val_post = trimestral[sample_ind].dropna().iloc[-1]
+    print("\n--- 🔍 AUDITORÍA DE NORMALIZACIÓN (Ejemplo: SEG_BAL_AND) ---")
+    print(f"  1. Valor Original (Absoluto): {sample_val_pre:,.0f}")
+    print(f"  2. Población Trimestral:      {sample_pob:,.0f}")
+    print(f"  3. Factor Escala:             x100,000")
+    calc_manual = (sample_val_pre / sample_pob) * 100_000
+    print(f"  4. Cálculo Manual:            {calc_manual:.4f}")
+    print(f"  5. Resultado en DataFrame:    {sample_val_post:.4f}")
+    
+    if abs(calc_manual - sample_val_post) < 0.01:
+        print("  ✅ LA OPERACIÓN ES CORRECTA")
+    else:
+        print("  ❌ DISCREPANCIA DETECTADA")
+
+# 4. AUDITORÍA INV_IED (Nuevo)
+print("\n--- 🔍 AUDITORÍA INV_IED_AND (% de RBH, proxy PIB) ---")
+if 'INV_IED_AND' in trimestral.columns:
+    val_ied = trimestral['INV_IED_AND'].dropna().iloc[-1]
+    print(f"  Último valor: {val_ied:.4f}%")
+    if val_ied < 50:  # Debería ser un porcentaje razonable
+        print("  ✅ Valor razonable (% de RBH, proxy PIB)")
+    else:
+        print("  ⚠️ Valor sospechosamente alto")

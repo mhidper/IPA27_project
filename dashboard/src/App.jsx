@@ -486,6 +486,90 @@ const App = () => {
                 </div>
               )}
 
+                            {/* Panel de Diagnóstico: Fortalezas, Cuellos de Botella y Penalización */}
+              {current.and.diagnostico && (
+                <div className="lg:col-span-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                  {/* Fortalezas y Cuellos de Botella */}
+                  <div className="card-premium p-8">
+                    <h2 className="text-xl font-black text-brand-dark tracking-tight mb-1">Diagnóstico de Indicadores</h2>
+                    <p className="text-xs text-slate-400 font-bold uppercase tracking-widest mb-6">Top 5 fortalezas y cuellos de botella ({current.periodo})</p>
+
+                    <div className="space-y-3 mb-8">
+                      <p className="text-[10px] font-black text-brand uppercase tracking-widest">🟢 Fortalezas</p>
+                      {current.and.diagnostico.indicadores_ranking.slice(-5).reverse().map(item => (
+                        <div key={item.code} className="flex items-center gap-3">
+                          <span className="text-xs font-bold text-slate-500 w-36 truncate">{item.name}</span>
+                          <div className="flex-1 bg-slate-100 rounded-full h-5 overflow-hidden">
+                            <div className="h-full bg-brand/80 rounded-full transition-all duration-700"
+                              style={{ width: `${item.score}%` }}></div>
+                          </div>
+                          <span className="text-xs font-black text-brand w-10 text-right">{item.score}</span>
+                        </div>
+                      ))}
+                    </div>
+
+                    <div className="space-y-3">
+                      <p className="text-[10px] font-black text-rose-500 uppercase tracking-widest">🔴 Cuellos de Botella</p>
+                      {current.and.diagnostico.indicadores_ranking.slice(0, 5).map(item => (
+                        <div key={item.code} className="flex items-center gap-3">
+                          <span className="text-xs font-bold text-slate-500 w-36 truncate">{item.name}</span>
+                          <div className="flex-1 bg-slate-100 rounded-full h-5 overflow-hidden">
+                            <div className="h-full bg-rose-400/80 rounded-full transition-all duration-700"
+                              style={{ width: `${item.score}%` }}></div>
+                          </div>
+                          <span className="text-xs font-black text-rose-500 w-10 text-right">{item.score}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Penalización por desequilibrio */}
+                  <div className="card-premium p-8">
+                    <h2 className="text-xl font-black text-brand-dark tracking-tight mb-1">Coste del Desequilibrio</h2>
+                    <p className="text-xs text-slate-400 font-bold uppercase tracking-widest mb-6">Puntos que pierde cada pilar por descompensación interna</p>
+                    <div className="h-[350px]">
+                      <Bar
+                        data={{
+                          labels: Object.keys(current.and.diagnostico.penalizacion_pilares),
+                          datasets: [{
+                            label: 'Penalización (pts)',
+                            data: Object.values(current.and.diagnostico.penalizacion_pilares),
+                            backgroundColor: Object.values(current.and.diagnostico.penalizacion_pilares).map(v =>
+                              v > 5 ? '#e11d48' : v > 2 ? '#FFAB60' : '#007932'
+                            ),
+                            borderRadius: 6,
+                          }]
+                        }}
+                        options={{
+                          indexAxis: 'y',
+                          responsive: true,
+                          maintainAspectRatio: false,
+                          plugins: {
+                            legend: { display: false },
+                            tooltip: {
+                              callbacks: {
+                                label: (ctx) => `−${ctx.raw.toFixed(1)} puntos vs media aritmética`
+                              }
+                            }
+                          },
+                          scales: {
+                            x: {
+                              grid: { color: '#f8fafc' },
+                              title: { display: true, text: 'Puntos perdidos', font: { size: 10, weight: 'bold' } },
+                              ticks: { font: { weight: 'bold', size: 10 } }
+                            },
+                            y: {
+                              grid: { display: false },
+                              ticks: { font: { weight: 'bold', size: 10 } }
+                            }
+                          }
+                        }}
+                      />
+                    </div>
+                  </div>
+                </div>
+              )}
 
               <div className="lg:col-span-7 card-premium p-10 relative group">
                 <h2 className="text-2xl font-black text-brand-dark mb-2 tracking-tight">Mapa de Pilares</h2>
