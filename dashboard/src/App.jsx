@@ -55,6 +55,27 @@ const IndicatorDetail = ({ name, value, espValue }) => {
   );
 };
 
+// Componente de tooltip informativo
+const InfoTooltip = ({ text }) => {
+  const [visible, setVisible] = React.useState(false);
+  return (
+    <div className="relative inline-flex ml-2"
+      onMouseEnter={() => setVisible(true)}
+      onMouseLeave={() => setVisible(false)}
+    >
+      <div className="w-5 h-5 rounded-full bg-slate-100 hover:bg-brand/10 flex items-center justify-center cursor-help transition-colors border border-slate-200 hover:border-brand/30">
+        <Info size={12} className="text-slate-400 hover:text-brand" />
+      </div>
+      {visible && (
+        <div className="absolute z-50 bottom-full left-1/2 -translate-x-1/2 mb-2 w-72 px-4 py-3 bg-brand-dark text-white text-xs leading-relaxed font-medium rounded-xl shadow-xl shadow-brand-dark/20 pointer-events-none animate-in fade-in zoom-in-95 duration-200">
+          {text}
+          <div className="absolute top-full left-1/2 -translate-x-1/2 w-2 h-2 bg-brand-dark rotate-45 -mt-1"></div>
+        </div>
+      )}
+    </div>
+  );
+};
+
 // Componente de Metodología
 const Methodology = () => {
   useEffect(() => {
@@ -401,7 +422,10 @@ const App = () => {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
               <div className="lg:col-span-6 card-premium p-8">
                 <div className="mb-6">
-                  <h2 className="text-xl font-black text-brand-dark tracking-tight leading-tight">Evolución Global</h2>
+                  <div className="flex items-center">
+                    <h2 className="text-xl font-black text-brand-dark tracking-tight leading-tight">Evolución Global</h2>
+                    <InfoTooltip text="Trayectoria trimestral del IPA27 para Andalucía (verde) y España (gris). Muestra la convergencia o divergencia entre la región y la media nacional desde 2016." />
+                  </div>
                   <p className="text-xs text-slate-400 font-bold uppercase tracking-widest mt-1">Convergencia Andalucía vs España</p>
                 </div>
                 <div className="h-[250px]">
@@ -422,7 +446,10 @@ const App = () => {
 
               <div className="lg:col-span-6 card-premium p-8">
                 <div className="mb-6">
-                  <h2 className="text-xl font-black text-brand-dark tracking-tight leading-tight">Evolución por Dominio</h2>
+                  <div className="flex items-center">
+                    <h2 className="text-xl font-black text-brand-dark tracking-tight leading-tight">Evolución por Dominio</h2>
+                    <InfoTooltip text="Evolución de los tres dominios del IPA27 para Andalucía: Sociedades Inclusivas, Economías Abiertas y Personas Empoderadas. Permite identificar qué dimensión lidera o frena el progreso." />
+                  </div>
                   <p className="text-xs text-slate-400 font-bold uppercase tracking-widest mt-1">Trayectoria de las 3 áreas maestras</p>
                 </div>
                 <div className="h-[250px]">
@@ -450,7 +477,10 @@ const App = () => {
               {momentumYoy.length > 0 && (
                 <div className="lg:col-span-12 card-premium p-8">
                   <div className="mb-6">
-                    <h2 className="text-xl font-black text-brand-dark tracking-tight leading-tight">Aportaciones al IPA27 Andaluz</h2>
+                    <div className="flex items-center">
+                      <h2 className="text-xl font-black text-brand-dark tracking-tight leading-tight">Aportaciones al IPA27 Andaluz</h2>
+                      <InfoTooltip text="Descomposición de la variación interanual del IPA27. Las barras muestran cuántos puntos aporta o resta cada dominio respecto al mismo trimestre del año anterior. La línea negra es la variación total." />
+                    </div>
                     <p className="text-xs text-slate-400 font-bold uppercase tracking-widest mt-1">Descomposición de la variación interanual (YoY) por dominios clave</p>
                   </div>
                   <div className="h-[300px]">
@@ -486,13 +516,16 @@ const App = () => {
                 </div>
               )}
 
-                            {/* Panel de Diagnóstico: Fortalezas, Cuellos de Botella y Penalización */}
+              {/* Panel de Diagnóstico: Fortalezas, Cuellos de Botella y Penalización */}
               {current.and.diagnostico && (
                 <div className="lg:col-span-12 grid grid-cols-1 md:grid-cols-2 gap-8">
 
                   {/* Fortalezas y Cuellos de Botella */}
                   <div className="card-premium p-8">
-                    <h2 className="text-xl font-black text-brand-dark tracking-tight mb-1">Diagnóstico de Indicadores</h2>
+                    <div className="flex items-center mb-1">
+                      <h2 className="text-xl font-black text-brand-dark tracking-tight">Diagnóstico de Indicadores</h2>
+                      <InfoTooltip text="Los 5 indicadores con mayor score (fortalezas, verde) y los 5 con menor score (cuellos de botella, rojo) de Andalucía. La barra representa el score normalizado (0-100)." />
+                    </div>
                     <p className="text-xs text-slate-400 font-bold uppercase tracking-widest mb-6">Top 5 fortalezas y cuellos de botella ({current.periodo})</p>
 
                     <div className="space-y-3 mb-8">
@@ -526,7 +559,10 @@ const App = () => {
 
                   {/* Penalización por desequilibrio */}
                   <div className="card-premium p-8">
-                    <h2 className="text-xl font-black text-brand-dark tracking-tight mb-1">Coste del Desequilibrio</h2>
+                    <div className="flex items-center mb-1">
+                      <h2 className="text-xl font-black text-brand-dark tracking-tight">Coste del Desequilibrio</h2>
+                      <InfoTooltip text="Diferencia entre la media aritmética y la media geométrica de los indicadores de cada pilar. Un valor alto (rojo) indica que los dos indicadores del pilar están muy descompensados, penalizando el score agregado." />
+                    </div>
                     <p className="text-xs text-slate-400 font-bold uppercase tracking-widest mb-6">Puntos que pierde cada pilar por descompensación interna</p>
                     <div className="h-[350px]">
                       <Bar
@@ -572,7 +608,10 @@ const App = () => {
               )}
 
               <div className="lg:col-span-7 card-premium p-10 relative group">
-                <h2 className="text-2xl font-black text-brand-dark mb-2 tracking-tight">Mapa de Pilares</h2>
+                <div className="flex items-center mb-2">
+                  <h2 className="text-2xl font-black text-brand-dark tracking-tight">Mapa de Pilares</h2>
+                  <InfoTooltip text="Diagrama radar con los 12 pilares del IPA27. El área verde representa Andalucía y la línea discontinua gris representa España. Cuanto más se acerque al borde exterior, mejor el desempeño en esa dimensión." />
+                </div>
                 <p className="text-slate-400 mb-10 font-medium">Desempeño relativo en las 12 dimensiones clave</p>
                 <div className="aspect-square max-w-[500px] mx-auto">
                   <Radar
@@ -602,6 +641,7 @@ const App = () => {
                 <div className="card-premium p-10">
                   <h2 className="text-xl font-black text-brand-dark mb-6 tracking-tight flex items-center gap-2">
                     <Layout size={20} className="text-brand" /> Brechas por Dominio
+                    <InfoTooltip text="Diferencial en puntos entre Andalucía y España en cada dominio. Valores negativos (rojo) indican que Andalucía está por debajo de la media nacional en esa dimensión." />
                   </h2>
                   <div className="h-56">
                     <Bar
@@ -626,6 +666,18 @@ const App = () => {
                       <AlertTriangle size={24} className="text-albero" />
                     </div>
                     <h2 className="text-xl font-black tracking-tight">Cuellos de Botella</h2>
+                    <div className="relative inline-flex ml-1"
+                      onMouseEnter={(e) => { const tip = e.currentTarget.querySelector('.tip'); if (tip) tip.style.display = 'block'; }}
+                      onMouseLeave={(e) => { const tip = e.currentTarget.querySelector('.tip'); if (tip) tip.style.display = 'none'; }}
+                    >
+                      <div className="w-5 h-5 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center cursor-help transition-colors border border-white/20">
+                        <Info size={12} className="text-white/60" />
+                      </div>
+                      <div className="tip absolute z-50 bottom-full left-1/2 -translate-x-1/2 mb-2 w-72 px-4 py-3 bg-white text-brand-dark text-xs leading-relaxed font-medium rounded-xl shadow-xl pointer-events-none" style={{ display: 'none' }}>
+                        Los 3 indicadores de Andalucía con peor score normalizado. Son las áreas que más frenan el avance del IPA27 y donde las políticas públicas tendrían mayor impacto marginal.
+                        <div className="absolute top-full left-1/2 -translate-x-1/2 w-2 h-2 bg-white rotate-45 -mt-1"></div>
+                      </div>
+                    </div>
                   </div>
 
                   <div className="space-y-6 relative z-10">
