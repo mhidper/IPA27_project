@@ -1,0 +1,580 @@
+\documentclass[10pt, aspectratio=169]{beamer}
+
+% --- Configuración de Idioma y Fuentes ---
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{helvet} 
+
+% --- Paquetes Adicionales ---
+\usepackage{graphicx}
+% \usepackage[space]{grffile} 
+\usepackage{booktabs}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{appendixnumberbeamer}
+\usepackage{multirow}
+\usepackage{bookmark}
+
+% --- Rutas de imágenes ---
+\graphicspath{{../../results/figures/analysis/}{../../data/processed/cis/barómetro/}}
+
+% --- Definición de Colores IPA27 ---
+\definecolor{brandgreen}{HTML}{007932}
+\definecolor{softgreen}{HTML}{E8F5E9}
+\definecolor{darkgrey}{HTML}{333333}
+\definecolor{lightgrey}{HTML}{F5F5F5}
+\definecolor{accentblue}{HTML}{0277BD}
+
+% --- Estilo de Beamer Personalizado ---
+\usetheme{Boadilla}
+\usecolortheme{default}
+\setbeamertemplate{navigation symbols}{} 
+\setbeamertemplate{items}[circle]        
+\setbeamertemplate{sections/subsections in toc}[circle]
+
+% Arreglo de colores
+\setbeamercolor{palette primary}{bg=brandgreen, fg=white}
+\setbeamercolor{palette secondary}{bg=brandgreen!80, fg=white}
+\setbeamercolor{palette tertiary}{bg=brandgreen!60, fg=white}
+\setbeamercolor{structure}{fg=brandgreen}
+\setbeamercolor{title}{fg=brandgreen, bg=white}
+\setbeamercolor{frametitle}{fg=brandgreen, bg=white}
+\setbeamercolor{block title}{bg=brandgreen, fg=white}
+\setbeamercolor{block body}{bg=softgreen, fg=black}
+
+% Ajuste de pie de página
+% Ajuste de pie de página simplificado
+\setbeamertemplate{footline}{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.3333\paperwidth, left]{author in head/foot}%
+    \hspace*{2ex}IPA27 Project - Metodología Detallada
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.3333\paperwidth, center]{title in head/foot}%
+    \insertshorttitle
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.3333\paperwidth, right]{date in head/foot}%
+    \insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+
+% --- Configuración del Logotipo Corporativo ---
+\logo{\includegraphics[width=1cm,keepaspectratio]{logo_fa27.png}}
+
+% --- Información de Portada ---
+\title[IPA27: Análisis de Prosperidad]{Índice de Prosperidad Andaluz (IPA27)}
+\subtitle{Arquitectura Técnica, Metodología de Armonización y Resultados (2016-2025)}
+\author[Equipo IPA27]{Fundación Andalucía 27}
+\date{\today}
+
+\begin{document}
+
+% --- Slide de Título Premium ---
+{
+\setbeamertemplate{footline}{} 
+\begin{frame}[plain]
+    \begin{tikzpicture}[remember picture, overlay]
+        % 1. Wide and Premium Sidebar
+        \fill[brandgreen] (current page.north west) rectangle ([xshift=4.5cm]current page.south west);
+        
+        % 2. Prominent White Logo in Sidebar
+        \node[anchor=north] at ([xshift=2.25cm, yshift=-1.5cm]current page.north west) {
+            \includegraphics[width=3cm, keepaspectratio]{logo_fa27_white.png}
+        };
+        
+        % 4. Main Title Block on White Side
+        \node[anchor=north west, xshift=5.5cm, yshift=-2.5cm] at (current page.north west) {
+            \begin{minipage}{0.6\paperwidth}
+                {\fontsize{64}{74}\selectfont \textbf{\textcolor{brandgreen}{IPA27}}} \\[0.3cm]
+                {\fontsize{26}{32}\selectfont \textcolor{darkgrey}{Índice de Prosperidad Andaluz}} \\[1.5cm]
+                {\color{brandgreen!30}\rule{8cm}{5pt}} \\[0.8cm]
+                {\Large \textcolor{darkgrey}{\textbf{Arquitectura Técnica, Metodología de Armonización} \\ y Análisis de Resultados (2016-2025)}}
+            \end{minipage}
+        };
+        
+        % 5. Elegant Footer Detail
+        \node[anchor=south east, xshift=-1cm, yshift=1.5cm] at (current page.south east) {
+            \begin{minipage}{0.4\paperwidth}
+                \raggedleft
+                {\Large \textbf{\textcolor{brandgreen}{Fundación Andalucía 27}}} \\
+                \vspace{0.1cm}
+                \textcolor{darkgrey}{\today}
+            \end{minipage}
+        };
+    \end{tikzpicture}
+\end{frame}
+}
+
+% ==================== I. INTRODUCCIÓN ====================
+\section{Introducción}
+
+{
+\setbeamercolor{background canvas}{bg=brandgreen}
+\begin{frame}[plain]
+    \centering
+    \vfill
+    {\Huge\bfseries\color{white} I. INTRODUCCIÓN}\vspace{0.6cm}
+    {\color{white}\rule{6cm}{2.5pt}}\vspace{1.5cm}
+    \includegraphics[width=2.5cm]{logo_fa27_white.png}
+    \vfill
+\end{frame}
+}
+
+\begin{frame}{Gobernanza y Rigor Técnico}
+    \begin{columns}[T]
+        % --- COLUMNA IZQUIERDA: Liderazgo y Propósito ---
+        \begin{column}{0.38\textwidth}
+            \setbeamercolor{block title}{bg=brandgreen, fg=white}
+            \begin{block}{Dirección Técnica}
+                \textbf{Manuel Alejandro Hidalgo} \\
+                \vspace{0.1cm}
+                \scriptsize Profesor de Economía Aplicada (UPO). \\
+                En colaboración con \textbf{EY Insights}.
+            \end{block}
+
+            \vspace{0.6cm}
+
+            \setbeamercolor{block title}{bg=darkgrey, fg=white}
+            \begin{block}{Misión del Consejo}
+                \scriptsize Garantizar la independencia, el rigor estadístico y la excelencia académica en el IPA27.
+            \end{block}
+        \end{column}
+
+        % --- COLUMNA DERECHA: Lista de Expertos ---
+        \begin{column}{0.58\textwidth}
+            \textbf{\textcolor{brandgreen}{Consejo Técnico Asesor}}
+            \vspace{0.3cm}
+            
+            \begin{description}[font=\bfseries\color{brandgreen}\small]
+                \item[Rafael Doménech] \scriptsize BBVA Research / Univ. de Valencia.
+                \item[Olga Cantó] \scriptsize Universidad de Alcalá.
+                \item[Antonio Villar] \scriptsize IVIE / Universidad Pablo de Olavide.
+                \item[Miguel Ángel García] \scriptsize Universidad Rey Juan Carlos.
+                \item[Lucía Gorjón] \scriptsize Fundación ISEAK.
+            \end{description}
+            
+            \vspace{0.4cm}
+            \begin{tikzpicture}
+                \fill[lightgrey] (0,0) rectangle (\textwidth, 0.02);
+            \end{tikzpicture}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{\texorpdfstring{¿}{¿}Qué es el IPA-27 y cómo se ha elaborado?}
+    \begin{columns}
+        \begin{column}{0.6\textwidth}
+            \textbf{\textcolor{brandgreen}{Referente metodológico}}
+            \begin{itemize}
+                \item Inspirado en indicadores globales de prosperidad, especialmente el \textbf{Legatum Prosperity Index}.
+                \item Adaptado a la realidad regional andaluza con rigor econométrico.
+            \end{itemize}
+            \vspace{0.4cm}
+            \textbf{\textcolor{brandgreen}{¿Cómo se estructura?}}
+            \begin{itemize}
+                \item \textbf{24 Indicadores} empíricos de alto impacto.
+                \item Agrupados en \textbf{12 Pilares} estratégicos (4 por cada dominio).
+                \item Conforma una visión integral de la capacidad de generar bienestar y libertad.
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.4\textwidth}
+            \begin{block}{Definición de Prosperidad}
+                Más allá del PIB: La capacidad de una sociedad para generar oportunidades empresariales, seguridad, inclusión social y desarrollo de las personas de forma sostenible.
+            \end{block}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+
+% ==================== II. ARQUITECTURA ====================
+\section{Arquitectura}
+
+{
+\setbeamercolor{background canvas}{bg=brandgreen}
+\begin{frame}[plain]
+    \centering
+    \vfill
+    {\Huge\bfseries\color{white} II. ARQUITECTURA}\vspace{0.6cm}
+    {\color{white}\rule{6cm}{2.5pt}}\vspace{1.5cm}
+    \includegraphics[width=2.5cm]{logo_fa27_white.png}
+    \vfill
+\end{frame}
+}
+
+\begin{frame}{Estructura Jerárquica: Los 3 Dominios}
+    \centering
+    \begin{tikzpicture}[
+        node distance=0.8cm and 0.5cm,
+        box/.style={draw, rounded corners, minimum width=3.5cm, minimum height=0.8cm, align=center, thick},
+        ipadomain/.style={box, fill=brandgreen, text=white},
+        ipapilar/.style={box, fill=softgreen, draw=brandgreen, font=\footnotesize},
+        ipatitle/.style={font=\Large\bfseries\color{brandgreen}, node distance=1.2cm}
+    ]
+        % Título superior
+        \node[ipatitle] (top) {\textbf{Índice de Prosperidad Andaluz (IPA27)}};
+
+        % Dominios
+        \node[ipadomain, below=of top, xshift=-4.5cm] (d1) {Sociedades Inclusivas};
+        \node[ipadomain, below=of top] (d2) {Economías Abiertas};
+        \node[ipadomain, below=of top, xshift=4.5cm] (d3) {Personas Empoderadas};
+
+        % Enlaces Dominios
+        \draw[thick, brandgreen] (top.south) -- +(0,-0.3) -| (d1.north);
+        \draw[thick, brandgreen] (top.south) -- +(0,-0.3) -- (d2.north);
+        \draw[thick, brandgreen] (top.south) -- +(0,-0.3) -| (d3.north);
+
+        % Pilares debajo de cada dominio (resumen)
+        \node[ipapilar, below=0.5cm of d1] (p1) {Seguridad, Libertad, \\ Gobernanza, Cap. Social};
+        \node[ipapilar, below=0.5cm of d2] (p2) {Inversión, Empresas, \\ Infraestr., Calidad Econ.};
+        \node[ipapilar, below=0.5cm of d3] (p3) {Vida, Salud, \\ Educación, Conocimiento};
+
+    \end{tikzpicture}
+    \vfill
+    \begin{itemize}
+        \item \textbf{24 Indicadores} seleccionados por su relevancia y periodicidad.
+        \item \textbf{12 Pilares} estratégicos (2 indicadores por pilar).
+        \item Agregación geométrica para detectar cuellos de botella.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Dominio 1: Sociedades Inclusivas}
+    \small
+    \begin{table}[]
+        \centering
+        \begin{tabular}{llp{7cm}}
+            \toprule
+            \textbf{Pilar} & \textbf{Indicador} & \textbf{Descripción / Proxy} \\
+            \midrule
+            \multirow{2}{*}{\textbf{1. Seguridad}} & SEG\_BAL & Balance de percepción de seguridad ciudadana. \\
+                                                  & SEG\_CRI & Tasa de criminalidad (delitos por 1.000 hab). \\
+            \midrule
+            \multirow{2}{*}{\textbf{2. Libertad}}  & LIB\_ODI & Delitos de odio y discriminación. \\
+                                                  & LIB\_SEX & Índice de libertad y seguridad sexual/género. \\
+            \midrule
+            \multirow{2}{*}{\textbf{3. Gobernanza}} & GOB\_DES & Índice de desafección con las instituciones. \\
+                                                  & GOB\_EFF & Eficiencia y calidad percibida del gobierno. \\
+            \midrule
+            \multirow{2}{*}{\textbf{4. Cap. Social}} & SOC\_ASO & Dinamismo del tejido asociativo. \\
+                                                  & SOC\_PAR & Participación en procesos democráticos/sociales. \\
+            \bottomrule
+        \end{tabular}
+    \end{table}
+\end{frame}
+
+\begin{frame}{Dominio 2: Economías Abiertas}
+    \small
+    \begin{table}[]
+        \centering
+        \begin{tabular}{llp{7cm}}
+            \toprule
+            \textbf{Pilar} & \textbf{Indicador} & \textbf{Descripción / Proxy} \\
+            \midrule
+            \multirow{2}{*}{\textbf{5. Inversión}}  & INV\_HIP & Inversión en activos fijos y sector inmobiliario. \\
+                                                   & INV\_IED & Inversión Extranjera Directa (captación de capital). \\
+            \midrule
+            \multirow{2}{*}{\textbf{6. Empresas}}   & EMP\_NAT & Natalidad empresarial (nuevas sociedades). \\
+                                                   & EMP\_SOC & Supervivencia y densidad del stock empresarial. \\
+            \midrule
+            \multirow{2}{*}{\textbf{7. Infraestr.}} & INF\_BAN & Despliegue y uso de banda ancha ultra-rápida. \\
+                                                   & INF\_TRA & Accesibilidad y calidad de redes de transporte. \\
+            \midrule
+            \multirow{2}{*}{\textbf{8. Calidad Ec.}} & ECO\_RBHpc & Renta Bruta de los Hogares per cápita. \\
+                                                   & ECO\_COL & Evolución del coste laboral y remuneración. \\
+            \bottomrule
+        \end{tabular}
+    \end{table}
+\end{frame}
+
+\begin{frame}{Dominio 3: Personas Empoderadas}
+    \small
+    \begin{table}[]
+        \centering
+        \begin{tabular}{llp{7cm}}
+            \toprule
+            \textbf{Pilar} & \textbf{Indicador} & \textbf{Descripción / Proxy} \\
+            \midrule
+            \multirow{2}{*}{\textbf{9. Vida}}       & VID\_ARO & Tasa de riesgo de pobreza o exclusión (AROPE). \\
+                                                   & VID\_PAR & Tasa de paro trimestral armonizada. \\
+            \midrule
+            \multirow{2}{*}{\textbf{10. Salud}}     & SAL\_ESP & Esperanza de vida al nacer. \\
+                                                   & SAL\_SAT & Satisfacción con los servicios sanitarios públicos. \\
+            \midrule
+            \multirow{2}{*}{\textbf{11. Educación}} & EDU\_ABA & Tasa de abandono escolar temprano. \\
+                                                   & EDU\_SUP & Población adulta con estudios superiores. \\
+            \midrule
+            \multirow{2}{*}{\textbf{12. Conoc.}}    & CON\_IDI & Gasto en I+D sobre el PIB regional. \\
+                                                   & CON\_OCI & Ocupación en sectores de alta tecnología. \\
+            \bottomrule
+        \end{tabular}
+    \end{table}
+\end{frame}
+
+
+% ==================== III. METODOLOGÍA ====================
+\section{Metodología}
+
+{
+\setbeamercolor{background canvas}{bg=brandgreen}
+\begin{frame}[plain]
+    \centering
+    \vfill
+    {\Huge\bfseries\color{white} III. METODOLOGÍA}\vspace{0.6cm}
+    {\color{white}\rule{6cm}{2.5pt}}\vspace{1.5cm}
+    \includegraphics[width=2.5cm]{logo_fa27_white.png}
+    \vfill
+\end{frame}
+}
+
+\begin{frame}{Fuentes Oficiales y Automatización de Datos}
+    \begin{columns}[T]
+        \begin{column}{0.5\textwidth}
+            \textbf{\textcolor{brandgreen}{Rigor en el Origen}}
+            \begin{itemize}
+                \item \textbf{Fuentes 100\% Oficiales}: INE, IECA, Ministerios, Banco de España y Eurostat.
+                \item \textbf{Trazabilidad Total}: Cada dato está vinculado a su URL de origen y metadatos técnicos.
+                \item \textbf{Master Dictionary}: Sistema centralizado de metadatos que garantiza consistencia conceptual.
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.45\textwidth}
+            \setbeamercolor{block title}{bg=accentblue, fg=white}
+            \begin{block}{Workflow Automatizado}
+                \scriptsize
+                \begin{enumerate}
+                    \item Extracción vía API/Scraping.
+                    \item Limpieza y validación de outliers.
+                    \item Armonización trimestral.
+                    \item Carga en base de datos productiva.
+                \end{enumerate}
+            \end{block}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{Tratamiento de Series Trimestrales y Nowcasting}
+    \small
+    Para obtener un índice de alta frecuencia (trimestral), aplicamos una batería de técnicas econométricas:
+    \vspace{0.3cm}
+    \begin{itemize}
+        \item \textbf{Desestacionalización (STL)}: 
+              Separación de tendencia y ciclo mediante \textit{Seasonal-Trend decomposition using LOESS}.
+        \item \textbf{Desagregación Temporal (Chow-Lin)}: 
+              Transformación de series anuales a trimestrales utilizando indicadores de alta frecuencia relacionados.
+        \item \textbf{Nowcasting (Modelos ARIMA)}: 
+              Estimación de los trimestres más recientes cuando existe un retardo en la publicación oficial, permitiendo una visión en tiempo real (T-0).
+    \end{itemize}
+    \vfill
+    \begin{center}
+        \textit{Resultado: Un índice dinámico que reacciona a la coyuntura trimestral sin ruido estacional.}
+    \end{center}
+\end{frame}
+
+\begin{frame}{Normalización por Techos Fijos}
+    \begin{columns}
+        \begin{column}{0.6\textwidth}
+            \textbf{\textcolor{brandgreen}{¿Por qué Techos Fijos en lugar de Min-Max?}}
+            \begin{itemize}
+                \item \textbf{Comparabilidad Temporal}: El Min-Max tradicional depende de la muestra; si un dato mejora, los límites cambian.
+                \item \textbf{Techos Fijos (5 Años)}: Fijamos umbrales de "Prosperidad Ideal" y "Prosperidad Mínima" basados en benchmarks regionales y objetivos estratégicos.
+            \end{itemize}
+            \vspace{0.3cm}
+            \textbf{\textcolor{brandgreen}{Estabilidad}}
+            \begin{itemize}
+                \item Permite observar si Andalucía avanza hacia el objetivo absoluto, no solo hacia la media.
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.35\textwidth}
+            \begin{exampleblock}{Escalado 0-100}
+                \centering
+                $Score = \frac{X - \text{Mínimo}}{\text{Techo} - \text{Mínimo}} \times 100$
+            \end{exampleblock}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+
+% ==================== IV. RESULTADOS E IMPACTO ====================
+\section{Resultados}
+
+{
+\setbeamercolor{background canvas}{bg=brandgreen}
+\begin{frame}[plain]
+    \centering
+    \vfill
+    {\fontsize{50}{60}\selectfont\bfseries\color{white} IV. RESULTADOS}\vspace{0.8cm}
+    {\color{white}\rule{8cm}{4pt}}\vspace{1.5cm}
+    \includegraphics[width=3cm]{logo_fa27_white.png}
+    \vfill
+\end{frame}
+}
+
+\begin{frame}{Evolución Temporal de la Prosperidad en Andalucía}
+    \begin{columns}
+        \begin{column}{0.6\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{ipa27_evolucion_temporal.png}
+        \end{column}
+        \begin{column}{0.38\textwidth}
+            \textbf{\textcolor{brandgreen}{Trayectoria de Progreso}}
+            \vspace{0.2cm}
+            \begin{itemize}
+                \item Incremento de \textbf{8,5 puntos} (+16\%) en el nivel de prosperidad desde 2016.
+                \vspace{0.2cm}
+                \item \textbf{Punto de Inflexión (T3-2023)}: Gran salto cualitativo de \textbf{7,1 puntos} (+12\%) en solo dos años.
+                \vspace{0.2cm}
+                \item Los motores: \textit{Sociedades Inclusivas} y \textit{Economías Abiertas} con mejoras del \textbf{20\%} en el periodo reciente.
+            \end{itemize}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+% --- DIAPOSITIVA DOMINIO 1 ---
+\begin{frame}{Dominio 1: Sociedades Inclusivas (+25\% desde 2023)}
+    \begin{columns}
+        \begin{column}{0.65\textwidth}
+            \centering
+            \includegraphics[width=\linewidth, keepaspectratio]{ipa27_evolucion_sociedades.png}
+        \end{column}
+        \begin{column}{0.33\textwidth}
+            \textbf{\textcolor{brandgreen}{Liderazgo Institucional}}
+            \vspace{0.3cm}
+            \begin{small}
+            \begin{itemize}
+                \item Recuperación de \textbf{+13 puntos} (+25\%) en dos años, situando a la comunidad en los \textbf{66 puntos}.
+                \vspace{0.1cm}
+                \item \textbf{Sorpasso Regional}: Superando la media nacional (58,5) por un margen de \textbf{+7,5 puntos}.
+                \vspace{0.1cm}
+                \item Casi duplica el ritmo de mejora de España (+25\% vs +13\%) desde 2023.
+            \end{itemize}
+            \end{small}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+% --- DIAPOSITIVA DOMINIO 2 ---
+\begin{frame}{Dominio 2: Economías Abiertas (+26,8\% desde 2016)}
+    \begin{columns}
+        \begin{column}{0.65\textwidth}
+            \centering
+            \includegraphics[width=\linewidth, keepaspectratio]{ipa27_evolucion_economias.png}
+        \end{column}
+        \begin{column}{0.33\textwidth}
+            \textbf{\textcolor{brandgreen}{Motor de Convergencia}}
+            \vspace{0.3cm}
+            \begin{small}
+            \begin{itemize}
+                \item El crecimiento andaluz (+26,8\%) \textbf{supera} a la mejoría nacional (+17,9\%) desde 2016 en casi diez puntos.
+                \vspace{0.1cm}
+                \item \textbf{Cierre de Brechas}: El ecosistema económico andaluz crece al doble de ritmo (+13\%) que el nacional (+6\%) desde 2023.
+                \vspace{0.1cm}
+                \item \textbf{Máximo Histórico}: Alcanza los 52 puntos, su mejor puntuación de toda la serie.
+            \end{itemize}
+            \end{small}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+% --- DIAPOSITIVA DOMINIO 3 ---
+\begin{frame}{Dominio 3: Personas Empoderadas (+14,8\% desde 2016)}
+    \begin{columns}
+        \begin{column}{0.65\textwidth}
+            \centering
+            \includegraphics[width=\linewidth, keepaspectratio]{ipa27_evolucion_personas.png}
+        \end{column}
+        \begin{column}{0.33\textwidth}
+            \textbf{\textcolor{brandgreen}{Suelo Social Consolidado}}
+            \vspace{0.3cm}
+            \begin{small}
+            \begin{itemize}
+                \item Salto Estructural: Incremento de \textbf{+9 puntos} desde 2016, casi el doble del ritmo nacional (+14,8\% vs +7,9\%).
+                \vspace{0.1cm}
+                \item \textbf{Estabilidad en Máximos}: Consolidación de los \textbf{70 puntos}, récord de bienestar social en la comunidad.
+                \vspace{0.1cm}
+                \item Trayectoria más constante y resiliente que el total nacional ante los ciclos económicos.
+            \end{itemize}
+            \end{small}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+
+\begin{frame}{Brecha de Prosperidad Material: Renta per Cápita}
+    \begin{columns}
+        \begin{column}{0.6\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{ipa27_renta_comparativa.png}
+        \end{column}
+        \begin{column}{0.38\textwidth}
+            \textbf{\textcolor{brandgreen}{El Reto de la Riqueza}}
+            \begin{itemize}
+                \item Comparativa con los motores: \textbf{Madrid, Cataluña y País Vasco}.
+                \item Aunque la prosperidad social (IPA27) converge, la renta per cápita sigue siendo el eje donde la brecha es más difícil de cerrar.
+            \end{itemize}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{Comparativa de Resultados: Andalucía vs Líderes Nacionales}
+    \centering
+    \includegraphics[width=0.95\linewidth, height=0.65\textheight, keepaspectratio]{ipa27_barras_raw_ccaa.png}
+    \vfill
+    \begin{itemize}
+        \item \textbf{Ejes Prioritarios}: Comparativa directa en 6 dimensiones clave (Economía, Educación, Salud y Gobernanza).
+        \item \textbf{Benchmarks}: Visualización empírica del diferencial real frente a Madrid, Cataluña y País Vasco para identificar los márgenes de mejora necesarios.
+    \end{itemize}
+\end{frame}
+
+
+
+% ==================== V. AUDITORÍA Y CONCLUSIÓN ====================
+\section{Conclusiones}
+
+{
+\setbeamercolor{background canvas}{bg=brandgreen}
+\begin{frame}[plain]
+    \centering
+    \vfill
+    {\Huge\bfseries\color{white} V. Conclusiones}\vspace{0.6cm}
+    {\color{white}\rule{6cm}{2.5pt}}\vspace{1.5cm}
+    \includegraphics[width=2.5cm]{logo_fa27_white.png}
+    \vfill
+\end{frame}
+}
+
+\begin{frame}{Conclusiones y Futuro del IPA27}
+    \begin{block}{Cierre Estratégico}
+        El IPA27 no es una foto estática, sino una brújula para la toma de decisiones basada en datos.
+    \end{block}
+    \vspace{0.4cm}
+    \begin{itemize}
+        \item \textbf{Monitorización Continua}: Actualización automática garantizada tras cada publicación de fuentes oficiales.
+        \item \textbf{Políticas de Estado}: Herramienta clave para identificar dónde la inversión pública y privada tiene mayor retorno en prosperidad social.
+        \item \textbf{Próximos Pasos}: Integración de capas de análisis provincial y municipal (fase 2026).
+    \end{itemize}
+\end{frame}
+
+
+% --- Slide Final ---
+{
+\setbeamertemplate{footline}{} 
+\begin{frame}[plain]
+    \centering
+    \vspace{2cm}
+    {\huge \textbf{\textcolor{brandgreen}{Gracias por su atención}}}
+    
+    \vspace{1cm}
+    \begin{tikzpicture}
+        \fill[brandgreen] (-4,0) rectangle (4, 0.05);
+    \end{tikzpicture}
+    
+    \vspace{1cm}
+    \footnotesize
+    Persona de contacto: \textit{mhidper@upo.es}\\
+\end{frame}
+}
+
+\end{document}
