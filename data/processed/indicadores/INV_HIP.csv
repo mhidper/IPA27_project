@@ -179,8 +179,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-10-01,2024-M10,AND,INV_HIP,12869.0,Mensual,Total fincas. Andalucía. Número de hipotecas. Base nueva. Mensual. 
 2024-11-01,2024-M11,AND,INV_HIP,9217.0,Mensual,Total fincas. Andalucía. Número de hipotecas. Base nueva. Mensual. 
 2024-12-01,2024-M12,AND,INV_HIP,8324.0,Mensual,Total fincas. Andalucía. Número de hipotecas. Base nueva. Mensual. 
-2025-01-01,2025-M01,AND,INV_HIP,9209.0,Mensual,Total fincas. Andalucía. Número de hipotecas. Base nueva. Mensual. 
-2025-02-01,2025-M02,AND,INV_HIP,9343.0,Mensual,Total fincas. Andalucía. Número de hipotecas. Base nueva. Mensual. 
+2025-01-01,2025-M01,AND,INV_HIP,9168.0,Mensual,Total fincas. Andalucía. Número de hipotecas. Base nueva. Mensual. 
+2025-02-01,2025-M02,AND,INV_HIP,9345.0,Mensual,Total fincas. Andalucía. Número de hipotecas. Base nueva. Mensual. 
 2025-03-01,2025-M03,AND,INV_HIP,10232.0,Mensual,Total fincas. Andalucía. Número de hipotecas. Base nueva. Mensual. 
 2025-04-01,2025-M04,AND,INV_HIP,9618.0,Mensual,Total fincas. Andalucía. Número de hipotecas. Base nueva. Mensual. 
 2025-05-01,2025-M05,AND,INV_HIP,9566.0,Mensual,Total fincas. Andalucía. Número de hipotecas. Base nueva. Mensual. 
@@ -191,6 +191,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,AND,INV_HIP,13159.0,Mensual,Total fincas. Andalucía. Número de hipotecas. Base nueva. Mensual. 
 2025-11-01,2025-M11,AND,INV_HIP,11302.0,Mensual,Total fincas. Andalucía. Número de hipotecas. Base nueva. Mensual. 
 2025-12-01,2025-M12,AND,INV_HIP,9743.0,Mensual,Total fincas. Andalucía. Número de hipotecas. Base nueva. Mensual. 
+2026-01-01,2026-M01,AND,INV_HIP,9831.0,Mensual,Total fincas. Andalucía. Número de hipotecas. Base nueva. Mensual. 
+2026-02-01,2026-M02,AND,INV_HIP,11365.0,Mensual,Total fincas. Andalucía. Número de hipotecas. Base nueva. Mensual. 
 2010-01-01,2010-M01,ARA,INV_HIP,2839.0,Mensual,Total fincas. Aragón. Número de hipotecas. Base nueva. Mensual. 
 2010-02-01,2010-M02,ARA,INV_HIP,2259.0,Mensual,Total fincas. Aragón. Número de hipotecas. Base nueva. Mensual. 
 2010-03-01,2010-M03,ARA,INV_HIP,2829.0,Mensual,Total fincas. Aragón. Número de hipotecas. Base nueva. Mensual. 
@@ -383,6 +385,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,ARA,INV_HIP,1634.0,Mensual,Total fincas. Aragón. Número de hipotecas. Base nueva. Mensual. 
 2025-11-01,2025-M11,ARA,INV_HIP,1391.0,Mensual,Total fincas. Aragón. Número de hipotecas. Base nueva. Mensual. 
 2025-12-01,2025-M12,ARA,INV_HIP,1252.0,Mensual,Total fincas. Aragón. Número de hipotecas. Base nueva. Mensual. 
+2026-01-01,2026-M01,ARA,INV_HIP,1054.0,Mensual,Total fincas. Aragón. Número de hipotecas. Base nueva. Mensual. 
+2026-02-01,2026-M02,ARA,INV_HIP,1720.0,Mensual,Total fincas. Aragón. Número de hipotecas. Base nueva. Mensual. 
 2010-01-01,2010-M01,AST,INV_HIP,1308.0,Mensual,"Total fincas. Asturias, Principado de. Número de hipotecas. Base nueva. Mensual. "
 2010-02-01,2010-M02,AST,INV_HIP,2218.0,Mensual,"Total fincas. Asturias, Principado de. Número de hipotecas. Base nueva. Mensual. "
 2010-03-01,2010-M03,AST,INV_HIP,2144.0,Mensual,"Total fincas. Asturias, Principado de. Número de hipotecas. Base nueva. Mensual. "
@@ -575,6 +579,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,AST,INV_HIP,1419.0,Mensual,"Total fincas. Asturias, Principado de. Número de hipotecas. Base nueva. Mensual. "
 2025-11-01,2025-M11,AST,INV_HIP,1263.0,Mensual,"Total fincas. Asturias, Principado de. Número de hipotecas. Base nueva. Mensual. "
 2025-12-01,2025-M12,AST,INV_HIP,974.0,Mensual,"Total fincas. Asturias, Principado de. Número de hipotecas. Base nueva. Mensual. "
+2026-01-01,2026-M01,AST,INV_HIP,1001.0,Mensual,"Total fincas. Asturias, Principado de. Número de hipotecas. Base nueva. Mensual. "
+2026-02-01,2026-M02,AST,INV_HIP,1006.0,Mensual,"Total fincas. Asturias, Principado de. Número de hipotecas. Base nueva. Mensual. "
 2010-01-01,2010-M01,BAL,INV_HIP,2485.0,Mensual,"Total fincas. Balears, Illes. Número de hipotecas. Base nueva. Mensual. "
 2010-02-01,2010-M02,BAL,INV_HIP,2434.0,Mensual,"Total fincas. Balears, Illes. Número de hipotecas. Base nueva. Mensual. "
 2010-03-01,2010-M03,BAL,INV_HIP,2328.0,Mensual,"Total fincas. Balears, Illes. Número de hipotecas. Base nueva. Mensual. "
@@ -767,6 +773,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,BAL,INV_HIP,1434.0,Mensual,"Total fincas. Balears, Illes. Número de hipotecas. Base nueva. Mensual. "
 2025-11-01,2025-M11,BAL,INV_HIP,1033.0,Mensual,"Total fincas. Balears, Illes. Número de hipotecas. Base nueva. Mensual. "
 2025-12-01,2025-M12,BAL,INV_HIP,1244.0,Mensual,"Total fincas. Balears, Illes. Número de hipotecas. Base nueva. Mensual. "
+2026-01-01,2026-M01,BAL,INV_HIP,1250.0,Mensual,"Total fincas. Balears, Illes. Número de hipotecas. Base nueva. Mensual. "
+2026-02-01,2026-M02,BAL,INV_HIP,1224.0,Mensual,"Total fincas. Balears, Illes. Número de hipotecas. Base nueva. Mensual. "
 2010-01-01,2010-M01,CAN,INV_HIP,4770.0,Mensual,Total fincas. Canarias. Número de hipotecas. Base nueva. Mensual. 
 2010-02-01,2010-M02,CAN,INV_HIP,3237.0,Mensual,Total fincas. Canarias. Número de hipotecas. Base nueva. Mensual. 
 2010-03-01,2010-M03,CAN,INV_HIP,4464.0,Mensual,Total fincas. Canarias. Número de hipotecas. Base nueva. Mensual. 
@@ -959,6 +967,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,CAN,INV_HIP,2240.0,Mensual,Total fincas. Canarias. Número de hipotecas. Base nueva. Mensual. 
 2025-11-01,2025-M11,CAN,INV_HIP,1910.0,Mensual,Total fincas. Canarias. Número de hipotecas. Base nueva. Mensual. 
 2025-12-01,2025-M12,CAN,INV_HIP,1976.0,Mensual,Total fincas. Canarias. Número de hipotecas. Base nueva. Mensual. 
+2026-01-01,2026-M01,CAN,INV_HIP,1912.0,Mensual,Total fincas. Canarias. Número de hipotecas. Base nueva. Mensual. 
+2026-02-01,2026-M02,CAN,INV_HIP,1801.0,Mensual,Total fincas. Canarias. Número de hipotecas. Base nueva. Mensual. 
 2010-01-01,2010-M01,CANT,INV_HIP,1249.0,Mensual,Total fincas. Cantabria. Número de hipotecas. Base nueva. Mensual. 
 2010-02-01,2010-M02,CANT,INV_HIP,1325.0,Mensual,Total fincas. Cantabria. Número de hipotecas. Base nueva. Mensual. 
 2010-03-01,2010-M03,CANT,INV_HIP,1516.0,Mensual,Total fincas. Cantabria. Número de hipotecas. Base nueva. Mensual. 
@@ -1151,6 +1161,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,CANT,INV_HIP,845.0,Mensual,Total fincas. Cantabria. Número de hipotecas. Base nueva. Mensual. 
 2025-11-01,2025-M11,CANT,INV_HIP,1026.0,Mensual,Total fincas. Cantabria. Número de hipotecas. Base nueva. Mensual. 
 2025-12-01,2025-M12,CANT,INV_HIP,737.0,Mensual,Total fincas. Cantabria. Número de hipotecas. Base nueva. Mensual. 
+2026-01-01,2026-M01,CANT,INV_HIP,640.0,Mensual,Total fincas. Cantabria. Número de hipotecas. Base nueva. Mensual. 
+2026-02-01,2026-M02,CANT,INV_HIP,774.0,Mensual,Total fincas. Cantabria. Número de hipotecas. Base nueva. Mensual. 
 2010-01-01,2010-M01,CAT,INV_HIP,12118.0,Mensual,Total fincas. Cataluña. Número de hipotecas. Base nueva. Mensual. 
 2010-02-01,2010-M02,CAT,INV_HIP,12814.0,Mensual,Total fincas. Cataluña. Número de hipotecas. Base nueva. Mensual. 
 2010-03-01,2010-M03,CAT,INV_HIP,13519.0,Mensual,Total fincas. Cataluña. Número de hipotecas. Base nueva. Mensual. 
@@ -1332,7 +1344,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-11-01,2024-M11,CAT,INV_HIP,8487.0,Mensual,Total fincas. Cataluña. Número de hipotecas. Base nueva. Mensual. 
 2024-12-01,2024-M12,CAT,INV_HIP,6345.0,Mensual,Total fincas. Cataluña. Número de hipotecas. Base nueva. Mensual. 
 2025-01-01,2025-M01,CAT,INV_HIP,8417.0,Mensual,Total fincas. Cataluña. Número de hipotecas. Base nueva. Mensual. 
-2025-02-01,2025-M02,CAT,INV_HIP,8950.0,Mensual,Total fincas. Cataluña. Número de hipotecas. Base nueva. Mensual. 
+2025-02-01,2025-M02,CAT,INV_HIP,8960.0,Mensual,Total fincas. Cataluña. Número de hipotecas. Base nueva. Mensual. 
 2025-03-01,2025-M03,CAT,INV_HIP,9192.0,Mensual,Total fincas. Cataluña. Número de hipotecas. Base nueva. Mensual. 
 2025-04-01,2025-M04,CAT,INV_HIP,7631.0,Mensual,Total fincas. Cataluña. Número de hipotecas. Base nueva. Mensual. 
 2025-05-01,2025-M05,CAT,INV_HIP,9268.0,Mensual,Total fincas. Cataluña. Número de hipotecas. Base nueva. Mensual. 
@@ -1343,6 +1355,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,CAT,INV_HIP,10809.0,Mensual,Total fincas. Cataluña. Número de hipotecas. Base nueva. Mensual. 
 2025-11-01,2025-M11,CAT,INV_HIP,8945.0,Mensual,Total fincas. Cataluña. Número de hipotecas. Base nueva. Mensual. 
 2025-12-01,2025-M12,CAT,INV_HIP,7916.0,Mensual,Total fincas. Cataluña. Número de hipotecas. Base nueva. Mensual. 
+2026-01-01,2026-M01,CAT,INV_HIP,8579.0,Mensual,Total fincas. Cataluña. Número de hipotecas. Base nueva. Mensual. 
+2026-02-01,2026-M02,CAT,INV_HIP,10491.0,Mensual,Total fincas. Cataluña. Número de hipotecas. Base nueva. Mensual. 
 2010-01-01,2010-M01,CLM,INV_HIP,3778.0,Mensual,Total fincas. Castilla - La Mancha. Número de hipotecas. Base nueva. Mensual. 
 2010-02-01,2010-M02,CLM,INV_HIP,3239.0,Mensual,Total fincas. Castilla - La Mancha. Número de hipotecas. Base nueva. Mensual. 
 2010-03-01,2010-M03,CLM,INV_HIP,3574.0,Mensual,Total fincas. Castilla - La Mancha. Número de hipotecas. Base nueva. Mensual. 
@@ -1523,8 +1537,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-10-01,2024-M10,CLM,INV_HIP,2740.0,Mensual,Total fincas. Castilla - La Mancha. Número de hipotecas. Base nueva. Mensual. 
 2024-11-01,2024-M11,CLM,INV_HIP,2143.0,Mensual,Total fincas. Castilla - La Mancha. Número de hipotecas. Base nueva. Mensual. 
 2024-12-01,2024-M12,CLM,INV_HIP,1753.0,Mensual,Total fincas. Castilla - La Mancha. Número de hipotecas. Base nueva. Mensual. 
-2025-01-01,2025-M01,CLM,INV_HIP,2110.0,Mensual,Total fincas. Castilla - La Mancha. Número de hipotecas. Base nueva. Mensual. 
-2025-02-01,2025-M02,CLM,INV_HIP,2029.0,Mensual,Total fincas. Castilla - La Mancha. Número de hipotecas. Base nueva. Mensual. 
+2025-01-01,2025-M01,CLM,INV_HIP,2127.0,Mensual,Total fincas. Castilla - La Mancha. Número de hipotecas. Base nueva. Mensual. 
+2025-02-01,2025-M02,CLM,INV_HIP,2002.0,Mensual,Total fincas. Castilla - La Mancha. Número de hipotecas. Base nueva. Mensual. 
 2025-03-01,2025-M03,CLM,INV_HIP,2065.0,Mensual,Total fincas. Castilla - La Mancha. Número de hipotecas. Base nueva. Mensual. 
 2025-04-01,2025-M04,CLM,INV_HIP,2114.0,Mensual,Total fincas. Castilla - La Mancha. Número de hipotecas. Base nueva. Mensual. 
 2025-05-01,2025-M05,CLM,INV_HIP,2604.0,Mensual,Total fincas. Castilla - La Mancha. Número de hipotecas. Base nueva. Mensual. 
@@ -1535,6 +1549,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,CLM,INV_HIP,3368.0,Mensual,Total fincas. Castilla - La Mancha. Número de hipotecas. Base nueva. Mensual. 
 2025-11-01,2025-M11,CLM,INV_HIP,2447.0,Mensual,Total fincas. Castilla - La Mancha. Número de hipotecas. Base nueva. Mensual. 
 2025-12-01,2025-M12,CLM,INV_HIP,2278.0,Mensual,Total fincas. Castilla - La Mancha. Número de hipotecas. Base nueva. Mensual. 
+2026-01-01,2026-M01,CLM,INV_HIP,2198.0,Mensual,Total fincas. Castilla - La Mancha. Número de hipotecas. Base nueva. Mensual. 
+2026-02-01,2026-M02,CLM,INV_HIP,2702.0,Mensual,Total fincas. Castilla - La Mancha. Número de hipotecas. Base nueva. Mensual. 
 2010-01-01,2010-M01,CYL,INV_HIP,6625.0,Mensual,Total fincas. Castilla y León. Número de hipotecas. Base nueva. Mensual. 
 2010-02-01,2010-M02,CYL,INV_HIP,5662.0,Mensual,Total fincas. Castilla y León. Número de hipotecas. Base nueva. Mensual. 
 2010-03-01,2010-M03,CYL,INV_HIP,4805.0,Mensual,Total fincas. Castilla y León. Número de hipotecas. Base nueva. Mensual. 
@@ -1715,8 +1731,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-10-01,2024-M10,CYL,INV_HIP,3055.0,Mensual,Total fincas. Castilla y León. Número de hipotecas. Base nueva. Mensual. 
 2024-11-01,2024-M11,CYL,INV_HIP,2248.0,Mensual,Total fincas. Castilla y León. Número de hipotecas. Base nueva. Mensual. 
 2024-12-01,2024-M12,CYL,INV_HIP,1787.0,Mensual,Total fincas. Castilla y León. Número de hipotecas. Base nueva. Mensual. 
-2025-01-01,2025-M01,CYL,INV_HIP,2362.0,Mensual,Total fincas. Castilla y León. Número de hipotecas. Base nueva. Mensual. 
-2025-02-01,2025-M02,CYL,INV_HIP,2644.0,Mensual,Total fincas. Castilla y León. Número de hipotecas. Base nueva. Mensual. 
+2025-01-01,2025-M01,CYL,INV_HIP,2350.0,Mensual,Total fincas. Castilla y León. Número de hipotecas. Base nueva. Mensual. 
+2025-02-01,2025-M02,CYL,INV_HIP,2671.0,Mensual,Total fincas. Castilla y León. Número de hipotecas. Base nueva. Mensual. 
 2025-03-01,2025-M03,CYL,INV_HIP,2793.0,Mensual,Total fincas. Castilla y León. Número de hipotecas. Base nueva. Mensual. 
 2025-04-01,2025-M04,CYL,INV_HIP,2462.0,Mensual,Total fincas. Castilla y León. Número de hipotecas. Base nueva. Mensual. 
 2025-05-01,2025-M05,CYL,INV_HIP,2603.0,Mensual,Total fincas. Castilla y León. Número de hipotecas. Base nueva. Mensual. 
@@ -1727,6 +1743,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,CYL,INV_HIP,3297.0,Mensual,Total fincas. Castilla y León. Número de hipotecas. Base nueva. Mensual. 
 2025-11-01,2025-M11,CYL,INV_HIP,2783.0,Mensual,Total fincas. Castilla y León. Número de hipotecas. Base nueva. Mensual. 
 2025-12-01,2025-M12,CYL,INV_HIP,2593.0,Mensual,Total fincas. Castilla y León. Número de hipotecas. Base nueva. Mensual. 
+2026-01-01,2026-M01,CYL,INV_HIP,2275.0,Mensual,Total fincas. Castilla y León. Número de hipotecas. Base nueva. Mensual. 
+2026-02-01,2026-M02,CYL,INV_HIP,2451.0,Mensual,Total fincas. Castilla y León. Número de hipotecas. Base nueva. Mensual. 
 2010-01-01,2010-M01,ESP,INV_HIP,90045.0,Mensual,Total fincas. Número de hipotecas. Total Nacional. Base nueva. Mensual. 
 2010-02-01,2010-M02,ESP,INV_HIP,88523.0,Mensual,Total fincas. Número de hipotecas. Total Nacional. Base nueva. Mensual. 
 2010-03-01,2010-M03,ESP,INV_HIP,87137.0,Mensual,Total fincas. Número de hipotecas. Total Nacional. Base nueva. Mensual. 
@@ -1907,8 +1925,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-10-01,2024-M10,ESP,INV_HIP,67238.0,Mensual,Total fincas. Número de hipotecas. Total Nacional. Base nueva. Mensual. 
 2024-11-01,2024-M11,ESP,INV_HIP,50098.0,Mensual,Total fincas. Número de hipotecas. Total Nacional. Base nueva. Mensual. 
 2024-12-01,2024-M12,ESP,INV_HIP,41604.0,Mensual,Total fincas. Número de hipotecas. Total Nacional. Base nueva. Mensual. 
-2025-01-01,2025-M01,ESP,INV_HIP,48619.0,Mensual,Total fincas. Número de hipotecas. Total Nacional. Base nueva. Mensual. 
-2025-02-01,2025-M02,ESP,INV_HIP,50627.0,Mensual,Total fincas. Número de hipotecas. Total Nacional. Base nueva. Mensual. 
+2025-01-01,2025-M01,ESP,INV_HIP,48374.0,Mensual,Total fincas. Número de hipotecas. Total Nacional. Base nueva. Mensual. 
+2025-02-01,2025-M02,ESP,INV_HIP,50802.0,Mensual,Total fincas. Número de hipotecas. Total Nacional. Base nueva. Mensual. 
 2025-03-01,2025-M03,ESP,INV_HIP,54238.0,Mensual,Total fincas. Número de hipotecas. Total Nacional. Base nueva. Mensual. 
 2025-04-01,2025-M04,ESP,INV_HIP,50562.0,Mensual,Total fincas. Número de hipotecas. Total Nacional. Base nueva. Mensual. 
 2025-05-01,2025-M05,ESP,INV_HIP,54744.0,Mensual,Total fincas. Número de hipotecas. Total Nacional. Base nueva. Mensual. 
@@ -1919,6 +1937,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,ESP,INV_HIP,66960.0,Mensual,Total fincas. Número de hipotecas. Total Nacional. Base nueva. Mensual. 
 2025-11-01,2025-M11,ESP,INV_HIP,55762.0,Mensual,Total fincas. Número de hipotecas. Total Nacional. Base nueva. Mensual. 
 2025-12-01,2025-M12,ESP,INV_HIP,49271.0,Mensual,Total fincas. Número de hipotecas. Total Nacional. Base nueva. Mensual. 
+2026-01-01,2026-M01,ESP,INV_HIP,49384.0,Mensual,Total fincas. Número de hipotecas. Total Nacional. Base nueva. Mensual. 
+2026-02-01,2026-M02,ESP,INV_HIP,59349.0,Mensual,Total fincas. Número de hipotecas. Total Nacional. Base nueva. Mensual. 
 2010-01-01,2010-M01,EXT,INV_HIP,1730.0,Mensual,Total fincas. Extremadura. Número de hipotecas. Base nueva. Mensual. 
 2010-02-01,2010-M02,EXT,INV_HIP,1542.0,Mensual,Total fincas. Extremadura. Número de hipotecas. Base nueva. Mensual. 
 2010-03-01,2010-M03,EXT,INV_HIP,1468.0,Mensual,Total fincas. Extremadura. Número de hipotecas. Base nueva. Mensual. 
@@ -2100,7 +2120,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-11-01,2024-M11,EXT,INV_HIP,851.0,Mensual,Total fincas. Extremadura. Número de hipotecas. Base nueva. Mensual. 
 2024-12-01,2024-M12,EXT,INV_HIP,772.0,Mensual,Total fincas. Extremadura. Número de hipotecas. Base nueva. Mensual. 
 2025-01-01,2025-M01,EXT,INV_HIP,836.0,Mensual,Total fincas. Extremadura. Número de hipotecas. Base nueva. Mensual. 
-2025-02-01,2025-M02,EXT,INV_HIP,877.0,Mensual,Total fincas. Extremadura. Número de hipotecas. Base nueva. Mensual. 
+2025-02-01,2025-M02,EXT,INV_HIP,1085.0,Mensual,Total fincas. Extremadura. Número de hipotecas. Base nueva. Mensual. 
 2025-03-01,2025-M03,EXT,INV_HIP,923.0,Mensual,Total fincas. Extremadura. Número de hipotecas. Base nueva. Mensual. 
 2025-04-01,2025-M04,EXT,INV_HIP,1059.0,Mensual,Total fincas. Extremadura. Número de hipotecas. Base nueva. Mensual. 
 2025-05-01,2025-M05,EXT,INV_HIP,1093.0,Mensual,Total fincas. Extremadura. Número de hipotecas. Base nueva. Mensual. 
@@ -2111,6 +2131,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,EXT,INV_HIP,1285.0,Mensual,Total fincas. Extremadura. Número de hipotecas. Base nueva. Mensual. 
 2025-11-01,2025-M11,EXT,INV_HIP,899.0,Mensual,Total fincas. Extremadura. Número de hipotecas. Base nueva. Mensual. 
 2025-12-01,2025-M12,EXT,INV_HIP,873.0,Mensual,Total fincas. Extremadura. Número de hipotecas. Base nueva. Mensual. 
+2026-01-01,2026-M01,EXT,INV_HIP,1062.0,Mensual,Total fincas. Extremadura. Número de hipotecas. Base nueva. Mensual. 
+2026-02-01,2026-M02,EXT,INV_HIP,1142.0,Mensual,Total fincas. Extremadura. Número de hipotecas. Base nueva. Mensual. 
 2010-01-01,2010-M01,GAL,INV_HIP,5815.0,Mensual,Total fincas. Galicia. Número de hipotecas. Base nueva. Mensual. 
 2010-02-01,2010-M02,GAL,INV_HIP,4352.0,Mensual,Total fincas. Galicia. Número de hipotecas. Base nueva. Mensual. 
 2010-03-01,2010-M03,GAL,INV_HIP,4963.0,Mensual,Total fincas. Galicia. Número de hipotecas. Base nueva. Mensual. 
@@ -2291,8 +2313,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-10-01,2024-M10,GAL,INV_HIP,2833.0,Mensual,Total fincas. Galicia. Número de hipotecas. Base nueva. Mensual. 
 2024-11-01,2024-M11,GAL,INV_HIP,1851.0,Mensual,Total fincas. Galicia. Número de hipotecas. Base nueva. Mensual. 
 2024-12-01,2024-M12,GAL,INV_HIP,1791.0,Mensual,Total fincas. Galicia. Número de hipotecas. Base nueva. Mensual. 
-2025-01-01,2025-M01,GAL,INV_HIP,1899.0,Mensual,Total fincas. Galicia. Número de hipotecas. Base nueva. Mensual. 
-2025-02-01,2025-M02,GAL,INV_HIP,1913.0,Mensual,Total fincas. Galicia. Número de hipotecas. Base nueva. Mensual. 
+2025-01-01,2025-M01,GAL,INV_HIP,1855.0,Mensual,Total fincas. Galicia. Número de hipotecas. Base nueva. Mensual. 
+2025-02-01,2025-M02,GAL,INV_HIP,1972.0,Mensual,Total fincas. Galicia. Número de hipotecas. Base nueva. Mensual. 
 2025-03-01,2025-M03,GAL,INV_HIP,2945.0,Mensual,Total fincas. Galicia. Número de hipotecas. Base nueva. Mensual. 
 2025-04-01,2025-M04,GAL,INV_HIP,1950.0,Mensual,Total fincas. Galicia. Número de hipotecas. Base nueva. Mensual. 
 2025-05-01,2025-M05,GAL,INV_HIP,2319.0,Mensual,Total fincas. Galicia. Número de hipotecas. Base nueva. Mensual. 
@@ -2303,6 +2325,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,GAL,INV_HIP,2694.0,Mensual,Total fincas. Galicia. Número de hipotecas. Base nueva. Mensual. 
 2025-11-01,2025-M11,GAL,INV_HIP,2089.0,Mensual,Total fincas. Galicia. Número de hipotecas. Base nueva. Mensual. 
 2025-12-01,2025-M12,GAL,INV_HIP,2073.0,Mensual,Total fincas. Galicia. Número de hipotecas. Base nueva. Mensual. 
+2026-01-01,2026-M01,GAL,INV_HIP,2185.0,Mensual,Total fincas. Galicia. Número de hipotecas. Base nueva. Mensual. 
+2026-02-01,2026-M02,GAL,INV_HIP,2309.0,Mensual,Total fincas. Galicia. Número de hipotecas. Base nueva. Mensual. 
 2010-01-01,2010-M01,MAD,INV_HIP,11160.0,Mensual,"Total fincas. Madrid, Comunidad de. Número de hipotecas. Base nueva. Mensual. "
 2010-02-01,2010-M02,MAD,INV_HIP,11033.0,Mensual,"Total fincas. Madrid, Comunidad de. Número de hipotecas. Base nueva. Mensual. "
 2010-03-01,2010-M03,MAD,INV_HIP,11111.0,Mensual,"Total fincas. Madrid, Comunidad de. Número de hipotecas. Base nueva. Mensual. "
@@ -2483,8 +2507,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-10-01,2024-M10,MAD,INV_HIP,11444.0,Mensual,"Total fincas. Madrid, Comunidad de. Número de hipotecas. Base nueva. Mensual. "
 2024-11-01,2024-M11,MAD,INV_HIP,8641.0,Mensual,"Total fincas. Madrid, Comunidad de. Número de hipotecas. Base nueva. Mensual. "
 2024-12-01,2024-M12,MAD,INV_HIP,6184.0,Mensual,"Total fincas. Madrid, Comunidad de. Número de hipotecas. Base nueva. Mensual. "
-2025-01-01,2025-M01,MAD,INV_HIP,6572.0,Mensual,"Total fincas. Madrid, Comunidad de. Número de hipotecas. Base nueva. Mensual. "
-2025-02-01,2025-M02,MAD,INV_HIP,6701.0,Mensual,"Total fincas. Madrid, Comunidad de. Número de hipotecas. Base nueva. Mensual. "
+2025-01-01,2025-M01,MAD,INV_HIP,6439.0,Mensual,"Total fincas. Madrid, Comunidad de. Número de hipotecas. Base nueva. Mensual. "
+2025-02-01,2025-M02,MAD,INV_HIP,6688.0,Mensual,"Total fincas. Madrid, Comunidad de. Número de hipotecas. Base nueva. Mensual. "
 2025-03-01,2025-M03,MAD,INV_HIP,7973.0,Mensual,"Total fincas. Madrid, Comunidad de. Número de hipotecas. Base nueva. Mensual. "
 2025-04-01,2025-M04,MAD,INV_HIP,8425.0,Mensual,"Total fincas. Madrid, Comunidad de. Número de hipotecas. Base nueva. Mensual. "
 2025-05-01,2025-M05,MAD,INV_HIP,7598.0,Mensual,"Total fincas. Madrid, Comunidad de. Número de hipotecas. Base nueva. Mensual. "
@@ -2495,6 +2519,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,MAD,INV_HIP,10136.0,Mensual,"Total fincas. Madrid, Comunidad de. Número de hipotecas. Base nueva. Mensual. "
 2025-11-01,2025-M11,MAD,INV_HIP,8082.0,Mensual,"Total fincas. Madrid, Comunidad de. Número de hipotecas. Base nueva. Mensual. "
 2025-12-01,2025-M12,MAD,INV_HIP,6348.0,Mensual,"Total fincas. Madrid, Comunidad de. Número de hipotecas. Base nueva. Mensual. "
+2026-01-01,2026-M01,MAD,INV_HIP,6556.0,Mensual,"Total fincas. Madrid, Comunidad de. Número de hipotecas. Base nueva. Mensual. "
+2026-02-01,2026-M02,MAD,INV_HIP,9894.0,Mensual,"Total fincas. Madrid, Comunidad de. Número de hipotecas. Base nueva. Mensual. "
 2010-01-01,2010-M01,MUR,INV_HIP,3102.0,Mensual,"Total fincas. Murcia, Región de. Número de hipotecas. Base nueva. Mensual. "
 2010-02-01,2010-M02,MUR,INV_HIP,3262.0,Mensual,"Total fincas. Murcia, Región de. Número de hipotecas. Base nueva. Mensual. "
 2010-03-01,2010-M03,MUR,INV_HIP,2969.0,Mensual,"Total fincas. Murcia, Región de. Número de hipotecas. Base nueva. Mensual. "
@@ -2675,8 +2701,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-10-01,2024-M10,MUR,INV_HIP,2117.0,Mensual,"Total fincas. Murcia, Región de. Número de hipotecas. Base nueva. Mensual. "
 2024-11-01,2024-M11,MUR,INV_HIP,1378.0,Mensual,"Total fincas. Murcia, Región de. Número de hipotecas. Base nueva. Mensual. "
 2024-12-01,2024-M12,MUR,INV_HIP,1290.0,Mensual,"Total fincas. Murcia, Región de. Número de hipotecas. Base nueva. Mensual. "
-2025-01-01,2025-M01,MUR,INV_HIP,1598.0,Mensual,"Total fincas. Murcia, Región de. Número de hipotecas. Base nueva. Mensual. "
-2025-02-01,2025-M02,MUR,INV_HIP,1638.0,Mensual,"Total fincas. Murcia, Región de. Número de hipotecas. Base nueva. Mensual. "
+2025-01-01,2025-M01,MUR,INV_HIP,1627.0,Mensual,"Total fincas. Murcia, Región de. Número de hipotecas. Base nueva. Mensual. "
+2025-02-01,2025-M02,MUR,INV_HIP,1746.0,Mensual,"Total fincas. Murcia, Región de. Número de hipotecas. Base nueva. Mensual. "
 2025-03-01,2025-M03,MUR,INV_HIP,1686.0,Mensual,"Total fincas. Murcia, Región de. Número de hipotecas. Base nueva. Mensual. "
 2025-04-01,2025-M04,MUR,INV_HIP,1415.0,Mensual,"Total fincas. Murcia, Región de. Número de hipotecas. Base nueva. Mensual. "
 2025-05-01,2025-M05,MUR,INV_HIP,1715.0,Mensual,"Total fincas. Murcia, Región de. Número de hipotecas. Base nueva. Mensual. "
@@ -2687,6 +2713,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,MUR,INV_HIP,2075.0,Mensual,"Total fincas. Murcia, Región de. Número de hipotecas. Base nueva. Mensual. "
 2025-11-01,2025-M11,MUR,INV_HIP,1560.0,Mensual,"Total fincas. Murcia, Región de. Número de hipotecas. Base nueva. Mensual. "
 2025-12-01,2025-M12,MUR,INV_HIP,1453.0,Mensual,"Total fincas. Murcia, Región de. Número de hipotecas. Base nueva. Mensual. "
+2026-01-01,2026-M01,MUR,INV_HIP,1441.0,Mensual,"Total fincas. Murcia, Región de. Número de hipotecas. Base nueva. Mensual. "
+2026-02-01,2026-M02,MUR,INV_HIP,1852.0,Mensual,"Total fincas. Murcia, Región de. Número de hipotecas. Base nueva. Mensual. "
 2010-01-01,2010-M01,NAV,INV_HIP,1021.0,Mensual,"Total fincas. Navarra, Comunidad Foral de. Número de hipotecas. Base nueva. Mensual. "
 2010-02-01,2010-M02,NAV,INV_HIP,1052.0,Mensual,"Total fincas. Navarra, Comunidad Foral de. Número de hipotecas. Base nueva. Mensual. "
 2010-03-01,2010-M03,NAV,INV_HIP,1028.0,Mensual,"Total fincas. Navarra, Comunidad Foral de. Número de hipotecas. Base nueva. Mensual. "
@@ -2868,7 +2896,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-11-01,2024-M11,NAV,INV_HIP,580.0,Mensual,"Total fincas. Navarra, Comunidad Foral de. Número de hipotecas. Base nueva. Mensual. "
 2024-12-01,2024-M12,NAV,INV_HIP,517.0,Mensual,"Total fincas. Navarra, Comunidad Foral de. Número de hipotecas. Base nueva. Mensual. "
 2025-01-01,2025-M01,NAV,INV_HIP,484.0,Mensual,"Total fincas. Navarra, Comunidad Foral de. Número de hipotecas. Base nueva. Mensual. "
-2025-02-01,2025-M02,NAV,INV_HIP,591.0,Mensual,"Total fincas. Navarra, Comunidad Foral de. Número de hipotecas. Base nueva. Mensual. "
+2025-02-01,2025-M02,NAV,INV_HIP,600.0,Mensual,"Total fincas. Navarra, Comunidad Foral de. Número de hipotecas. Base nueva. Mensual. "
 2025-03-01,2025-M03,NAV,INV_HIP,621.0,Mensual,"Total fincas. Navarra, Comunidad Foral de. Número de hipotecas. Base nueva. Mensual. "
 2025-04-01,2025-M04,NAV,INV_HIP,768.0,Mensual,"Total fincas. Navarra, Comunidad Foral de. Número de hipotecas. Base nueva. Mensual. "
 2025-05-01,2025-M05,NAV,INV_HIP,667.0,Mensual,"Total fincas. Navarra, Comunidad Foral de. Número de hipotecas. Base nueva. Mensual. "
@@ -2879,6 +2907,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,NAV,INV_HIP,674.0,Mensual,"Total fincas. Navarra, Comunidad Foral de. Número de hipotecas. Base nueva. Mensual. "
 2025-11-01,2025-M11,NAV,INV_HIP,572.0,Mensual,"Total fincas. Navarra, Comunidad Foral de. Número de hipotecas. Base nueva. Mensual. "
 2025-12-01,2025-M12,NAV,INV_HIP,654.0,Mensual,"Total fincas. Navarra, Comunidad Foral de. Número de hipotecas. Base nueva. Mensual. "
+2026-01-01,2026-M01,NAV,INV_HIP,630.0,Mensual,"Total fincas. Navarra, Comunidad Foral de. Número de hipotecas. Base nueva. Mensual. "
+2026-02-01,2026-M02,NAV,INV_HIP,672.0,Mensual,"Total fincas. Navarra, Comunidad Foral de. Número de hipotecas. Base nueva. Mensual. "
 2010-01-01,2010-M01,PV,INV_HIP,3422.0,Mensual,Total fincas. País Vasco. Número de hipotecas. Base nueva. Mensual. 
 2010-02-01,2010-M02,PV,INV_HIP,4321.0,Mensual,Total fincas. País Vasco. Número de hipotecas. Base nueva. Mensual. 
 2010-03-01,2010-M03,PV,INV_HIP,3961.0,Mensual,Total fincas. País Vasco. Número de hipotecas. Base nueva. Mensual. 
@@ -3059,8 +3089,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-10-01,2024-M10,PV,INV_HIP,2954.0,Mensual,Total fincas. País Vasco. Número de hipotecas. Base nueva. Mensual. 
 2024-11-01,2024-M11,PV,INV_HIP,2441.0,Mensual,Total fincas. País Vasco. Número de hipotecas. Base nueva. Mensual. 
 2024-12-01,2024-M12,PV,INV_HIP,1815.0,Mensual,Total fincas. País Vasco. Número de hipotecas. Base nueva. Mensual. 
-2025-01-01,2025-M01,PV,INV_HIP,2381.0,Mensual,Total fincas. País Vasco. Número de hipotecas. Base nueva. Mensual. 
-2025-02-01,2025-M02,PV,INV_HIP,3049.0,Mensual,Total fincas. País Vasco. Número de hipotecas. Base nueva. Mensual. 
+2025-01-01,2025-M01,PV,INV_HIP,2353.0,Mensual,Total fincas. País Vasco. Número de hipotecas. Base nueva. Mensual. 
+2025-02-01,2025-M02,PV,INV_HIP,2881.0,Mensual,Total fincas. País Vasco. Número de hipotecas. Base nueva. Mensual. 
 2025-03-01,2025-M03,PV,INV_HIP,2769.0,Mensual,Total fincas. País Vasco. Número de hipotecas. Base nueva. Mensual. 
 2025-04-01,2025-M04,PV,INV_HIP,2287.0,Mensual,Total fincas. País Vasco. Número de hipotecas. Base nueva. Mensual. 
 2025-05-01,2025-M05,PV,INV_HIP,2854.0,Mensual,Total fincas. País Vasco. Número de hipotecas. Base nueva. Mensual. 
@@ -3071,6 +3101,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,PV,INV_HIP,2855.0,Mensual,Total fincas. País Vasco. Número de hipotecas. Base nueva. Mensual. 
 2025-11-01,2025-M11,PV,INV_HIP,3036.0,Mensual,Total fincas. País Vasco. Número de hipotecas. Base nueva. Mensual. 
 2025-12-01,2025-M12,PV,INV_HIP,2535.0,Mensual,Total fincas. País Vasco. Número de hipotecas. Base nueva. Mensual. 
+2026-01-01,2026-M01,PV,INV_HIP,2259.0,Mensual,Total fincas. País Vasco. Número de hipotecas. Base nueva. Mensual. 
+2026-02-01,2026-M02,PV,INV_HIP,2506.0,Mensual,Total fincas. País Vasco. Número de hipotecas. Base nueva. Mensual. 
 2010-01-01,2010-M01,RIO,INV_HIP,2156.0,Mensual,"Total fincas. Rioja, La. Número de hipotecas. Base nueva. Mensual. "
 2010-02-01,2010-M02,RIO,INV_HIP,971.0,Mensual,"Total fincas. Rioja, La. Número de hipotecas. Base nueva. Mensual. "
 2010-03-01,2010-M03,RIO,INV_HIP,818.0,Mensual,"Total fincas. Rioja, La. Número de hipotecas. Base nueva. Mensual. "
@@ -3252,7 +3284,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-11-01,2024-M11,RIO,INV_HIP,367.0,Mensual,"Total fincas. Rioja, La. Número de hipotecas. Base nueva. Mensual. "
 2024-12-01,2024-M12,RIO,INV_HIP,255.0,Mensual,"Total fincas. Rioja, La. Número de hipotecas. Base nueva. Mensual. "
 2025-01-01,2025-M01,RIO,INV_HIP,367.0,Mensual,"Total fincas. Rioja, La. Número de hipotecas. Base nueva. Mensual. "
-2025-02-01,2025-M02,RIO,INV_HIP,473.0,Mensual,"Total fincas. Rioja, La. Número de hipotecas. Base nueva. Mensual. "
+2025-02-01,2025-M02,RIO,INV_HIP,467.0,Mensual,"Total fincas. Rioja, La. Número de hipotecas. Base nueva. Mensual. "
 2025-03-01,2025-M03,RIO,INV_HIP,370.0,Mensual,"Total fincas. Rioja, La. Número de hipotecas. Base nueva. Mensual. "
 2025-04-01,2025-M04,RIO,INV_HIP,343.0,Mensual,"Total fincas. Rioja, La. Número de hipotecas. Base nueva. Mensual. "
 2025-05-01,2025-M05,RIO,INV_HIP,412.0,Mensual,"Total fincas. Rioja, La. Número de hipotecas. Base nueva. Mensual. "
@@ -3263,6 +3295,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,RIO,INV_HIP,429.0,Mensual,"Total fincas. Rioja, La. Número de hipotecas. Base nueva. Mensual. "
 2025-11-01,2025-M11,RIO,INV_HIP,377.0,Mensual,"Total fincas. Rioja, La. Número de hipotecas. Base nueva. Mensual. "
 2025-12-01,2025-M12,RIO,INV_HIP,345.0,Mensual,"Total fincas. Rioja, La. Número de hipotecas. Base nueva. Mensual. "
+2026-01-01,2026-M01,RIO,INV_HIP,314.0,Mensual,"Total fincas. Rioja, La. Número de hipotecas. Base nueva. Mensual. "
+2026-02-01,2026-M02,RIO,INV_HIP,382.0,Mensual,"Total fincas. Rioja, La. Número de hipotecas. Base nueva. Mensual. "
 2010-01-01,2010-M01,VAL,INV_HIP,10481.0,Mensual,Total fincas. Comunitat Valenciana. Número de hipotecas. Base nueva. Mensual. 
 2010-02-01,2010-M02,VAL,INV_HIP,11377.0,Mensual,Total fincas. Comunitat Valenciana. Número de hipotecas. Base nueva. Mensual. 
 2010-03-01,2010-M03,VAL,INV_HIP,10227.0,Mensual,Total fincas. Comunitat Valenciana. Número de hipotecas. Base nueva. Mensual. 
@@ -3443,8 +3477,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-10-01,2024-M10,VAL,INV_HIP,7650.0,Mensual,Total fincas. Comunitat Valenciana. Número de hipotecas. Base nueva. Mensual. 
 2024-11-01,2024-M11,VAL,INV_HIP,5797.0,Mensual,Total fincas. Comunitat Valenciana. Número de hipotecas. Base nueva. Mensual. 
 2024-12-01,2024-M12,VAL,INV_HIP,5369.0,Mensual,Total fincas. Comunitat Valenciana. Número de hipotecas. Base nueva. Mensual. 
-2025-01-01,2025-M01,VAL,INV_HIP,5859.0,Mensual,Total fincas. Comunitat Valenciana. Número de hipotecas. Base nueva. Mensual. 
-2025-02-01,2025-M02,VAL,INV_HIP,5983.0,Mensual,Total fincas. Comunitat Valenciana. Número de hipotecas. Base nueva. Mensual. 
+2025-01-01,2025-M01,VAL,INV_HIP,5826.0,Mensual,Total fincas. Comunitat Valenciana. Número de hipotecas. Base nueva. Mensual. 
+2025-02-01,2025-M02,VAL,INV_HIP,5949.0,Mensual,Total fincas. Comunitat Valenciana. Número de hipotecas. Base nueva. Mensual. 
 2025-03-01,2025-M03,VAL,INV_HIP,5950.0,Mensual,Total fincas. Comunitat Valenciana. Número de hipotecas. Base nueva. Mensual. 
 2025-04-01,2025-M04,VAL,INV_HIP,6533.0,Mensual,Total fincas. Comunitat Valenciana. Número de hipotecas. Base nueva. Mensual. 
 2025-05-01,2025-M05,VAL,INV_HIP,7504.0,Mensual,Total fincas. Comunitat Valenciana. Número de hipotecas. Base nueva. Mensual. 
@@ -3455,3 +3489,5 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,VAL,INV_HIP,8480.0,Mensual,Total fincas. Comunitat Valenciana. Número de hipotecas. Base nueva. Mensual. 
 2025-11-01,2025-M11,VAL,INV_HIP,6937.0,Mensual,Total fincas. Comunitat Valenciana. Número de hipotecas. Base nueva. Mensual. 
 2025-12-01,2025-M12,VAL,INV_HIP,6195.0,Mensual,Total fincas. Comunitat Valenciana. Número de hipotecas. Base nueva. Mensual. 
+2026-01-01,2026-M01,VAL,INV_HIP,6073.0,Mensual,Total fincas. Comunitat Valenciana. Número de hipotecas. Base nueva. Mensual. 
+2026-02-01,2026-M02,VAL,INV_HIP,6886.0,Mensual,Total fincas. Comunitat Valenciana. Número de hipotecas. Base nueva. Mensual. 

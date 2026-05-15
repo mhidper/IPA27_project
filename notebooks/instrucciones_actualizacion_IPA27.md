@@ -35,21 +35,32 @@ Para estos indicadores, debes descargar los datos brutos antes de ejecutar el pr
     *   Ejecuta `01_1_indice_desafeccion_cis.ipynb` para generar la serie de desafección (`GOB_DES`).
     *   Ejecuta `01_2_participacion_electoral_cis.ipynb` para actualizar la probabilidad de voto.
 
-### B. Estadísticas de Seguridad Social (Asociacionismo y Conocimiento)
-1.  **Descarga**: Ve al portal de estadísticas de la Seguridad Social (Series de Afiliación por CNAE a 2 dígitos).
+### B. Afiliados Seguridad Social (CON_OCI / SOC_ASO)
+1.  **Descarga**: Ve al portal de estadísticas de la Seguridad Social (Series de Afiliación por CNAE a 2 dígitos). [Enlace a Estadísticas SS](https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas/EST8/EST10/EST305/c43ad8ea-fe79-4329-ac8e-e5758f3c4d7a/f83fe4aa-2dee-49c5-8317-98d105813796)
 2.  **Extracción**: Descarga los datos de afiliados para las secciones **S (94)** para Asociacionismo (`SOC_ASO`) y **J + M** para Conocimiento Intensivo (`CON_OCI`).
-3.  **Ubicación**: Actualiza el archivo `data/raw/other/ss_afiliados.csv`.
+3.  **Ubicación**: Actualiza el archivo `data/raw/other/ss_afiliados ccaas.csv`.
+4.  **Nota Técnica (CNAE-2025)**: En enero de 2026 se ha cambiado a la clasificación **CNAE-2025**. Los datos de enero 2026 a abril 2026 son los extraídos directamente de la web de la Seguridad Social. Para los datos anteriores, se ha realizado un enlace de series aplicando un crecimiento del **0,2% mensual** entre diciembre de 2025 y enero de 2026 de forma uniforme para todos los sectores.
 
-### C. Otros Archivos Externos
+### C. Inversión Extranjera (INV_IED)
+1.  **Portal**: [DataInvex - Inversión Extranjera](https://datainvex.comercio.es/principal_invex.aspx)
+2.  **Criterios de Selección**:
+    *   **Operaciones**: "OPERACIONES NO ETVE" en "Flujos Inversión Bruta en miles de euros".
+    *   **Sector**: Todos los sectores.
+    *   **País Último / Inmediato**: Todos los países.
+    *   **Periodo**: Seleccionar todos los trimestres desde el 1º TRIMESTRE 2016 hasta el más reciente disponible (ej. 2025 o 2026).
+    *   **Comunidad Autónoma**: Seleccionar "Todas las comunidades" y cada una de las 17 CCAAs + Ceuta y Melilla individualmente.
+    *   **Tipo de Inversión**: Inversión Total (Capital+Financiación).
+3.  **Ubicación**: Guardar como `data/raw/other/consulta_datainvex_ccaa.xls`.
+
+### D. Otros Archivos Externos
 | Indicador | Fuente | Web de Descarga | Fichero Destino |
 | :--- | :--- | :--- | :--- |
-| **LIB_ODI** | Min. Interior | [Delitos de Odio](https://oficinanacional-delitosdeodio.ses.mir.es/publico/ONDOD/publicaciones.html) | `data/raw/other/mir_odio.xls` |
-| **GOB_COR / EFF** | CGPJ | [Corrupción Judicial](https://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Estadistica-Judicial-Anual/Estadistica-Judicial-Anual/Estadistica-de-la-Corrupcion/) | `data/raw/other/mir_corrupcion.xls` |
-| **INV_IED** | DataInvex | [Inversión Extranjera](https://datainvex.comercio.es/principal_invex.aspx) | `data/raw/other/consulta_datainvex.xls` |
+| **LIB_ODI** | Min. Interior | [Delitos de Odio](https://oficinanacional-delitosdeodio.ses.mir.es/publico/ONDOD/publicaciones.html) | `data/raw/other/mir_odio CCAA.xls` Se toma el primero de los desplegables Descarga ficheros Informacion tabla Hechos conocidos por causa de delitos de odio desglosado por tipo hecho|
+| **GOB_COR / EFF** | CGPJ | Scraper Automático | Ejecutar `scrape_cgpj_corruption.py` (Genera `data/raw/cgpj_corrupcion_procesado.csv`) |
+| **INV_IED** | DataInvex | [Inversión Extranjera](https://datainvex.comercio.es/principal_invex.aspx) | `data/raw/other/consulta_datainvex_ccaa.xls` |
 | **INF_BAN** | INE | [TIC en Hogares](https://www.ine.es/) | `data/raw/tic_hogares/` (microdatos .tab) |
 | **AUX_EDA** | INE | [Padrón Municipal](https://www.ine.es/) | `data/raw/other/edad_media.csv` |
 | **ECO_RBH** | INE | [Renta de los Hogares](https://www.ine.es/) | `data/raw/renta_ine/rentahogd25.xlsx` |
-| **SOC_ASO / CON_OCI** | Seg. Social | [Estadísticas SS](https://www.seg-social.es/) | `data/raw/other/ss_afiliados.csv` |
 
 ---
 

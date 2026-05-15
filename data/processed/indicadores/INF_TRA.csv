@@ -155,9 +155,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-10-01,2024-M10,AND,INF_TRA,23873.0,Mensual,Transporte urbano regular por autobús. Andalucía. Viajeros transportados. 
 2024-11-01,2024-M11,AND,INF_TRA,21948.0,Mensual,Transporte urbano regular por autobús. Andalucía. Viajeros transportados. 
 2024-12-01,2024-M12,AND,INF_TRA,21660.0,Mensual,Transporte urbano regular por autobús. Andalucía. Viajeros transportados. 
-2025-01-01,2025-M01,AND,INF_TRA,20812.0,Mensual,Transporte urbano regular por autobús. Andalucía. Viajeros transportados. 
-2025-02-01,2025-M02,AND,INF_TRA,20769.0,Mensual,Transporte urbano regular por autobús. Andalucía. Viajeros transportados. 
-2025-03-01,2025-M03,AND,INF_TRA,23507.0,Mensual,Transporte urbano regular por autobús. Andalucía. Viajeros transportados. 
+2025-01-01,2025-M01,AND,INF_TRA,20716.0,Mensual,Transporte urbano regular por autobús. Andalucía. Viajeros transportados. 
+2025-02-01,2025-M02,AND,INF_TRA,20690.0,Mensual,Transporte urbano regular por autobús. Andalucía. Viajeros transportados. 
+2025-03-01,2025-M03,AND,INF_TRA,23423.0,Mensual,Transporte urbano regular por autobús. Andalucía. Viajeros transportados. 
 2025-04-01,2025-M04,AND,INF_TRA,23097.0,Mensual,Transporte urbano regular por autobús. Andalucía. Viajeros transportados. 
 2025-05-01,2025-M05,AND,INF_TRA,25195.0,Mensual,Transporte urbano regular por autobús. Andalucía. Viajeros transportados. 
 2025-06-01,2025-M06,AND,INF_TRA,22049.0,Mensual,Transporte urbano regular por autobús. Andalucía. Viajeros transportados. 
@@ -167,6 +167,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,AND,INF_TRA,25044.0,Mensual,Transporte urbano regular por autobús. Andalucía. Viajeros transportados. 
 2025-11-01,2025-M11,AND,INF_TRA,23359.0,Mensual,Transporte urbano regular por autobús. Andalucía. Viajeros transportados. 
 2025-12-01,2025-M12,AND,INF_TRA,22338.0,Mensual,Transporte urbano regular por autobús. Andalucía. Viajeros transportados. 
+2026-01-01,2026-M01,AND,INF_TRA,20520.0,Mensual,Transporte urbano regular por autobús. Andalucía. Viajeros transportados. 
+2026-02-01,2026-M02,AND,INF_TRA,20999.0,Mensual,Transporte urbano regular por autobús. Andalucía. Viajeros transportados. 
+2026-03-01,2026-M03,AND,INF_TRA,25271.0,Mensual,Transporte urbano regular por autobús. Andalucía. Viajeros transportados. 
 2012-01-01,2012-M01,ARA,INF_TRA,10018.0,Mensual,Transporte urbano regular por autobús. Aragón. Viajeros transportados. 
 2012-02-01,2012-M02,ARA,INF_TRA,10152.0,Mensual,Transporte urbano regular por autobús. Aragón. Viajeros transportados. 
 2012-03-01,2012-M03,ARA,INF_TRA,10740.0,Mensual,Transporte urbano regular por autobús. Aragón. Viajeros transportados. 
@@ -323,9 +326,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-10-01,2024-M10,ARA,INF_TRA,13117.0,Mensual,Transporte urbano regular por autobús. Aragón. Viajeros transportados. 
 2024-11-01,2024-M11,ARA,INF_TRA,11533.0,Mensual,Transporte urbano regular por autobús. Aragón. Viajeros transportados. 
 2024-12-01,2024-M12,ARA,INF_TRA,11063.0,Mensual,Transporte urbano regular por autobús. Aragón. Viajeros transportados. 
-2025-01-01,2025-M01,ARA,INF_TRA,10973.0,Mensual,Transporte urbano regular por autobús. Aragón. Viajeros transportados. 
-2025-02-01,2025-M02,ARA,INF_TRA,10965.0,Mensual,Transporte urbano regular por autobús. Aragón. Viajeros transportados. 
-2025-03-01,2025-M03,ARA,INF_TRA,11578.0,Mensual,Transporte urbano regular por autobús. Aragón. Viajeros transportados. 
+2025-01-01,2025-M01,ARA,INF_TRA,10967.0,Mensual,Transporte urbano regular por autobús. Aragón. Viajeros transportados. 
+2025-02-01,2025-M02,ARA,INF_TRA,10960.0,Mensual,Transporte urbano regular por autobús. Aragón. Viajeros transportados. 
+2025-03-01,2025-M03,ARA,INF_TRA,11572.0,Mensual,Transporte urbano regular por autobús. Aragón. Viajeros transportados. 
 2025-04-01,2025-M04,ARA,INF_TRA,10892.0,Mensual,Transporte urbano regular por autobús. Aragón. Viajeros transportados. 
 2025-05-01,2025-M05,ARA,INF_TRA,11899.0,Mensual,Transporte urbano regular por autobús. Aragón. Viajeros transportados. 
 2025-06-01,2025-M06,ARA,INF_TRA,11100.0,Mensual,Transporte urbano regular por autobús. Aragón. Viajeros transportados. 
@@ -335,6 +338,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,ARA,INF_TRA,13355.0,Mensual,Transporte urbano regular por autobús. Aragón. Viajeros transportados. 
 2025-11-01,2025-M11,ARA,INF_TRA,11714.0,Mensual,Transporte urbano regular por autobús. Aragón. Viajeros transportados. 
 2025-12-01,2025-M12,ARA,INF_TRA,11541.0,Mensual,Transporte urbano regular por autobús. Aragón. Viajeros transportados. 
+2026-01-01,2026-M01,ARA,INF_TRA,10967.0,Mensual,Transporte urbano regular por autobús. Aragón. Viajeros transportados. 
+2026-02-01,2026-M02,ARA,INF_TRA,11203.0,Mensual,Transporte urbano regular por autobús. Aragón. Viajeros transportados. 
+2026-03-01,2026-M03,ARA,INF_TRA,11917.0,Mensual,Transporte urbano regular por autobús. Aragón. Viajeros transportados. 
 2012-01-01,2012-M01,AST,INF_TRA,2926.0,Mensual,"Transporte urbano regular por autobús. Asturias, Principado de. Viajeros transportados. "
 2012-02-01,2012-M02,AST,INF_TRA,2835.0,Mensual,"Transporte urbano regular por autobús. Asturias, Principado de. Viajeros transportados. "
 2012-03-01,2012-M03,AST,INF_TRA,3031.0,Mensual,"Transporte urbano regular por autobús. Asturias, Principado de. Viajeros transportados. "
@@ -491,7 +497,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-10-01,2024-M10,AST,INF_TRA,3780.0,Mensual,"Transporte urbano regular por autobús. Asturias, Principado de. Viajeros transportados. "
 2024-11-01,2024-M11,AST,INF_TRA,3503.0,Mensual,"Transporte urbano regular por autobús. Asturias, Principado de. Viajeros transportados. "
 2024-12-01,2024-M12,AST,INF_TRA,3376.0,Mensual,"Transporte urbano regular por autobús. Asturias, Principado de. Viajeros transportados. "
-2025-01-01,2025-M01,AST,INF_TRA,3560.0,Mensual,"Transporte urbano regular por autobús. Asturias, Principado de. Viajeros transportados. "
+2025-01-01,2025-M01,AST,INF_TRA,3559.0,Mensual,"Transporte urbano regular por autobús. Asturias, Principado de. Viajeros transportados. "
 2025-02-01,2025-M02,AST,INF_TRA,3461.0,Mensual,"Transporte urbano regular por autobús. Asturias, Principado de. Viajeros transportados. "
 2025-03-01,2025-M03,AST,INF_TRA,3709.0,Mensual,"Transporte urbano regular por autobús. Asturias, Principado de. Viajeros transportados. "
 2025-04-01,2025-M04,AST,INF_TRA,3610.0,Mensual,"Transporte urbano regular por autobús. Asturias, Principado de. Viajeros transportados. "
@@ -503,6 +509,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,AST,INF_TRA,3999.0,Mensual,"Transporte urbano regular por autobús. Asturias, Principado de. Viajeros transportados. "
 2025-11-01,2025-M11,AST,INF_TRA,3730.0,Mensual,"Transporte urbano regular por autobús. Asturias, Principado de. Viajeros transportados. "
 2025-12-01,2025-M12,AST,INF_TRA,3671.0,Mensual,"Transporte urbano regular por autobús. Asturias, Principado de. Viajeros transportados. "
+2026-01-01,2026-M01,AST,INF_TRA,3647.0,Mensual,"Transporte urbano regular por autobús. Asturias, Principado de. Viajeros transportados. "
+2026-02-01,2026-M02,AST,INF_TRA,3597.0,Mensual,"Transporte urbano regular por autobús. Asturias, Principado de. Viajeros transportados. "
+2026-03-01,2026-M03,AST,INF_TRA,4053.0,Mensual,"Transporte urbano regular por autobús. Asturias, Principado de. Viajeros transportados. "
 2012-01-01,2012-M01,BAL,INF_TRA,1917.79,Mensual,Imputación por residuo (Población)
 2012-01-01,2012-M01,BAL,INF_TRA,1918.95,Mensual,Imputación por residuo (Población)
 2012-02-01,2012-M02,BAL,INF_TRA,1846.01,Mensual,Imputación por residuo (Población)
@@ -911,54 +920,60 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-12-01,2024-M12,BAL,INF_TRA,1254.12,Mensual,Imputación por residuo (Población)
 2024-12-01,2024-M12,BAL,INF_TRA,1261.12,Mensual,Imputación por residuo (Población)
 2024-12-01,2024-M12,BAL,INF_TRA,1267.67,Mensual,Imputación por residuo (Población)
-2025-01-01,2025-M01,BAL,INF_TRA,1291.61,Mensual,Imputación por residuo (Población)
-2025-01-01,2025-M01,BAL,INF_TRA,1292.8,Mensual,Imputación por residuo (Población)
-2025-01-01,2025-M01,BAL,INF_TRA,1299.7,Mensual,Imputación por residuo (Población)
-2025-01-01,2025-M01,BAL,INF_TRA,1302.6,Mensual,Imputación por residuo (Población)
-2025-02-01,2025-M02,BAL,INF_TRA,1274.81,Mensual,Imputación por residuo (Población)
-2025-02-01,2025-M02,BAL,INF_TRA,1275.98,Mensual,Imputación por residuo (Población)
-2025-02-01,2025-M02,BAL,INF_TRA,1282.79,Mensual,Imputación por residuo (Población)
-2025-02-01,2025-M02,BAL,INF_TRA,1285.65,Mensual,Imputación por residuo (Población)
-2025-03-01,2025-M03,BAL,INF_TRA,1410.11,Mensual,Imputación por residuo (Población)
-2025-03-01,2025-M03,BAL,INF_TRA,1411.41,Mensual,Imputación por residuo (Población)
-2025-03-01,2025-M03,BAL,INF_TRA,1418.94,Mensual,Imputación por residuo (Población)
-2025-03-01,2025-M03,BAL,INF_TRA,1422.11,Mensual,Imputación por residuo (Población)
-2025-04-01,2025-M04,BAL,INF_TRA,1377.16,Mensual,Imputación por residuo (Población)
-2025-04-01,2025-M04,BAL,INF_TRA,1378.43,Mensual,Imputación por residuo (Población)
-2025-04-01,2025-M04,BAL,INF_TRA,1385.78,Mensual,Imputación por residuo (Población)
-2025-04-01,2025-M04,BAL,INF_TRA,1388.88,Mensual,Imputación por residuo (Población)
-2025-05-01,2025-M05,BAL,INF_TRA,1508.97,Mensual,Imputación por residuo (Población)
-2025-05-01,2025-M05,BAL,INF_TRA,1510.37,Mensual,Imputación por residuo (Población)
-2025-05-01,2025-M05,BAL,INF_TRA,1518.42,Mensual,Imputación por residuo (Población)
-2025-05-01,2025-M05,BAL,INF_TRA,1521.81,Mensual,Imputación por residuo (Población)
-2025-06-01,2025-M06,BAL,INF_TRA,1457.25,Mensual,Imputación por residuo (Población)
-2025-06-01,2025-M06,BAL,INF_TRA,1458.6,Mensual,Imputación por residuo (Población)
-2025-06-01,2025-M06,BAL,INF_TRA,1466.37,Mensual,Imputación por residuo (Población)
-2025-06-01,2025-M06,BAL,INF_TRA,1469.65,Mensual,Imputación por residuo (Población)
-2025-07-01,2025-M07,BAL,INF_TRA,1504.39,Mensual,Imputación por residuo (Población)
-2025-07-01,2025-M07,BAL,INF_TRA,1505.78,Mensual,Imputación por residuo (Población)
-2025-07-01,2025-M07,BAL,INF_TRA,1513.8,Mensual,Imputación por residuo (Población)
-2025-07-01,2025-M07,BAL,INF_TRA,1517.19,Mensual,Imputación por residuo (Población)
-2025-08-01,2025-M08,BAL,INF_TRA,1339.62,Mensual,Imputación por residuo (Población)
-2025-08-01,2025-M08,BAL,INF_TRA,1340.86,Mensual,Imputación por residuo (Población)
-2025-08-01,2025-M08,BAL,INF_TRA,1348.01,Mensual,Imputación por residuo (Población)
-2025-08-01,2025-M08,BAL,INF_TRA,1351.02,Mensual,Imputación por residuo (Población)
-2025-09-01,2025-M09,BAL,INF_TRA,1503.19,Mensual,Imputación por residuo (Población)
-2025-09-01,2025-M09,BAL,INF_TRA,1504.58,Mensual,Imputación por residuo (Población)
-2025-09-01,2025-M09,BAL,INF_TRA,1512.6,Mensual,Imputación por residuo (Población)
-2025-09-01,2025-M09,BAL,INF_TRA,1515.98,Mensual,Imputación por residuo (Población)
-2025-10-01,2025-M10,BAL,INF_TRA,1610.89,Mensual,Imputación por residuo (Población)
-2025-10-01,2025-M10,BAL,INF_TRA,1612.37,Mensual,Imputación por residuo (Población)
-2025-10-01,2025-M10,BAL,INF_TRA,1620.97,Mensual,Imputación por residuo (Población)
-2025-10-01,2025-M10,BAL,INF_TRA,1624.59,Mensual,Imputación por residuo (Población)
-2025-11-01,2025-M11,BAL,INF_TRA,1419.17,Mensual,Imputación por residuo (Población)
-2025-11-01,2025-M11,BAL,INF_TRA,1420.48,Mensual,Imputación por residuo (Población)
-2025-11-01,2025-M11,BAL,INF_TRA,1428.05,Mensual,Imputación por residuo (Población)
-2025-11-01,2025-M11,BAL,INF_TRA,1431.24,Mensual,Imputación por residuo (Población)
-2025-12-01,2025-M12,BAL,INF_TRA,1323.04,Mensual,Imputación por residuo (Población)
-2025-12-01,2025-M12,BAL,INF_TRA,1324.26,Mensual,Imputación por residuo (Población)
-2025-12-01,2025-M12,BAL,INF_TRA,1331.32,Mensual,Imputación por residuo (Población)
-2025-12-01,2025-M12,BAL,INF_TRA,1334.29,Mensual,Imputación por residuo (Población)
+2025-01-01,2025-M01,BAL,INF_TRA,1290.74,Mensual,Imputación por residuo (Población)
+2025-01-01,2025-M01,BAL,INF_TRA,1291.92,Mensual,Imputación por residuo (Población)
+2025-01-01,2025-M01,BAL,INF_TRA,1298.98,Mensual,Imputación por residuo (Población)
+2025-01-01,2025-M01,BAL,INF_TRA,1302.25,Mensual,Imputación por residuo (Población)
+2025-02-01,2025-M02,BAL,INF_TRA,1273.83,Mensual,Imputación por residuo (Población)
+2025-02-01,2025-M02,BAL,INF_TRA,1274.99,Mensual,Imputación por residuo (Población)
+2025-02-01,2025-M02,BAL,INF_TRA,1281.96,Mensual,Imputación por residuo (Población)
+2025-02-01,2025-M02,BAL,INF_TRA,1285.19,Mensual,Imputación por residuo (Población)
+2025-03-01,2025-M03,BAL,INF_TRA,1408.69,Mensual,Imputación por residuo (Población)
+2025-03-01,2025-M03,BAL,INF_TRA,1409.97,Mensual,Imputación por residuo (Población)
+2025-03-01,2025-M03,BAL,INF_TRA,1417.68,Mensual,Imputación por residuo (Población)
+2025-03-01,2025-M03,BAL,INF_TRA,1421.25,Mensual,Imputación por residuo (Población)
+2025-04-01,2025-M04,BAL,INF_TRA,1377.05,Mensual,Imputación por residuo (Población)
+2025-04-01,2025-M04,BAL,INF_TRA,1378.3,Mensual,Imputación por residuo (Población)
+2025-04-01,2025-M04,BAL,INF_TRA,1385.84,Mensual,Imputación por residuo (Población)
+2025-04-01,2025-M04,BAL,INF_TRA,1389.32,Mensual,Imputación por residuo (Población)
+2025-05-01,2025-M05,BAL,INF_TRA,1508.85,Mensual,Imputación por residuo (Población)
+2025-05-01,2025-M05,BAL,INF_TRA,1510.23,Mensual,Imputación por residuo (Población)
+2025-05-01,2025-M05,BAL,INF_TRA,1518.48,Mensual,Imputación por residuo (Población)
+2025-05-01,2025-M05,BAL,INF_TRA,1522.3,Mensual,Imputación por residuo (Población)
+2025-06-01,2025-M06,BAL,INF_TRA,1457.13,Mensual,Imputación por residuo (Población)
+2025-06-01,2025-M06,BAL,INF_TRA,1458.46,Mensual,Imputación por residuo (Población)
+2025-06-01,2025-M06,BAL,INF_TRA,1466.43,Mensual,Imputación por residuo (Población)
+2025-06-01,2025-M06,BAL,INF_TRA,1470.12,Mensual,Imputación por residuo (Población)
+2025-07-01,2025-M07,BAL,INF_TRA,1504.27,Mensual,Imputación por residuo (Población)
+2025-07-01,2025-M07,BAL,INF_TRA,1505.64,Mensual,Imputación por residuo (Población)
+2025-07-01,2025-M07,BAL,INF_TRA,1513.87,Mensual,Imputación por residuo (Población)
+2025-07-01,2025-M07,BAL,INF_TRA,1517.68,Mensual,Imputación por residuo (Población)
+2025-08-01,2025-M08,BAL,INF_TRA,1339.51,Mensual,Imputación por residuo (Población)
+2025-08-01,2025-M08,BAL,INF_TRA,1340.74,Mensual,Imputación por residuo (Población)
+2025-08-01,2025-M08,BAL,INF_TRA,1348.07,Mensual,Imputación por residuo (Población)
+2025-08-01,2025-M08,BAL,INF_TRA,1351.46,Mensual,Imputación por residuo (Población)
+2025-09-01,2025-M09,BAL,INF_TRA,1503.07,Mensual,Imputación por residuo (Población)
+2025-09-01,2025-M09,BAL,INF_TRA,1504.44,Mensual,Imputación por residuo (Población)
+2025-09-01,2025-M09,BAL,INF_TRA,1512.66,Mensual,Imputación por residuo (Población)
+2025-09-01,2025-M09,BAL,INF_TRA,1516.47,Mensual,Imputación por residuo (Población)
+2025-10-01,2025-M10,BAL,INF_TRA,1610.76,Mensual,Imputación por residuo (Población)
+2025-10-01,2025-M10,BAL,INF_TRA,1612.23,Mensual,Imputación por residuo (Población)
+2025-10-01,2025-M10,BAL,INF_TRA,1621.04,Mensual,Imputación por residuo (Población)
+2025-10-01,2025-M10,BAL,INF_TRA,1625.12,Mensual,Imputación por residuo (Población)
+2025-11-01,2025-M11,BAL,INF_TRA,1419.05,Mensual,Imputación por residuo (Población)
+2025-11-01,2025-M11,BAL,INF_TRA,1420.35,Mensual,Imputación por residuo (Población)
+2025-11-01,2025-M11,BAL,INF_TRA,1428.11,Mensual,Imputación por residuo (Población)
+2025-11-01,2025-M11,BAL,INF_TRA,1431.71,Mensual,Imputación por residuo (Población)
+2025-12-01,2025-M12,BAL,INF_TRA,1322.93,Mensual,Imputación por residuo (Población)
+2025-12-01,2025-M12,BAL,INF_TRA,1324.14,Mensual,Imputación por residuo (Población)
+2025-12-01,2025-M12,BAL,INF_TRA,1331.38,Mensual,Imputación por residuo (Población)
+2025-12-01,2025-M12,BAL,INF_TRA,1334.72,Mensual,Imputación por residuo (Población)
+2026-01-01,2026-M01,BAL,INF_TRA,2578.53,Mensual,Imputación por residuo (Población)
+2026-01-01,2026-M01,BAL,INF_TRA,2581.78,Mensual,Imputación por residuo (Población)
+2026-02-01,2026-M02,BAL,INF_TRA,2635.2,Mensual,Imputación por residuo (Población)
+2026-02-01,2026-M02,BAL,INF_TRA,2638.53,Mensual,Imputación por residuo (Población)
+2026-03-01,2026-M03,BAL,INF_TRA,2987.53,Mensual,Imputación por residuo (Población)
+2026-03-01,2026-M03,BAL,INF_TRA,2991.3,Mensual,Imputación por residuo (Población)
 2012-01-01,2012-M01,CAN,INF_TRA,4564.0,Mensual,Transporte urbano regular por autobús. Canarias. Viajeros transportados. 
 2012-02-01,2012-M02,CAN,INF_TRA,4388.0,Mensual,Transporte urbano regular por autobús. Canarias. Viajeros transportados. 
 2012-03-01,2012-M03,CAN,INF_TRA,4646.0,Mensual,Transporte urbano regular por autobús. Canarias. Viajeros transportados. 
@@ -1115,9 +1130,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-10-01,2024-M10,CAN,INF_TRA,9301.0,Mensual,Transporte urbano regular por autobús. Canarias. Viajeros transportados. 
 2024-11-01,2024-M11,CAN,INF_TRA,8604.0,Mensual,Transporte urbano regular por autobús. Canarias. Viajeros transportados. 
 2024-12-01,2024-M12,CAN,INF_TRA,8118.0,Mensual,Transporte urbano regular por autobús. Canarias. Viajeros transportados. 
-2025-01-01,2025-M01,CAN,INF_TRA,8484.0,Mensual,Transporte urbano regular por autobús. Canarias. Viajeros transportados. 
-2025-02-01,2025-M02,CAN,INF_TRA,8256.0,Mensual,Transporte urbano regular por autobús. Canarias. Viajeros transportados. 
-2025-03-01,2025-M03,CAN,INF_TRA,8477.0,Mensual,Transporte urbano regular por autobús. Canarias. Viajeros transportados. 
+2025-01-01,2025-M01,CAN,INF_TRA,8482.0,Mensual,Transporte urbano regular por autobús. Canarias. Viajeros transportados. 
+2025-02-01,2025-M02,CAN,INF_TRA,8254.0,Mensual,Transporte urbano regular por autobús. Canarias. Viajeros transportados. 
+2025-03-01,2025-M03,CAN,INF_TRA,8475.0,Mensual,Transporte urbano regular por autobús. Canarias. Viajeros transportados. 
 2025-04-01,2025-M04,CAN,INF_TRA,8208.0,Mensual,Transporte urbano regular por autobús. Canarias. Viajeros transportados. 
 2025-05-01,2025-M05,CAN,INF_TRA,8645.0,Mensual,Transporte urbano regular por autobús. Canarias. Viajeros transportados. 
 2025-06-01,2025-M06,CAN,INF_TRA,8441.0,Mensual,Transporte urbano regular por autobús. Canarias. Viajeros transportados. 
@@ -1127,6 +1142,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,CAN,INF_TRA,9856.0,Mensual,Transporte urbano regular por autobús. Canarias. Viajeros transportados. 
 2025-11-01,2025-M11,CAN,INF_TRA,8813.0,Mensual,Transporte urbano regular por autobús. Canarias. Viajeros transportados. 
 2025-12-01,2025-M12,CAN,INF_TRA,8445.0,Mensual,Transporte urbano regular por autobús. Canarias. Viajeros transportados. 
+2026-01-01,2026-M01,CAN,INF_TRA,8478.0,Mensual,Transporte urbano regular por autobús. Canarias. Viajeros transportados. 
+2026-02-01,2026-M02,CAN,INF_TRA,8281.0,Mensual,Transporte urbano regular por autobús. Canarias. Viajeros transportados. 
+2026-03-01,2026-M03,CAN,INF_TRA,8821.0,Mensual,Transporte urbano regular por autobús. Canarias. Viajeros transportados. 
 2012-01-01,2012-M01,CANT,INF_TRA,1032.12,Mensual,Imputación por residuo (Población)
 2012-01-01,2012-M01,CANT,INF_TRA,1029.39,Mensual,Imputación por residuo (Población)
 2012-02-01,2012-M02,CANT,INF_TRA,993.49,Mensual,Imputación por residuo (Población)
@@ -1535,54 +1553,60 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-12-01,2024-M12,CANT,INF_TRA,600.08,Mensual,Imputación por residuo (Población)
 2024-12-01,2024-M12,CANT,INF_TRA,600.7,Mensual,Imputación por residuo (Población)
 2024-12-01,2024-M12,CANT,INF_TRA,602.27,Mensual,Imputación por residuo (Población)
-2025-01-01,2025-M01,CANT,INF_TRA,613.46,Mensual,Imputación por residuo (Población)
-2025-01-01,2025-M01,CANT,INF_TRA,613.92,Mensual,Imputación por residuo (Población)
-2025-01-01,2025-M01,CANT,INF_TRA,614.68,Mensual,Imputación por residuo (Población)
-2025-01-01,2025-M01,CANT,INF_TRA,616.28,Mensual,Imputación por residuo (Población)
+2025-01-01,2025-M01,CANT,INF_TRA,613.05,Mensual,Imputación por residuo (Población)
+2025-01-01,2025-M01,CANT,INF_TRA,613.52,Mensual,Imputación por residuo (Población)
+2025-01-01,2025-M01,CANT,INF_TRA,614.28,Mensual,Imputación por residuo (Población)
+2025-01-01,2025-M01,CANT,INF_TRA,615.88,Mensual,Imputación por residuo (Población)
+2025-02-01,2025-M02,CANT,INF_TRA,605.02,Mensual,Imputación por residuo (Población)
 2025-02-01,2025-M02,CANT,INF_TRA,605.48,Mensual,Imputación por residuo (Población)
-2025-02-01,2025-M02,CANT,INF_TRA,605.93,Mensual,Imputación por residuo (Población)
-2025-02-01,2025-M02,CANT,INF_TRA,606.68,Mensual,Imputación por residuo (Población)
-2025-02-01,2025-M02,CANT,INF_TRA,608.26,Mensual,Imputación por residuo (Población)
-2025-03-01,2025-M03,CANT,INF_TRA,669.74,Mensual,Imputación por residuo (Población)
-2025-03-01,2025-M03,CANT,INF_TRA,670.24,Mensual,Imputación por residuo (Población)
-2025-03-01,2025-M03,CANT,INF_TRA,671.07,Mensual,Imputación por residuo (Población)
-2025-03-01,2025-M03,CANT,INF_TRA,672.82,Mensual,Imputación por residuo (Población)
-2025-04-01,2025-M04,CANT,INF_TRA,654.09,Mensual,Imputación por residuo (Población)
-2025-04-01,2025-M04,CANT,INF_TRA,654.58,Mensual,Imputación por residuo (Población)
-2025-04-01,2025-M04,CANT,INF_TRA,655.39,Mensual,Imputación por residuo (Población)
-2025-04-01,2025-M04,CANT,INF_TRA,657.09,Mensual,Imputación por residuo (Población)
-2025-05-01,2025-M05,CANT,INF_TRA,716.7,Mensual,Imputación por residuo (Población)
-2025-05-01,2025-M05,CANT,INF_TRA,717.23,Mensual,Imputación por residuo (Población)
-2025-05-01,2025-M05,CANT,INF_TRA,718.12,Mensual,Imputación por residuo (Población)
-2025-05-01,2025-M05,CANT,INF_TRA,719.99,Mensual,Imputación por residuo (Población)
-2025-06-01,2025-M06,CANT,INF_TRA,692.13,Mensual,Imputación por residuo (Población)
-2025-06-01,2025-M06,CANT,INF_TRA,692.65,Mensual,Imputación por residuo (Población)
-2025-06-01,2025-M06,CANT,INF_TRA,693.51,Mensual,Imputación por residuo (Población)
-2025-06-01,2025-M06,CANT,INF_TRA,695.31,Mensual,Imputación por residuo (Población)
-2025-07-01,2025-M07,CANT,INF_TRA,714.52,Mensual,Imputación por residuo (Población)
-2025-07-01,2025-M07,CANT,INF_TRA,715.05,Mensual,Imputación por residuo (Población)
-2025-07-01,2025-M07,CANT,INF_TRA,715.94,Mensual,Imputación por residuo (Población)
-2025-07-01,2025-M07,CANT,INF_TRA,717.8,Mensual,Imputación por residuo (Población)
-2025-08-01,2025-M08,CANT,INF_TRA,636.26,Mensual,Imputación por residuo (Población)
-2025-08-01,2025-M08,CANT,INF_TRA,636.74,Mensual,Imputación por residuo (Población)
-2025-08-01,2025-M08,CANT,INF_TRA,637.53,Mensual,Imputación por residuo (Población)
-2025-08-01,2025-M08,CANT,INF_TRA,639.18,Mensual,Imputación por residuo (Población)
-2025-09-01,2025-M09,CANT,INF_TRA,713.95,Mensual,Imputación por residuo (Población)
-2025-09-01,2025-M09,CANT,INF_TRA,714.48,Mensual,Imputación por residuo (Población)
-2025-09-01,2025-M09,CANT,INF_TRA,715.37,Mensual,Imputación por residuo (Población)
-2025-09-01,2025-M09,CANT,INF_TRA,717.23,Mensual,Imputación por residuo (Población)
-2025-10-01,2025-M10,CANT,INF_TRA,765.1,Mensual,Imputación por residuo (Población)
-2025-10-01,2025-M10,CANT,INF_TRA,765.67,Mensual,Imputación por residuo (Población)
-2025-10-01,2025-M10,CANT,INF_TRA,766.62,Mensual,Imputación por residuo (Población)
-2025-10-01,2025-M10,CANT,INF_TRA,768.61,Mensual,Imputación por residuo (Población)
-2025-11-01,2025-M11,CANT,INF_TRA,674.04,Mensual,Imputación por residuo (Población)
-2025-11-01,2025-M11,CANT,INF_TRA,674.55,Mensual,Imputación por residuo (Población)
-2025-11-01,2025-M11,CANT,INF_TRA,675.38,Mensual,Imputación por residuo (Población)
-2025-11-01,2025-M11,CANT,INF_TRA,677.14,Mensual,Imputación por residuo (Población)
-2025-12-01,2025-M12,CANT,INF_TRA,628.39,Mensual,Imputación por residuo (Población)
-2025-12-01,2025-M12,CANT,INF_TRA,628.86,Mensual,Imputación por residuo (Población)
-2025-12-01,2025-M12,CANT,INF_TRA,629.64,Mensual,Imputación por residuo (Población)
-2025-12-01,2025-M12,CANT,INF_TRA,631.27,Mensual,Imputación por residuo (Población)
+2025-02-01,2025-M02,CANT,INF_TRA,606.23,Mensual,Imputación por residuo (Población)
+2025-02-01,2025-M02,CANT,INF_TRA,607.81,Mensual,Imputación por residuo (Población)
+2025-03-01,2025-M03,CANT,INF_TRA,669.07,Mensual,Imputación por residuo (Población)
+2025-03-01,2025-M03,CANT,INF_TRA,669.58,Mensual,Imputación por residuo (Población)
+2025-03-01,2025-M03,CANT,INF_TRA,670.41,Mensual,Imputación por residuo (Población)
+2025-03-01,2025-M03,CANT,INF_TRA,672.16,Mensual,Imputación por residuo (Población)
+2025-04-01,2025-M04,CANT,INF_TRA,654.04,Mensual,Imputación por residuo (Población)
+2025-04-01,2025-M04,CANT,INF_TRA,654.55,Mensual,Imputación por residuo (Población)
+2025-04-01,2025-M04,CANT,INF_TRA,655.35,Mensual,Imputación por residuo (Población)
+2025-04-01,2025-M04,CANT,INF_TRA,657.06,Mensual,Imputación por residuo (Población)
+2025-05-01,2025-M05,CANT,INF_TRA,716.64,Mensual,Imputación por residuo (Población)
+2025-05-01,2025-M05,CANT,INF_TRA,717.19,Mensual,Imputación por residuo (Población)
+2025-05-01,2025-M05,CANT,INF_TRA,718.07,Mensual,Imputación por residuo (Población)
+2025-05-01,2025-M05,CANT,INF_TRA,719.95,Mensual,Imputación por residuo (Población)
+2025-06-01,2025-M06,CANT,INF_TRA,692.08,Mensual,Imputación por residuo (Población)
+2025-06-01,2025-M06,CANT,INF_TRA,692.61,Mensual,Imputación por residuo (Población)
+2025-06-01,2025-M06,CANT,INF_TRA,693.46,Mensual,Imputación por residuo (Población)
+2025-06-01,2025-M06,CANT,INF_TRA,695.27,Mensual,Imputación por residuo (Población)
+2025-07-01,2025-M07,CANT,INF_TRA,714.46,Mensual,Imputación por residuo (Población)
+2025-07-01,2025-M07,CANT,INF_TRA,715.02,Mensual,Imputación por residuo (Población)
+2025-07-01,2025-M07,CANT,INF_TRA,715.89,Mensual,Imputación por residuo (Población)
+2025-07-01,2025-M07,CANT,INF_TRA,717.76,Mensual,Imputación por residuo (Población)
+2025-08-01,2025-M08,CANT,INF_TRA,636.21,Mensual,Imputación por residuo (Población)
+2025-08-01,2025-M08,CANT,INF_TRA,636.7,Mensual,Imputación por residuo (Población)
+2025-08-01,2025-M08,CANT,INF_TRA,637.49,Mensual,Imputación por residuo (Población)
+2025-08-01,2025-M08,CANT,INF_TRA,639.15,Mensual,Imputación por residuo (Población)
+2025-09-01,2025-M09,CANT,INF_TRA,713.89,Mensual,Imputación por residuo (Población)
+2025-09-01,2025-M09,CANT,INF_TRA,714.45,Mensual,Imputación por residuo (Población)
+2025-09-01,2025-M09,CANT,INF_TRA,715.32,Mensual,Imputación por residuo (Población)
+2025-09-01,2025-M09,CANT,INF_TRA,717.19,Mensual,Imputación por residuo (Población)
+2025-10-01,2025-M10,CANT,INF_TRA,765.04,Mensual,Imputación por residuo (Población)
+2025-10-01,2025-M10,CANT,INF_TRA,765.63,Mensual,Imputación por residuo (Población)
+2025-10-01,2025-M10,CANT,INF_TRA,766.57,Mensual,Imputación por residuo (Población)
+2025-10-01,2025-M10,CANT,INF_TRA,768.57,Mensual,Imputación por residuo (Población)
+2025-11-01,2025-M11,CANT,INF_TRA,673.99,Mensual,Imputación por residuo (Población)
+2025-11-01,2025-M11,CANT,INF_TRA,674.51,Mensual,Imputación por residuo (Población)
+2025-11-01,2025-M11,CANT,INF_TRA,675.34,Mensual,Imputación por residuo (Población)
+2025-11-01,2025-M11,CANT,INF_TRA,677.1,Mensual,Imputación por residuo (Población)
+2025-12-01,2025-M12,CANT,INF_TRA,628.34,Mensual,Imputación por residuo (Población)
+2025-12-01,2025-M12,CANT,INF_TRA,628.82,Mensual,Imputación por residuo (Población)
+2025-12-01,2025-M12,CANT,INF_TRA,629.59,Mensual,Imputación por residuo (Población)
+2025-12-01,2025-M12,CANT,INF_TRA,631.24,Mensual,Imputación por residuo (Población)
+2026-01-01,2026-M01,CANT,INF_TRA,1221.86,Mensual,Imputación por residuo (Población)
+2026-01-01,2026-M01,CANT,INF_TRA,1223.8,Mensual,Imputación por residuo (Población)
+2026-02-01,2026-M02,CANT,INF_TRA,1248.72,Mensual,Imputación por residuo (Población)
+2026-02-01,2026-M02,CANT,INF_TRA,1250.7,Mensual,Imputación por residuo (Población)
+2026-03-01,2026-M03,CANT,INF_TRA,1415.67,Mensual,Imputación por residuo (Población)
+2026-03-01,2026-M03,CANT,INF_TRA,1417.91,Mensual,Imputación por residuo (Población)
 2012-01-01,2012-M01,CAT,INF_TRA,24050.0,Mensual,Transporte urbano regular por autobús. Cataluña. Viajeros transportados. 
 2012-02-01,2012-M02,CAT,INF_TRA,23447.0,Mensual,Transporte urbano regular por autobús. Cataluña. Viajeros transportados. 
 2012-03-01,2012-M03,CAT,INF_TRA,25565.0,Mensual,Transporte urbano regular por autobús. Cataluña. Viajeros transportados. 
@@ -1739,9 +1763,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-10-01,2024-M10,CAT,INF_TRA,31867.0,Mensual,Transporte urbano regular por autobús. Cataluña. Viajeros transportados. 
 2024-11-01,2024-M11,CAT,INF_TRA,27886.0,Mensual,Transporte urbano regular por autobús. Cataluña. Viajeros transportados. 
 2024-12-01,2024-M12,CAT,INF_TRA,24934.0,Mensual,Transporte urbano regular por autobús. Cataluña. Viajeros transportados. 
-2025-01-01,2025-M01,CAT,INF_TRA,27015.0,Mensual,Transporte urbano regular por autobús. Cataluña. Viajeros transportados. 
-2025-02-01,2025-M02,CAT,INF_TRA,27579.0,Mensual,Transporte urbano regular por autobús. Cataluña. Viajeros transportados. 
-2025-03-01,2025-M03,CAT,INF_TRA,29648.0,Mensual,Transporte urbano regular por autobús. Cataluña. Viajeros transportados. 
+2025-01-01,2025-M01,CAT,INF_TRA,26983.0,Mensual,Transporte urbano regular por autobús. Cataluña. Viajeros transportados. 
+2025-02-01,2025-M02,CAT,INF_TRA,27567.0,Mensual,Transporte urbano regular por autobús. Cataluña. Viajeros transportados. 
+2025-03-01,2025-M03,CAT,INF_TRA,29542.0,Mensual,Transporte urbano regular por autobús. Cataluña. Viajeros transportados. 
 2025-04-01,2025-M04,CAT,INF_TRA,28077.0,Mensual,Transporte urbano regular por autobús. Cataluña. Viajeros transportados. 
 2025-05-01,2025-M05,CAT,INF_TRA,30913.0,Mensual,Transporte urbano regular por autobús. Cataluña. Viajeros transportados. 
 2025-06-01,2025-M06,CAT,INF_TRA,28278.0,Mensual,Transporte urbano regular por autobús. Cataluña. Viajeros transportados. 
@@ -1751,6 +1775,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,CAT,INF_TRA,32850.0,Mensual,Transporte urbano regular por autobús. Cataluña. Viajeros transportados. 
 2025-11-01,2025-M11,CAT,INF_TRA,29538.0,Mensual,Transporte urbano regular por autobús. Cataluña. Viajeros transportados. 
 2025-12-01,2025-M12,CAT,INF_TRA,22431.0,Mensual,Transporte urbano regular por autobús. Cataluña. Viajeros transportados. 
+2026-01-01,2026-M01,CAT,INF_TRA,26245.0,Mensual,Transporte urbano regular por autobús. Cataluña. Viajeros transportados. 
+2026-02-01,2026-M02,CAT,INF_TRA,27808.0,Mensual,Transporte urbano regular por autobús. Cataluña. Viajeros transportados. 
+2026-03-01,2026-M03,CAT,INF_TRA,30569.0,Mensual,Transporte urbano regular por autobús. Cataluña. Viajeros transportados. 
 2012-01-01,2012-M01,CLM,INF_TRA,2066.0,Mensual,Transporte urbano regular por autobús. Castilla - La Mancha. Viajeros transportados. 
 2012-02-01,2012-M02,CLM,INF_TRA,2088.0,Mensual,Transporte urbano regular por autobús. Castilla - La Mancha. Viajeros transportados. 
 2012-03-01,2012-M03,CLM,INF_TRA,2200.0,Mensual,Transporte urbano regular por autobús. Castilla - La Mancha. Viajeros transportados. 
@@ -1907,9 +1934,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-10-01,2024-M10,CLM,INF_TRA,2270.0,Mensual,Transporte urbano regular por autobús. Castilla - La Mancha. Viajeros transportados. 
 2024-11-01,2024-M11,CLM,INF_TRA,1981.0,Mensual,Transporte urbano regular por autobús. Castilla - La Mancha. Viajeros transportados. 
 2024-12-01,2024-M12,CLM,INF_TRA,1897.0,Mensual,Transporte urbano regular por autobús. Castilla - La Mancha. Viajeros transportados. 
-2025-01-01,2025-M01,CLM,INF_TRA,1905.0,Mensual,Transporte urbano regular por autobús. Castilla - La Mancha. Viajeros transportados. 
-2025-02-01,2025-M02,CLM,INF_TRA,1996.0,Mensual,Transporte urbano regular por autobús. Castilla - La Mancha. Viajeros transportados. 
-2025-03-01,2025-M03,CLM,INF_TRA,2059.0,Mensual,Transporte urbano regular por autobús. Castilla - La Mancha. Viajeros transportados. 
+2025-01-01,2025-M01,CLM,INF_TRA,1900.0,Mensual,Transporte urbano regular por autobús. Castilla - La Mancha. Viajeros transportados. 
+2025-02-01,2025-M02,CLM,INF_TRA,1990.0,Mensual,Transporte urbano regular por autobús. Castilla - La Mancha. Viajeros transportados. 
+2025-03-01,2025-M03,CLM,INF_TRA,2054.0,Mensual,Transporte urbano regular por autobús. Castilla - La Mancha. Viajeros transportados. 
 2025-04-01,2025-M04,CLM,INF_TRA,1936.0,Mensual,Transporte urbano regular por autobús. Castilla - La Mancha. Viajeros transportados. 
 2025-05-01,2025-M05,CLM,INF_TRA,2101.0,Mensual,Transporte urbano regular por autobús. Castilla - La Mancha. Viajeros transportados. 
 2025-06-01,2025-M06,CLM,INF_TRA,1912.0,Mensual,Transporte urbano regular por autobús. Castilla - La Mancha. Viajeros transportados. 
@@ -1919,6 +1946,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,CLM,INF_TRA,2409.0,Mensual,Transporte urbano regular por autobús. Castilla - La Mancha. Viajeros transportados. 
 2025-11-01,2025-M11,CLM,INF_TRA,2134.0,Mensual,Transporte urbano regular por autobús. Castilla - La Mancha. Viajeros transportados. 
 2025-12-01,2025-M12,CLM,INF_TRA,1967.0,Mensual,Transporte urbano regular por autobús. Castilla - La Mancha. Viajeros transportados. 
+2026-01-01,2026-M01,CLM,INF_TRA,1920.0,Mensual,Transporte urbano regular por autobús. Castilla - La Mancha. Viajeros transportados. 
+2026-02-01,2026-M02,CLM,INF_TRA,2016.0,Mensual,Transporte urbano regular por autobús. Castilla - La Mancha. Viajeros transportados. 
+2026-03-01,2026-M03,CLM,INF_TRA,2250.0,Mensual,Transporte urbano regular por autobús. Castilla - La Mancha. Viajeros transportados. 
 2012-01-01,2012-M01,CYL,INF_TRA,6340.0,Mensual,Transporte urbano regular por autobús. Castilla y León. Viajeros transportados. 
 2012-02-01,2012-M02,CYL,INF_TRA,6294.0,Mensual,Transporte urbano regular por autobús. Castilla y León. Viajeros transportados. 
 2012-03-01,2012-M03,CYL,INF_TRA,6563.0,Mensual,Transporte urbano regular por autobús. Castilla y León. Viajeros transportados. 
@@ -2076,8 +2106,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-11-01,2024-M11,CYL,INF_TRA,6876.0,Mensual,Transporte urbano regular por autobús. Castilla y León. Viajeros transportados. 
 2024-12-01,2024-M12,CYL,INF_TRA,6503.0,Mensual,Transporte urbano regular por autobús. Castilla y León. Viajeros transportados. 
 2025-01-01,2025-M01,CYL,INF_TRA,6640.0,Mensual,Transporte urbano regular por autobús. Castilla y León. Viajeros transportados. 
-2025-02-01,2025-M02,CYL,INF_TRA,6639.0,Mensual,Transporte urbano regular por autobús. Castilla y León. Viajeros transportados. 
-2025-03-01,2025-M03,CYL,INF_TRA,7132.0,Mensual,Transporte urbano regular por autobús. Castilla y León. Viajeros transportados. 
+2025-02-01,2025-M02,CYL,INF_TRA,6638.0,Mensual,Transporte urbano regular por autobús. Castilla y León. Viajeros transportados. 
+2025-03-01,2025-M03,CYL,INF_TRA,7135.0,Mensual,Transporte urbano regular por autobús. Castilla y León. Viajeros transportados. 
 2025-04-01,2025-M04,CYL,INF_TRA,6523.0,Mensual,Transporte urbano regular por autobús. Castilla y León. Viajeros transportados. 
 2025-05-01,2025-M05,CYL,INF_TRA,7163.0,Mensual,Transporte urbano regular por autobús. Castilla y León. Viajeros transportados. 
 2025-06-01,2025-M06,CYL,INF_TRA,6777.0,Mensual,Transporte urbano regular por autobús. Castilla y León. Viajeros transportados. 
@@ -2087,6 +2117,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,CYL,INF_TRA,7831.0,Mensual,Transporte urbano regular por autobús. Castilla y León. Viajeros transportados. 
 2025-11-01,2025-M11,CYL,INF_TRA,7314.0,Mensual,Transporte urbano regular por autobús. Castilla y León. Viajeros transportados. 
 2025-12-01,2025-M12,CYL,INF_TRA,7135.0,Mensual,Transporte urbano regular por autobús. Castilla y León. Viajeros transportados. 
+2026-01-01,2026-M01,CYL,INF_TRA,6879.0,Mensual,Transporte urbano regular por autobús. Castilla y León. Viajeros transportados. 
+2026-02-01,2026-M02,CYL,INF_TRA,7137.0,Mensual,Transporte urbano regular por autobús. Castilla y León. Viajeros transportados. 
+2026-03-01,2026-M03,CYL,INF_TRA,8009.0,Mensual,Transporte urbano regular por autobús. Castilla y León. Viajeros transportados. 
 2012-01-01,2012-M01,ESP,INF_TRA,145472.0,Mensual,Transporte urbano regular por autobús. Viajeros transportados. Total Nacional. 
 2012-02-01,2012-M02,ESP,INF_TRA,143221.0,Mensual,Transporte urbano regular por autobús. Viajeros transportados. Total Nacional. 
 2012-03-01,2012-M03,ESP,INF_TRA,153748.0,Mensual,Transporte urbano regular por autobús. Viajeros transportados. Total Nacional. 
@@ -2243,9 +2276,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-10-01,2024-M10,ESP,INF_TRA,194156.0,Mensual,Transporte urbano regular por autobús. Viajeros transportados. Total Nacional. 
 2024-11-01,2024-M11,ESP,INF_TRA,177480.0,Mensual,Transporte urbano regular por autobús. Viajeros transportados. Total Nacional. 
 2024-12-01,2024-M12,ESP,INF_TRA,166162.0,Mensual,Transporte urbano regular por autobús. Viajeros transportados. Total Nacional. 
-2025-01-01,2025-M01,ESP,INF_TRA,171584.0,Mensual,Transporte urbano regular por autobús. Viajeros transportados. Total Nacional. 
-2025-02-01,2025-M02,ESP,INF_TRA,172979.0,Mensual,Transporte urbano regular por autobús. Viajeros transportados. Total Nacional. 
-2025-03-01,2025-M03,ESP,INF_TRA,184238.0,Mensual,Transporte urbano regular por autobús. Viajeros transportados. Total Nacional. 
+2025-01-01,2025-M01,ESP,INF_TRA,171411.0,Mensual,Transporte urbano regular por autobús. Viajeros transportados. Total Nacional. 
+2025-02-01,2025-M02,ESP,INF_TRA,172813.0,Mensual,Transporte urbano regular por autobús. Viajeros transportados. Total Nacional. 
+2025-03-01,2025-M03,ESP,INF_TRA,183991.0,Mensual,Transporte urbano regular por autobús. Viajeros transportados. Total Nacional. 
 2025-04-01,2025-M04,ESP,INF_TRA,174319.0,Mensual,Transporte urbano regular por autobús. Viajeros transportados. Total Nacional. 
 2025-05-01,2025-M05,ESP,INF_TRA,190741.0,Mensual,Transporte urbano regular por autobús. Viajeros transportados. Total Nacional. 
 2025-06-01,2025-M06,ESP,INF_TRA,185109.0,Mensual,Transporte urbano regular por autobús. Viajeros transportados. Total Nacional. 
@@ -2255,6 +2288,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,ESP,INF_TRA,207801.0,Mensual,Transporte urbano regular por autobús. Viajeros transportados. Total Nacional. 
 2025-11-01,2025-M11,ESP,INF_TRA,187579.0,Mensual,Transporte urbano regular por autobús. Viajeros transportados. Total Nacional. 
 2025-12-01,2025-M12,ESP,INF_TRA,172192.0,Mensual,Transporte urbano regular por autobús. Viajeros transportados. Total Nacional. 
+2026-01-01,2026-M01,ESP,INF_TRA,169275.0,Mensual,Transporte urbano regular por autobús. Viajeros transportados. Total Nacional. 
+2026-02-01,2026-M02,ESP,INF_TRA,174287.0,Mensual,Transporte urbano regular por autobús. Viajeros transportados. Total Nacional. 
+2026-03-01,2026-M03,ESP,INF_TRA,193062.0,Mensual,Transporte urbano regular por autobús. Viajeros transportados. Total Nacional. 
 2012-01-01,2012-M01,EXT,INF_TRA,1007.0,Mensual,Transporte urbano regular por autobús. Extremadura. Viajeros transportados. 
 2012-02-01,2012-M02,EXT,INF_TRA,1014.0,Mensual,Transporte urbano regular por autobús. Extremadura. Viajeros transportados. 
 2012-03-01,2012-M03,EXT,INF_TRA,1126.0,Mensual,Transporte urbano regular por autobús. Extremadura. Viajeros transportados. 
@@ -2411,7 +2447,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-10-01,2024-M10,EXT,INF_TRA,1476.0,Mensual,Transporte urbano regular por autobús. Extremadura. Viajeros transportados. 
 2024-11-01,2024-M11,EXT,INF_TRA,1327.0,Mensual,Transporte urbano regular por autobús. Extremadura. Viajeros transportados. 
 2024-12-01,2024-M12,EXT,INF_TRA,1092.0,Mensual,Transporte urbano regular por autobús. Extremadura. Viajeros transportados. 
-2025-01-01,2025-M01,EXT,INF_TRA,1010.0,Mensual,Transporte urbano regular por autobús. Extremadura. Viajeros transportados. 
+2025-01-01,2025-M01,EXT,INF_TRA,1021.0,Mensual,Transporte urbano regular por autobús. Extremadura. Viajeros transportados. 
 2025-02-01,2025-M02,EXT,INF_TRA,1160.0,Mensual,Transporte urbano regular por autobús. Extremadura. Viajeros transportados. 
 2025-03-01,2025-M03,EXT,INF_TRA,1278.0,Mensual,Transporte urbano regular por autobús. Extremadura. Viajeros transportados. 
 2025-04-01,2025-M04,EXT,INF_TRA,1128.0,Mensual,Transporte urbano regular por autobús. Extremadura. Viajeros transportados. 
@@ -2423,6 +2459,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,EXT,INF_TRA,1551.0,Mensual,Transporte urbano regular por autobús. Extremadura. Viajeros transportados. 
 2025-11-01,2025-M11,EXT,INF_TRA,1389.0,Mensual,Transporte urbano regular por autobús. Extremadura. Viajeros transportados. 
 2025-12-01,2025-M12,EXT,INF_TRA,1316.0,Mensual,Transporte urbano regular por autobús. Extremadura. Viajeros transportados. 
+2026-01-01,2026-M01,EXT,INF_TRA,1116.0,Mensual,Transporte urbano regular por autobús. Extremadura. Viajeros transportados. 
+2026-02-01,2026-M02,EXT,INF_TRA,1263.0,Mensual,Transporte urbano regular por autobús. Extremadura. Viajeros transportados. 
+2026-03-01,2026-M03,EXT,INF_TRA,1464.0,Mensual,Transporte urbano regular por autobús. Extremadura. Viajeros transportados. 
 2012-01-01,2012-M01,GAL,INF_TRA,5165.0,Mensual,Transporte urbano regular por autobús. Galicia. Viajeros transportados. 
 2012-02-01,2012-M02,GAL,INF_TRA,5078.0,Mensual,Transporte urbano regular por autobús. Galicia. Viajeros transportados. 
 2012-03-01,2012-M03,GAL,INF_TRA,5486.0,Mensual,Transporte urbano regular por autobús. Galicia. Viajeros transportados. 
@@ -2579,8 +2618,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-10-01,2024-M10,GAL,INF_TRA,6330.0,Mensual,Transporte urbano regular por autobús. Galicia. Viajeros transportados. 
 2024-11-01,2024-M11,GAL,INF_TRA,5766.0,Mensual,Transporte urbano regular por autobús. Galicia. Viajeros transportados. 
 2024-12-01,2024-M12,GAL,INF_TRA,5465.0,Mensual,Transporte urbano regular por autobús. Galicia. Viajeros transportados. 
-2025-01-01,2025-M01,GAL,INF_TRA,5439.0,Mensual,Transporte urbano regular por autobús. Galicia. Viajeros transportados. 
-2025-02-01,2025-M02,GAL,INF_TRA,5632.0,Mensual,Transporte urbano regular por autobús. Galicia. Viajeros transportados. 
+2025-01-01,2025-M01,GAL,INF_TRA,5450.0,Mensual,Transporte urbano regular por autobús. Galicia. Viajeros transportados. 
+2025-02-01,2025-M02,GAL,INF_TRA,5635.0,Mensual,Transporte urbano regular por autobús. Galicia. Viajeros transportados. 
 2025-03-01,2025-M03,GAL,INF_TRA,5781.0,Mensual,Transporte urbano regular por autobús. Galicia. Viajeros transportados. 
 2025-04-01,2025-M04,GAL,INF_TRA,5597.0,Mensual,Transporte urbano regular por autobús. Galicia. Viajeros transportados. 
 2025-05-01,2025-M05,GAL,INF_TRA,6008.0,Mensual,Transporte urbano regular por autobús. Galicia. Viajeros transportados. 
@@ -2591,6 +2630,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,GAL,INF_TRA,6688.0,Mensual,Transporte urbano regular por autobús. Galicia. Viajeros transportados. 
 2025-11-01,2025-M11,GAL,INF_TRA,6000.0,Mensual,Transporte urbano regular por autobús. Galicia. Viajeros transportados. 
 2025-12-01,2025-M12,GAL,INF_TRA,5604.0,Mensual,Transporte urbano regular por autobús. Galicia. Viajeros transportados. 
+2026-01-01,2026-M01,GAL,INF_TRA,5238.0,Mensual,Transporte urbano regular por autobús. Galicia. Viajeros transportados. 
+2026-02-01,2026-M02,GAL,INF_TRA,5413.0,Mensual,Transporte urbano regular por autobús. Galicia. Viajeros transportados. 
+2026-03-01,2026-M03,GAL,INF_TRA,6164.0,Mensual,Transporte urbano regular por autobús. Galicia. Viajeros transportados. 
 2012-01-01,2012-M01,MAD,INF_TRA,41353.0,Mensual,"Transporte urbano regular por autobús. Madrid, Comunidad de. Viajeros transportados. "
 2012-02-01,2012-M02,MAD,INF_TRA,41492.0,Mensual,"Transporte urbano regular por autobús. Madrid, Comunidad de. Viajeros transportados. "
 2012-03-01,2012-M03,MAD,INF_TRA,43543.0,Mensual,"Transporte urbano regular por autobús. Madrid, Comunidad de. Viajeros transportados. "
@@ -2747,9 +2789,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-10-01,2024-M10,MAD,INF_TRA,53488.0,Mensual,"Transporte urbano regular por autobús. Madrid, Comunidad de. Viajeros transportados. "
 2024-11-01,2024-M11,MAD,INF_TRA,49565.0,Mensual,"Transporte urbano regular por autobús. Madrid, Comunidad de. Viajeros transportados. "
 2024-12-01,2024-M12,MAD,INF_TRA,45794.0,Mensual,"Transporte urbano regular por autobús. Madrid, Comunidad de. Viajeros transportados. "
-2025-01-01,2025-M01,MAD,INF_TRA,47322.0,Mensual,"Transporte urbano regular por autobús. Madrid, Comunidad de. Viajeros transportados. "
-2025-02-01,2025-M02,MAD,INF_TRA,48038.0,Mensual,"Transporte urbano regular por autobús. Madrid, Comunidad de. Viajeros transportados. "
-2025-03-01,2025-M03,MAD,INF_TRA,50646.0,Mensual,"Transporte urbano regular por autobús. Madrid, Comunidad de. Viajeros transportados. "
+2025-01-01,2025-M01,MAD,INF_TRA,47276.0,Mensual,"Transporte urbano regular por autobús. Madrid, Comunidad de. Viajeros transportados. "
+2025-02-01,2025-M02,MAD,INF_TRA,47991.0,Mensual,"Transporte urbano regular por autobús. Madrid, Comunidad de. Viajeros transportados. "
+2025-03-01,2025-M03,MAD,INF_TRA,50592.0,Mensual,"Transporte urbano regular por autobús. Madrid, Comunidad de. Viajeros transportados. "
 2025-04-01,2025-M04,MAD,INF_TRA,46248.0,Mensual,"Transporte urbano regular por autobús. Madrid, Comunidad de. Viajeros transportados. "
 2025-05-01,2025-M05,MAD,INF_TRA,50509.0,Mensual,"Transporte urbano regular por autobús. Madrid, Comunidad de. Viajeros transportados. "
 2025-06-01,2025-M06,MAD,INF_TRA,54215.0,Mensual,"Transporte urbano regular por autobús. Madrid, Comunidad de. Viajeros transportados. "
@@ -2759,6 +2801,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,MAD,INF_TRA,58900.0,Mensual,"Transporte urbano regular por autobús. Madrid, Comunidad de. Viajeros transportados. "
 2025-11-01,2025-M11,MAD,INF_TRA,52304.0,Mensual,"Transporte urbano regular por autobús. Madrid, Comunidad de. Viajeros transportados. "
 2025-12-01,2025-M12,MAD,INF_TRA,48429.0,Mensual,"Transporte urbano regular por autobús. Madrid, Comunidad de. Viajeros transportados. "
+2026-01-01,2026-M01,MAD,INF_TRA,45901.0,Mensual,"Transporte urbano regular por autobús. Madrid, Comunidad de. Viajeros transportados. "
+2026-02-01,2026-M02,MAD,INF_TRA,47319.0,Mensual,"Transporte urbano regular por autobús. Madrid, Comunidad de. Viajeros transportados. "
+2026-03-01,2026-M03,MAD,INF_TRA,51859.0,Mensual,"Transporte urbano regular por autobús. Madrid, Comunidad de. Viajeros transportados. "
 2012-01-01,2012-M01,MUR,INF_TRA,1792.0,Mensual,"Transporte urbano regular por autobús. Murcia, Región de. Viajeros transportados. "
 2012-02-01,2012-M02,MUR,INF_TRA,1772.0,Mensual,"Transporte urbano regular por autobús. Murcia, Región de. Viajeros transportados. "
 2012-03-01,2012-M03,MUR,INF_TRA,1769.0,Mensual,"Transporte urbano regular por autobús. Murcia, Región de. Viajeros transportados. "
@@ -2915,9 +2960,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-10-01,2024-M10,MUR,INF_TRA,3079.0,Mensual,"Transporte urbano regular por autobús. Murcia, Región de. Viajeros transportados. "
 2024-11-01,2024-M11,MUR,INF_TRA,2832.0,Mensual,"Transporte urbano regular por autobús. Murcia, Región de. Viajeros transportados. "
 2024-12-01,2024-M12,MUR,INF_TRA,2596.0,Mensual,"Transporte urbano regular por autobús. Murcia, Región de. Viajeros transportados. "
-2025-01-01,2025-M01,MUR,INF_TRA,2663.0,Mensual,"Transporte urbano regular por autobús. Murcia, Región de. Viajeros transportados. "
-2025-02-01,2025-M02,MUR,INF_TRA,2731.0,Mensual,"Transporte urbano regular por autobús. Murcia, Región de. Viajeros transportados. "
-2025-03-01,2025-M03,MUR,INF_TRA,2679.0,Mensual,"Transporte urbano regular por autobús. Murcia, Región de. Viajeros transportados. "
+2025-01-01,2025-M01,MUR,INF_TRA,2659.0,Mensual,"Transporte urbano regular por autobús. Murcia, Región de. Viajeros transportados. "
+2025-02-01,2025-M02,MUR,INF_TRA,2726.0,Mensual,"Transporte urbano regular por autobús. Murcia, Región de. Viajeros transportados. "
+2025-03-01,2025-M03,MUR,INF_TRA,2675.0,Mensual,"Transporte urbano regular por autobús. Murcia, Región de. Viajeros transportados. "
 2025-04-01,2025-M04,MUR,INF_TRA,2621.0,Mensual,"Transporte urbano regular por autobús. Murcia, Región de. Viajeros transportados. "
 2025-05-01,2025-M05,MUR,INF_TRA,2761.0,Mensual,"Transporte urbano regular por autobús. Murcia, Región de. Viajeros transportados. "
 2025-06-01,2025-M06,MUR,INF_TRA,2341.0,Mensual,"Transporte urbano regular por autobús. Murcia, Región de. Viajeros transportados. "
@@ -2927,6 +2972,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,MUR,INF_TRA,3164.0,Mensual,"Transporte urbano regular por autobús. Murcia, Región de. Viajeros transportados. "
 2025-11-01,2025-M11,MUR,INF_TRA,2947.0,Mensual,"Transporte urbano regular por autobús. Murcia, Región de. Viajeros transportados. "
 2025-12-01,2025-M12,MUR,INF_TRA,2628.0,Mensual,"Transporte urbano regular por autobús. Murcia, Región de. Viajeros transportados. "
+2026-01-01,2026-M01,MUR,INF_TRA,2485.0,Mensual,"Transporte urbano regular por autobús. Murcia, Región de. Viajeros transportados. "
+2026-02-01,2026-M02,MUR,INF_TRA,2628.0,Mensual,"Transporte urbano regular por autobús. Murcia, Región de. Viajeros transportados. "
+2026-03-01,2026-M03,MUR,INF_TRA,2921.0,Mensual,"Transporte urbano regular por autobús. Murcia, Región de. Viajeros transportados. "
 2012-01-01,2012-M01,NAV,INF_TRA,1115.12,Mensual,Imputación por residuo (Población)
 2012-01-01,2012-M01,NAV,INF_TRA,1113.78,Mensual,Imputación por residuo (Población)
 2012-02-01,2012-M02,NAV,INF_TRA,1073.38,Mensual,Imputación por residuo (Población)
@@ -3335,54 +3383,60 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-12-01,2024-M12,NAV,INF_TRA,689.78,Mensual,Imputación por residuo (Población)
 2024-12-01,2024-M12,NAV,INF_TRA,691.19,Mensual,Imputación por residuo (Población)
 2024-12-01,2024-M12,NAV,INF_TRA,693.15,Mensual,Imputación por residuo (Población)
-2025-01-01,2025-M01,NAV,INF_TRA,706.71,Mensual,Imputación por residuo (Población)
-2025-01-01,2025-M01,NAV,INF_TRA,708.23,Mensual,Imputación por residuo (Población)
-2025-01-01,2025-M01,NAV,INF_TRA,709.45,Mensual,Imputación por residuo (Población)
-2025-01-01,2025-M01,NAV,INF_TRA,711.68,Mensual,Imputación por residuo (Población)
-2025-02-01,2025-M02,NAV,INF_TRA,697.51,Mensual,Imputación por residuo (Población)
-2025-02-01,2025-M02,NAV,INF_TRA,699.02,Mensual,Imputación por residuo (Población)
-2025-02-01,2025-M02,NAV,INF_TRA,700.22,Mensual,Imputación por residuo (Población)
-2025-02-01,2025-M02,NAV,INF_TRA,702.42,Mensual,Imputación por residuo (Población)
-2025-03-01,2025-M03,NAV,INF_TRA,771.54,Mensual,Imputación por residuo (Población)
-2025-03-01,2025-M03,NAV,INF_TRA,773.21,Mensual,Imputación por residuo (Población)
-2025-03-01,2025-M03,NAV,INF_TRA,774.54,Mensual,Imputación por residuo (Población)
-2025-03-01,2025-M03,NAV,INF_TRA,776.97,Mensual,Imputación por residuo (Población)
-2025-04-01,2025-M04,NAV,INF_TRA,753.51,Mensual,Imputación por residuo (Población)
-2025-04-01,2025-M04,NAV,INF_TRA,755.14,Mensual,Imputación por residuo (Población)
-2025-04-01,2025-M04,NAV,INF_TRA,756.44,Mensual,Imputación por residuo (Población)
-2025-04-01,2025-M04,NAV,INF_TRA,758.81,Mensual,Imputación por residuo (Población)
-2025-05-01,2025-M05,NAV,INF_TRA,825.64,Mensual,Imputación por residuo (Población)
-2025-05-01,2025-M05,NAV,INF_TRA,827.42,Mensual,Imputación por residuo (Población)
-2025-05-01,2025-M05,NAV,INF_TRA,828.84,Mensual,Imputación por residuo (Población)
-2025-05-01,2025-M05,NAV,INF_TRA,831.44,Mensual,Imputación por residuo (Población)
-2025-06-01,2025-M06,NAV,INF_TRA,797.34,Mensual,Imputación por residuo (Población)
-2025-06-01,2025-M06,NAV,INF_TRA,799.06,Mensual,Imputación por residuo (Población)
-2025-06-01,2025-M06,NAV,INF_TRA,800.43,Mensual,Imputación por residuo (Población)
-2025-06-01,2025-M06,NAV,INF_TRA,802.94,Mensual,Imputación por residuo (Población)
-2025-07-01,2025-M07,NAV,INF_TRA,823.13,Mensual,Imputación por residuo (Población)
-2025-07-01,2025-M07,NAV,INF_TRA,824.91,Mensual,Imputación por residuo (Población)
-2025-07-01,2025-M07,NAV,INF_TRA,826.32,Mensual,Imputación por residuo (Población)
-2025-07-01,2025-M07,NAV,INF_TRA,828.92,Mensual,Imputación por residuo (Población)
-2025-08-01,2025-M08,NAV,INF_TRA,732.98,Mensual,Imputación por residuo (Población)
-2025-08-01,2025-M08,NAV,INF_TRA,734.56,Mensual,Imputación por residuo (Población)
-2025-08-01,2025-M08,NAV,INF_TRA,735.82,Mensual,Imputación por residuo (Población)
-2025-08-01,2025-M08,NAV,INF_TRA,738.13,Mensual,Imputación por residuo (Población)
-2025-09-01,2025-M09,NAV,INF_TRA,822.47,Mensual,Imputación por residuo (Población)
-2025-09-01,2025-M09,NAV,INF_TRA,824.25,Mensual,Imputación por residuo (Población)
-2025-09-01,2025-M09,NAV,INF_TRA,825.66,Mensual,Imputación por residuo (Población)
-2025-09-01,2025-M09,NAV,INF_TRA,828.26,Mensual,Imputación por residuo (Población)
-2025-10-01,2025-M10,NAV,INF_TRA,881.4,Mensual,Imputación por residuo (Población)
-2025-10-01,2025-M10,NAV,INF_TRA,883.3,Mensual,Imputación por residuo (Población)
-2025-10-01,2025-M10,NAV,INF_TRA,884.82,Mensual,Imputación por residuo (Población)
-2025-10-01,2025-M10,NAV,INF_TRA,887.6,Mensual,Imputación por residuo (Población)
-2025-11-01,2025-M11,NAV,INF_TRA,776.5,Mensual,Imputación por residuo (Población)
-2025-11-01,2025-M11,NAV,INF_TRA,778.18,Mensual,Imputación por residuo (Población)
-2025-11-01,2025-M11,NAV,INF_TRA,779.51,Mensual,Imputación por residuo (Población)
-2025-11-01,2025-M11,NAV,INF_TRA,781.96,Mensual,Imputación por residuo (Población)
-2025-12-01,2025-M12,NAV,INF_TRA,723.9,Mensual,Imputación por residuo (Población)
-2025-12-01,2025-M12,NAV,INF_TRA,725.46,Mensual,Imputación por residuo (Población)
-2025-12-01,2025-M12,NAV,INF_TRA,726.71,Mensual,Imputación por residuo (Población)
-2025-12-01,2025-M12,NAV,INF_TRA,728.99,Mensual,Imputación por residuo (Población)
+2025-01-01,2025-M01,NAV,INF_TRA,706.23,Mensual,Imputación por residuo (Población)
+2025-01-01,2025-M01,NAV,INF_TRA,707.76,Mensual,Imputación por residuo (Población)
+2025-01-01,2025-M01,NAV,INF_TRA,709.0,Mensual,Imputación por residuo (Población)
+2025-01-01,2025-M01,NAV,INF_TRA,711.27,Mensual,Imputación por residuo (Población)
+2025-02-01,2025-M02,NAV,INF_TRA,696.98,Mensual,Imputación por residuo (Población)
+2025-02-01,2025-M02,NAV,INF_TRA,698.49,Mensual,Imputación por residuo (Población)
+2025-02-01,2025-M02,NAV,INF_TRA,699.71,Mensual,Imputación por residuo (Población)
+2025-02-01,2025-M02,NAV,INF_TRA,701.95,Mensual,Imputación por residuo (Población)
+2025-03-01,2025-M03,NAV,INF_TRA,770.77,Mensual,Imputación por residuo (Población)
+2025-03-01,2025-M03,NAV,INF_TRA,772.44,Mensual,Imputación por residuo (Población)
+2025-03-01,2025-M03,NAV,INF_TRA,773.79,Mensual,Imputación por residuo (Población)
+2025-03-01,2025-M03,NAV,INF_TRA,776.26,Mensual,Imputación por residuo (Población)
+2025-04-01,2025-M04,NAV,INF_TRA,753.45,Mensual,Imputación por residuo (Población)
+2025-04-01,2025-M04,NAV,INF_TRA,755.09,Mensual,Imputación por residuo (Población)
+2025-04-01,2025-M04,NAV,INF_TRA,756.41,Mensual,Imputación por residuo (Población)
+2025-04-01,2025-M04,NAV,INF_TRA,758.83,Mensual,Imputación por residuo (Población)
+2025-05-01,2025-M05,NAV,INF_TRA,825.57,Mensual,Imputación por residuo (Población)
+2025-05-01,2025-M05,NAV,INF_TRA,827.36,Mensual,Imputación por residuo (Población)
+2025-05-01,2025-M05,NAV,INF_TRA,828.8,Mensual,Imputación por residuo (Población)
+2025-05-01,2025-M05,NAV,INF_TRA,831.46,Mensual,Imputación por residuo (Población)
+2025-06-01,2025-M06,NAV,INF_TRA,797.27,Mensual,Imputación por residuo (Población)
+2025-06-01,2025-M06,NAV,INF_TRA,799.0,Mensual,Imputación por residuo (Población)
+2025-06-01,2025-M06,NAV,INF_TRA,800.4,Mensual,Imputación por residuo (Población)
+2025-06-01,2025-M06,NAV,INF_TRA,802.96,Mensual,Imputación por residuo (Población)
+2025-07-01,2025-M07,NAV,INF_TRA,823.06,Mensual,Imputación por residuo (Población)
+2025-07-01,2025-M07,NAV,INF_TRA,824.85,Mensual,Imputación por residuo (Población)
+2025-07-01,2025-M07,NAV,INF_TRA,826.29,Mensual,Imputación por residuo (Población)
+2025-07-01,2025-M07,NAV,INF_TRA,828.93,Mensual,Imputación por residuo (Población)
+2025-08-01,2025-M08,NAV,INF_TRA,732.92,Mensual,Imputación por residuo (Población)
+2025-08-01,2025-M08,NAV,INF_TRA,734.51,Mensual,Imputación por residuo (Población)
+2025-08-01,2025-M08,NAV,INF_TRA,735.79,Mensual,Imputación por residuo (Población)
+2025-08-01,2025-M08,NAV,INF_TRA,738.14,Mensual,Imputación por residuo (Población)
+2025-09-01,2025-M09,NAV,INF_TRA,822.41,Mensual,Imputación por residuo (Población)
+2025-09-01,2025-M09,NAV,INF_TRA,824.19,Mensual,Imputación por residuo (Población)
+2025-09-01,2025-M09,NAV,INF_TRA,825.63,Mensual,Imputación por residuo (Población)
+2025-09-01,2025-M09,NAV,INF_TRA,828.27,Mensual,Imputación por residuo (Población)
+2025-10-01,2025-M10,NAV,INF_TRA,881.33,Mensual,Imputación por residuo (Población)
+2025-10-01,2025-M10,NAV,INF_TRA,883.24,Mensual,Imputación por residuo (Población)
+2025-10-01,2025-M10,NAV,INF_TRA,884.78,Mensual,Imputación por residuo (Población)
+2025-10-01,2025-M10,NAV,INF_TRA,887.61,Mensual,Imputación por residuo (Población)
+2025-11-01,2025-M11,NAV,INF_TRA,776.44,Mensual,Imputación por residuo (Población)
+2025-11-01,2025-M11,NAV,INF_TRA,778.12,Mensual,Imputación por residuo (Población)
+2025-11-01,2025-M11,NAV,INF_TRA,779.48,Mensual,Imputación por residuo (Población)
+2025-11-01,2025-M11,NAV,INF_TRA,781.97,Mensual,Imputación por residuo (Población)
+2025-12-01,2025-M12,NAV,INF_TRA,723.84,Mensual,Imputación por residuo (Población)
+2025-12-01,2025-M12,NAV,INF_TRA,725.41,Mensual,Imputación por residuo (Población)
+2025-12-01,2025-M12,NAV,INF_TRA,726.68,Mensual,Imputación por residuo (Población)
+2025-12-01,2025-M12,NAV,INF_TRA,729.01,Mensual,Imputación por residuo (Población)
+2026-01-01,2026-M01,NAV,INF_TRA,1411.99,Mensual,Imputación por residuo (Población)
+2026-01-01,2026-M01,NAV,INF_TRA,1414.48,Mensual,Imputación por residuo (Población)
+2026-02-01,2026-M02,NAV,INF_TRA,1443.03,Mensual,Imputación por residuo (Población)
+2026-02-01,2026-M02,NAV,INF_TRA,1445.57,Mensual,Imputación por residuo (Población)
+2026-03-01,2026-M03,NAV,INF_TRA,1635.96,Mensual,Imputación por residuo (Población)
+2026-03-01,2026-M03,NAV,INF_TRA,1638.84,Mensual,Imputación por residuo (Población)
 2012-01-01,2012-M01,PV,INF_TRA,7431.0,Mensual,Transporte urbano regular por autobús. País Vasco. Viajeros transportados. 
 2012-02-01,2012-M02,PV,INF_TRA,7417.0,Mensual,Transporte urbano regular por autobús. País Vasco. Viajeros transportados. 
 2012-03-01,2012-M03,PV,INF_TRA,7529.0,Mensual,Transporte urbano regular por autobús. País Vasco. Viajeros transportados. 
@@ -3539,9 +3593,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-10-01,2024-M10,PV,INF_TRA,9320.0,Mensual,Transporte urbano regular por autobús. País Vasco. Viajeros transportados. 
 2024-11-01,2024-M11,PV,INF_TRA,8755.0,Mensual,Transporte urbano regular por autobús. País Vasco. Viajeros transportados. 
 2024-12-01,2024-M12,PV,INF_TRA,8506.0,Mensual,Transporte urbano regular por autobús. País Vasco. Viajeros transportados. 
-2025-01-01,2025-M01,PV,INF_TRA,8525.0,Mensual,Transporte urbano regular por autobús. País Vasco. Viajeros transportados. 
-2025-02-01,2025-M02,PV,INF_TRA,8375.0,Mensual,Transporte urbano regular por autobús. País Vasco. Viajeros transportados. 
-2025-03-01,2025-M03,PV,INF_TRA,9042.0,Mensual,Transporte urbano regular por autobús. País Vasco. Viajeros transportados. 
+2025-01-01,2025-M01,PV,INF_TRA,8524.0,Mensual,Transporte urbano regular por autobús. País Vasco. Viajeros transportados. 
+2025-02-01,2025-M02,PV,INF_TRA,8371.0,Mensual,Transporte urbano regular por autobús. País Vasco. Viajeros transportados. 
+2025-03-01,2025-M03,PV,INF_TRA,9035.0,Mensual,Transporte urbano regular por autobús. País Vasco. Viajeros transportados. 
 2025-04-01,2025-M04,PV,INF_TRA,8369.0,Mensual,Transporte urbano regular por autobús. País Vasco. Viajeros transportados. 
 2025-05-01,2025-M05,PV,INF_TRA,9439.0,Mensual,Transporte urbano regular por autobús. País Vasco. Viajeros transportados. 
 2025-06-01,2025-M06,PV,INF_TRA,8968.0,Mensual,Transporte urbano regular por autobús. País Vasco. Viajeros transportados. 
@@ -3551,6 +3605,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,PV,INF_TRA,10030.0,Mensual,Transporte urbano regular por autobús. País Vasco. Viajeros transportados. 
 2025-11-01,2025-M11,PV,INF_TRA,8786.0,Mensual,Transporte urbano regular por autobús. País Vasco. Viajeros transportados. 
 2025-12-01,2025-M12,PV,INF_TRA,9355.0,Mensual,Transporte urbano regular por autobús. País Vasco. Viajeros transportados. 
+2026-01-01,2026-M01,PV,INF_TRA,9091.0,Mensual,Transporte urbano regular por autobús. País Vasco. Viajeros transportados. 
+2026-02-01,2026-M02,PV,INF_TRA,9029.0,Mensual,Transporte urbano regular por autobús. País Vasco. Viajeros transportados. 
+2026-03-01,2026-M03,PV,INF_TRA,9520.0,Mensual,Transporte urbano regular por autobús. País Vasco. Viajeros transportados. 
 2012-01-01,2012-M01,RIO,INF_TRA,559.2,Mensual,Imputación por residuo (Población)
 2012-01-01,2012-M01,RIO,INF_TRA,557.65,Mensual,Imputación por residuo (Población)
 2012-02-01,2012-M02,RIO,INF_TRA,538.27,Mensual,Imputación por residuo (Población)
@@ -3959,54 +4016,60 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-12-01,2024-M12,RIO,INF_TRA,329.72,Mensual,Imputación por residuo (Población)
 2024-12-01,2024-M12,RIO,INF_TRA,330.33,Mensual,Imputación por residuo (Población)
 2024-12-01,2024-M12,RIO,INF_TRA,331.27,Mensual,Imputación por residuo (Población)
-2025-01-01,2025-M01,RIO,INF_TRA,337.72,Mensual,Imputación por residuo (Población)
-2025-01-01,2025-M01,RIO,INF_TRA,338.62,Mensual,Imputación por residuo (Población)
-2025-01-01,2025-M01,RIO,INF_TRA,339.2,Mensual,Imputación por residuo (Población)
-2025-01-01,2025-M01,RIO,INF_TRA,340.34,Mensual,Imputación por residuo (Población)
-2025-02-01,2025-M02,RIO,INF_TRA,333.33,Mensual,Imputación por residuo (Población)
-2025-02-01,2025-M02,RIO,INF_TRA,334.22,Mensual,Imputación por residuo (Población)
-2025-02-01,2025-M02,RIO,INF_TRA,334.79,Mensual,Imputación por residuo (Población)
-2025-02-01,2025-M02,RIO,INF_TRA,335.91,Mensual,Imputación por residuo (Población)
-2025-03-01,2025-M03,RIO,INF_TRA,368.71,Mensual,Imputación por residuo (Población)
-2025-03-01,2025-M03,RIO,INF_TRA,369.69,Mensual,Imputación por residuo (Población)
-2025-03-01,2025-M03,RIO,INF_TRA,370.32,Mensual,Imputación por residuo (Población)
-2025-03-01,2025-M03,RIO,INF_TRA,371.57,Mensual,Imputación por residuo (Población)
-2025-04-01,2025-M04,RIO,INF_TRA,360.09,Mensual,Imputación por residuo (Población)
-2025-04-01,2025-M04,RIO,INF_TRA,361.05,Mensual,Imputación por residuo (Población)
-2025-04-01,2025-M04,RIO,INF_TRA,361.67,Mensual,Imputación por residuo (Población)
-2025-04-01,2025-M04,RIO,INF_TRA,362.88,Mensual,Imputación por residuo (Población)
-2025-05-01,2025-M05,RIO,INF_TRA,394.56,Mensual,Imputación por residuo (Población)
-2025-05-01,2025-M05,RIO,INF_TRA,395.61,Mensual,Imputación por residuo (Población)
-2025-05-01,2025-M05,RIO,INF_TRA,396.28,Mensual,Imputación por residuo (Población)
-2025-05-01,2025-M05,RIO,INF_TRA,397.62,Mensual,Imputación por residuo (Población)
-2025-06-01,2025-M06,RIO,INF_TRA,381.03,Mensual,Imputación por residuo (Población)
-2025-06-01,2025-M06,RIO,INF_TRA,382.05,Mensual,Imputación por residuo (Población)
-2025-06-01,2025-M06,RIO,INF_TRA,382.7,Mensual,Imputación por residuo (Población)
-2025-06-01,2025-M06,RIO,INF_TRA,383.99,Mensual,Imputación por residuo (Población)
-2025-07-01,2025-M07,RIO,INF_TRA,393.36,Mensual,Imputación por residuo (Población)
-2025-07-01,2025-M07,RIO,INF_TRA,394.41,Mensual,Imputación por residuo (Población)
-2025-07-01,2025-M07,RIO,INF_TRA,395.08,Mensual,Imputación por residuo (Población)
-2025-07-01,2025-M07,RIO,INF_TRA,396.41,Mensual,Imputación por residuo (Población)
-2025-08-01,2025-M08,RIO,INF_TRA,350.28,Mensual,Imputación por residuo (Población)
-2025-08-01,2025-M08,RIO,INF_TRA,351.21,Mensual,Imputación por residuo (Población)
-2025-08-01,2025-M08,RIO,INF_TRA,351.81,Mensual,Imputación por residuo (Población)
-2025-08-01,2025-M08,RIO,INF_TRA,352.99,Mensual,Imputación por residuo (Población)
-2025-09-01,2025-M09,RIO,INF_TRA,393.05,Mensual,Imputación por residuo (Población)
-2025-09-01,2025-M09,RIO,INF_TRA,394.09,Mensual,Imputación por residuo (Población)
-2025-09-01,2025-M09,RIO,INF_TRA,394.76,Mensual,Imputación por residuo (Población)
-2025-09-01,2025-M09,RIO,INF_TRA,396.09,Mensual,Imputación por residuo (Población)
-2025-10-01,2025-M10,RIO,INF_TRA,421.21,Mensual,Imputación por residuo (Población)
-2025-10-01,2025-M10,RIO,INF_TRA,422.33,Mensual,Imputación por residuo (Población)
-2025-10-01,2025-M10,RIO,INF_TRA,423.05,Mensual,Imputación por residuo (Población)
-2025-10-01,2025-M10,RIO,INF_TRA,424.47,Mensual,Imputación por residuo (Población)
-2025-11-01,2025-M11,RIO,INF_TRA,371.08,Mensual,Imputación por residuo (Población)
-2025-11-01,2025-M11,RIO,INF_TRA,372.06,Mensual,Imputación por residuo (Población)
-2025-11-01,2025-M11,RIO,INF_TRA,372.7,Mensual,Imputación por residuo (Población)
-2025-11-01,2025-M11,RIO,INF_TRA,373.95,Mensual,Imputación por residuo (Población)
-2025-12-01,2025-M12,RIO,INF_TRA,345.94,Mensual,Imputación por residuo (Población)
-2025-12-01,2025-M12,RIO,INF_TRA,346.86,Mensual,Imputación por residuo (Población)
-2025-12-01,2025-M12,RIO,INF_TRA,347.45,Mensual,Imputación por residuo (Población)
-2025-12-01,2025-M12,RIO,INF_TRA,348.62,Mensual,Imputación por residuo (Población)
+2025-01-01,2025-M01,RIO,INF_TRA,337.5,Mensual,Imputación por residuo (Población)
+2025-01-01,2025-M01,RIO,INF_TRA,338.39,Mensual,Imputación por residuo (Población)
+2025-01-01,2025-M01,RIO,INF_TRA,339.03,Mensual,Imputación por residuo (Población)
+2025-01-01,2025-M01,RIO,INF_TRA,340.2,Mensual,Imputación por residuo (Población)
+2025-02-01,2025-M02,RIO,INF_TRA,333.08,Mensual,Imputación por residuo (Población)
+2025-02-01,2025-M02,RIO,INF_TRA,333.95,Mensual,Imputación por residuo (Población)
+2025-02-01,2025-M02,RIO,INF_TRA,334.59,Mensual,Imputación por residuo (Población)
+2025-02-01,2025-M02,RIO,INF_TRA,335.74,Mensual,Imputación por residuo (Población)
+2025-03-01,2025-M03,RIO,INF_TRA,368.34,Mensual,Imputación por residuo (Población)
+2025-03-01,2025-M03,RIO,INF_TRA,369.31,Mensual,Imputación por residuo (Población)
+2025-03-01,2025-M03,RIO,INF_TRA,370.01,Mensual,Imputación por residuo (Población)
+2025-03-01,2025-M03,RIO,INF_TRA,371.29,Mensual,Imputación por residuo (Población)
+2025-04-01,2025-M04,RIO,INF_TRA,360.06,Mensual,Imputación por residuo (Población)
+2025-04-01,2025-M04,RIO,INF_TRA,361.01,Mensual,Imputación por residuo (Población)
+2025-04-01,2025-M04,RIO,INF_TRA,361.7,Mensual,Imputación por residuo (Población)
+2025-04-01,2025-M04,RIO,INF_TRA,362.95,Mensual,Imputación por residuo (Población)
+2025-05-01,2025-M05,RIO,INF_TRA,394.53,Mensual,Imputación por residuo (Población)
+2025-05-01,2025-M05,RIO,INF_TRA,395.56,Mensual,Imputación por residuo (Población)
+2025-05-01,2025-M05,RIO,INF_TRA,396.32,Mensual,Imputación por residuo (Población)
+2025-05-01,2025-M05,RIO,INF_TRA,397.69,Mensual,Imputación por residuo (Población)
+2025-06-01,2025-M06,RIO,INF_TRA,381.0,Mensual,Imputación por residuo (Población)
+2025-06-01,2025-M06,RIO,INF_TRA,382.01,Mensual,Imputación por residuo (Población)
+2025-06-01,2025-M06,RIO,INF_TRA,382.73,Mensual,Imputación por residuo (Población)
+2025-06-01,2025-M06,RIO,INF_TRA,384.05,Mensual,Imputación por residuo (Población)
+2025-07-01,2025-M07,RIO,INF_TRA,393.33,Mensual,Imputación por residuo (Población)
+2025-07-01,2025-M07,RIO,INF_TRA,394.36,Mensual,Imputación por residuo (Población)
+2025-07-01,2025-M07,RIO,INF_TRA,395.11,Mensual,Imputación por residuo (Población)
+2025-07-01,2025-M07,RIO,INF_TRA,396.48,Mensual,Imputación por residuo (Población)
+2025-08-01,2025-M08,RIO,INF_TRA,350.25,Mensual,Imputación por residuo (Población)
+2025-08-01,2025-M08,RIO,INF_TRA,351.17,Mensual,Imputación por residuo (Población)
+2025-08-01,2025-M08,RIO,INF_TRA,351.84,Mensual,Imputación por residuo (Población)
+2025-08-01,2025-M08,RIO,INF_TRA,353.05,Mensual,Imputación por residuo (Población)
+2025-09-01,2025-M09,RIO,INF_TRA,393.01,Mensual,Imputación por residuo (Población)
+2025-09-01,2025-M09,RIO,INF_TRA,394.05,Mensual,Imputación por residuo (Población)
+2025-09-01,2025-M09,RIO,INF_TRA,394.8,Mensual,Imputación por residuo (Población)
+2025-09-01,2025-M09,RIO,INF_TRA,396.16,Mensual,Imputación por residuo (Población)
+2025-10-01,2025-M10,RIO,INF_TRA,421.17,Mensual,Imputación por residuo (Población)
+2025-10-01,2025-M10,RIO,INF_TRA,422.28,Mensual,Imputación por residuo (Población)
+2025-10-01,2025-M10,RIO,INF_TRA,423.08,Mensual,Imputación por residuo (Población)
+2025-10-01,2025-M10,RIO,INF_TRA,424.55,Mensual,Imputación por residuo (Población)
+2025-11-01,2025-M11,RIO,INF_TRA,371.05,Mensual,Imputación por residuo (Población)
+2025-11-01,2025-M11,RIO,INF_TRA,372.02,Mensual,Imputación por residuo (Población)
+2025-11-01,2025-M11,RIO,INF_TRA,372.73,Mensual,Imputación por residuo (Población)
+2025-11-01,2025-M11,RIO,INF_TRA,374.02,Mensual,Imputación por residuo (Población)
+2025-12-01,2025-M12,RIO,INF_TRA,345.91,Mensual,Imputación por residuo (Población)
+2025-12-01,2025-M12,RIO,INF_TRA,346.82,Mensual,Imputación por residuo (Población)
+2025-12-01,2025-M12,RIO,INF_TRA,347.48,Mensual,Imputación por residuo (Población)
+2025-12-01,2025-M12,RIO,INF_TRA,348.68,Mensual,Imputación por residuo (Población)
+2026-01-01,2026-M01,RIO,INF_TRA,674.3,Mensual,Imputación por residuo (Población)
+2026-01-01,2026-M01,RIO,INF_TRA,676.26,Mensual,Imputación por residuo (Población)
+2026-02-01,2026-M02,RIO,INF_TRA,689.12,Mensual,Imputación por residuo (Población)
+2026-02-01,2026-M02,RIO,INF_TRA,691.13,Mensual,Imputación por residuo (Población)
+2026-03-01,2026-M03,RIO,INF_TRA,781.26,Mensual,Imputación por residuo (Población)
+2026-03-01,2026-M03,RIO,INF_TRA,783.53,Mensual,Imputación por residuo (Población)
 2012-01-01,2012-M01,VAL,INF_TRA,10919.0,Mensual,Transporte urbano regular por autobús. Comunitat Valenciana. Viajeros transportados. 
 2012-02-01,2012-M02,VAL,INF_TRA,10751.0,Mensual,Transporte urbano regular por autobús. Comunitat Valenciana. Viajeros transportados. 
 2012-03-01,2012-M03,VAL,INF_TRA,11945.0,Mensual,Transporte urbano regular por autobús. Comunitat Valenciana. Viajeros transportados. 
@@ -4163,9 +4226,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2024-10-01,2024-M10,VAL,INF_TRA,15051.0,Mensual,Transporte urbano regular por autobús. Comunitat Valenciana. Viajeros transportados. 
 2024-11-01,2024-M11,VAL,INF_TRA,14634.0,Mensual,Transporte urbano regular por autobús. Comunitat Valenciana. Viajeros transportados. 
 2024-12-01,2024-M12,VAL,INF_TRA,13637.0,Mensual,Transporte urbano regular por autobús. Comunitat Valenciana. Viajeros transportados. 
-2025-01-01,2025-M01,VAL,INF_TRA,15399.0,Mensual,Transporte urbano regular por autobús. Comunitat Valenciana. Viajeros transportados. 
+2025-01-01,2025-M01,VAL,INF_TRA,15404.0,Mensual,Transporte urbano regular por autobús. Comunitat Valenciana. Viajeros transportados. 
 2025-02-01,2025-M02,VAL,INF_TRA,15695.0,Mensual,Transporte urbano regular por autobús. Comunitat Valenciana. Viajeros transportados. 
-2025-03-01,2025-M03,VAL,INF_TRA,15779.0,Mensual,Transporte urbano regular por autobús. Comunitat Valenciana. Viajeros transportados. 
+2025-03-01,2025-M03,VAL,INF_TRA,15809.0,Mensual,Transporte urbano regular por autobús. Comunitat Valenciana. Viajeros transportados. 
 2025-04-01,2025-M04,VAL,INF_TRA,15392.0,Mensual,Transporte urbano regular por autobús. Comunitat Valenciana. Viajeros transportados. 
 2025-05-01,2025-M05,VAL,INF_TRA,17215.0,Mensual,Transporte urbano regular por autobús. Comunitat Valenciana. Viajeros transportados. 
 2025-06-01,2025-M06,VAL,INF_TRA,17078.0,Mensual,Transporte urbano regular por autobús. Comunitat Valenciana. Viajeros transportados. 
@@ -4175,3 +4238,6 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-10-01,2025-M10,VAL,INF_TRA,17361.0,Mensual,Transporte urbano regular por autobús. Comunitat Valenciana. Viajeros transportados. 
 2025-11-01,2025-M11,VAL,INF_TRA,16545.0,Mensual,Transporte urbano regular por autobús. Comunitat Valenciana. Viajeros transportados. 
 2025-12-01,2025-M12,VAL,INF_TRA,15207.0,Mensual,Transporte urbano regular por autobús. Comunitat Valenciana. Viajeros transportados. 
+2026-01-01,2026-M01,VAL,INF_TRA,15005.0,Mensual,Transporte urbano regular por autobús. Comunitat Valenciana. Viajeros transportados. 
+2026-02-01,2026-M02,VAL,INF_TRA,15552.0,Mensual,Transporte urbano regular por autobús. Comunitat Valenciana. Viajeros transportados. 
+2026-03-01,2026-M03,VAL,INF_TRA,16592.0,Mensual,Transporte urbano regular por autobús. Comunitat Valenciana. Viajeros transportados. 
