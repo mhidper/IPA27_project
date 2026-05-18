@@ -56,7 +56,8 @@ Para estos indicadores, debes descargar los datos brutos antes de ejecutar el pr
 | Indicador | Fuente | Web de Descarga | Fichero Destino |
 | :--- | :--- | :--- | :--- |
 | **LIB_ODI** | Min. Interior | [Delitos de Odio](https://oficinanacional-delitosdeodio.ses.mir.es/publico/ONDOD/publicaciones.html) | `data/raw/other/mir_odio CCAA.xls` Se toma el primero de los desplegables Descarga ficheros Informacion tabla Hechos conocidos por causa de delitos de odio desglosado por tipo hecho|
-| **GOB_COR / EFF** | CGPJ | Scraper Automático | Ejecutar `scrape_cgpj_corruption.py` (Genera `data/raw/cgpj_corrupcion_procesado.csv`) |
+| **GOB_EFF** | CGPJ | [Tiempos Medios](https://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Estadistica-por-temas/Actividad-de-los-organos-judiciales/Estimacion-de-los-tiempos-medios-de-los-asuntos-terminados/) | `data/raw/other/` (Descargar Civil y Penal, el script los busca) |
+
 | **INV_IED** | DataInvex | [Inversión Extranjera](https://datainvex.comercio.es/principal_invex.aspx) | `data/raw/other/consulta_datainvex_ccaa.xls` |
 | **INF_BAN** | INE | [TIC en Hogares](https://www.ine.es/) | `data/raw/tic_hogares/` (microdatos .tab) |
 | **AUX_EDA** | INE | [Padrón Municipal](https://www.ine.es/) | `data/raw/other/edad_media.csv` |

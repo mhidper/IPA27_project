@@ -1,0 +1,108 @@
+# %% CÁLCULO DE TECHOS (O Fronteras Base para Inversos)
+import pandas as pd
+import numpy as np
+
+print("=" * 60)
+print("CÁLCULO DE LÍMITES ESTRUCTURALES (Techos y Suelos)")
+print("=" * 60)
+
+# === PARÁMETROS ===
+K_MARGEN = 1.0          # Factor multiplicador del margen
+HORIZONTE_ANOS = 5      # Años de proyección hacia adelante
+N_TOP = 3               # Número de regiones top para la media
+ANOS_TENDENCIA = 5      # Años hacia atrás para calcular tendencia
+MIN_REGIONES = 5        # Mínimo de regiones con datos para calcular techo fiable
+
+# === IDENTIFICAR INDICADORES Y REGIONES ===
+cols_indicadores = [c for c in df_trim.columns if not c.startswith('AUX_')]
+indicadores_unicos = sorted(set(c.rsplit('_', 1)[0] for c in cols_indicadores))
+
+ultimo_q = df_trim.index[-1]
+inicio_tendencia = df_trim.index[-min(ANOS_TENDENCIA * 4, len(df_trim))]
+
+print(f"Indicadores a evaluar: {len(indicadores_unicos)} | Último periodo: {ultimo_q}")
+
+# === CALCULAR TECHOS ===
+TECHOS = {}
+detalles_techos = []
+
+for ind in indicadores_unicos:
+    cols_ind = [c for c in df_trim.columns if c.startswith(f"{ind}_")]
+    if not cols_ind: continue
+    
+    es_invertido = DIRECCION.get(ind, 'normal') == 'invertido'
+    
+    # 1. Valores del último periodo o promedio de los últimos 4 trimestres para volátiles
+    VOLATILES = ['INV_IED']  # Indicadores muy volátiles
+    if ind in VOLATILES and len(df_trim) >= 4:
+        ultimos_4_q = df_trim.index[-4:]
+        valores_ultimo = {col.rsplit('_', 1)[1]: df_trim.loc[ultimos_4_q, col].mean()
+                          for col in cols_ind if df_trim.loc[ultimos_4_q, col].notna().any()}
+    else:
+        valores_ultimo = {col.rsplit('_', 1)[1]: df_trim.loc[ultimo_q, col] 
+                          for col in cols_ind if pd.notna(df_trim.loc[ultimo_q, col])}
+    n_regiones = len(valores_ultimo)
+    
+    if n_regiones < MIN_REGIONES:
+        vals = list(valores_ultimo.values())
+        techo = max(vals) * 1.2 if vals else np.nan
+        TECHOS[ind] = techo
+        detalles_techos.append({
+            'Indicador': ind, 'Dirección': 'INV' if es_invertido else 'NOR',
+            'Techo': techo, 'Media_TopN': np.nan, 'Delta_anual': np.nan,
+            'N_regiones': n_regiones, 'Fiabilidad': 'BAJA', 'Regiones_Base': 'Fallback'
+        })
+        continue
+
+    fiabilidad = 'ALTA'
+        
+    # --- SELECCIÓN DE LAS 3 REGIONES DE REFERENCIA ---
+    # RESTAURADO: Siempre cogemos las 3 con valores más altos.
+    # En Normales: son las de 'Excelencia' (para poner el techo a aspirar).
+    # En Inversos: son las de 'Peor desempeño' (para poner el suelo de 0 puntos).
+    # EXCLUIR ESPAÑA: Seleccionamos las 3 mejores regiones, sin contar a España
+    valores_sin_esp = {k: v for k, v in valores_ultimo.items() if k != 'ESP'}
+    seleccion = sorted(valores_sin_esp.items(), key=lambda x: x[1], reverse=True)[:N_TOP]
+    
+    regiones_base = [r for r, _ in seleccion]
+    media_topN = np.mean([v for _, v in seleccion])
+    
+    # --- TENDENCIA ---
+    cols_sel = [f"{ind}_{r}" for r in regiones_base]
+    serie_grupo = df_trim.loc[inicio_tendencia:ultimo_q, cols_sel].mean(axis=1).dropna()
+    
+    if len(serie_grupo) >= 8:
+        delta_anual = (serie_grupo.iloc[-4:].mean() - serie_grupo.iloc[:4].mean()) / (len(serie_grupo)/4)
+    else:
+        delta_anual = 0
+    
+    # --- CÁLCULO DEL TECHO ---
+    if es_invertido:
+        # En inversos, el techo es el límite péśimo. Le sumamos el margen de empeoramiento 
+        # (usando abs para asegurar que ampliamos el límite hacia territorios peores).
+        techo = media_topN + K_MARGEN * abs(delta_anual) * HORIZONTE_ANOS
+    else:
+        # En normales, el techo es la excelencia. Le sumamos el margen de mejora.
+        techo = media_topN + K_MARGEN * max(delta_anual, 0) * HORIZONTE_ANOS
+
+    # Validaciones anti-errores
+    if techo <= 0: techo = abs(media_topN) * 1.2 if media_topN != 0 else 1.0; fiabilidad = 'AJUSTADO'
+    
+    # Limitar en porcentajes (solo si no es invertido)
+    if ind in ['VID_PAR', 'VID_ARO', 'EDU_ABA', 'SOC_PAR_enlazado', 'EDU_SUP', 'INF_BAN', 'CON_IDI']:
+        if not es_invertido and techo > 100: techo = 100.0; fiabilidad = 'CAPPED_100'
+    
+    TECHOS[ind] = techo
+    detalles_techos.append({
+        'Indicador': ind, 'Dirección': 'INV' if es_invertido else 'NOR',
+        'Techo': round(techo, 4), 'Media_TopN': round(media_topN, 4),
+        'Delta_anual': round(delta_anual, 4), 'N_regiones': n_regiones,
+        'Fiabilidad': fiabilidad, 'Regiones_Base': ", ".join(regiones_base)
+    })
+
+# REPORTAR RESULTADOS PARA VERIFICACIÓN VISUAL
+df_techos = pd.DataFrame(detalles_techos)
+print(f"\n{'Indicador':<20} {'Dir':>4} {'Límite/Techo':>12} {'Media(Base)':>12} {'Δ_anual':>10}  {'Regiones Referencia (Altur/Profundidad)'}")
+print("-" * 105)
+for _, r in df_techos.iterrows():
+    print(f"{r['Indicador']:<20} {r['Dirección']:>4} {r['Techo']:>12.2f} {r['Media_TopN']:>12.2f} {r['Delta_anual']:>10.4f}  {r['Regiones_Base']}")

@@ -1,682 +1,433 @@
 Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
-2016-01-01,2016-Q1,AND,GOB_EFF,0.9,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-04-01,2016-Q2,AND,GOB_EFF,0.7777777777777778,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-07-01,2016-Q3,AND,GOB_EFF,0.3888888888888889,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-10-01,2016-Q4,AND,GOB_EFF,1.1764705882352942,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-01-01,2017-Q1,AND,GOB_EFF,0.8333333333333334,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-04-01,2017-Q2,AND,GOB_EFF,1.1764705882352942,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-07-01,2017-Q3,AND,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-10-01,2017-Q4,AND,GOB_EFF,0.7272727272727273,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-01-01,2018-Q1,AND,GOB_EFF,0.4615384615384615,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-04-01,2018-Q2,AND,GOB_EFF,1.4,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-07-01,2018-Q3,AND,GOB_EFF,0.2,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-10-01,2018-Q4,AND,GOB_EFF,0.375,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-01-01,2019-Q1,AND,GOB_EFF,0.3684210526315789,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-04-01,2019-Q2,AND,GOB_EFF,1.8571428571428568,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-07-01,2019-Q3,AND,GOB_EFF,2.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-10-01,2019-Q4,AND,GOB_EFF,1.5714285714285714,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-01-01,2020-Q1,AND,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-04-01,2020-Q2,AND,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-07-01,2020-Q3,AND,GOB_EFF,0.8888888888888888,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-10-01,2020-Q4,AND,GOB_EFF,1.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-01-01,2021-Q1,AND,GOB_EFF,0.4285714285714285,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-04-01,2021-Q2,AND,GOB_EFF,0.1304347826086956,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-07-01,2021-Q3,AND,GOB_EFF,1.125,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-10-01,2021-Q4,AND,GOB_EFF,0.7777777777777778,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-01-01,2022-Q1,AND,GOB_EFF,1.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-04-01,2022-Q2,AND,GOB_EFF,2.75,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-07-01,2022-Q3,AND,GOB_EFF,1.4,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-10-01,2022-Q4,AND,GOB_EFF,0.3333333333333333,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-01-01,2023-Q1,AND,GOB_EFF,1.3333333333333333,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-04-01,2023-Q2,AND,GOB_EFF,2.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-07-01,2023-Q3,AND,GOB_EFF,0.1538461538461538,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-10-01,2023-Q4,AND,GOB_EFF,0.3,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-01-01,2024-Q1,AND,GOB_EFF,1.3333333333333333,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-04-01,2024-Q2,AND,GOB_EFF,0.5714285714285714,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-07-01,2024-Q3,AND,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-10-01,2024-Q4,AND,GOB_EFF,1.6,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-01-01,2025-Q1,AND,GOB_EFF,4.333333333333333,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-04-01,2025-Q2,AND,GOB_EFF,0.625,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-07-01,2025-Q3,AND,GOB_EFF,3.75,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-10-01,2025-Q4,AND,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-01-01,2016-Q1,ARA,GOB_EFF,1.25,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-04-01,2016-Q2,ARA,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-07-01,2016-Q3,ARA,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-10-01,2016-Q4,ARA,GOB_EFF,0.2857142857142857,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-01-01,2017-Q1,ARA,GOB_EFF,4.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-04-01,2017-Q2,ARA,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-07-01,2017-Q3,ARA,GOB_EFF,1.3333333333333333,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-10-01,2017-Q4,ARA,GOB_EFF,1.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-01-01,2018-Q1,ARA,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-04-01,2018-Q2,ARA,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-07-01,2018-Q3,ARA,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-10-01,2018-Q4,ARA,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-01-01,2019-Q1,ARA,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-04-01,2019-Q2,ARA,GOB_EFF,4.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-07-01,2019-Q3,ARA,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-10-01,2019-Q4,ARA,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-01-01,2020-Q1,ARA,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-04-01,2020-Q2,ARA,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-07-01,2020-Q3,ARA,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-10-01,2020-Q4,ARA,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-01-01,2021-Q1,ARA,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-04-01,2021-Q2,ARA,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-07-01,2021-Q3,ARA,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-10-01,2021-Q4,ARA,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-01-01,2022-Q1,ARA,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-04-01,2022-Q2,ARA,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-07-01,2022-Q3,ARA,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-10-01,2022-Q4,ARA,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-01-01,2023-Q1,ARA,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-04-01,2023-Q2,ARA,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-07-01,2023-Q3,ARA,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-10-01,2023-Q4,ARA,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-01-01,2024-Q1,ARA,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-04-01,2024-Q2,ARA,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-07-01,2024-Q3,ARA,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-10-01,2024-Q4,ARA,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-01-01,2025-Q1,ARA,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-04-01,2025-Q2,ARA,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-07-01,2025-Q3,ARA,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-10-01,2025-Q4,ARA,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-01-01,2016-Q1,AST,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-04-01,2016-Q2,AST,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-07-01,2016-Q3,AST,GOB_EFF,0.6666666666666666,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-10-01,2016-Q4,AST,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-01-01,2017-Q1,AST,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-04-01,2017-Q2,AST,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-07-01,2017-Q3,AST,GOB_EFF,1.25,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-10-01,2017-Q4,AST,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-01-01,2018-Q1,AST,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-04-01,2018-Q2,AST,GOB_EFF,0.2857142857142857,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-07-01,2018-Q3,AST,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-10-01,2018-Q4,AST,GOB_EFF,3.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-01-01,2019-Q1,AST,GOB_EFF,0.5714285714285714,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-04-01,2019-Q2,AST,GOB_EFF,0.75,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-07-01,2019-Q3,AST,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-10-01,2019-Q4,AST,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-01-01,2020-Q1,AST,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-04-01,2020-Q2,AST,GOB_EFF,0.6666666666666666,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-07-01,2020-Q3,AST,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-10-01,2020-Q4,AST,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-01-01,2021-Q1,AST,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-04-01,2021-Q2,AST,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-07-01,2021-Q3,AST,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-10-01,2021-Q4,AST,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-01-01,2022-Q1,AST,GOB_EFF,0.8,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-04-01,2022-Q2,AST,GOB_EFF,1.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-07-01,2022-Q3,AST,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-10-01,2022-Q4,AST,GOB_EFF,2.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-01-01,2023-Q1,AST,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-04-01,2023-Q2,AST,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-07-01,2023-Q3,AST,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-10-01,2023-Q4,AST,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-01-01,2024-Q1,AST,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-04-01,2024-Q2,AST,GOB_EFF,2.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-07-01,2024-Q3,AST,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-10-01,2024-Q4,AST,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-01-01,2025-Q1,AST,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-04-01,2025-Q2,AST,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-07-01,2025-Q3,AST,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-10-01,2025-Q4,AST,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-01-01,2016-Q1,BAL,GOB_EFF,0.8333333333333334,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-04-01,2016-Q2,BAL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-07-01,2016-Q3,BAL,GOB_EFF,0.625,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-10-01,2016-Q4,BAL,GOB_EFF,2.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-01-01,2017-Q1,BAL,GOB_EFF,0.4444444444444444,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-04-01,2017-Q2,BAL,GOB_EFF,0.7,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-07-01,2017-Q3,BAL,GOB_EFF,4.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-10-01,2017-Q4,BAL,GOB_EFF,2.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-01-01,2018-Q1,BAL,GOB_EFF,0.25,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-04-01,2018-Q2,BAL,GOB_EFF,0.3333333333333333,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-07-01,2018-Q3,BAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-10-01,2018-Q4,BAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-01-01,2019-Q1,BAL,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-04-01,2019-Q2,BAL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-07-01,2019-Q3,BAL,GOB_EFF,1.3333333333333333,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-10-01,2019-Q4,BAL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-01-01,2020-Q1,BAL,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-04-01,2020-Q2,BAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-07-01,2020-Q3,BAL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-10-01,2020-Q4,BAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-01-01,2021-Q1,BAL,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-04-01,2021-Q2,BAL,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-07-01,2021-Q3,BAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-10-01,2021-Q4,BAL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-01-01,2022-Q1,BAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-04-01,2022-Q2,BAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-07-01,2022-Q3,BAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-10-01,2022-Q4,BAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-01-01,2023-Q1,BAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-04-01,2023-Q2,BAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-07-01,2023-Q3,BAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-10-01,2023-Q4,BAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-01-01,2024-Q1,BAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-04-01,2024-Q2,BAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-07-01,2024-Q3,BAL,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-10-01,2024-Q4,BAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-01-01,2025-Q1,BAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-04-01,2025-Q2,BAL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-07-01,2025-Q3,BAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-10-01,2025-Q4,BAL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-01-01,2016-Q1,CAN,GOB_EFF,2.333333333333333,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-04-01,2016-Q2,CAN,GOB_EFF,0.5833333333333334,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-07-01,2016-Q3,CAN,GOB_EFF,0.8333333333333334,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-10-01,2016-Q4,CAN,GOB_EFF,0.3333333333333333,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-01-01,2017-Q1,CAN,GOB_EFF,0.4444444444444444,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-04-01,2017-Q2,CAN,GOB_EFF,1.8,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-07-01,2017-Q3,CAN,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-10-01,2017-Q4,CAN,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-01-01,2018-Q1,CAN,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-04-01,2018-Q2,CAN,GOB_EFF,1.2,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-07-01,2018-Q3,CAN,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-10-01,2018-Q4,CAN,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-01-01,2019-Q1,CAN,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-04-01,2019-Q2,CAN,GOB_EFF,0.3333333333333333,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-07-01,2019-Q3,CAN,GOB_EFF,3.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-10-01,2019-Q4,CAN,GOB_EFF,4.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-01-01,2020-Q1,CAN,GOB_EFF,0.6,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-04-01,2020-Q2,CAN,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-07-01,2020-Q3,CAN,GOB_EFF,0.6666666666666666,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-10-01,2020-Q4,CAN,GOB_EFF,0.3333333333333333,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-01-01,2021-Q1,CAN,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-04-01,2021-Q2,CAN,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-07-01,2021-Q3,CAN,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-10-01,2021-Q4,CAN,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-01-01,2022-Q1,CAN,GOB_EFF,0.25,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-04-01,2022-Q2,CAN,GOB_EFF,1.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-07-01,2022-Q3,CAN,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-10-01,2022-Q4,CAN,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-01-01,2023-Q1,CAN,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-04-01,2023-Q2,CAN,GOB_EFF,1.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-07-01,2023-Q3,CAN,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-10-01,2023-Q4,CAN,GOB_EFF,2.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-01-01,2024-Q1,CAN,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-04-01,2024-Q2,CAN,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-07-01,2024-Q3,CAN,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-10-01,2024-Q4,CAN,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-01-01,2025-Q1,CAN,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-04-01,2025-Q2,CAN,GOB_EFF,2.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-07-01,2025-Q3,CAN,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-10-01,2025-Q4,CAN,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-01-01,2016-Q1,CANT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-04-01,2016-Q2,CANT,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-07-01,2016-Q3,CANT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-10-01,2016-Q4,CANT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-01-01,2017-Q1,CANT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-04-01,2017-Q2,CANT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-07-01,2017-Q3,CANT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-10-01,2017-Q4,CANT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-01-01,2018-Q1,CANT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-04-01,2018-Q2,CANT,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-07-01,2018-Q3,CANT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-10-01,2018-Q4,CANT,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-01-01,2019-Q1,CANT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-04-01,2019-Q2,CANT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-07-01,2019-Q3,CANT,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-10-01,2019-Q4,CANT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-01-01,2020-Q1,CANT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-04-01,2020-Q2,CANT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-07-01,2020-Q3,CANT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-10-01,2020-Q4,CANT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-01-01,2021-Q1,CANT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-04-01,2021-Q2,CANT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-07-01,2021-Q3,CANT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-10-01,2021-Q4,CANT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-01-01,2022-Q1,CANT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-04-01,2022-Q2,CANT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-07-01,2022-Q3,CANT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-10-01,2022-Q4,CANT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-01-01,2023-Q1,CANT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-04-01,2023-Q2,CANT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-07-01,2023-Q3,CANT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-10-01,2023-Q4,CANT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-01-01,2024-Q1,CANT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-04-01,2024-Q2,CANT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-07-01,2024-Q3,CANT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-10-01,2024-Q4,CANT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-01-01,2025-Q1,CANT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-04-01,2025-Q2,CANT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-07-01,2025-Q3,CANT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-10-01,2025-Q4,CANT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-01-01,2016-Q1,CAT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-04-01,2016-Q2,CAT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-07-01,2016-Q3,CAT,GOB_EFF,0.6666666666666666,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-10-01,2016-Q4,CAT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-01-01,2017-Q1,CAT,GOB_EFF,2.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-04-01,2017-Q2,CAT,GOB_EFF,0.5714285714285714,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-07-01,2017-Q3,CAT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-10-01,2017-Q4,CAT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-01-01,2018-Q1,CAT,GOB_EFF,2.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-04-01,2018-Q2,CAT,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-07-01,2018-Q3,CAT,GOB_EFF,1.1666666666666667,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-10-01,2018-Q4,CAT,GOB_EFF,2.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-01-01,2019-Q1,CAT,GOB_EFF,1.25,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-04-01,2019-Q2,CAT,GOB_EFF,0.7142857142857143,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-07-01,2019-Q3,CAT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-10-01,2019-Q4,CAT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-01-01,2020-Q1,CAT,GOB_EFF,0.6666666666666666,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-04-01,2020-Q2,CAT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-07-01,2020-Q3,CAT,GOB_EFF,0.3333333333333333,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-10-01,2020-Q4,CAT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-01-01,2021-Q1,CAT,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-04-01,2021-Q2,CAT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-07-01,2021-Q3,CAT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-10-01,2021-Q4,CAT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-01-01,2022-Q1,CAT,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-04-01,2022-Q2,CAT,GOB_EFF,3.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-07-01,2022-Q3,CAT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-10-01,2022-Q4,CAT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-01-01,2023-Q1,CAT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-04-01,2023-Q2,CAT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-07-01,2023-Q3,CAT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-10-01,2023-Q4,CAT,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-01-01,2024-Q1,CAT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-04-01,2024-Q2,CAT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-07-01,2024-Q3,CAT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-10-01,2024-Q4,CAT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-01-01,2025-Q1,CAT,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-04-01,2025-Q2,CAT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-07-01,2025-Q3,CAT,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-10-01,2025-Q4,CAT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-01-01,2016-Q1,CLM,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-04-01,2016-Q2,CLM,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-07-01,2016-Q3,CLM,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-10-01,2016-Q4,CLM,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-01-01,2017-Q1,CLM,GOB_EFF,0.3333333333333333,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-04-01,2017-Q2,CLM,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-07-01,2017-Q3,CLM,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-10-01,2017-Q4,CLM,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-01-01,2018-Q1,CLM,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-04-01,2018-Q2,CLM,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-07-01,2018-Q3,CLM,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-10-01,2018-Q4,CLM,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-01-01,2019-Q1,CLM,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-04-01,2019-Q2,CLM,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-07-01,2019-Q3,CLM,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-10-01,2019-Q4,CLM,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-01-01,2020-Q1,CLM,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-04-01,2020-Q2,CLM,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-07-01,2020-Q3,CLM,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-10-01,2020-Q4,CLM,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-01-01,2021-Q1,CLM,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-04-01,2021-Q2,CLM,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-07-01,2021-Q3,CLM,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-10-01,2021-Q4,CLM,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-01-01,2022-Q1,CLM,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-04-01,2022-Q2,CLM,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-07-01,2022-Q3,CLM,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-10-01,2022-Q4,CLM,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-01-01,2023-Q1,CLM,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-04-01,2023-Q2,CLM,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-07-01,2023-Q3,CLM,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-10-01,2023-Q4,CLM,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-01-01,2024-Q1,CLM,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-04-01,2024-Q2,CLM,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-07-01,2024-Q3,CLM,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-10-01,2024-Q4,CLM,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-01-01,2025-Q1,CLM,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-04-01,2025-Q2,CLM,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-07-01,2025-Q3,CLM,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-10-01,2025-Q4,CLM,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-01-01,2016-Q1,CYL,GOB_EFF,2.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-04-01,2016-Q2,CYL,GOB_EFF,0.375,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-07-01,2016-Q3,CYL,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-10-01,2016-Q4,CYL,GOB_EFF,1.75,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-01-01,2017-Q1,CYL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-04-01,2017-Q2,CYL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-07-01,2017-Q3,CYL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-10-01,2017-Q4,CYL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-01-01,2018-Q1,CYL,GOB_EFF,0.25,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-04-01,2018-Q2,CYL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-07-01,2018-Q3,CYL,GOB_EFF,0.8571428571428571,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-10-01,2018-Q4,CYL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-01-01,2019-Q1,CYL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-04-01,2019-Q2,CYL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-07-01,2019-Q3,CYL,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-10-01,2019-Q4,CYL,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-01-01,2020-Q1,CYL,GOB_EFF,1.75,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-04-01,2020-Q2,CYL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-07-01,2020-Q3,CYL,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-10-01,2020-Q4,CYL,GOB_EFF,1.2,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-01-01,2021-Q1,CYL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-04-01,2021-Q2,CYL,GOB_EFF,1.25,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-07-01,2021-Q3,CYL,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-10-01,2021-Q4,CYL,GOB_EFF,4.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-01-01,2022-Q1,CYL,GOB_EFF,1.3333333333333333,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-04-01,2022-Q2,CYL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-07-01,2022-Q3,CYL,GOB_EFF,0.25,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-10-01,2022-Q4,CYL,GOB_EFF,1.2,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-01-01,2023-Q1,CYL,GOB_EFF,2.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-04-01,2023-Q2,CYL,GOB_EFF,6.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-07-01,2023-Q3,CYL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-10-01,2023-Q4,CYL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-01-01,2024-Q1,CYL,GOB_EFF,0.8,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-04-01,2024-Q2,CYL,GOB_EFF,3.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-07-01,2024-Q3,CYL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-10-01,2024-Q4,CYL,GOB_EFF,2.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-01-01,2025-Q1,CYL,GOB_EFF,2.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-04-01,2025-Q2,CYL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-07-01,2025-Q3,CYL,GOB_EFF,2.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-10-01,2025-Q4,CYL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-01-01,2016-Q1,ESP,GOB_EFF,1.025,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-04-01,2016-Q2,ESP,GOB_EFF,0.7959183673469388,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-07-01,2016-Q3,ESP,GOB_EFF,0.6730769230769231,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-10-01,2016-Q4,ESP,GOB_EFF,0.8823529411764706,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-01-01,2017-Q1,ESP,GOB_EFF,0.8088235294117647,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-04-01,2017-Q2,ESP,GOB_EFF,1.0793650793650793,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-07-01,2017-Q3,ESP,GOB_EFF,1.0731707317073171,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-10-01,2017-Q4,ESP,GOB_EFF,0.9130434782608696,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-01-01,2018-Q1,ESP,GOB_EFF,0.5652173913043478,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-04-01,2018-Q2,ESP,GOB_EFF,0.5882352941176471,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-07-01,2018-Q3,ESP,GOB_EFF,0.8214285714285714,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-10-01,2018-Q4,ESP,GOB_EFF,0.7209302325581395,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-01-01,2019-Q1,ESP,GOB_EFF,0.6507936507936508,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-04-01,2019-Q2,ESP,GOB_EFF,1.3095238095238095,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-07-01,2019-Q3,ESP,GOB_EFF,1.08,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-10-01,2019-Q4,ESP,GOB_EFF,1.6774193548387095,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-01-01,2020-Q1,ESP,GOB_EFF,1.36,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-04-01,2020-Q2,ESP,GOB_EFF,1.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-07-01,2020-Q3,ESP,GOB_EFF,0.8648648648648649,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-10-01,2020-Q4,ESP,GOB_EFF,0.8235294117647058,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-01-01,2021-Q1,ESP,GOB_EFF,0.7105263157894737,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-04-01,2021-Q2,ESP,GOB_EFF,0.6938775510204082,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-07-01,2021-Q3,ESP,GOB_EFF,0.6296296296296297,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-10-01,2021-Q4,ESP,GOB_EFF,1.0303030303030305,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-01-01,2022-Q1,ESP,GOB_EFF,0.9491525423728814,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-04-01,2022-Q2,ESP,GOB_EFF,1.5925925925925926,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-07-01,2022-Q3,ESP,GOB_EFF,0.8235294117647058,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-10-01,2022-Q4,ESP,GOB_EFF,0.7857142857142857,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-01-01,2023-Q1,ESP,GOB_EFF,1.4444444444444444,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-04-01,2023-Q2,ESP,GOB_EFF,2.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-07-01,2023-Q3,ESP,GOB_EFF,0.6521739130434783,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-10-01,2023-Q4,ESP,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-01-01,2024-Q1,ESP,GOB_EFF,1.2083333333333333,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-04-01,2024-Q2,ESP,GOB_EFF,0.78125,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-07-01,2024-Q3,ESP,GOB_EFF,1.125,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-10-01,2024-Q4,ESP,GOB_EFF,1.375,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-01-01,2025-Q1,ESP,GOB_EFF,2.125,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-04-01,2025-Q2,ESP,GOB_EFF,1.391304347826087,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-07-01,2025-Q3,ESP,GOB_EFF,1.7058823529411764,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-10-01,2025-Q4,ESP,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-01-01,2016-Q1,EXT,GOB_EFF,2.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-04-01,2016-Q2,EXT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-07-01,2016-Q3,EXT,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-10-01,2016-Q4,EXT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-01-01,2017-Q1,EXT,GOB_EFF,0.6666666666666666,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-04-01,2017-Q2,EXT,GOB_EFF,0.6666666666666666,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-07-01,2017-Q3,EXT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-10-01,2017-Q4,EXT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-01-01,2018-Q1,EXT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-04-01,2018-Q2,EXT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-07-01,2018-Q3,EXT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-10-01,2018-Q4,EXT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-01-01,2019-Q1,EXT,GOB_EFF,0.875,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-04-01,2019-Q2,EXT,GOB_EFF,3.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-07-01,2019-Q3,EXT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-10-01,2019-Q4,EXT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-01-01,2020-Q1,EXT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-04-01,2020-Q2,EXT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-07-01,2020-Q3,EXT,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-10-01,2020-Q4,EXT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-01-01,2021-Q1,EXT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-04-01,2021-Q2,EXT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-07-01,2021-Q3,EXT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-10-01,2021-Q4,EXT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-01-01,2022-Q1,EXT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-04-01,2022-Q2,EXT,GOB_EFF,2.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-07-01,2022-Q3,EXT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-10-01,2022-Q4,EXT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-01-01,2023-Q1,EXT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-04-01,2023-Q2,EXT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-07-01,2023-Q3,EXT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-10-01,2023-Q4,EXT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-01-01,2024-Q1,EXT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-04-01,2024-Q2,EXT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-07-01,2024-Q3,EXT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-10-01,2024-Q4,EXT,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-01-01,2025-Q1,EXT,GOB_EFF,0.6,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-04-01,2025-Q2,EXT,GOB_EFF,2.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-07-01,2025-Q3,EXT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-10-01,2025-Q4,EXT,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-01-01,2016-Q1,GAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-04-01,2016-Q2,GAL,GOB_EFF,2.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-07-01,2016-Q3,GAL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-10-01,2016-Q4,GAL,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-01-01,2017-Q1,GAL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-04-01,2017-Q2,GAL,GOB_EFF,2.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-07-01,2017-Q3,GAL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-10-01,2017-Q4,GAL,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-01-01,2018-Q1,GAL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-04-01,2018-Q2,GAL,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-07-01,2018-Q3,GAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-10-01,2018-Q4,GAL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-01-01,2019-Q1,GAL,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-04-01,2019-Q2,GAL,GOB_EFF,2.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-07-01,2019-Q3,GAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-10-01,2019-Q4,GAL,GOB_EFF,4.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-01-01,2020-Q1,GAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-04-01,2020-Q2,GAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-07-01,2020-Q3,GAL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-10-01,2020-Q4,GAL,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-01-01,2021-Q1,GAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-04-01,2021-Q2,GAL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-07-01,2021-Q3,GAL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-10-01,2021-Q4,GAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-01-01,2022-Q1,GAL,GOB_EFF,3.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-04-01,2022-Q2,GAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-07-01,2022-Q3,GAL,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-10-01,2022-Q4,GAL,GOB_EFF,2.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-01-01,2023-Q1,GAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-04-01,2023-Q2,GAL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-07-01,2023-Q3,GAL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-10-01,2023-Q4,GAL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-01-01,2024-Q1,GAL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-04-01,2024-Q2,GAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-07-01,2024-Q3,GAL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-10-01,2024-Q4,GAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-01-01,2025-Q1,GAL,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-04-01,2025-Q2,GAL,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-07-01,2025-Q3,GAL,GOB_EFF,1.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-10-01,2025-Q4,GAL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-01-01,2016-Q1,MAD,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-04-01,2016-Q2,MAD,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-07-01,2016-Q3,MAD,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-10-01,2016-Q4,MAD,GOB_EFF,3.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-01-01,2017-Q1,MAD,GOB_EFF,0.25,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-04-01,2017-Q2,MAD,GOB_EFF,2.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-07-01,2017-Q3,MAD,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-10-01,2017-Q4,MAD,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-01-01,2018-Q1,MAD,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-04-01,2018-Q2,MAD,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-07-01,2018-Q3,MAD,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-10-01,2018-Q4,MAD,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-01-01,2019-Q1,MAD,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-04-01,2019-Q2,MAD,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-07-01,2019-Q3,MAD,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-10-01,2019-Q4,MAD,GOB_EFF,1.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-01-01,2020-Q1,MAD,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-04-01,2020-Q2,MAD,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-07-01,2020-Q3,MAD,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-10-01,2020-Q4,MAD,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-01-01,2021-Q1,MAD,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-04-01,2021-Q2,MAD,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-07-01,2021-Q3,MAD,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-10-01,2021-Q4,MAD,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-01-01,2022-Q1,MAD,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-04-01,2022-Q2,MAD,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-07-01,2022-Q3,MAD,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-10-01,2022-Q4,MAD,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-01-01,2023-Q1,MAD,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-04-01,2023-Q2,MAD,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-07-01,2023-Q3,MAD,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-10-01,2023-Q4,MAD,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-01-01,2024-Q1,MAD,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-04-01,2024-Q2,MAD,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-07-01,2024-Q3,MAD,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-10-01,2024-Q4,MAD,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-01-01,2025-Q1,MAD,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-04-01,2025-Q2,MAD,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-07-01,2025-Q3,MAD,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-10-01,2025-Q4,MAD,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-01-01,2016-Q1,MUR,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-04-01,2016-Q2,MUR,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-07-01,2016-Q3,MUR,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-10-01,2016-Q4,MUR,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-01-01,2017-Q1,MUR,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-04-01,2017-Q2,MUR,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-07-01,2017-Q3,MUR,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-10-01,2017-Q4,MUR,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-01-01,2018-Q1,MUR,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-04-01,2018-Q2,MUR,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-07-01,2018-Q3,MUR,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-10-01,2018-Q4,MUR,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-01-01,2019-Q1,MUR,GOB_EFF,0.25,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-04-01,2019-Q2,MUR,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-07-01,2019-Q3,MUR,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-10-01,2019-Q4,MUR,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-01-01,2020-Q1,MUR,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-04-01,2020-Q2,MUR,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-07-01,2020-Q3,MUR,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-10-01,2020-Q4,MUR,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-01-01,2021-Q1,MUR,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-04-01,2021-Q2,MUR,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-07-01,2021-Q3,MUR,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-10-01,2021-Q4,MUR,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-01-01,2022-Q1,MUR,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-04-01,2022-Q2,MUR,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-07-01,2022-Q3,MUR,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-10-01,2022-Q4,MUR,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-01-01,2023-Q1,MUR,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-04-01,2023-Q2,MUR,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-07-01,2023-Q3,MUR,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-10-01,2023-Q4,MUR,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-01-01,2024-Q1,MUR,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-04-01,2024-Q2,MUR,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-07-01,2024-Q3,MUR,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-10-01,2024-Q4,MUR,GOB_EFF,0.6666666666666666,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-01-01,2025-Q1,MUR,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-04-01,2025-Q2,MUR,GOB_EFF,4.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-07-01,2025-Q3,MUR,GOB_EFF,0.6666666666666666,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-10-01,2025-Q4,MUR,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-01-01,2016-Q1,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-04-01,2016-Q2,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-07-01,2016-Q3,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-10-01,2016-Q4,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-01-01,2017-Q1,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-04-01,2017-Q2,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-07-01,2017-Q3,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-10-01,2017-Q4,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-01-01,2018-Q1,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-04-01,2018-Q2,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-07-01,2018-Q3,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-10-01,2018-Q4,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-01-01,2019-Q1,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-04-01,2019-Q2,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-07-01,2019-Q3,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-10-01,2019-Q4,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-01-01,2020-Q1,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-04-01,2020-Q2,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-07-01,2020-Q3,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-10-01,2020-Q4,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-01-01,2021-Q1,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-04-01,2021-Q2,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-07-01,2021-Q3,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-10-01,2021-Q4,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-01-01,2022-Q1,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-04-01,2022-Q2,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-07-01,2022-Q3,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-10-01,2022-Q4,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-01-01,2023-Q1,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-04-01,2023-Q2,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-07-01,2023-Q3,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-10-01,2023-Q4,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-01-01,2024-Q1,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-04-01,2024-Q2,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-07-01,2024-Q3,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-10-01,2024-Q4,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-01-01,2025-Q1,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-04-01,2025-Q2,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-07-01,2025-Q3,NAV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-10-01,2025-Q4,NAV,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-01-01,2016-Q1,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-04-01,2016-Q2,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-07-01,2016-Q3,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-10-01,2016-Q4,PV,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-01-01,2017-Q1,PV,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-04-01,2017-Q2,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-07-01,2017-Q3,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-10-01,2017-Q4,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-01-01,2018-Q1,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-04-01,2018-Q2,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-07-01,2018-Q3,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-10-01,2018-Q4,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-01-01,2019-Q1,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-04-01,2019-Q2,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-07-01,2019-Q3,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-10-01,2019-Q4,PV,GOB_EFF,2.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-01-01,2020-Q1,PV,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-04-01,2020-Q2,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-07-01,2020-Q3,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-10-01,2020-Q4,PV,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-01-01,2021-Q1,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-04-01,2021-Q2,PV,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-07-01,2021-Q3,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-10-01,2021-Q4,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-01-01,2022-Q1,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-04-01,2022-Q2,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-07-01,2022-Q3,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-10-01,2022-Q4,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-01-01,2023-Q1,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-04-01,2023-Q2,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-07-01,2023-Q3,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-10-01,2023-Q4,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-01-01,2024-Q1,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-04-01,2024-Q2,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-07-01,2024-Q3,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-10-01,2024-Q4,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-01-01,2025-Q1,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-04-01,2025-Q2,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-07-01,2025-Q3,PV,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-10-01,2025-Q4,PV,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-01-01,2016-Q1,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-04-01,2016-Q2,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-07-01,2016-Q3,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2016-10-01,2016-Q4,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-01-01,2017-Q1,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-04-01,2017-Q2,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-07-01,2017-Q3,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2017-10-01,2017-Q4,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-01-01,2018-Q1,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-04-01,2018-Q2,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-07-01,2018-Q3,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2018-10-01,2018-Q4,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-01-01,2019-Q1,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-04-01,2019-Q2,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-07-01,2019-Q3,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2019-10-01,2019-Q4,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-01-01,2020-Q1,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-04-01,2020-Q2,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-07-01,2020-Q3,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2020-10-01,2020-Q4,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-01-01,2021-Q1,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-04-01,2021-Q2,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-07-01,2021-Q3,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2021-10-01,2021-Q4,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-01-01,2022-Q1,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-04-01,2022-Q2,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-07-01,2022-Q3,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2022-10-01,2022-Q4,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-01-01,2023-Q1,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-04-01,2023-Q2,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-07-01,2023-Q3,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2023-10-01,2023-Q4,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-01-01,2024-Q1,RIO,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-04-01,2024-Q2,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-07-01,2024-Q3,RIO,GOB_EFF,0.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2024-10-01,2024-Q4,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-01-01,2025-Q1,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-04-01,2025-Q2,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-07-01,2025-Q3,RIO,GOB_EFF,0.5,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-10-01,2025-Q4,RIO,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
-2025-10-01,2025-Q4,VAL,GOB_EFF,1.0,Trimestral,CGPJ_Eficiencia Judicial ante la Corrupción
+2002-12-31,2002-ANUAL,AND,GOB_EFF,3.4125359280954246,Anual,CGPJ_Duracion_Media_Civil_Penal
+2003-12-31,2003-ANUAL,AND,GOB_EFF,3.055275918899876,Anual,CGPJ_Duracion_Media_Civil_Penal
+2004-12-31,2004-ANUAL,AND,GOB_EFF,2.8465907580131757,Anual,CGPJ_Duracion_Media_Civil_Penal
+2005-12-31,2005-ANUAL,AND,GOB_EFF,2.580377976401177,Anual,CGPJ_Duracion_Media_Civil_Penal
+2006-12-31,2006-ANUAL,AND,GOB_EFF,2.2770632909577255,Anual,CGPJ_Duracion_Media_Civil_Penal
+2007-12-31,2007-ANUAL,AND,GOB_EFF,2.415144303424171,Anual,CGPJ_Duracion_Media_Civil_Penal
+2008-12-31,2008-ANUAL,AND,GOB_EFF,2.724905926769595,Anual,CGPJ_Duracion_Media_Civil_Penal
+2009-12-31,2009-ANUAL,AND,GOB_EFF,3.1285481638338344,Anual,CGPJ_Duracion_Media_Civil_Penal
+2010-12-31,2010-ANUAL,AND,GOB_EFF,3.5057974015491955,Anual,CGPJ_Duracion_Media_Civil_Penal
+2011-12-31,2011-ANUAL,AND,GOB_EFF,3.891091551692987,Anual,CGPJ_Duracion_Media_Civil_Penal
+2012-12-31,2012-ANUAL,AND,GOB_EFF,4.412136926438159,Anual,CGPJ_Duracion_Media_Civil_Penal
+2013-12-31,2013-ANUAL,AND,GOB_EFF,5.280165386986895,Anual,CGPJ_Duracion_Media_Civil_Penal
+2014-12-31,2014-ANUAL,AND,GOB_EFF,5.294692456170768,Anual,CGPJ_Duracion_Media_Civil_Penal
+2015-12-31,2015-ANUAL,AND,GOB_EFF,5.036101234155326,Anual,CGPJ_Duracion_Media_Civil_Penal
+2016-12-31,2016-ANUAL,AND,GOB_EFF,4.973153405065457,Anual,CGPJ_Duracion_Media_Civil_Penal
+2017-12-31,2017-ANUAL,AND,GOB_EFF,5.075240055454751,Anual,CGPJ_Duracion_Media_Civil_Penal
+2018-12-31,2018-ANUAL,AND,GOB_EFF,5.740457001832208,Anual,CGPJ_Duracion_Media_Civil_Penal
+2019-12-31,2019-ANUAL,AND,GOB_EFF,6.45754880188016,Anual,CGPJ_Duracion_Media_Civil_Penal
+2020-12-31,2020-ANUAL,AND,GOB_EFF,7.106117922678308,Anual,CGPJ_Duracion_Media_Civil_Penal
+2021-12-31,2021-ANUAL,AND,GOB_EFF,6.822581712508363,Anual,CGPJ_Duracion_Media_Civil_Penal
+2022-12-31,2022-ANUAL,AND,GOB_EFF,6.974798765630026,Anual,CGPJ_Duracion_Media_Civil_Penal
+2023-12-31,2023-ANUAL,AND,GOB_EFF,7.748168096946321,Anual,CGPJ_Duracion_Media_Civil_Penal
+2024-12-31,2024-ANUAL,AND,GOB_EFF,8.125773947301015,Anual,CGPJ_Duracion_Media_Civil_Penal
+2025-12-31,2025-ANUAL,AND,GOB_EFF,7.914562287537057,Anual,CGPJ_Duracion_Media_Civil_Penal
+2002-12-31,2002-ANUAL,ARA,GOB_EFF,4.411946464585602,Anual,CGPJ_Duracion_Media_Civil_Penal
+2003-12-31,2003-ANUAL,ARA,GOB_EFF,4.342091243594409,Anual,CGPJ_Duracion_Media_Civil_Penal
+2004-12-31,2004-ANUAL,ARA,GOB_EFF,3.9206284626980823,Anual,CGPJ_Duracion_Media_Civil_Penal
+2005-12-31,2005-ANUAL,ARA,GOB_EFF,3.555769948971139,Anual,CGPJ_Duracion_Media_Civil_Penal
+2006-12-31,2006-ANUAL,ARA,GOB_EFF,3.3861259290094914,Anual,CGPJ_Duracion_Media_Civil_Penal
+2007-12-31,2007-ANUAL,ARA,GOB_EFF,3.481816526633562,Anual,CGPJ_Duracion_Media_Civil_Penal
+2008-12-31,2008-ANUAL,ARA,GOB_EFF,3.0956484317274953,Anual,CGPJ_Duracion_Media_Civil_Penal
+2009-12-31,2009-ANUAL,ARA,GOB_EFF,2.502854994083458,Anual,CGPJ_Duracion_Media_Civil_Penal
+2010-12-31,2010-ANUAL,ARA,GOB_EFF,2.068057932052986,Anual,CGPJ_Duracion_Media_Civil_Penal
+2011-12-31,2011-ANUAL,ARA,GOB_EFF,1.7622762125484204,Anual,CGPJ_Duracion_Media_Civil_Penal
+2012-12-31,2012-ANUAL,ARA,GOB_EFF,1.7954211422440665,Anual,CGPJ_Duracion_Media_Civil_Penal
+2013-12-31,2013-ANUAL,ARA,GOB_EFF,1.9171770303341542,Anual,CGPJ_Duracion_Media_Civil_Penal
+2014-12-31,2014-ANUAL,ARA,GOB_EFF,1.902904376835848,Anual,CGPJ_Duracion_Media_Civil_Penal
+2015-12-31,2015-ANUAL,ARA,GOB_EFF,2.0469934346494516,Anual,CGPJ_Duracion_Media_Civil_Penal
+2016-12-31,2016-ANUAL,ARA,GOB_EFF,2.346029395134447,Anual,CGPJ_Duracion_Media_Civil_Penal
+2017-12-31,2017-ANUAL,ARA,GOB_EFF,2.5031245289133306,Anual,CGPJ_Duracion_Media_Civil_Penal
+2018-12-31,2018-ANUAL,ARA,GOB_EFF,3.4039127135449543,Anual,CGPJ_Duracion_Media_Civil_Penal
+2019-12-31,2019-ANUAL,ARA,GOB_EFF,4.601252581603099,Anual,CGPJ_Duracion_Media_Civil_Penal
+2020-12-31,2020-ANUAL,ARA,GOB_EFF,5.70073085812451,Anual,CGPJ_Duracion_Media_Civil_Penal
+2021-12-31,2021-ANUAL,ARA,GOB_EFF,5.317975535551168,Anual,CGPJ_Duracion_Media_Civil_Penal
+2022-12-31,2022-ANUAL,ARA,GOB_EFF,5.230842136449369,Anual,CGPJ_Duracion_Media_Civil_Penal
+2023-12-31,2023-ANUAL,ARA,GOB_EFF,6.0163462037657744,Anual,CGPJ_Duracion_Media_Civil_Penal
+2024-12-31,2024-ANUAL,ARA,GOB_EFF,5.785838773818904,Anual,CGPJ_Duracion_Media_Civil_Penal
+2025-12-31,2025-ANUAL,ARA,GOB_EFF,6.07889801898069,Anual,CGPJ_Duracion_Media_Civil_Penal
+2002-12-31,2002-ANUAL,AST,GOB_EFF,3.2493502855061043,Anual,CGPJ_Duracion_Media_Civil_Penal
+2003-12-31,2003-ANUAL,AST,GOB_EFF,2.5911569728215174,Anual,CGPJ_Duracion_Media_Civil_Penal
+2004-12-31,2004-ANUAL,AST,GOB_EFF,2.248354737309468,Anual,CGPJ_Duracion_Media_Civil_Penal
+2005-12-31,2005-ANUAL,AST,GOB_EFF,2.438759997274631,Anual,CGPJ_Duracion_Media_Civil_Penal
+2006-12-31,2006-ANUAL,AST,GOB_EFF,2.708086618044158,Anual,CGPJ_Duracion_Media_Civil_Penal
+2007-12-31,2007-ANUAL,AST,GOB_EFF,2.649845076497116,Anual,CGPJ_Duracion_Media_Civil_Penal
+2008-12-31,2008-ANUAL,AST,GOB_EFF,2.792485932946417,Anual,CGPJ_Duracion_Media_Civil_Penal
+2009-12-31,2009-ANUAL,AST,GOB_EFF,2.202930002695017,Anual,CGPJ_Duracion_Media_Civil_Penal
+2010-12-31,2010-ANUAL,AST,GOB_EFF,2.4034010836542516,Anual,CGPJ_Duracion_Media_Civil_Penal
+2011-12-31,2011-ANUAL,AST,GOB_EFF,2.505000681562276,Anual,CGPJ_Duracion_Media_Civil_Penal
+2012-12-31,2012-ANUAL,AST,GOB_EFF,2.737103152687843,Anual,CGPJ_Duracion_Media_Civil_Penal
+2013-12-31,2013-ANUAL,AST,GOB_EFF,2.5973324196976413,Anual,CGPJ_Duracion_Media_Civil_Penal
+2014-12-31,2014-ANUAL,AST,GOB_EFF,2.002282379823811,Anual,CGPJ_Duracion_Media_Civil_Penal
+2015-12-31,2015-ANUAL,AST,GOB_EFF,1.8384938279879057,Anual,CGPJ_Duracion_Media_Civil_Penal
+2016-12-31,2016-ANUAL,AST,GOB_EFF,1.986910395224711,Anual,CGPJ_Duracion_Media_Civil_Penal
+2017-12-31,2017-ANUAL,AST,GOB_EFF,2.267596028121451,Anual,CGPJ_Duracion_Media_Civil_Penal
+2018-12-31,2018-ANUAL,AST,GOB_EFF,3.135355859830011,Anual,CGPJ_Duracion_Media_Civil_Penal
+2019-12-31,2019-ANUAL,AST,GOB_EFF,4.5280583858432735,Anual,CGPJ_Duracion_Media_Civil_Penal
+2020-12-31,2020-ANUAL,AST,GOB_EFF,4.565132015261596,Anual,CGPJ_Duracion_Media_Civil_Penal
+2021-12-31,2021-ANUAL,AST,GOB_EFF,3.1036830308217986,Anual,CGPJ_Duracion_Media_Civil_Penal
+2022-12-31,2022-ANUAL,AST,GOB_EFF,4.09389817375169,Anual,CGPJ_Duracion_Media_Civil_Penal
+2023-12-31,2023-ANUAL,AST,GOB_EFF,5.216364883159438,Anual,CGPJ_Duracion_Media_Civil_Penal
+2024-12-31,2024-ANUAL,AST,GOB_EFF,4.397998105618079,Anual,CGPJ_Duracion_Media_Civil_Penal
+2025-12-31,2025-ANUAL,AST,GOB_EFF,5.556184375235082,Anual,CGPJ_Duracion_Media_Civil_Penal
+2002-12-31,2002-ANUAL,BAL,GOB_EFF,1.8809569070123011,Anual,CGPJ_Duracion_Media_Civil_Penal
+2003-12-31,2003-ANUAL,BAL,GOB_EFF,3.107519463558307,Anual,CGPJ_Duracion_Media_Civil_Penal
+2004-12-31,2004-ANUAL,BAL,GOB_EFF,3.855417887575288,Anual,CGPJ_Duracion_Media_Civil_Penal
+2005-12-31,2005-ANUAL,BAL,GOB_EFF,4.493639552524911,Anual,CGPJ_Duracion_Media_Civil_Penal
+2006-12-31,2006-ANUAL,BAL,GOB_EFF,3.8126782814869165,Anual,CGPJ_Duracion_Media_Civil_Penal
+2007-12-31,2007-ANUAL,BAL,GOB_EFF,3.400659383689762,Anual,CGPJ_Duracion_Media_Civil_Penal
+2008-12-31,2008-ANUAL,BAL,GOB_EFF,3.523030456888306,Anual,CGPJ_Duracion_Media_Civil_Penal
+2009-12-31,2009-ANUAL,BAL,GOB_EFF,3.48888041784831,Anual,CGPJ_Duracion_Media_Civil_Penal
+2010-12-31,2010-ANUAL,BAL,GOB_EFF,3.6073180475170066,Anual,CGPJ_Duracion_Media_Civil_Penal
+2011-12-31,2011-ANUAL,BAL,GOB_EFF,4.166447780779532,Anual,CGPJ_Duracion_Media_Civil_Penal
+2012-12-31,2012-ANUAL,BAL,GOB_EFF,4.519860223712172,Anual,CGPJ_Duracion_Media_Civil_Penal
+2013-12-31,2013-ANUAL,BAL,GOB_EFF,4.065797212511313,Anual,CGPJ_Duracion_Media_Civil_Penal
+2014-12-31,2014-ANUAL,BAL,GOB_EFF,3.2341594450627342,Anual,CGPJ_Duracion_Media_Civil_Penal
+2015-12-31,2015-ANUAL,BAL,GOB_EFF,3.421096055753086,Anual,CGPJ_Duracion_Media_Civil_Penal
+2016-12-31,2016-ANUAL,BAL,GOB_EFF,3.534946970758409,Anual,CGPJ_Duracion_Media_Civil_Penal
+2017-12-31,2017-ANUAL,BAL,GOB_EFF,3.120669363586658,Anual,CGPJ_Duracion_Media_Civil_Penal
+2018-12-31,2018-ANUAL,BAL,GOB_EFF,2.8309508322821673,Anual,CGPJ_Duracion_Media_Civil_Penal
+2019-12-31,2019-ANUAL,BAL,GOB_EFF,2.8593383802981,Anual,CGPJ_Duracion_Media_Civil_Penal
+2020-12-31,2020-ANUAL,BAL,GOB_EFF,3.5486223911612345,Anual,CGPJ_Duracion_Media_Civil_Penal
+2021-12-31,2021-ANUAL,BAL,GOB_EFF,3.3411101841002258,Anual,CGPJ_Duracion_Media_Civil_Penal
+2022-12-31,2022-ANUAL,BAL,GOB_EFF,4.5900808783232865,Anual,CGPJ_Duracion_Media_Civil_Penal
+2023-12-31,2023-ANUAL,BAL,GOB_EFF,5.9849808535537745,Anual,CGPJ_Duracion_Media_Civil_Penal
+2024-12-31,2024-ANUAL,BAL,GOB_EFF,6.446391925898367,Anual,CGPJ_Duracion_Media_Civil_Penal
+2025-12-31,2025-ANUAL,BAL,GOB_EFF,6.597676264773982,Anual,CGPJ_Duracion_Media_Civil_Penal
+2002-12-31,2002-ANUAL,CAN,GOB_EFF,4.070553691690208,Anual,CGPJ_Duracion_Media_Civil_Penal
+2003-12-31,2003-ANUAL,CAN,GOB_EFF,4.817039581949785,Anual,CGPJ_Duracion_Media_Civil_Penal
+2004-12-31,2004-ANUAL,CAN,GOB_EFF,5.194056805668266,Anual,CGPJ_Duracion_Media_Civil_Penal
+2005-12-31,2005-ANUAL,CAN,GOB_EFF,5.536710071288642,Anual,CGPJ_Duracion_Media_Civil_Penal
+2006-12-31,2006-ANUAL,CAN,GOB_EFF,5.4111887231336375,Anual,CGPJ_Duracion_Media_Civil_Penal
+2007-12-31,2007-ANUAL,CAN,GOB_EFF,6.103026257911026,Anual,CGPJ_Duracion_Media_Civil_Penal
+2008-12-31,2008-ANUAL,CAN,GOB_EFF,7.039885799247988,Anual,CGPJ_Duracion_Media_Civil_Penal
+2009-12-31,2009-ANUAL,CAN,GOB_EFF,6.604981275246589,Anual,CGPJ_Duracion_Media_Civil_Penal
+2010-12-31,2010-ANUAL,CAN,GOB_EFF,5.671804245051089,Anual,CGPJ_Duracion_Media_Civil_Penal
+2011-12-31,2011-ANUAL,CAN,GOB_EFF,5.309045107701563,Anual,CGPJ_Duracion_Media_Civil_Penal
+2012-12-31,2012-ANUAL,CAN,GOB_EFF,5.908149993492035,Anual,CGPJ_Duracion_Media_Civil_Penal
+2013-12-31,2013-ANUAL,CAN,GOB_EFF,6.985336321336595,Anual,CGPJ_Duracion_Media_Civil_Penal
+2014-12-31,2014-ANUAL,CAN,GOB_EFF,7.540652849276658,Anual,CGPJ_Duracion_Media_Civil_Penal
+2015-12-31,2015-ANUAL,CAN,GOB_EFF,6.442759003995045,Anual,CGPJ_Duracion_Media_Civil_Penal
+2016-12-31,2016-ANUAL,CAN,GOB_EFF,5.448087427570519,Anual,CGPJ_Duracion_Media_Civil_Penal
+2017-12-31,2017-ANUAL,CAN,GOB_EFF,5.392353728982807,Anual,CGPJ_Duracion_Media_Civil_Penal
+2018-12-31,2018-ANUAL,CAN,GOB_EFF,5.823218918070404,Anual,CGPJ_Duracion_Media_Civil_Penal
+2019-12-31,2019-ANUAL,CAN,GOB_EFF,6.474130249450775,Anual,CGPJ_Duracion_Media_Civil_Penal
+2020-12-31,2020-ANUAL,CAN,GOB_EFF,7.588405318578447,Anual,CGPJ_Duracion_Media_Civil_Penal
+2021-12-31,2021-ANUAL,CAN,GOB_EFF,7.78194540016297,Anual,CGPJ_Duracion_Media_Civil_Penal
+2022-12-31,2022-ANUAL,CAN,GOB_EFF,7.931527234630382,Anual,CGPJ_Duracion_Media_Civil_Penal
+2023-12-31,2023-ANUAL,CAN,GOB_EFF,8.35711105321729,Anual,CGPJ_Duracion_Media_Civil_Penal
+2024-12-31,2024-ANUAL,CAN,GOB_EFF,9.25076823105053,Anual,CGPJ_Duracion_Media_Civil_Penal
+2025-12-31,2025-ANUAL,CAN,GOB_EFF,10.659616785633611,Anual,CGPJ_Duracion_Media_Civil_Penal
+2002-12-31,2002-ANUAL,CANT,GOB_EFF,6.330966883219663,Anual,CGPJ_Duracion_Media_Civil_Penal
+2003-12-31,2003-ANUAL,CANT,GOB_EFF,6.17509711587876,Anual,CGPJ_Duracion_Media_Civil_Penal
+2004-12-31,2004-ANUAL,CANT,GOB_EFF,5.682329755164756,Anual,CGPJ_Duracion_Media_Civil_Penal
+2005-12-31,2005-ANUAL,CANT,GOB_EFF,4.583154676310388,Anual,CGPJ_Duracion_Media_Civil_Penal
+2006-12-31,2006-ANUAL,CANT,GOB_EFF,4.188769323440862,Anual,CGPJ_Duracion_Media_Civil_Penal
+2007-12-31,2007-ANUAL,CANT,GOB_EFF,4.6422158870152055,Anual,CGPJ_Duracion_Media_Civil_Penal
+2008-12-31,2008-ANUAL,CANT,GOB_EFF,5.361454548481474,Anual,CGPJ_Duracion_Media_Civil_Penal
+2009-12-31,2009-ANUAL,CANT,GOB_EFF,5.679343745123267,Anual,CGPJ_Duracion_Media_Civil_Penal
+2010-12-31,2010-ANUAL,CANT,GOB_EFF,6.142383724199065,Anual,CGPJ_Duracion_Media_Civil_Penal
+2011-12-31,2011-ANUAL,CANT,GOB_EFF,6.868899375678715,Anual,CGPJ_Duracion_Media_Civil_Penal
+2012-12-31,2012-ANUAL,CANT,GOB_EFF,7.378129420669747,Anual,CGPJ_Duracion_Media_Civil_Penal
+2013-12-31,2013-ANUAL,CANT,GOB_EFF,7.639448336099379,Anual,CGPJ_Duracion_Media_Civil_Penal
+2014-12-31,2014-ANUAL,CANT,GOB_EFF,7.454589168445663,Anual,CGPJ_Duracion_Media_Civil_Penal
+2015-12-31,2015-ANUAL,CANT,GOB_EFF,6.389025519787936,Anual,CGPJ_Duracion_Media_Civil_Penal
+2016-12-31,2016-ANUAL,CANT,GOB_EFF,5.50414618004376,Anual,CGPJ_Duracion_Media_Civil_Penal
+2017-12-31,2017-ANUAL,CANT,GOB_EFF,4.636130642671535,Anual,CGPJ_Duracion_Media_Civil_Penal
+2018-12-31,2018-ANUAL,CANT,GOB_EFF,4.511921864156345,Anual,CGPJ_Duracion_Media_Civil_Penal
+2019-12-31,2019-ANUAL,CANT,GOB_EFF,4.6821333371742035,Anual,CGPJ_Duracion_Media_Civil_Penal
+2020-12-31,2020-ANUAL,CANT,GOB_EFF,5.309909334524359,Anual,CGPJ_Duracion_Media_Civil_Penal
+2021-12-31,2021-ANUAL,CANT,GOB_EFF,5.861756250970516,Anual,CGPJ_Duracion_Media_Civil_Penal
+2022-12-31,2022-ANUAL,CANT,GOB_EFF,7.408821563893494,Anual,CGPJ_Duracion_Media_Civil_Penal
+2023-12-31,2023-ANUAL,CANT,GOB_EFF,8.592704819060064,Anual,CGPJ_Duracion_Media_Civil_Penal
+2024-12-31,2024-ANUAL,CANT,GOB_EFF,8.159235726808898,Anual,CGPJ_Duracion_Media_Civil_Penal
+2025-12-31,2025-ANUAL,CANT,GOB_EFF,8.188616268373295,Anual,CGPJ_Duracion_Media_Civil_Penal
+2002-12-31,2002-ANUAL,CAT,GOB_EFF,6.098834930412549,Anual,CGPJ_Duracion_Media_Civil_Penal
+2003-12-31,2003-ANUAL,CAT,GOB_EFF,5.765611671901292,Anual,CGPJ_Duracion_Media_Civil_Penal
+2004-12-31,2004-ANUAL,CAT,GOB_EFF,5.468235707620888,Anual,CGPJ_Duracion_Media_Civil_Penal
+2005-12-31,2005-ANUAL,CAT,GOB_EFF,5.087135477274892,Anual,CGPJ_Duracion_Media_Civil_Penal
+2006-12-31,2006-ANUAL,CAT,GOB_EFF,5.222548861522669,Anual,CGPJ_Duracion_Media_Civil_Penal
+2007-12-31,2007-ANUAL,CAT,GOB_EFF,5.067260252192346,Anual,CGPJ_Duracion_Media_Civil_Penal
+2008-12-31,2008-ANUAL,CAT,GOB_EFF,5.602390340393573,Anual,CGPJ_Duracion_Media_Civil_Penal
+2009-12-31,2009-ANUAL,CAT,GOB_EFF,5.97939776861273,Anual,CGPJ_Duracion_Media_Civil_Penal
+2010-12-31,2010-ANUAL,CAT,GOB_EFF,6.039852345092319,Anual,CGPJ_Duracion_Media_Civil_Penal
+2011-12-31,2011-ANUAL,CAT,GOB_EFF,5.941304981265636,Anual,CGPJ_Duracion_Media_Civil_Penal
+2012-12-31,2012-ANUAL,CAT,GOB_EFF,6.066466197437586,Anual,CGPJ_Duracion_Media_Civil_Penal
+2013-12-31,2013-ANUAL,CAT,GOB_EFF,6.600990146283937,Anual,CGPJ_Duracion_Media_Civil_Penal
+2014-12-31,2014-ANUAL,CAT,GOB_EFF,6.559299571153338,Anual,CGPJ_Duracion_Media_Civil_Penal
+2015-12-31,2015-ANUAL,CAT,GOB_EFF,6.3210118376193645,Anual,CGPJ_Duracion_Media_Civil_Penal
+2016-12-31,2016-ANUAL,CAT,GOB_EFF,6.7271711984469365,Anual,CGPJ_Duracion_Media_Civil_Penal
+2017-12-31,2017-ANUAL,CAT,GOB_EFF,6.898434071169234,Anual,CGPJ_Duracion_Media_Civil_Penal
+2018-12-31,2018-ANUAL,CAT,GOB_EFF,7.164719500015151,Anual,CGPJ_Duracion_Media_Civil_Penal
+2019-12-31,2019-ANUAL,CAT,GOB_EFF,6.9934065945718755,Anual,CGPJ_Duracion_Media_Civil_Penal
+2020-12-31,2020-ANUAL,CAT,GOB_EFF,6.9123087694235545,Anual,CGPJ_Duracion_Media_Civil_Penal
+2021-12-31,2021-ANUAL,CAT,GOB_EFF,6.379892837949919,Anual,CGPJ_Duracion_Media_Civil_Penal
+2022-12-31,2022-ANUAL,CAT,GOB_EFF,6.868017248283939,Anual,CGPJ_Duracion_Media_Civil_Penal
+2023-12-31,2023-ANUAL,CAT,GOB_EFF,8.045655534873282,Anual,CGPJ_Duracion_Media_Civil_Penal
+2024-12-31,2024-ANUAL,CAT,GOB_EFF,9.067358955444064,Anual,CGPJ_Duracion_Media_Civil_Penal
+2025-12-31,2025-ANUAL,CAT,GOB_EFF,9.457847702070662,Anual,CGPJ_Duracion_Media_Civil_Penal
+2002-12-31,2002-ANUAL,CLM,GOB_EFF,3.288072863744652,Anual,CGPJ_Duracion_Media_Civil_Penal
+2003-12-31,2003-ANUAL,CLM,GOB_EFF,3.045330720246891,Anual,CGPJ_Duracion_Media_Civil_Penal
+2004-12-31,2004-ANUAL,CLM,GOB_EFF,2.958821924823292,Anual,CGPJ_Duracion_Media_Civil_Penal
+2005-12-31,2005-ANUAL,CLM,GOB_EFF,2.707171319459909,Anual,CGPJ_Duracion_Media_Civil_Penal
+2006-12-31,2006-ANUAL,CLM,GOB_EFF,2.83407559466804,Anual,CGPJ_Duracion_Media_Civil_Penal
+2007-12-31,2007-ANUAL,CLM,GOB_EFF,3.052995201724596,Anual,CGPJ_Duracion_Media_Civil_Penal
+2008-12-31,2008-ANUAL,CLM,GOB_EFF,3.6066860031325607,Anual,CGPJ_Duracion_Media_Civil_Penal
+2009-12-31,2009-ANUAL,CLM,GOB_EFF,3.2796495665362118,Anual,CGPJ_Duracion_Media_Civil_Penal
+2010-12-31,2010-ANUAL,CLM,GOB_EFF,4.092993110196732,Anual,CGPJ_Duracion_Media_Civil_Penal
+2011-12-31,2011-ANUAL,CLM,GOB_EFF,4.706883064233154,Anual,CGPJ_Duracion_Media_Civil_Penal
+2012-12-31,2012-ANUAL,CLM,GOB_EFF,4.647451785731029,Anual,CGPJ_Duracion_Media_Civil_Penal
+2013-12-31,2013-ANUAL,CLM,GOB_EFF,5.452037672949935,Anual,CGPJ_Duracion_Media_Civil_Penal
+2014-12-31,2014-ANUAL,CLM,GOB_EFF,5.76495706548322,Anual,CGPJ_Duracion_Media_Civil_Penal
+2015-12-31,2015-ANUAL,CLM,GOB_EFF,5.36019327978762,Anual,CGPJ_Duracion_Media_Civil_Penal
+2016-12-31,2016-ANUAL,CLM,GOB_EFF,4.7285471669618815,Anual,CGPJ_Duracion_Media_Civil_Penal
+2017-12-31,2017-ANUAL,CLM,GOB_EFF,4.602326987277555,Anual,CGPJ_Duracion_Media_Civil_Penal
+2018-12-31,2018-ANUAL,CLM,GOB_EFF,5.611507050266722,Anual,CGPJ_Duracion_Media_Civil_Penal
+2019-12-31,2019-ANUAL,CLM,GOB_EFF,7.644158800374671,Anual,CGPJ_Duracion_Media_Civil_Penal
+2020-12-31,2020-ANUAL,CLM,GOB_EFF,9.247281270242398,Anual,CGPJ_Duracion_Media_Civil_Penal
+2021-12-31,2021-ANUAL,CLM,GOB_EFF,9.572808711893307,Anual,CGPJ_Duracion_Media_Civil_Penal
+2022-12-31,2022-ANUAL,CLM,GOB_EFF,8.986841761919651,Anual,CGPJ_Duracion_Media_Civil_Penal
+2023-12-31,2023-ANUAL,CLM,GOB_EFF,9.326388063966593,Anual,CGPJ_Duracion_Media_Civil_Penal
+2024-12-31,2024-ANUAL,CLM,GOB_EFF,9.873928081817624,Anual,CGPJ_Duracion_Media_Civil_Penal
+2025-12-31,2025-ANUAL,CLM,GOB_EFF,10.966711550465735,Anual,CGPJ_Duracion_Media_Civil_Penal
+2002-12-31,2002-ANUAL,CYL,GOB_EFF,1.683482242727433,Anual,CGPJ_Duracion_Media_Civil_Penal
+2003-12-31,2003-ANUAL,CYL,GOB_EFF,1.6806183897005753,Anual,CGPJ_Duracion_Media_Civil_Penal
+2004-12-31,2004-ANUAL,CYL,GOB_EFF,1.9774455444489705,Anual,CGPJ_Duracion_Media_Civil_Penal
+2005-12-31,2005-ANUAL,CYL,GOB_EFF,2.0312431694743225,Anual,CGPJ_Duracion_Media_Civil_Penal
+2006-12-31,2006-ANUAL,CYL,GOB_EFF,2.2458057244364085,Anual,CGPJ_Duracion_Media_Civil_Penal
+2007-12-31,2007-ANUAL,CYL,GOB_EFF,2.4626227517451644,Anual,CGPJ_Duracion_Media_Civil_Penal
+2008-12-31,2008-ANUAL,CYL,GOB_EFF,2.6202316552766978,Anual,CGPJ_Duracion_Media_Civil_Penal
+2009-12-31,2009-ANUAL,CYL,GOB_EFF,2.2005971140398994,Anual,CGPJ_Duracion_Media_Civil_Penal
+2010-12-31,2010-ANUAL,CYL,GOB_EFF,2.558308248191808,Anual,CGPJ_Duracion_Media_Civil_Penal
+2011-12-31,2011-ANUAL,CYL,GOB_EFF,2.8773066011315143,Anual,CGPJ_Duracion_Media_Civil_Penal
+2012-12-31,2012-ANUAL,CYL,GOB_EFF,2.8940877862586714,Anual,CGPJ_Duracion_Media_Civil_Penal
+2013-12-31,2013-ANUAL,CYL,GOB_EFF,2.282940290373071,Anual,CGPJ_Duracion_Media_Civil_Penal
+2014-12-31,2014-ANUAL,CYL,GOB_EFF,1.7582170617526842,Anual,CGPJ_Duracion_Media_Civil_Penal
+2015-12-31,2015-ANUAL,CYL,GOB_EFF,1.799657569604634,Anual,CGPJ_Duracion_Media_Civil_Penal
+2016-12-31,2016-ANUAL,CYL,GOB_EFF,2.200326562006942,Anual,CGPJ_Duracion_Media_Civil_Penal
+2017-12-31,2017-ANUAL,CYL,GOB_EFF,2.492342329242025,Anual,CGPJ_Duracion_Media_Civil_Penal
+2018-12-31,2018-ANUAL,CYL,GOB_EFF,2.661566570853395,Anual,CGPJ_Duracion_Media_Civil_Penal
+2019-12-31,2019-ANUAL,CYL,GOB_EFF,3.205525686121607,Anual,CGPJ_Duracion_Media_Civil_Penal
+2020-12-31,2020-ANUAL,CYL,GOB_EFF,3.794851698158171,Anual,CGPJ_Duracion_Media_Civil_Penal
+2021-12-31,2021-ANUAL,CYL,GOB_EFF,3.2348320573518223,Anual,CGPJ_Duracion_Media_Civil_Penal
+2022-12-31,2022-ANUAL,CYL,GOB_EFF,4.013749201326201,Anual,CGPJ_Duracion_Media_Civil_Penal
+2023-12-31,2023-ANUAL,CYL,GOB_EFF,4.990725011561403,Anual,CGPJ_Duracion_Media_Civil_Penal
+2024-12-31,2024-ANUAL,CYL,GOB_EFF,4.267331626294046,Anual,CGPJ_Duracion_Media_Civil_Penal
+2025-12-31,2025-ANUAL,CYL,GOB_EFF,4.16678573711606,Anual,CGPJ_Duracion_Media_Civil_Penal
+2002-12-31,2002-ANUAL,ESP,GOB_EFF,4.969540476839528,Anual,CGPJ_Duracion_Media_Civil_Penal
+2003-12-31,2003-ANUAL,ESP,GOB_EFF,4.549801960807912,Anual,CGPJ_Duracion_Media_Civil_Penal
+2004-12-31,2004-ANUAL,ESP,GOB_EFF,4.0847467903888806,Anual,CGPJ_Duracion_Media_Civil_Penal
+2005-12-31,2005-ANUAL,ESP,GOB_EFF,3.729405390152171,Anual,CGPJ_Duracion_Media_Civil_Penal
+2006-12-31,2006-ANUAL,ESP,GOB_EFF,3.7279465502560116,Anual,CGPJ_Duracion_Media_Civil_Penal
+2007-12-31,2007-ANUAL,ESP,GOB_EFF,3.827062514985332,Anual,CGPJ_Duracion_Media_Civil_Penal
+2008-12-31,2008-ANUAL,ESP,GOB_EFF,4.091676895413825,Anual,CGPJ_Duracion_Media_Civil_Penal
+2009-12-31,2009-ANUAL,ESP,GOB_EFF,4.0890800266593,Anual,CGPJ_Duracion_Media_Civil_Penal
+2010-12-31,2010-ANUAL,ESP,GOB_EFF,4.234556545983377,Anual,CGPJ_Duracion_Media_Civil_Penal
+2011-12-31,2011-ANUAL,ESP,GOB_EFF,4.33016562293663,Anual,CGPJ_Duracion_Media_Civil_Penal
+2012-12-31,2012-ANUAL,ESP,GOB_EFF,4.557915004606003,Anual,CGPJ_Duracion_Media_Civil_Penal
+2013-12-31,2013-ANUAL,ESP,GOB_EFF,5.0363193284622625,Anual,CGPJ_Duracion_Media_Civil_Penal
+2014-12-31,2014-ANUAL,ESP,GOB_EFF,4.79579566972942,Anual,CGPJ_Duracion_Media_Civil_Penal
+2015-12-31,2015-ANUAL,ESP,GOB_EFF,4.404972668483898,Anual,CGPJ_Duracion_Media_Civil_Penal
+2016-12-31,2016-ANUAL,ESP,GOB_EFF,4.283397473269967,Anual,CGPJ_Duracion_Media_Civil_Penal
+2017-12-31,2017-ANUAL,ESP,GOB_EFF,4.3936105341637735,Anual,CGPJ_Duracion_Media_Civil_Penal
+2018-12-31,2018-ANUAL,ESP,GOB_EFF,4.891679275646091,Anual,CGPJ_Duracion_Media_Civil_Penal
+2019-12-31,2019-ANUAL,ESP,GOB_EFF,5.503430294552086,Anual,CGPJ_Duracion_Media_Civil_Penal
+2020-12-31,2020-ANUAL,ESP,GOB_EFF,6.053537561000217,Anual,CGPJ_Duracion_Media_Civil_Penal
+2021-12-31,2021-ANUAL,ESP,GOB_EFF,5.54346523811713,Anual,CGPJ_Duracion_Media_Civil_Penal
+2022-12-31,2022-ANUAL,ESP,GOB_EFF,6.08459697266105,Anual,CGPJ_Duracion_Media_Civil_Penal
+2023-12-31,2023-ANUAL,ESP,GOB_EFF,7.229388998400227,Anual,CGPJ_Duracion_Media_Civil_Penal
+2024-12-31,2024-ANUAL,ESP,GOB_EFF,8.027245948207575,Anual,CGPJ_Duracion_Media_Civil_Penal
+2025-12-31,2025-ANUAL,ESP,GOB_EFF,8.69543980079726,Anual,CGPJ_Duracion_Media_Civil_Penal
+2002-12-31,2002-ANUAL,EXT,GOB_EFF,2.4630285191054186,Anual,CGPJ_Duracion_Media_Civil_Penal
+2003-12-31,2003-ANUAL,EXT,GOB_EFF,1.7703316275837406,Anual,CGPJ_Duracion_Media_Civil_Penal
+2004-12-31,2004-ANUAL,EXT,GOB_EFF,1.054877157571413,Anual,CGPJ_Duracion_Media_Civil_Penal
+2005-12-31,2005-ANUAL,EXT,GOB_EFF,1.0404601508539955,Anual,CGPJ_Duracion_Media_Civil_Penal
+2006-12-31,2006-ANUAL,EXT,GOB_EFF,1.1786868653339462,Anual,CGPJ_Duracion_Media_Civil_Penal
+2007-12-31,2007-ANUAL,EXT,GOB_EFF,1.3353378406018392,Anual,CGPJ_Duracion_Media_Civil_Penal
+2008-12-31,2008-ANUAL,EXT,GOB_EFF,1.6439126115554588,Anual,CGPJ_Duracion_Media_Civil_Penal
+2009-12-31,2009-ANUAL,EXT,GOB_EFF,1.314071143270821,Anual,CGPJ_Duracion_Media_Civil_Penal
+2010-12-31,2010-ANUAL,EXT,GOB_EFF,1.1748744244382905,Anual,CGPJ_Duracion_Media_Civil_Penal
+2011-12-31,2011-ANUAL,EXT,GOB_EFF,1.3824216960129319,Anual,CGPJ_Duracion_Media_Civil_Penal
+2012-12-31,2012-ANUAL,EXT,GOB_EFF,1.2541741986320882,Anual,CGPJ_Duracion_Media_Civil_Penal
+2013-12-31,2013-ANUAL,EXT,GOB_EFF,1.149406993735991,Anual,CGPJ_Duracion_Media_Civil_Penal
+2014-12-31,2014-ANUAL,EXT,GOB_EFF,1.2254004616958374,Anual,CGPJ_Duracion_Media_Civil_Penal
+2015-12-31,2015-ANUAL,EXT,GOB_EFF,1.2395393158016101,Anual,CGPJ_Duracion_Media_Civil_Penal
+2016-12-31,2016-ANUAL,EXT,GOB_EFF,1.207234822032316,Anual,CGPJ_Duracion_Media_Civil_Penal
+2017-12-31,2017-ANUAL,EXT,GOB_EFF,1.4911180861528994,Anual,CGPJ_Duracion_Media_Civil_Penal
+2018-12-31,2018-ANUAL,EXT,GOB_EFF,2.907983778862434,Anual,CGPJ_Duracion_Media_Civil_Penal
+2019-12-31,2019-ANUAL,EXT,GOB_EFF,4.639910700517418,Anual,CGPJ_Duracion_Media_Civil_Penal
+2020-12-31,2020-ANUAL,EXT,GOB_EFF,5.303618903450545,Anual,CGPJ_Duracion_Media_Civil_Penal
+2021-12-31,2021-ANUAL,EXT,GOB_EFF,4.200471769252914,Anual,CGPJ_Duracion_Media_Civil_Penal
+2022-12-31,2022-ANUAL,EXT,GOB_EFF,4.761073459059829,Anual,CGPJ_Duracion_Media_Civil_Penal
+2023-12-31,2023-ANUAL,EXT,GOB_EFF,6.088939427507062,Anual,CGPJ_Duracion_Media_Civil_Penal
+2024-12-31,2024-ANUAL,EXT,GOB_EFF,6.679266164376869,Anual,CGPJ_Duracion_Media_Civil_Penal
+2025-12-31,2025-ANUAL,EXT,GOB_EFF,6.981568421478298,Anual,CGPJ_Duracion_Media_Civil_Penal
+2002-12-31,2002-ANUAL,GAL,GOB_EFF,5.8020893224232495,Anual,CGPJ_Duracion_Media_Civil_Penal
+2003-12-31,2003-ANUAL,GAL,GOB_EFF,5.062897433728443,Anual,CGPJ_Duracion_Media_Civil_Penal
+2004-12-31,2004-ANUAL,GAL,GOB_EFF,4.224531327786464,Anual,CGPJ_Duracion_Media_Civil_Penal
+2005-12-31,2005-ANUAL,GAL,GOB_EFF,3.5883233124890714,Anual,CGPJ_Duracion_Media_Civil_Penal
+2006-12-31,2006-ANUAL,GAL,GOB_EFF,3.644936638548212,Anual,CGPJ_Duracion_Media_Civil_Penal
+2007-12-31,2007-ANUAL,GAL,GOB_EFF,4.0956011100669745,Anual,CGPJ_Duracion_Media_Civil_Penal
+2008-12-31,2008-ANUAL,GAL,GOB_EFF,4.66220639791244,Anual,CGPJ_Duracion_Media_Civil_Penal
+2009-12-31,2009-ANUAL,GAL,GOB_EFF,4.92268266134531,Anual,CGPJ_Duracion_Media_Civil_Penal
+2010-12-31,2010-ANUAL,GAL,GOB_EFF,5.025896712635565,Anual,CGPJ_Duracion_Media_Civil_Penal
+2011-12-31,2011-ANUAL,GAL,GOB_EFF,4.775455934566134,Anual,CGPJ_Duracion_Media_Civil_Penal
+2012-12-31,2012-ANUAL,GAL,GOB_EFF,5.039222410601148,Anual,CGPJ_Duracion_Media_Civil_Penal
+2013-12-31,2013-ANUAL,GAL,GOB_EFF,5.649843071400021,Anual,CGPJ_Duracion_Media_Civil_Penal
+2014-12-31,2014-ANUAL,GAL,GOB_EFF,4.959933451989137,Anual,CGPJ_Duracion_Media_Civil_Penal
+2015-12-31,2015-ANUAL,GAL,GOB_EFF,4.209585529244261,Anual,CGPJ_Duracion_Media_Civil_Penal
+2016-12-31,2016-ANUAL,GAL,GOB_EFF,3.8130933605077826,Anual,CGPJ_Duracion_Media_Civil_Penal
+2017-12-31,2017-ANUAL,GAL,GOB_EFF,3.627374548170792,Anual,CGPJ_Duracion_Media_Civil_Penal
+2018-12-31,2018-ANUAL,GAL,GOB_EFF,4.190648428163152,Anual,CGPJ_Duracion_Media_Civil_Penal
+2019-12-31,2019-ANUAL,GAL,GOB_EFF,3.9105949229734436,Anual,CGPJ_Duracion_Media_Civil_Penal
+2020-12-31,2020-ANUAL,GAL,GOB_EFF,4.432294020276891,Anual,CGPJ_Duracion_Media_Civil_Penal
+2021-12-31,2021-ANUAL,GAL,GOB_EFF,4.359372711316673,Anual,CGPJ_Duracion_Media_Civil_Penal
+2022-12-31,2022-ANUAL,GAL,GOB_EFF,4.953827303285509,Anual,CGPJ_Duracion_Media_Civil_Penal
+2023-12-31,2023-ANUAL,GAL,GOB_EFF,5.8444849349501276,Anual,CGPJ_Duracion_Media_Civil_Penal
+2024-12-31,2024-ANUAL,GAL,GOB_EFF,6.274600234408716,Anual,CGPJ_Duracion_Media_Civil_Penal
+2025-12-31,2025-ANUAL,GAL,GOB_EFF,6.660463847856945,Anual,CGPJ_Duracion_Media_Civil_Penal
+2002-12-31,2002-ANUAL,MAD,GOB_EFF,10.498207316867719,Anual,CGPJ_Duracion_Media_Civil_Penal
+2003-12-31,2003-ANUAL,MAD,GOB_EFF,8.923085850140183,Anual,CGPJ_Duracion_Media_Civil_Penal
+2004-12-31,2004-ANUAL,MAD,GOB_EFF,7.193630531020997,Anual,CGPJ_Duracion_Media_Civil_Penal
+2005-12-31,2005-ANUAL,MAD,GOB_EFF,5.6266187513464985,Anual,CGPJ_Duracion_Media_Civil_Penal
+2006-12-31,2006-ANUAL,MAD,GOB_EFF,5.325426741982042,Anual,CGPJ_Duracion_Media_Civil_Penal
+2007-12-31,2007-ANUAL,MAD,GOB_EFF,5.193912419120307,Anual,CGPJ_Duracion_Media_Civil_Penal
+2008-12-31,2008-ANUAL,MAD,GOB_EFF,4.966204493581179,Anual,CGPJ_Duracion_Media_Civil_Penal
+2009-12-31,2009-ANUAL,MAD,GOB_EFF,5.021092177768544,Anual,CGPJ_Duracion_Media_Civil_Penal
+2010-12-31,2010-ANUAL,MAD,GOB_EFF,5.2858394628368774,Anual,CGPJ_Duracion_Media_Civil_Penal
+2011-12-31,2011-ANUAL,MAD,GOB_EFF,5.423605016241773,Anual,CGPJ_Duracion_Media_Civil_Penal
+2012-12-31,2012-ANUAL,MAD,GOB_EFF,5.426391341322729,Anual,CGPJ_Duracion_Media_Civil_Penal
+2013-12-31,2013-ANUAL,MAD,GOB_EFF,5.728181312674357,Anual,CGPJ_Duracion_Media_Civil_Penal
+2014-12-31,2014-ANUAL,MAD,GOB_EFF,5.236562605512896,Anual,CGPJ_Duracion_Media_Civil_Penal
+2015-12-31,2015-ANUAL,MAD,GOB_EFF,4.408517352845767,Anual,CGPJ_Duracion_Media_Civil_Penal
+2016-12-31,2016-ANUAL,MAD,GOB_EFF,3.7897956415010645,Anual,CGPJ_Duracion_Media_Civil_Penal
+2017-12-31,2017-ANUAL,MAD,GOB_EFF,3.9460459238452357,Anual,CGPJ_Duracion_Media_Civil_Penal
+2018-12-31,2018-ANUAL,MAD,GOB_EFF,4.519065077620772,Anual,CGPJ_Duracion_Media_Civil_Penal
+2019-12-31,2019-ANUAL,MAD,GOB_EFF,5.199569204653728,Anual,CGPJ_Duracion_Media_Civil_Penal
+2020-12-31,2020-ANUAL,MAD,GOB_EFF,5.310242498404557,Anual,CGPJ_Duracion_Media_Civil_Penal
+2021-12-31,2021-ANUAL,MAD,GOB_EFF,4.483219445998586,Anual,CGPJ_Duracion_Media_Civil_Penal
+2022-12-31,2022-ANUAL,MAD,GOB_EFF,5.456338391517807,Anual,CGPJ_Duracion_Media_Civil_Penal
+2023-12-31,2023-ANUAL,MAD,GOB_EFF,6.959411073682962,Anual,CGPJ_Duracion_Media_Civil_Penal
+2024-12-31,2024-ANUAL,MAD,GOB_EFF,8.254099311858122,Anual,CGPJ_Duracion_Media_Civil_Penal
+2025-12-31,2025-ANUAL,MAD,GOB_EFF,9.970053261534222,Anual,CGPJ_Duracion_Media_Civil_Penal
+2002-12-31,2002-ANUAL,MUR,GOB_EFF,3.259694450634712,Anual,CGPJ_Duracion_Media_Civil_Penal
+2003-12-31,2003-ANUAL,MUR,GOB_EFF,3.21571804448177,Anual,CGPJ_Duracion_Media_Civil_Penal
+2004-12-31,2004-ANUAL,MUR,GOB_EFF,2.9306445605763587,Anual,CGPJ_Duracion_Media_Civil_Penal
+2005-12-31,2005-ANUAL,MUR,GOB_EFF,3.1335836006988576,Anual,CGPJ_Duracion_Media_Civil_Penal
+2006-12-31,2006-ANUAL,MUR,GOB_EFF,3.3897174704825748,Anual,CGPJ_Duracion_Media_Civil_Penal
+2007-12-31,2007-ANUAL,MUR,GOB_EFF,3.2711971930797024,Anual,CGPJ_Duracion_Media_Civil_Penal
+2008-12-31,2008-ANUAL,MUR,GOB_EFF,4.16145221927906,Anual,CGPJ_Duracion_Media_Civil_Penal
+2009-12-31,2009-ANUAL,MUR,GOB_EFF,3.66827645282911,Anual,CGPJ_Duracion_Media_Civil_Penal
+2010-12-31,2010-ANUAL,MUR,GOB_EFF,4.144402525666477,Anual,CGPJ_Duracion_Media_Civil_Penal
+2011-12-31,2011-ANUAL,MUR,GOB_EFF,3.922259497481238,Anual,CGPJ_Duracion_Media_Civil_Penal
+2012-12-31,2012-ANUAL,MUR,GOB_EFF,3.6946430372110934,Anual,CGPJ_Duracion_Media_Civil_Penal
+2013-12-31,2013-ANUAL,MUR,GOB_EFF,4.8893842751804595,Anual,CGPJ_Duracion_Media_Civil_Penal
+2014-12-31,2014-ANUAL,MUR,GOB_EFF,5.368646429743707,Anual,CGPJ_Duracion_Media_Civil_Penal
+2015-12-31,2015-ANUAL,MUR,GOB_EFF,5.460327962744465,Anual,CGPJ_Duracion_Media_Civil_Penal
+2016-12-31,2016-ANUAL,MUR,GOB_EFF,4.606746413142035,Anual,CGPJ_Duracion_Media_Civil_Penal
+2017-12-31,2017-ANUAL,MUR,GOB_EFF,3.3953973556159585,Anual,CGPJ_Duracion_Media_Civil_Penal
+2018-12-31,2018-ANUAL,MUR,GOB_EFF,4.123420715503001,Anual,CGPJ_Duracion_Media_Civil_Penal
+2019-12-31,2019-ANUAL,MUR,GOB_EFF,5.659776127766692,Anual,CGPJ_Duracion_Media_Civil_Penal
+2020-12-31,2020-ANUAL,MUR,GOB_EFF,7.275149580319419,Anual,CGPJ_Duracion_Media_Civil_Penal
+2021-12-31,2021-ANUAL,MUR,GOB_EFF,6.850721288502542,Anual,CGPJ_Duracion_Media_Civil_Penal
+2022-12-31,2022-ANUAL,MUR,GOB_EFF,7.73201372149558,Anual,CGPJ_Duracion_Media_Civil_Penal
+2023-12-31,2023-ANUAL,MUR,GOB_EFF,9.834848553268303,Anual,CGPJ_Duracion_Media_Civil_Penal
+2024-12-31,2024-ANUAL,MUR,GOB_EFF,11.37639255539702,Anual,CGPJ_Duracion_Media_Civil_Penal
+2025-12-31,2025-ANUAL,MUR,GOB_EFF,11.043009264085578,Anual,CGPJ_Duracion_Media_Civil_Penal
+2002-12-31,2002-ANUAL,NAV,GOB_EFF,4.9178129315152095,Anual,CGPJ_Duracion_Media_Civil_Penal
+2003-12-31,2003-ANUAL,NAV,GOB_EFF,4.750287839310135,Anual,CGPJ_Duracion_Media_Civil_Penal
+2004-12-31,2004-ANUAL,NAV,GOB_EFF,4.419912805183214,Anual,CGPJ_Duracion_Media_Civil_Penal
+2005-12-31,2005-ANUAL,NAV,GOB_EFF,4.634571948553852,Anual,CGPJ_Duracion_Media_Civil_Penal
+2006-12-31,2006-ANUAL,NAV,GOB_EFF,5.642191837082678,Anual,CGPJ_Duracion_Media_Civil_Penal
+2007-12-31,2007-ANUAL,NAV,GOB_EFF,5.981816483099379,Anual,CGPJ_Duracion_Media_Civil_Penal
+2008-12-31,2008-ANUAL,NAV,GOB_EFF,6.216940314009933,Anual,CGPJ_Duracion_Media_Civil_Penal
+2009-12-31,2009-ANUAL,NAV,GOB_EFF,6.077055454669012,Anual,CGPJ_Duracion_Media_Civil_Penal
+2010-12-31,2010-ANUAL,NAV,GOB_EFF,6.311984930603107,Anual,CGPJ_Duracion_Media_Civil_Penal
+2011-12-31,2011-ANUAL,NAV,GOB_EFF,5.5027066166483305,Anual,CGPJ_Duracion_Media_Civil_Penal
+2012-12-31,2012-ANUAL,NAV,GOB_EFF,5.041637669128984,Anual,CGPJ_Duracion_Media_Civil_Penal
+2013-12-31,2013-ANUAL,NAV,GOB_EFF,5.188802418837813,Anual,CGPJ_Duracion_Media_Civil_Penal
+2014-12-31,2014-ANUAL,NAV,GOB_EFF,4.563290072798655,Anual,CGPJ_Duracion_Media_Civil_Penal
+2015-12-31,2015-ANUAL,NAV,GOB_EFF,4.404708068749141,Anual,CGPJ_Duracion_Media_Civil_Penal
+2016-12-31,2016-ANUAL,NAV,GOB_EFF,4.8650576850119425,Anual,CGPJ_Duracion_Media_Civil_Penal
+2017-12-31,2017-ANUAL,NAV,GOB_EFF,5.625343241353268,Anual,CGPJ_Duracion_Media_Civil_Penal
+2018-12-31,2018-ANUAL,NAV,GOB_EFF,6.671274539933697,Anual,CGPJ_Duracion_Media_Civil_Penal
+2019-12-31,2019-ANUAL,NAV,GOB_EFF,8.073931487534365,Anual,CGPJ_Duracion_Media_Civil_Penal
+2020-12-31,2020-ANUAL,NAV,GOB_EFF,8.974071460947718,Anual,CGPJ_Duracion_Media_Civil_Penal
+2021-12-31,2021-ANUAL,NAV,GOB_EFF,7.63227240232788,Anual,CGPJ_Duracion_Media_Civil_Penal
+2022-12-31,2022-ANUAL,NAV,GOB_EFF,7.398196915997319,Anual,CGPJ_Duracion_Media_Civil_Penal
+2023-12-31,2023-ANUAL,NAV,GOB_EFF,9.648981149552222,Anual,CGPJ_Duracion_Media_Civil_Penal
+2024-12-31,2024-ANUAL,NAV,GOB_EFF,10.099567213089989,Anual,CGPJ_Duracion_Media_Civil_Penal
+2025-12-31,2025-ANUAL,NAV,GOB_EFF,9.543921357293074,Anual,CGPJ_Duracion_Media_Civil_Penal
+2002-12-31,2002-ANUAL,PV,GOB_EFF,4.98241172381023,Anual,CGPJ_Duracion_Media_Civil_Penal
+2003-12-31,2003-ANUAL,PV,GOB_EFF,4.934445654876968,Anual,CGPJ_Duracion_Media_Civil_Penal
+2004-12-31,2004-ANUAL,PV,GOB_EFF,4.946979451327483,Anual,CGPJ_Duracion_Media_Civil_Penal
+2005-12-31,2005-ANUAL,PV,GOB_EFF,4.618893447314532,Anual,CGPJ_Duracion_Media_Civil_Penal
+2006-12-31,2006-ANUAL,PV,GOB_EFF,4.416440732275209,Anual,CGPJ_Duracion_Media_Civil_Penal
+2007-12-31,2007-ANUAL,PV,GOB_EFF,3.9928481711877,Anual,CGPJ_Duracion_Media_Civil_Penal
+2008-12-31,2008-ANUAL,PV,GOB_EFF,3.712986358107142,Anual,CGPJ_Duracion_Media_Civil_Penal
+2009-12-31,2009-ANUAL,PV,GOB_EFF,3.471274847597382,Anual,CGPJ_Duracion_Media_Civil_Penal
+2010-12-31,2010-ANUAL,PV,GOB_EFF,3.6835527365354097,Anual,CGPJ_Duracion_Media_Civil_Penal
+2011-12-31,2011-ANUAL,PV,GOB_EFF,3.3114407158494594,Anual,CGPJ_Duracion_Media_Civil_Penal
+2012-12-31,2012-ANUAL,PV,GOB_EFF,2.915198442102173,Anual,CGPJ_Duracion_Media_Civil_Penal
+2013-12-31,2013-ANUAL,PV,GOB_EFF,2.62624767087346,Anual,CGPJ_Duracion_Media_Civil_Penal
+2014-12-31,2014-ANUAL,PV,GOB_EFF,2.136894483490802,Anual,CGPJ_Duracion_Media_Civil_Penal
+2015-12-31,2015-ANUAL,PV,GOB_EFF,2.1374724209874416,Anual,CGPJ_Duracion_Media_Civil_Penal
+2016-12-31,2016-ANUAL,PV,GOB_EFF,2.5027928642393844,Anual,CGPJ_Duracion_Media_Civil_Penal
+2017-12-31,2017-ANUAL,PV,GOB_EFF,2.861213198728894,Anual,CGPJ_Duracion_Media_Civil_Penal
+2018-12-31,2018-ANUAL,PV,GOB_EFF,3.503870317232513,Anual,CGPJ_Duracion_Media_Civil_Penal
+2019-12-31,2019-ANUAL,PV,GOB_EFF,4.621816899420093,Anual,CGPJ_Duracion_Media_Civil_Penal
+2020-12-31,2020-ANUAL,PV,GOB_EFF,5.250749365232467,Anual,CGPJ_Duracion_Media_Civil_Penal
+2021-12-31,2021-ANUAL,PV,GOB_EFF,4.559027371946339,Anual,CGPJ_Duracion_Media_Civil_Penal
+2022-12-31,2022-ANUAL,PV,GOB_EFF,5.251227464538374,Anual,CGPJ_Duracion_Media_Civil_Penal
+2023-12-31,2023-ANUAL,PV,GOB_EFF,6.871080297683147,Anual,CGPJ_Duracion_Media_Civil_Penal
+2024-12-31,2024-ANUAL,PV,GOB_EFF,8.169099896678402,Anual,CGPJ_Duracion_Media_Civil_Penal
+2025-12-31,2025-ANUAL,PV,GOB_EFF,9.05800347088328,Anual,CGPJ_Duracion_Media_Civil_Penal
+2002-12-31,2002-ANUAL,RIO,GOB_EFF,3.5542301079052905,Anual,CGPJ_Duracion_Media_Civil_Penal
+2003-12-31,2003-ANUAL,RIO,GOB_EFF,3.512220586086359,Anual,CGPJ_Duracion_Media_Civil_Penal
+2004-12-31,2004-ANUAL,RIO,GOB_EFF,2.9565616326020754,Anual,CGPJ_Duracion_Media_Civil_Penal
+2005-12-31,2005-ANUAL,RIO,GOB_EFF,2.9267170337713266,Anual,CGPJ_Duracion_Media_Civil_Penal
+2006-12-31,2006-ANUAL,RIO,GOB_EFF,3.9495955197397414,Anual,CGPJ_Duracion_Media_Civil_Penal
+2007-12-31,2007-ANUAL,RIO,GOB_EFF,4.396395895591138,Anual,CGPJ_Duracion_Media_Civil_Penal
+2008-12-31,2008-ANUAL,RIO,GOB_EFF,6.002988921586352,Anual,CGPJ_Duracion_Media_Civil_Penal
+2009-12-31,2009-ANUAL,RIO,GOB_EFF,6.376755740738917,Anual,CGPJ_Duracion_Media_Civil_Penal
+2010-12-31,2010-ANUAL,RIO,GOB_EFF,6.0296010453385644,Anual,CGPJ_Duracion_Media_Civil_Penal
+2011-12-31,2011-ANUAL,RIO,GOB_EFF,5.466591875488924,Anual,CGPJ_Duracion_Media_Civil_Penal
+2012-12-31,2012-ANUAL,RIO,GOB_EFF,5.812027001946503,Anual,CGPJ_Duracion_Media_Civil_Penal
+2013-12-31,2013-ANUAL,RIO,GOB_EFF,6.353556645617529,Anual,CGPJ_Duracion_Media_Civil_Penal
+2014-12-31,2014-ANUAL,RIO,GOB_EFF,6.521242623120806,Anual,CGPJ_Duracion_Media_Civil_Penal
+2015-12-31,2015-ANUAL,RIO,GOB_EFF,5.798311485632792,Anual,CGPJ_Duracion_Media_Civil_Penal
+2016-12-31,2016-ANUAL,RIO,GOB_EFF,6.5556807010070095,Anual,CGPJ_Duracion_Media_Civil_Penal
+2017-12-31,2017-ANUAL,RIO,GOB_EFF,7.674551065385822,Anual,CGPJ_Duracion_Media_Civil_Penal
+2018-12-31,2018-ANUAL,RIO,GOB_EFF,8.497774082675763,Anual,CGPJ_Duracion_Media_Civil_Penal
+2019-12-31,2019-ANUAL,RIO,GOB_EFF,9.365445653649317,Anual,CGPJ_Duracion_Media_Civil_Penal
+2020-12-31,2020-ANUAL,RIO,GOB_EFF,10.776123990582827,Anual,CGPJ_Duracion_Media_Civil_Penal
+2021-12-31,2021-ANUAL,RIO,GOB_EFF,7.751730523437094,Anual,CGPJ_Duracion_Media_Civil_Penal
+2022-12-31,2022-ANUAL,RIO,GOB_EFF,7.11711973326206,Anual,CGPJ_Duracion_Media_Civil_Penal
+2023-12-31,2023-ANUAL,RIO,GOB_EFF,8.987736846366083,Anual,CGPJ_Duracion_Media_Civil_Penal
+2024-12-31,2024-ANUAL,RIO,GOB_EFF,8.981171890935993,Anual,CGPJ_Duracion_Media_Civil_Penal
+2025-12-31,2025-ANUAL,RIO,GOB_EFF,9.147151262900085,Anual,CGPJ_Duracion_Media_Civil_Penal
+2002-12-31,2002-ANUAL,VAL,GOB_EFF,2.764510159399114,Anual,CGPJ_Duracion_Media_Civil_Penal
+2003-12-31,2003-ANUAL,VAL,GOB_EFF,2.4680629554650912,Anual,CGPJ_Duracion_Media_Civil_Penal
+2004-12-31,2004-ANUAL,VAL,GOB_EFF,2.1877294111568375,Anual,CGPJ_Duracion_Media_Civil_Penal
+2005-12-31,2005-ANUAL,VAL,GOB_EFF,2.186690505147943,Anual,CGPJ_Duracion_Media_Civil_Penal
+2006-12-31,2006-ANUAL,VAL,GOB_EFF,2.422791380610939,Anual,CGPJ_Duracion_Media_Civil_Penal
+2007-12-31,2007-ANUAL,VAL,GOB_EFF,2.533423698555545,Anual,CGPJ_Duracion_Media_Civil_Penal
+2008-12-31,2008-ANUAL,VAL,GOB_EFF,2.434127138868849,Anual,CGPJ_Duracion_Media_Civil_Penal
+2009-12-31,2009-ANUAL,VAL,GOB_EFF,2.468809661003012,Anual,CGPJ_Duracion_Media_Civil_Penal
+2010-12-31,2010-ANUAL,VAL,GOB_EFF,2.6158380265178494,Anual,CGPJ_Duracion_Media_Civil_Penal
+2011-12-31,2011-ANUAL,VAL,GOB_EFF,2.8645197609144226,Anual,CGPJ_Duracion_Media_Civil_Penal
+2012-12-31,2012-ANUAL,VAL,GOB_EFF,3.2678021646741917,Anual,CGPJ_Duracion_Media_Civil_Penal
+2013-12-31,2013-ANUAL,VAL,GOB_EFF,3.4851036502505863,Anual,CGPJ_Duracion_Media_Civil_Penal
+2014-12-31,2014-ANUAL,VAL,GOB_EFF,3.062941182229711,Anual,CGPJ_Duracion_Media_Civil_Penal
+2015-12-31,2015-ANUAL,VAL,GOB_EFF,2.8748849195477417,Anual,CGPJ_Duracion_Media_Civil_Penal
+2016-12-31,2016-ANUAL,VAL,GOB_EFF,3.0741325885390003,Anual,CGPJ_Duracion_Media_Civil_Penal
+2017-12-31,2017-ANUAL,VAL,GOB_EFF,3.6321639590854997,Anual,CGPJ_Duracion_Media_Civil_Penal
+2018-12-31,2018-ANUAL,VAL,GOB_EFF,3.886215610234009,Anual,CGPJ_Duracion_Media_Civil_Penal
+2019-12-31,2019-ANUAL,VAL,GOB_EFF,4.393665693971008,Anual,CGPJ_Duracion_Media_Civil_Penal
+2020-12-31,2020-ANUAL,VAL,GOB_EFF,4.776619192310301,Anual,CGPJ_Duracion_Media_Civil_Penal
+2021-12-31,2021-ANUAL,VAL,GOB_EFF,4.565318580203315,Anual,CGPJ_Duracion_Media_Civil_Penal
+2022-12-31,2022-ANUAL,VAL,GOB_EFF,5.335984051444095,Anual,CGPJ_Duracion_Media_Civil_Penal
+2023-12-31,2023-ANUAL,VAL,GOB_EFF,6.624871942513179,Anual,CGPJ_Duracion_Media_Civil_Penal
+2024-12-31,2024-ANUAL,VAL,GOB_EFF,7.938742357082255,Anual,CGPJ_Duracion_Media_Civil_Penal
+2025-12-31,2025-ANUAL,VAL,GOB_EFF,8.827634818577874,Anual,CGPJ_Duracion_Media_Civil_Penal
