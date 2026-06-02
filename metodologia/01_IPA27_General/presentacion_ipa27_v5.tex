@@ -1,5 +1,7 @@
 \documentclass[10pt, aspectratio=169]{beamer}
 
+\input{ipa27_variables.tex}
+
 % --- Configuración de Idioma y Fuentes ---
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
@@ -68,7 +70,7 @@
 
 % --- Información de Portada ---
 \title[IPA27: Análisis de Prosperidad]{Índice de Prosperidad Andaluz (IPA27)}
-\subtitle{Arquitectura Técnica, Metodología de Armonización y Resultados (2016-2025)}
+\subtitle{Arquitectura Técnica, Metodología de Armonización y Resultados (2016--\ipaRangoAnos{})}
 \author[Equipo IPA27]{Fundación Andalucía 27}
 \date{\today}
 
@@ -93,7 +95,7 @@
                 {\fontsize{64}{74}\selectfont \textbf{\textcolor{brandgreen}{IPA27}}} \\[0.3cm]
                 {\fontsize{26}{32}\selectfont \textcolor{darkgrey}{Índice de Prosperidad Andaluz}} \\[1.5cm]
                 {\color{brandgreen!30}\rule{8cm}{5pt}} \\[0.8cm]
-                {\Large \textcolor{darkgrey}{\textbf{Arquitectura Técnica, Metodología de Armonización} \\ y Análisis de Resultados (2016-2025)}}
+                {\Large \textcolor{darkgrey}{\textbf{Arquitectura Técnica, Metodología de Armonización} \\ y Análisis de Resultados (2016--\ipaRangoAnos{})}}
             \end{minipage}
         };
         
@@ -421,19 +423,13 @@
         \begin{column}{0.38\textwidth}
             \textbf{\textcolor{brandgreen}{Trayectoria de Progreso}}
             \vspace{0.2cm}
-            \begin{itemize}
-                \item Incremento de \textbf{8,5 puntos} (+16\%) en el nivel de prosperidad desde 2016.
-                \vspace{0.2cm}
-                \item \textbf{Punto de Inflexión (T3-2023)}: Gran salto cualitativo de \textbf{7,1 puntos} (+12\%) en solo dos años.
-                \vspace{0.2cm}
-                \item Los motores: \textit{Sociedades Inclusivas} y \textit{Economías Abiertas} con mejoras del \textbf{20\%} en el periodo reciente.
-            \end{itemize}
+            \ipaGlobalInterpretation
         \end{column}
     \end{columns}
 \end{frame}
 
 % --- DIAPOSITIVA DOMINIO 1 ---
-\begin{frame}{Dominio 1: Sociedades Inclusivas (+25\% desde 2023)}
+\begin{frame}{Dominio 1: Sociedades Inclusivas (\ipaIncSocInclusivasReciente{} puntos, \ipaPeriodoInflexion{} vs \ipaUltimoPeriodo{})}
     \begin{columns}
         \begin{column}{0.65\textwidth}
             \centering
@@ -443,20 +439,14 @@
             \textbf{\textcolor{brandgreen}{Liderazgo Institucional}}
             \vspace{0.3cm}
             \begin{small}
-            \begin{itemize}
-                \item Recuperación de \textbf{+13 puntos} (+25\%) en dos años, situando a la comunidad en los \textbf{66 puntos}.
-                \vspace{0.1cm}
-                \item \textbf{Sorpasso Regional}: Superando la media nacional (58,5) por un margen de \textbf{+7,5 puntos}.
-                \vspace{0.1cm}
-                \item Casi duplica el ritmo de mejora de España (+25\% vs +13\%) desde 2023.
-            \end{itemize}
+            \ipaInclusivasInterpretation
             \end{small}
         \end{column}
     \end{columns}
 \end{frame}
 
 % --- DIAPOSITIVA DOMINIO 2 ---
-\begin{frame}{Dominio 2: Economías Abiertas (+26,8\% desde 2016)}
+\begin{frame}{Dominio 2: Economías Abiertas (\ipaIncEcoAbiertasInicio{} puntos, 2016Q1 vs \ipaUltimoPeriodo{})}
     \begin{columns}
         \begin{column}{0.65\textwidth}
             \centering
@@ -466,20 +456,14 @@
             \textbf{\textcolor{brandgreen}{Motor de Convergencia}}
             \vspace{0.3cm}
             \begin{small}
-            \begin{itemize}
-                \item El crecimiento andaluz (+26,8\%) \textbf{supera} a la mejoría nacional (+17,9\%) desde 2016 en casi diez puntos.
-                \vspace{0.1cm}
-                \item \textbf{Cierre de Brechas}: El ecosistema económico andaluz crece al doble de ritmo (+13\%) que el nacional (+6\%) desde 2023.
-                \vspace{0.1cm}
-                \item \textbf{Máximo Histórico}: Alcanza los 52 puntos, su mejor puntuación de toda la serie.
-            \end{itemize}
+            \ipaEconomiasInterpretation
             \end{small}
         \end{column}
     \end{columns}
 \end{frame}
 
 % --- DIAPOSITIVA DOMINIO 3 ---
-\begin{frame}{Dominio 3: Personas Empoderadas (+14,8\% desde 2016)}
+\begin{frame}{Dominio 3: Personas Empoderadas (\ipaIncPersonasInicio{} puntos, 2016Q1 vs \ipaUltimoPeriodo{})}
     \begin{columns}
         \begin{column}{0.65\textwidth}
             \centering
@@ -489,13 +473,7 @@
             \textbf{\textcolor{brandgreen}{Suelo Social Consolidado}}
             \vspace{0.3cm}
             \begin{small}
-            \begin{itemize}
-                \item Salto Estructural: Incremento de \textbf{+9 puntos} desde 2016, casi el doble del ritmo nacional (+14,8\% vs +7,9\%).
-                \vspace{0.1cm}
-                \item \textbf{Estabilidad en Máximos}: Consolidación de los \textbf{70 puntos}, récord de bienestar social en la comunidad.
-                \vspace{0.1cm}
-                \item Trayectoria más constante y resiliente que el total nacional ante los ciclos económicos.
-            \end{itemize}
+            \ipaPersonasInterpretation
             \end{small}
         \end{column}
     \end{columns}
