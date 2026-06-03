@@ -47,7 +47,9 @@ IPA27_project/
 │   ├── 01_extraccion_datos_CCAA.ipynb       # Descarga e integración de APIs y scraping
 │   ├── 01_1_indice_desafeccion_cis.ipynb    # Generación del indicador de desafección (CIS)
 │   ├── 01_2_participacion_electoral_cis.ipynb # Procesamiento de microdatos electorales
-│   ├── 02_procesamiento_IPA27_CCAA.ipynb    # Pipeline metodológico, ARIMA y compilación
+│   ├── 02_1_procesamiento.ipynb             # Preparación de series por frecuencias y alineación
+│   ├── 02_2_modelacion.ipynb                # Desestacionalización, trimestralización y nowcast (ARIMA)
+│   ├── 02_3_exportacion.ipynb               # Scores 0-100, agregación, JSON dashboard y Beamer (LaTeX)
 │   └── 03_scraping_REE_renovables.ipynb     # Scraping de generación de energías renovables
 ├── results/                     # Resultados estadísticos y visuales del proyecto:
 │   ├── data/                    # Exportaciones de series y coeficientes en Excel
@@ -147,7 +149,7 @@ Los datos se rescatan automáticamente desde las siguientes plataformas gubernam
 
 El output consolidado se guarda automáticamente como `results/data/ipa27_raw_YYYYMMDD.xlsx`.
 
-### 2. Procesamiento Metodológico (`02_procesamiento_IPA27_CCAA.ipynb`)
+### 2. Procesamiento y Modelación (`02_1_procesamiento.ipynb`, `02_2_modelacion.ipynb`, `02_3_exportacion.ipynb`)
 El procesamiento principal sigue las siguientes fases lógicas:
 1. **Desestacionalización (STL)**: Depuración de patrones estacionales que ensucian las series de frecuencia mensual o trimestral.
 2. **Trimestralización**: Modelos de interpolación por regresores de Chow-Lin y Denton para homogeneizar series de frecuencia mixta (anuales/mensuales).
