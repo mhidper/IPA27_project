@@ -66,9 +66,9 @@ IPA27_project/
 
 ```mermaid
 graph LR
-    classDef default fill:#f9f9f9,stroke:#333,stroke-width:1px;
-    classDef folder fill:#e8f5e9,stroke:#007932,stroke-width:2px,font-weight:bold;
-    classDef file fill:#e3f2fd,stroke:#0277bd,stroke-width:1px;
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:1px,color:#000;
+    classDef folder fill:#e8f5e9,stroke:#007932,stroke-width:2px,font-weight:bold,color:#000;
+    classDef file fill:#e3f2fd,stroke:#0277bd,stroke-width:1px,color:#000;
     
     Root["📁 IPA27_project"]:::folder
     
