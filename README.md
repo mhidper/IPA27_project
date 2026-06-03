@@ -65,7 +65,7 @@ IPA27_project/
 ### 🗺️ Mapa Visual de la Estructura en GitHub
 
 ```mermaid
-graph TD
+graph LR
     classDef default fill:#f9f9f9,stroke:#333,stroke-width:1px;
     classDef folder fill:#e8f5e9,stroke:#007932,stroke-width:2px,font-weight:bold;
     classDef file fill:#e3f2fd,stroke:#0277bd,stroke-width:1px;

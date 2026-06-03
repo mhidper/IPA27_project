@@ -18,19 +18,21 @@ def fix_notebook_file(path):
             cell_changed = False
             while i < len(source):
                 current_line = source[i]
-                # Buscar líneas que escriben newcommand y que no estén cerradas
-                if 'f_out.write(f"\\newcommand' in current_line and current_line.endswith('\n') and not (current_line.strip().endswith('")\n') or current_line.strip().endswith('")')):
-                    if i + 1 < len(source):
-                        next_line = source[i+1]
-                        if next_line.strip() in ['")', '")\n', '")']:
-                            # Unirlas de forma correcta
-                            # El \n original del write se coloca como un \n de escape en el string, y se cierra con ")\n
-                            merged_line = current_line.rstrip('\n').rstrip('\r') + '\\n")\n'
-                            new_source.append(merged_line)
-                            i += 2
-                            cell_changed = True
-                            changed = True
-                            continue
+                # Búsqueda más robusta: f_out.write(f" e \newcommand
+                if 'f_out.write(f"' in current_line and '\\newcommand' in current_line:
+                    # Verificar si no está cerrado en la misma línea
+                    stripped = current_line.strip()
+                    if not (stripped.endswith('")') or stripped.endswith('")\n') or stripped.endswith('")\r\n')):
+                        if i + 1 < len(source):
+                            next_line = source[i+1]
+                            if next_line.strip() in ['")', '")\n', '")\r\n']:
+                                # Unirlas
+                                merged_line = current_line.rstrip('\n').rstrip('\r') + '\\n")\n'
+                                new_source.append(merged_line)
+                                i += 2
+                                cell_changed = True
+                                print(f"  Parcheada línea: {current_line.strip()} con {next_line.strip()}")
+                                continue
                 new_source.append(current_line)
                 i += 1
             if cell_changed:
