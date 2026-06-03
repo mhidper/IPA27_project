@@ -69,11 +69,10 @@ Para estos indicadores, debes descargar los datos brutos antes de ejecutar el pr
 Una vez actualizadas todas las fuentes (automáticas y manuales):
 
 1.  **Consolidar**: En `01_extraccion_datos_CCAA.ipynb`, ejecuta la última celda para generar el fichero `results/data/ipa27_raw_YYYYMMDD.xlsx`.
-2.  **Calcular Índice**: Abre `02_procesamiento_IPA27_CCAA.ipynb` y ejecútalo íntegramente. Este notebook realiza:
-    *   Desestacionalización de series.
-    *   Nowcasting (predicción de los últimos meses).
-    *   Agregación por pilares y dominios.
-    *   Generación de los gráficos finales del Dashboard.
+2.  **Calcular Índice**: Abre y ejecuta en orden secuencial los siguientes tres notebooks:
+    *   **02_1_procesamiento.ipynb**: Carga y prepara las series temporales por frecuencias, realiza imputaciones de datos, calcula variables de escala y exporta los ficheros preparados.
+    *   **02_2_modelacion.ipynb**: Realiza desestacionalizaciones (STL), trimestralizaciones (Chow-Lin/Denton) y extensiones ARIMA (nowcasting) para consolidar los indicadores.
+    *   **02_3_exportacion.ipynb**: Calcula techos robustos, efectúa la agregación jerárquica de scores (0-100), actualiza el archivo de datos del Cuadro de mando (`dashboard_data.json`), exporta las fichas de auditoría a PDF (`docs/metodologia/01_general/`) y genera la presentación Beamer de resultados.
 
 ---
 

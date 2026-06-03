@@ -1,45 +1,29 @@
 # Notebooks del Proyecto IPA27
 
-Este directorio contiene los notebooks de Jupyter para la gestión, procesamiento y visualización del **Índice de Prosperidad Andaluz**. El sistema está diseñado en un flujo secuencial que transforma datos brutos en indicadores agregados y visualizaciones de alto nivel.
+Este directorio contiene los notebooks de Jupyter para la extracción, procesamiento estadístico, modelación y exportación de resultados del **Índice de Prosperidad Andaluz**. El pipeline se ha modularizado para mejorar la escalabilidad y facilitar el mantenimiento del código.
 
-## 🔄 Flujo de Datos
+## 🔄 Flujo de Trabajo y Ejecución Secuencial
 
-El flujo de trabajo principal sigue esta secuencia:
+Para realizar una actualización completa de resultados, ejecute los notebooks en el siguiente orden:
 
-1.  **Cálculo de Desafección**: `01_1_Índice de desafección_cis_v2.ipynb` procesa microdatos del CIS para generar la serie de desafección regional.
-2.  **Extracción Global**: `01_extracción de datos_CCAA_v2.ipynb` descarga datos de APIs (INE, IECA, etc.) y consolida todos los indicadores (incluyendo desafección) en un Excel regional.
-3.  **Procesamiento Final**: `02_procesamiento_IPA27.ipynb` aplica el pipeline estadístico (desestacionalización, nowcasting) para generar el índice IPA27 final.
+1.  **Fase 1: Preparativos de Indicadores del CIS**
+    *   `01_1_indice_desafeccion_cis.ipynb`: Procesa microdatos del CIS para generar el indicador de desconfianza política (`GOB_DES`).
+    *   `01_2_participacion_electoral_cis.ipynb`: Procesa microdatos del CIS para el pilar de Capital Social (`SOC_PAR`).
+2.  **Fase 2: Extracción Global y Consolidación**
+    *   `01_extraccion_datos_CCAA.ipynb`: Conecta con APIs oficiales (INE, IECA), realiza web scraping y consolida el dataset bruto, generando el archivo Excel consolidado de salida (`results/data/ipa27_raw_YYYYMMDD.xlsx`).
+3.  **Fase 3: Pipeline Estadístico y Modelación**
+    *   `02_1_procesamiento.ipynb`: Carga y prepara las series temporales por frecuencias, realiza imputaciones de datos, calcula variables de escala y exporta los ficheros CSV preparados. Genera el registro inicial de trazabilidad (`AUDIT_REGISTRY`).
+    *   `02_2_modelacion.ipynb`: Aplica desestacionalización STL, trimestralización Chow-Lin/Denton y extensiones ARIMA para nowcasting en el trimestre de cierre actual.
+    *   `02_3_exportacion.ipynb`: Calcula los techos objetivos, normaliza los indicadores en el baremo de score (0-100), calcula las agregaciones jerárquicas del índice y exporta:
+        *   Los datos del Cuadro de mando (`dashboard_data.json`).
+        *   Las Fichas de Auditoría analíticas de trazabilidad en formato PDF (`docs/metodologia/01_general/`).
+        *   El archivo macro LaTeX (`ipa27_variables.tex`) y compila la presentación de resultados Beamer (`presentacion_ipa27_v5.tex`).
 
-## 📓 Descripción de los Notebooks
+## 📓 Notebooks Auxiliares y Adicionales
 
-### 1. **01_1_Índice de desafección_cis_v2.ipynb**
-**Propósito**: Generar el indicador de gobernanza basado en desafección política.
-- **Entrada**: Microdatos del CIS en `data/raw/cis/barómetro/`.
-- **Salida**: `data/processed/cis/barómetro/indice_desafeccion_ccaa_pivot.csv`.
-
-### 2. **01_extracción de datos_CCAA_v2.ipynb**
-**Propósito**: Punto de entrada de datos al sistema con cobertura para 17 CCAA + España.
-- **Funcionalidad**:
-    - Descarga automática: INE Tempus, IECA, Criminalidad, JAXI.
-    - Procesamiento manual: CIS (Sanidad y Elecciones), INE TIC (Banda Ancha), DataInvex.
-    - Integra la serie de desafección generada previamente.
-- **Salida Principal**: `results/data/ipa27_raw_YYYYMMDD.xlsx`.
-
-### 3. **02_procesamiento_IPA27.ipynb**
-**Propósito**: Transformación estadística y cálculo del Índice.
-- **Funcionalidad**: Pipeline estadístico completo (STL, Chow-Lin, Nowcasting ARIMA).
-- **Salidas**: `results/data/IPA27_agregado.xlsx` y Dashboards de análisis.
-
-### 4. **03_transparencia.ipynb** y **04_gobernanza_senado.ipynb**
-Análisis complementarios de transparencia y sentimiento político para alimentar pilares específicos de gobernanza.
+*   `03_scraping_REE_renovables.ipynb`: Capturador de datos históricos de generación renovable de Red Eléctrica de España.
+*   `03_playground_edad_media.ipynb`: Entorno de pruebas para la interpolación de edades medias a nivel municipal y regional.
+*   `02_procesamiento_IPA27_CCAA.ipynb`: Versión histórica unificada original (mantenida únicamente como referencia histórica).
 
 ---
-
-## 🚀 Cómo ejecutar
-
-1.  Ejecute `01_1_Índice de desafección_cis_v2.ipynb` si necesita actualizar los datos del CIS.
-2.  Ejecute `01_extracción de datos_CCAA_v2.ipynb` para consolidar el dataset bruto.
-3.  Ejecute `02_procesamiento_IPA27.ipynb` para el cálculo final y visualizaciones.
-
----
-**Última actualización**: 22 de enero de 2026
+**Última actualización**: Junio 2026

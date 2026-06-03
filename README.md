@@ -35,14 +35,14 @@ IPA27_project/
 │   ├── raw/                     # Datos fuente (archivos de criminalidad, renta, etc.)
 │   │   └── archive/             # Histórico de Excel consolidados archivados
 │   └── processed/               # Resultados intermedios e indicadores preprocesados
-├── docs/                        # Documentación complementaria, convenios e infografías
-├── metodologia/                 # Documentos metodológicos y ficheros LaTeX core:
-│   ├── 01_IPA27_General/        # Presentación Beamer y variables del modelo:
-│   │   ├── presentacion_ipa27_v5.tex  # Código de la presentación Beamer
-│   │   ├── ipa27_variables.tex        # Macros numéricas actualizadas por el notebook
-│   │   └── ideas_fuerza_resultados.md # 6 mensajes clave para la venta de resultados
-│   ├── 02_Indice_Desafeccion/   # Documentación del índice de desafección política
-│   └── 03_Participacion_Electoral/ # Estudios de participación electoral
+├── docs/                        # Documentación y metodología unificada y organizada:
+│   ├── convenios/               # Convenios, contratos y memorias técnicas
+│   ├── infografias/             # Infografías del proyecto
+│   └── metodologia/             # Todo el material metodológico organizado:
+│       ├── 01_general/          # Metodología general, benchmark y Beamer (LaTeX)
+│       ├── 02_desafeccion/      # Documentación del índice de desafección
+│       ├── 03_participacion_electoral/ # Estudios de participación electoral
+│       └── notas_trabajo/       # Borradores y notas técnicas de Claude
 ├── notebooks/                   # Jupyter Notebooks de ejecución (libres de carpetas data/results locales):
 │   ├── 01_extraccion_datos_CCAA.ipynb       # Descarga e integración de APIs y scraping
 │   ├── 01_1_indice_desafeccion_cis.ipynb    # Generación del indicador de desafección (CIS)
@@ -60,6 +60,50 @@ IPA27_project/
 │   └── connectors.py            
 ├── README.md                    # Este archivo
 └── requirements.txt             # Dependencias del entorno de Python
+```
+
+### 🗺️ Mapa Visual de la Estructura en GitHub
+
+```mermaid
+graph TD
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:1px;
+    classDef folder fill:#e8f5e9,stroke:#007932,stroke-width:2px,font-weight:bold;
+    classDef file fill:#e3f2fd,stroke:#0277bd,stroke-width:1px;
+    
+    Root["📁 IPA27_project"]:::folder
+    
+    Root --> Dash["📁 dashboard"]:::folder
+    Dash --> DashSrc["📁 src (Código React)"]:::folder
+    Dash --> DashPub["📁 public/data (dashboard_data.json)"]:::folder
+    
+    Root --> Data["📁 data"]:::folder
+    Data --> DataProc["📁 processed (CSVs intermedios)"]:::folder
+    
+    Root --> Docs["📁 docs"]:::folder
+    Docs --> DocsInfo["📁 infografias"]:::folder
+    Docs --> DocsMet["📁 metodologia"]:::folder
+    DocsMet --> DocsMetGen["📁 01_general (LaTeX, Beamer, Benchmark)"]:::folder
+    DocsMet --> DocsMetDes["📁 02_desafeccion (Paper desafección)"]:::folder
+    DocsMet --> DocsMetEle["📁 03_participacion_electoral"]:::folder
+    DocsMet --> DocsMetNot["📁 notas_trabajo (Borradores y notas)"]:::folder
+    Docs --> DocsReadme["📄 README.md"]:::file
+    
+    Root --> Notebooks["📁 notebooks"]:::folder
+    Notebooks --> NbExt["📓 01_extraccion_datos_CCAA.ipynb"]:::file
+    Notebooks --> NbDes["📓 01_1_indice_desafeccion_cis.ipynb"]:::file
+    Notebooks --> NbPar["📓 01_2_participacion_electoral_cis.ipynb"]:::file
+    Notebooks --> NbP1["📓 02_1_procesamiento.ipynb"]:::file
+    Notebooks --> NbP2["📓 02_2_modelacion.ipynb"]:::file
+    Notebooks --> NbP3["📓 02_3_exportacion.ipynb"]:::file
+    Notebooks --> NbInst["📄 instrucciones_actualizacion_IPA27.md"]:::file
+    
+    Root --> Results["📁 results"]:::folder
+    Results --> ResData["📁 data (Excel consolidado ipa27_raw)"]:::folder
+    Results --> ResFigs["📁 figures (Gráficos de resultados y diagnóstico)"]:::folder
+    
+    Root --> Src["📁 src (Configuración y extractores Python)"]:::folder
+    Root --> RootReadme["📄 README.md"]:::file
+    Root --> Req["📄 requirements.txt"]:::file
 ```
 
 ---
@@ -112,7 +156,7 @@ El procesamiento principal sigue las siguientes fases lógicas:
 5. **Agregación Geométrica**: Cálculo del índice de los Pilares, Dominios e IPA27 General mediante medias geométricas.
 6. **Exportación de Datos y LaTeX**:
    - Genera y actualiza `dashboard/public/data/dashboard_data.json` para alimentar la interfaz React.
-   - Genera y escribe el archivo macro de LaTeX `metodologia/01_IPA27_General/ipa27_variables.tex` y compila la presentación `presentacion_ipa27_v5.tex` a PDF de manera automática.
+   - Genera y escribe el archivo macro de LaTeX `docs/metodologia/01_general/ipa27_variables.tex` y compila la presentación `presentacion_ipa27_v5.tex` a PDF de manera automática.
 
 ---
 
