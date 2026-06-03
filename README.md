@@ -20,59 +20,80 @@ El IPA27 se compone de:
 2. **Normalización por Techos Fijos**: Función de transformación anclada en topes estructurales (calculados a partir del promedio del top 3 de los mejores rendimientos históricos y márgenes de proyección). Penaliza la falta de rendimientos y admite elasticidad superior con techos controlados hasta una puntuación de clímax de 120.
 3. **Agregación por Media Geométrica Robusta**: A todos los niveles (indicadores a pilares, pilares a dominios y dominios a índice general) se usa una agregación mediante interpolación geométrica de potencias con acotaciones, penalizando la inequidad formativa (no poder compensar falencias graves en un pilar con saltos inmensos en otro).
 
+---
+
 ## Estructura del Proyecto
 
-El repositorio del proyecto sigue una estructura limpia y optimizada para la separación de responsabilidades e investigación analítica:
+El repositorio del proyecto sigue una estructura limpia y consolidada para la separación de responsabilidades:
 
 ```text
 IPA27_project/
-├── data/                        # Datos brutos y preprocesados (bases trimestrales y anuales)
+├── dashboard/                   # Cuadro de mando interactivo web (Vite + React)
+│   ├── public/data/             # dashboard_data.json y series de datos para la web
+│   └── src/                     # Código fuente de la interfaz de usuario
+├── data/                        # Datos históricos y procesados del modelo
+│   ├── raw/                     # Datos fuente (archivos de criminalidad, renta, etc.)
+│   │   └── archive/             # Histórico de Excel consolidados archivados
+│   └── processed/               # Resultados intermedios e indicadores preprocesados
 ├── docs/                        # Documentación complementaria, convenios e infografías
-├── metodologia/                 # Documentos metodológicos, papers y ficheros LaTeX core:
-│   └── metodologia_ipa27_actualizada.tex  # Documento técnico principal
-├── notebooks/                   # Jupyter Notebooks principales de ejecución:
-│   ├── 01_extraccion_datos_CCAA.ipynb
-│   ├── 01_1_indice_desafeccion_cis.ipynb
-│   ├── 01_2_participacion_electoral_cis.ipynb
-│   ├── 02_procesamiento_IPA27_CCAA.ipynb
-│   └── 03_scraping_REE_renovables.ipynb
-├── results/                     # Resultados estadísticos:
-│   ├── data/                    # Exportaciones CSV (techos, contribución y agregaciones)
-│   └── figures/                 # Outputs gráficos y de reporting del pipeline
-├── src/                         # Módulos Python fuente reutilizables:
+├── metodologia/                 # Documentos metodológicos y ficheros LaTeX core:
+│   ├── 01_IPA27_General/        # Presentación Beamer y variables del modelo:
+│   │   ├── presentacion_ipa27_v5.tex  # Código de la presentación Beamer
+│   │   ├── ipa27_variables.tex        # Macros numéricas actualizadas por el notebook
+│   │   └── ideas_fuerza_resultados.md # 6 mensajes clave para la venta de resultados
+│   ├── 02_Indice_Desafeccion/   # Documentación del índice de desafección política
+│   └── 03_Participacion_Electoral/ # Estudios de participación electoral
+├── notebooks/                   # Jupyter Notebooks de ejecución (libres de carpetas data/results locales):
+│   ├── 01_extraccion_datos_CCAA.ipynb       # Descarga e integración de APIs y scraping
+│   ├── 01_1_indice_desafeccion_cis.ipynb    # Generación del indicador de desafección (CIS)
+│   ├── 01_2_participacion_electoral_cis.ipynb # Procesamiento de microdatos electorales
+│   ├── 02_procesamiento_IPA27_CCAA.ipynb    # Pipeline metodológico, ARIMA y compilación
+│   └── 03_scraping_REE_renovables.ipynb     # Scraping de generación de energías renovables
+├── results/                     # Resultados estadísticos y visuales del proyecto:
+│   ├── data/                    # Exportaciones de series y coeficientes en Excel
+│   │   └── archive/             # Versiones históricas de ficheros consolidados ipa27_raw
+│   └── figures/                 # Outputs gráficos y de diagnóstico (reporting y dashboards)
+├── src/                         # Módulos Python reutilizables (conectores y extractores):
 │   ├── config.py                
 │   ├── extractors.py            
 │   ├── consolidator.py          
 │   └── connectors.py            
 ├── README.md                    # Este archivo
-└── requirements.txt             # Dependencias del entorno
+└── requirements.txt             # Dependencias del entorno de Python
 ```
 
-## Instalación
+---
+
+## Instalación y Configuración
 
 ### Requisitos Previos
-
 - Python 3.8 o superior
-- pip (gestor de paquetes de Python)
+- Node.js & npm (para ejecutar el dashboard localmente)
 
-### Instalar Dependencias
-
+### Instalar Dependencias de Python
 ```bash
 pip install -r requirements.txt
 ```
 
-### Dependencias Principales
+### Configurar e Iniciar el Dashboard Web
+1. Dirígete a la carpeta del dashboard:
+   ```bash
+   cd dashboard
+   ```
+2. Instala las dependencias de Node:
+   ```bash
+   npm install
+   ```
+3. Lanza el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
 
-- **pandas**: Manipulación de datos
-- **numpy**: Operaciones numéricas
-- **statsmodels**: Modelos estadísticos (ARIMA, desestacionalización STL)
-- **matplotlib, seaborn**: Visualización
-- **requests**: Peticiones HTTP a APIs
+---
 
 ## Uso del Pipeline
 
 ### 1. Extracción de Datos (`01_extraccion_datos_CCAA.ipynb`)
-
 Los datos se rescatan automáticamente desde las siguientes plataformas gubernamentales y privadas utilizando APIs y Scraping:
 - **INE (Instituto Nacional de Estadística)**
 - **IECA (Instituto de Estadística y Cartografía de Andalucía)**
@@ -80,20 +101,20 @@ Los datos se rescatan automáticamente desde las siguientes plataformas gubernam
 - **Red Eléctrica de España**
 - **CIS (Centro de Investigaciones Sociológicas)**
 
+El output consolidado se guarda automáticamente como `results/data/ipa27_raw_YYYYMMDD.xlsx`.
+
 ### 2. Procesamiento Metodológico (`02_procesamiento_IPA27_CCAA.ipynb`)
+El procesamiento principal sigue las siguientes fases lógicas:
+1. **Desestacionalización (STL)**: Depuración de patrones estacionales que ensucian las series de frecuencia mensual o trimestral.
+2. **Trimestralización**: Modelos de interpolación por regresores de Chow-Lin y Denton para homogeneizar series de frecuencia mixta (anuales/mensuales).
+3. **Nowcasting (ARIMA)**: Rellenado predictivo de retardos de reporte público para el trimestre de cierre actual.
+4. **Normalización por Techos Fijos**: Ajuste de los valores al baremo estándar `0-120`.
+5. **Agregación Geométrica**: Cálculo del índice de los Pilares, Dominios e IPA27 General mediante medias geométricas.
+6. **Exportación de Datos y LaTeX**:
+   - Genera y actualiza `dashboard/public/data/dashboard_data.json` para alimentar la interfaz React.
+   - Genera y escribe el archivo macro de LaTeX `metodologia/01_IPA27_General/ipa27_variables.tex` y compila la presentación `presentacion_ipa27_v5.tex` a PDF de manera automática.
 
-El procesamiento integral sigue estas fases:
-1. **Desacumulación**: Series acumuladas anuales se tornan trimestrales absolutas.
-2. **Desestacionalización (STL)**: Depuración de patrones estacionales que ensucian la economía y lo criminal.
-3. **Trimestralización**: Agregaciones directas, modelos de interpolación por regresores de Chow-Lin y Denton.
-4. **Nowcasting (ARIMA)**: Rellenado de ausencias (lags) de reporte público.
-5. **Cálculo de Techos Fijos y Normalización**: Adaptación de los valores al baremo `0-120`.
-6. **Agregación Geométrica**: Compresión a medias de equidad restrictiva (Pilares, Dominios, IPA27 Total).
-7. **Análisis de Elasticidades Absolutas**: Reportes sobre dominios que obran como cuellos de botella mediante control de desequilibrios por varianza y deltas.
-
-### 3. Ejecución de Entornos Relacionales
-
-La compilación y visualización del índice de desafección, electorabilidad y scraping del clúster renovable, ocurre a través de los cuadernos de soporte correspondientes situados de igual manera en `notebooks/`.
+---
 
 ## Indicadores del IPA27
 
@@ -115,17 +136,9 @@ La compilación y visualización del índice de desafección, electorabilidad y 
 - **Pilar 11: Educación** (Abandono Escolar Temprano, Educación Superior)
 - **Pilar 12: Conocimiento** (Gasto I+D % PIB, Ocupaciones en Sectores de Conocimiento)
 
-## Documentación
+---
 
-La teoría que respalda la modernización del procesamiento de techos y cálculos matriciales se discute íntegramente en la carpeta `metodologia/`, junto a los reportes subversivos de las dimensiones de afección política. El fichero técnico madre del proyecto se puede compilar al abrir `metodologia/metodologia_ipa27_actualizada.tex`. 
+## Licencia & Actualización
 
-## Licencia & Contacto
-
-MIT License - Ver archivo fuente de metadatos.
-
-**Equipo IPA27**
-Instituto de Estudios Regionales, Sevilla, España
-Email: ipa27@andalucia.es
-
-**Última actualización**: Febrero 2026
+**Última actualización**: Junio 2026 (Datos de cierre hasta **2026Q1**)  
 **Versión del Índice**: IPA27 (Techos Fijos / Media Geométrica)
