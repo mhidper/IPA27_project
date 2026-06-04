@@ -65,9 +65,6 @@ temp/
 tmp/
 *.temp
 
-# Auditories PDF
-results/auditoria/
-
 # User Exclusions
 formatos y logo/
 docs/convenios/
