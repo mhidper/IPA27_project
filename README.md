@@ -28,6 +28,7 @@ El repositorio del proyecto sigue una estructura limpia y consolidada para la se
 
 ```text
 IPA27_project/
+├── .github/                     # Workflows de integración continua (deploy del dashboard a GitHub Pages)
 ├── dashboard/                   # Cuadro de mando interactivo web (Vite + React)
 │   └── src/                     # Código fuente de la interfaz de usuario
 ├── data/                        # Datos históricos y procesados del modelo
@@ -43,6 +44,7 @@ IPA27_project/
 │       ├── 02_desafeccion/      # Documentación del índice de desafección
 │       ├── 03_participacion_electoral/ # Estudios de participación electoral
 │       └── notas_trabajo/       # Borradores y notas técnicas de Claude
+├── formatos y logo/             # Archivos de marca, tipografías, logos y assets visuales
 ├── notebooks/                   # Jupyter Notebooks de ejecución (libres de carpetas data/results locales):
 │   ├── 01_extraccion_datos_CCAA.ipynb       # Descarga e integración de APIs y scraping
 │   ├── 01_1_indice_desafeccion_cis.ipynb    # Generación del indicador de desafección (CIS)
@@ -51,9 +53,14 @@ IPA27_project/
 │   ├── 02_2_modelacion.ipynb                # Desestacionalización, trimestralización y nowcast (ARIMA)
 │   └── 02_3_exportacion_geometricas.ipynb   # Scores 0-100, agregación, JSON dashboard y Beamer (LaTeX)
 ├── results/                     # Resultados estadísticos y visuales del proyecto:
+│   ├── auditoria/               # Fichas de auditoría analíticas (PDFs)
 │   ├── data/                    # Exportaciones de series, JSON para web y coeficientes
 │   │   └── archive/             # Versiones históricas de ficheros consolidados ipa27_raw
-│   └── figures/                 # Outputs gráficos y de diagnóstico (reporting y dashboards)
+│   ├── debug/                   # Archivos temporales de validación estadística
+│   ├── figures/                 # Outputs gráficos y de diagnóstico (reporting y dashboards)
+│   └── paper_assets/            # Recursos gráficos generados para publicaciones
+├── scripts/                     # Scripts auxiliares y herramientas de desarrollo
+├── informe_sociedades_inclusivas.md # Informe analítico
 ├── README.md                    # Este archivo
 └── requirements.txt             # Dependencias del entorno de Python
 ```
@@ -68,6 +75,7 @@ graph LR
     
     Root["📁 IPA27_project"]:::folder
     
+    Root --> GitHub["📁 .github (Workflows CI/CD)"]:::folder
     Root --> Dash["📁 dashboard"]:::folder
     Dash --> DashSrc["📁 src (Código React)"]:::folder
     
@@ -84,6 +92,8 @@ graph LR
     DocsMet --> DocsMetNot["📁 notas_trabajo (Borradores y notas)"]:::folder
     Docs --> DocsReadme["📄 README.md"]:::file
     
+    Root --> Format["📁 formatos y logo (Marca y Assets)"]:::folder
+    
     Root --> Notebooks["📁 notebooks"]:::folder
     Notebooks --> NbExt["📓 01_extraccion_datos_CCAA.ipynb"]:::file
     Notebooks --> NbDes["📓 01_1_indice_desafeccion_cis.ipynb"]:::file
@@ -94,11 +104,15 @@ graph LR
     Notebooks --> NbInst["📄 instrucciones_actualizacion_IPA27.md"]:::file
     
     Root --> Results["📁 results"]:::folder
-    Results --> ResData["📁 data (Excel consolidado y JSON web)"]:::folder
-    Results --> ResFigs["📁 figures (Gráficos de resultados y diagnóstico)"]:::folder
+    Results --> ResAud["📁 auditoria (Fichas PDF)"]:::folder
+    Results --> ResData["📁 data (Excel y JSON web)"]:::folder
+    Results --> ResFigs["📁 figures (Gráficos)"]:::folder
+    Results --> ResPap["📁 paper_assets"]:::folder
     
+    Root --> Scripts["📁 scripts (Herramientas auxiliares)"]:::folder
     Root --> RootReadme["📄 README.md"]:::file
     Root --> Req["📄 requirements.txt"]:::file
+    Root --> InfSoc["📄 informe_sociedades_inclusivas.md"]:::file
 ```
 
 ---
