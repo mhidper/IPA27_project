@@ -14,14 +14,13 @@ Para realizar una actualización completa de resultados, ejecute los notebooks e
 3.  **Fase 3: Pipeline Estadístico y Modelación**
     *   `02_1_procesamiento.ipynb`: Carga y prepara las series temporales por frecuencias, realiza imputaciones de datos, calcula variables de escala y exporta los ficheros CSV preparados. Genera el registro inicial de trazabilidad (`AUDIT_REGISTRY`).
     *   `02_2_modelacion.ipynb`: Aplica desestacionalización STL, trimestralización Chow-Lin/Denton y extensiones ARIMA para nowcasting en el trimestre de cierre actual.
-    *   `02_3_exportacion.ipynb`: Calcula los techos objetivos, normaliza los indicadores en el baremo de score (0-100), calcula las agregaciones jerárquicas del índice y exporta:
-        *   Los datos del Cuadro de mando (`dashboard_data.json`).
+    *   `02_3_exportacion_geometricas.ipynb`: Calcula los techos objetivos, normaliza los indicadores en el baremo de score (0-100), calcula las agregaciones jerárquicas del índice y exporta:
+        *   Los datos del Cuadro de mando (`results/data/dashboard_data.json`).
         *   Las Fichas de Auditoría analíticas de trazabilidad en formato PDF (`docs/metodologia/01_general/`).
-        *   El archivo macro LaTeX (`ipa27_variables.tex`) y compila la presentación de resultados Beamer (`presentacion_ipa27_v5.tex`).
+        *   El archivo macro LaTeX y la presentación Beamer de resultados en `docs/presentaciones/`.
 
 ## 📓 Notebooks Auxiliares y Adicionales
 
-*   `03_scraping_REE_renovables.ipynb`: Capturador de datos históricos de generación renovable de Red Eléctrica de España.
 *   `03_playground_edad_media.ipynb`: Entorno de pruebas para la interpolación de edades medias a nivel municipal y regional.
 *   `02_procesamiento_IPA27_CCAA.ipynb`: Versión histórica unificada original (mantenida únicamente como referencia histórica).
 

@@ -29,7 +29,6 @@ El repositorio del proyecto sigue una estructura limpia y consolidada para la se
 ```text
 IPA27_project/
 ├── dashboard/                   # Cuadro de mando interactivo web (Vite + React)
-│   ├── public/data/             # dashboard_data.json y series de datos para la web
 │   └── src/                     # Código fuente de la interfaz de usuario
 ├── data/                        # Datos históricos y procesados del modelo
 │   ├── raw/                     # Datos fuente (archivos de criminalidad, renta, etc.)
@@ -38,8 +37,9 @@ IPA27_project/
 ├── docs/                        # Documentación y metodología unificada y organizada:
 │   ├── convenios/               # Convenios, contratos y memorias técnicas
 │   ├── infografias/             # Infografías del proyecto
+│   ├── presentaciones/          # Ficheros de la presentación Beamer (LaTeX) y gráficas
 │   └── metodologia/             # Todo el material metodológico organizado:
-│       ├── 01_general/          # Metodología general, benchmark y Beamer (LaTeX)
+│       ├── 01_general/          # Metodología general y benchmark
 │       ├── 02_desafeccion/      # Documentación del índice de desafección
 │       ├── 03_participacion_electoral/ # Estudios de participación electoral
 │       └── notas_trabajo/       # Borradores y notas técnicas de Claude
@@ -49,17 +49,11 @@ IPA27_project/
 │   ├── 01_2_participacion_electoral_cis.ipynb # Procesamiento de microdatos electorales
 │   ├── 02_1_procesamiento.ipynb             # Preparación de series por frecuencias y alineación
 │   ├── 02_2_modelacion.ipynb                # Desestacionalización, trimestralización y nowcast (ARIMA)
-│   ├── 02_3_exportacion.ipynb               # Scores 0-100, agregación, JSON dashboard y Beamer (LaTeX)
-│   └── 03_scraping_REE_renovables.ipynb     # Scraping de generación de energías renovables
+│   └── 02_3_exportacion_geometricas.ipynb   # Scores 0-100, agregación, JSON dashboard y Beamer (LaTeX)
 ├── results/                     # Resultados estadísticos y visuales del proyecto:
-│   ├── data/                    # Exportaciones de series y coeficientes en Excel
+│   ├── data/                    # Exportaciones de series, JSON para web y coeficientes
 │   │   └── archive/             # Versiones históricas de ficheros consolidados ipa27_raw
 │   └── figures/                 # Outputs gráficos y de diagnóstico (reporting y dashboards)
-├── src/                         # Módulos Python reutilizables (conectores y extractores):
-│   ├── config.py                
-│   ├── extractors.py            
-│   ├── consolidator.py          
-│   └── connectors.py            
 ├── README.md                    # Este archivo
 └── requirements.txt             # Dependencias del entorno de Python
 ```
@@ -76,15 +70,15 @@ graph LR
     
     Root --> Dash["📁 dashboard"]:::folder
     Dash --> DashSrc["📁 src (Código React)"]:::folder
-    Dash --> DashPub["📁 public/data (dashboard_data.json)"]:::folder
     
     Root --> Data["📁 data"]:::folder
     Data --> DataProc["📁 processed (CSVs intermedios)"]:::folder
     
     Root --> Docs["📁 docs"]:::folder
     Docs --> DocsInfo["📁 infografias"]:::folder
+    Docs --> DocsPres["📁 presentaciones (LaTeX, Beamer)"]:::folder
     Docs --> DocsMet["📁 metodologia"]:::folder
-    DocsMet --> DocsMetGen["📁 01_general (LaTeX, Beamer, Benchmark)"]:::folder
+    DocsMet --> DocsMetGen["📁 01_general (Metodología, Benchmark)"]:::folder
     DocsMet --> DocsMetDes["📁 02_desafeccion (Paper desafección)"]:::folder
     DocsMet --> DocsMetEle["📁 03_participacion_electoral"]:::folder
     DocsMet --> DocsMetNot["📁 notas_trabajo (Borradores y notas)"]:::folder
@@ -96,14 +90,13 @@ graph LR
     Notebooks --> NbPar["📓 01_2_participacion_electoral_cis.ipynb"]:::file
     Notebooks --> NbP1["📓 02_1_procesamiento.ipynb"]:::file
     Notebooks --> NbP2["📓 02_2_modelacion.ipynb"]:::file
-    Notebooks --> NbP3["📓 02_3_exportacion.ipynb"]:::file
+    Notebooks --> NbP3["📓 02_3_exportacion_geometricas.ipynb"]:::file
     Notebooks --> NbInst["📄 instrucciones_actualizacion_IPA27.md"]:::file
     
     Root --> Results["📁 results"]:::folder
-    Results --> ResData["📁 data (Excel consolidado ipa27_raw)"]:::folder
+    Results --> ResData["📁 data (Excel consolidado y JSON web)"]:::folder
     Results --> ResFigs["📁 figures (Gráficos de resultados y diagnóstico)"]:::folder
     
-    Root --> Src["📁 src (Configuración y extractores Python)"]:::folder
     Root --> RootReadme["📄 README.md"]:::file
     Root --> Req["📄 requirements.txt"]:::file
 ```
@@ -144,12 +137,11 @@ Los datos se rescatan automáticamente desde las siguientes plataformas gubernam
 - **INE (Instituto Nacional de Estadística)**
 - **IECA (Instituto de Estadística y Cartografía de Andalucía)**
 - **Ministerio del Interior (Portal Estadístico de Criminalidad)**
-- **Red Eléctrica de España**
 - **CIS (Centro de Investigaciones Sociológicas)**
 
 El output consolidado se guarda automáticamente como `results/data/ipa27_raw_YYYYMMDD.xlsx`.
 
-### 2. Procesamiento y Modelación (`02_1_procesamiento.ipynb`, `02_2_modelacion.ipynb`, `02_3_exportacion.ipynb`)
+### 2. Procesamiento y Modelación (`02_1_procesamiento.ipynb`, `02_2_modelacion.ipynb`, `02_3_exportacion_geometricas.ipynb`)
 El procesamiento principal sigue las siguientes fases lógicas:
 1. **Desestacionalización (STL)**: Depuración de patrones estacionales que ensucian las series de frecuencia mensual o trimestral.
 2. **Trimestralización**: Modelos de interpolación por regresores de Chow-Lin y Denton para homogeneizar series de frecuencia mixta (anuales/mensuales).
@@ -157,8 +149,8 @@ El procesamiento principal sigue las siguientes fases lógicas:
 4. **Normalización por Techos Fijos**: Ajuste de los valores al baremo estándar `0-120`.
 5. **Agregación Geométrica**: Cálculo del índice de los Pilares, Dominios e IPA27 General mediante medias geométricas.
 6. **Exportación de Datos y LaTeX**:
-   - Genera y actualiza `dashboard/public/data/dashboard_data.json` para alimentar la interfaz React.
-   - Genera y escribe el archivo macro de LaTeX `docs/metodologia/01_general/ipa27_variables.tex` y compila la presentación `presentacion_ipa27_v5.tex` a PDF de manera automática.
+   - Genera y actualiza `results/data/dashboard_data.json` para alimentar la interfaz React.
+   - Genera y escribe el archivo macro de LaTeX `docs/presentaciones/ipa27_variables.tex` y compila la presentación `presentacion_ipa27_v5.tex` a PDF de manera automática.
 
 ---
 

@@ -21,7 +21,6 @@ La mayoría de los indicadores se actualizan automáticamente conectando con las
     *   **INE (Tempus/JAXI)**: Hipotecas, Sociedades, Transporte, AROPE, Paro, Educación, I+D.
     *   **IECA**: PIB Trimestral de Andalucía (Auxiliar).
     *   **Ministerio del Interior**: Balances de Criminalidad (Tasa total, Hurtos/Robos, Libertad Sexual).
-    *   **Red Eléctrica (REE)**: Generación Renovable (mediante notebook `03_scraping_REE_renovables.ipynb`).
 
 ---
 
