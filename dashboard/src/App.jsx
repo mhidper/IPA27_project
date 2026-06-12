@@ -715,11 +715,20 @@ const App = () => {
                         <div className="w-2 h-8 bg-brand rounded-full"></div>
                         <h3 className="text-lg font-black text-brand-dark flex items-center justify-between w-full">
                           {dominio}
-                          {current.and.momentum_dominios && current.and.momentum_dominios[dominio] !== undefined && (
-                            <span className={`text-[11px] font-black px-2 py-0.5 rounded-full ${current.and.momentum_dominios[dominio] >= 0 ? 'bg-brand/10 text-brand' : 'bg-rose-50 text-rose-600'}`}>
-                              {current.and.momentum_dominios[dominio] >= 0 ? '↑' : '↓'} {Math.abs(current.and.momentum_dominios[dominio]).toFixed(2)}
-                            </span>
-                          )}
+                          <div className="flex items-center gap-3">
+                            <div className="flex gap-2 text-xs uppercase tracking-wider font-bold">
+                              <span className="text-brand">AND: {current.and.dominios[dominio]?.toFixed(1)}</span>
+                              <span className="text-slate-400">ESP: {current.esp.dominios[dominio]?.toFixed(1)}</span>
+                            </div>
+                            {(() => {
+                              const gap = current.and.dominios[dominio] - current.esp.dominios[dominio];
+                              return (
+                                <div className={`text-xs font-bold px-2 py-1 rounded w-16 text-center ${gap >= 0 ? 'bg-brand/10 text-brand' : 'bg-rose-50 text-rose-700'}`}>
+                                  {gap >= 0 ? '+' : ''}{gap.toFixed(1)}
+                                </div>
+                              );
+                            })()}
+                          </div>
                         </h3>
                       </div>
                       <div className="space-y-6">
@@ -727,14 +736,19 @@ const App = () => {
                           <div key={pilar} className="space-y-1">
                             <h4 className="text-xs font-black text-slate-400 uppercase tracking-widest flex items-center justify-between">
                               {pilar}
-                              <div className="flex items-center gap-2">
-                                <span className="text-brand font-bold">{current.and.pilares[pilar]}</span>
-                                {current.and.momentum_pilares && current.and.momentum_pilares[pilar] !== undefined && (
-                                  <span className={`text-[10px] font-black flex items-center ${current.and.momentum_pilares[pilar] >= 0 ? 'text-brand' : 'text-rose-500'}`}>
-                                    {current.and.momentum_pilares[pilar] >= 0 ? '↑' : '↓'}
-                                    {Math.abs(current.and.momentum_pilares[pilar]).toFixed(1)}
-                                  </span>
-                                )}
+                              <div className="flex items-center gap-3">
+                                <div className="flex gap-2 text-[10px] uppercase tracking-wider font-bold">
+                                  <span className="text-brand">AND: {current.and.pilares[pilar]?.toFixed(1)}</span>
+                                  <span className="text-slate-400">ESP: {current.esp.pilares[pilar]?.toFixed(1)}</span>
+                                </div>
+                                {(() => {
+                                  const gap = current.and.pilares[pilar] - current.esp.pilares[pilar];
+                                  return (
+                                    <div className={`text-[11px] font-bold px-2 py-0.5 rounded w-14 text-center ${gap >= 0 ? 'bg-brand/10 text-brand' : 'bg-rose-50 text-rose-700'}`}>
+                                      {gap >= 0 ? '+' : ''}{gap.toFixed(1)}
+                                    </div>
+                                  );
+                                })()}
                               </div>
                             </h4>
                             <div className="pt-2">
