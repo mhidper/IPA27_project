@@ -786,7 +786,7 @@ const App = () => {
           <div className="flex items-center gap-4 text-slate-400 text-sm font-bold">
             <span>Metodología: Media Geométrica con Techos Fijos (F-100)</span>
             <div className="w-1 h-1 bg-slate-300 rounded-full"></div>
-            <span>Fuente: IECA / INE</span>
+            <span>Fuente: Fundación Andalucía27 a partir de numerosas fuentes públicas (INE, IECA, CIS, CGPJ, ...)</span>
           </div>
           <div className="flex gap-4">
             <div className="w-10 h-10 rounded-xl bg-white border border-slate-100 flex items-center justify-center text-slate-400 hover:text-brand transition-all cursor-pointer shadow-sm"><Layout size={18} /></div>
