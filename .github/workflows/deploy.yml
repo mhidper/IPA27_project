@@ -21,6 +21,8 @@ jobs:
         run: |
           cd dashboard
           npm install --legacy-peer-deps
+          mkdir -p public/data
+          cp ../results/data/dashboard_data.json public/data/
           npm run build
 
       - name: Deploy 🚀
