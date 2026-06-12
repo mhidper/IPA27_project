@@ -699,13 +699,15 @@ const App = () => {
                     ))}
                   </div>
 
-                  <button className="w-full mt-10 py-4 bg-white text-brand rounded-2xl font-black text-sm flex items-center justify-center gap-2 hover:bg-white/90 transition-all shadow-lg relative z-10">
+                  <button 
+                    onClick={() => document.getElementById('analisis-detallado')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
+                    className="w-full mt-10 py-4 bg-white text-brand rounded-2xl font-black text-sm flex items-center justify-center gap-2 hover:bg-white/90 transition-all shadow-lg relative z-10 cursor-pointer">
                     <Info size={16} /> Ver Análisis Detallado
                   </button>
                 </div>
               </div>
 
-              <div className="lg:col-span-12 card-premium p-10 mt-8">
+              <div id="analisis-detallado" className="lg:col-span-12 card-premium p-10 mt-8">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
                   {Object.keys(metadata.structure).map(dominio => (
                     <div key={dominio}>
