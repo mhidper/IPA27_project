@@ -720,11 +720,11 @@ const App = () => {
                             <h4 className="text-xs font-black text-slate-400 uppercase tracking-widest flex items-center justify-between">
                               {pilar}
                               <div className="flex items-center gap-2">
-                                <span className="text-brand font-bold">{current.and.pilares[pilar.split('. ')[1]]}</span>
-                                {current.and.momentum_pilares && current.and.momentum_pilares[pilar.split('. ')[1]] !== undefined && (
-                                  <span className={`text-[10px] font-black flex items-center ${current.and.momentum_pilares[pilar.split('. ')[1]] >= 0 ? 'text-brand' : 'text-rose-500'}`}>
-                                    {current.and.momentum_pilares[pilar.split('. ')[1]] >= 0 ? '↑' : '↓'}
-                                    {Math.abs(current.and.momentum_pilares[pilar.split('. ')[1]]).toFixed(1)}
+                                <span className="text-brand font-bold">{current.and.pilares[pilar]}</span>
+                                {current.and.momentum_pilares && current.and.momentum_pilares[pilar] !== undefined && (
+                                  <span className={`text-[10px] font-black flex items-center ${current.and.momentum_pilares[pilar] >= 0 ? 'text-brand' : 'text-rose-500'}`}>
+                                    {current.and.momentum_pilares[pilar] >= 0 ? '↑' : '↓'}
+                                    {Math.abs(current.and.momentum_pilares[pilar]).toFixed(1)}
                                   </span>
                                 )}
                               </div>
