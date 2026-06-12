@@ -661,34 +661,40 @@ const App = () => {
 
                 <div className="bg-brand rounded-[2.5rem] p-10 text-white shadow-xl shadow-brand/20 relative overflow-hidden">
                   <div className="absolute top-0 right-0 w-40 h-40 bg-white/5 rounded-full -mr-20 -mt-20"></div>
-                  <div className="flex items-center gap-3 mb-8 relative z-10">
-                    <div className="w-10 h-10 bg-white/10 rounded-2xl flex items-center justify-center">
+                  <div className="flex items-start gap-3 mb-8 relative z-10">
+                    <div className="w-10 h-10 bg-white/10 rounded-2xl flex items-center justify-center shrink-0">
                       <AlertTriangle size={24} className="text-albero" />
                     </div>
-                    <h2 className="text-xl font-black tracking-tight">Cuellos de Botella</h2>
-                    <div className="relative inline-flex ml-1"
-                      onMouseEnter={(e) => { const tip = e.currentTarget.querySelector('.tip'); if (tip) tip.style.display = 'block'; }}
-                      onMouseLeave={(e) => { const tip = e.currentTarget.querySelector('.tip'); if (tip) tip.style.display = 'none'; }}
-                    >
-                      <div className="w-5 h-5 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center cursor-help transition-colors border border-white/20">
-                        <Info size={12} className="text-white/60" />
+                    <div className="flex-1">
+                      <div className="flex items-center">
+                        <h2 className="text-xl font-black tracking-tight">Cuellos de Botella</h2>
+                        <div className="relative inline-flex ml-2"
+                          onMouseEnter={(e) => { const tip = e.currentTarget.querySelector('.tip'); if (tip) tip.style.display = 'block'; }}
+                          onMouseLeave={(e) => { const tip = e.currentTarget.querySelector('.tip'); if (tip) tip.style.display = 'none'; }}
+                        >
+                          <div className="w-5 h-5 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center cursor-help transition-colors border border-white/20">
+                            <Info size={12} className="text-white/60" />
+                          </div>
+                          <div className="tip absolute z-50 bottom-full left-1/2 -translate-x-1/2 mb-2 w-72 px-4 py-3 bg-white text-brand-dark text-xs leading-relaxed font-medium rounded-xl shadow-xl pointer-events-none" style={{ display: 'none' }}>
+                            Los 5 indicadores con peor nota absoluta. Miden la distancia frente a las comunidades autónomas líderes (Techos Fijos), con independencia de la media de España.
+                            <div className="absolute top-full left-1/2 -translate-x-1/2 w-2 h-2 bg-white rotate-45 -mt-1"></div>
+                          </div>
+                        </div>
                       </div>
-                      <div className="tip absolute z-50 bottom-full left-1/2 -translate-x-1/2 mb-2 w-72 px-4 py-3 bg-white text-brand-dark text-xs leading-relaxed font-medium rounded-xl shadow-xl pointer-events-none" style={{ display: 'none' }}>
-                        Los 3 indicadores de Andalucía con peor score normalizado. Son las áreas que más frenan el avance del IPA27 y donde las políticas públicas tendrían mayor impacto marginal.
-                        <div className="absolute top-full left-1/2 -translate-x-1/2 w-2 h-2 bg-white rotate-45 -mt-1"></div>
-                      </div>
+                      <p className="text-xs font-medium text-white/70 mt-1.5 leading-relaxed">
+                        Mayores brechas (peor nota sobre 100) en comparación con el estándar de excelencia nacional.
+                      </p>
                     </div>
                   </div>
 
-                  <div className="space-y-6 relative z-10">
-                    {bottlenecks.map((item, idx) => (
+                  <div className="space-y-5 relative z-10">
+                    {current.and.diagnostico.indicadores_ranking.slice(0, 5).map((item, idx) => (
                       <div key={item.code} className="group cursor-default">
-                        <div className="flex items-center justify-between mb-2">
+                        <div className="flex items-center justify-between mb-1.5">
                           <span className="text-[10px] font-black uppercase tracking-[0.2em] opacity-60">Alerta {idx + 1}</span>
-                          <span className="text-xs px-2 py-0.5 bg-brand-light text-white rounded-full font-black">{item.value} pts</span>
+                          <span className="text-xs px-2 py-0.5 bg-brand-light text-white rounded-full font-black">{item.score} pts</span>
                         </div>
                         <p className="text-lg font-bold group-hover:translate-x-1 transition-transform">{item.name}</p>
-                        <p className="text-sm opacity-70 font-medium mt-1">Este indicador presenta la mayor brecha de eficiencia en el último registro.</p>
                       </div>
                     ))}
                   </div>
