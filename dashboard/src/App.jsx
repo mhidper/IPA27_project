@@ -708,6 +708,15 @@ const App = () => {
               </div>
 
               <div id="analisis-detallado" className="lg:col-span-12 card-premium p-10 mt-8">
+                <div className="mb-10 pb-6 border-b border-slate-100">
+                  <h2 className="text-2xl font-black text-brand-dark flex items-center gap-3">
+                    <Layout className="text-brand" size={28} />
+                    Desglose Completo de Puntuaciones
+                  </h2>
+                  <p className="text-slate-500 mt-3 max-w-3xl leading-relaxed">
+                    Esta sección muestra la radiografía completa del Índice de Prosperidad. Para cada nivel jerárquico (Dominio, Pilar e Indicador), se presenta el score normalizado de <span className="font-bold text-brand">Andalucía (AND)</span>, el valor de referencia de <span className="font-bold text-slate-500">España (ESP)</span> y la brecha absoluta existente entre ambos. Los valores positivos en verde indican una ventaja para Andalucía, mientras que los negativos en rojo señalan un área de mejora.
+                  </p>
+                </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
                   {Object.keys(metadata.structure).map(dominio => (
                     <div key={dominio}>
