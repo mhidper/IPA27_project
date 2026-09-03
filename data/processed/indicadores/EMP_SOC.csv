@@ -182,9 +182,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-01-01,2025-M01,AND,EMP_SOC,1864.0,Mensual,Andalucía. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2025-02-01,2025-M02,AND,EMP_SOC,1292.0,Mensual,Andalucía. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2025-03-01,2025-M03,AND,EMP_SOC,1804.0,Mensual,Andalucía. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
-2025-04-01,2025-M04,AND,EMP_SOC,1974.0,Mensual,Andalucía. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
-2025-05-01,2025-M05,AND,EMP_SOC,2364.0,Mensual,Andalucía. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
-2025-06-01,2025-M06,AND,EMP_SOC,1835.0,Mensual,Andalucía. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2025-04-01,2025-M04,AND,EMP_SOC,1975.0,Mensual,Andalucía. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2025-05-01,2025-M05,AND,EMP_SOC,2365.0,Mensual,Andalucía. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2025-06-01,2025-M06,AND,EMP_SOC,1836.0,Mensual,Andalucía. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2025-07-01,2025-M07,AND,EMP_SOC,1769.0,Mensual,Andalucía. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2025-08-01,2025-M08,AND,EMP_SOC,1188.0,Mensual,Andalucía. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2025-09-01,2025-M09,AND,EMP_SOC,1520.0,Mensual,Andalucía. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
@@ -194,6 +194,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-01-01,2026-M01,AND,EMP_SOC,1918.0,Mensual,Andalucía. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2026-02-01,2026-M02,AND,EMP_SOC,2138.0,Mensual,Andalucía. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2026-03-01,2026-M03,AND,EMP_SOC,2380.0,Mensual,Andalucía. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-04-01,2026-M04,AND,EMP_SOC,1825.0,Mensual,Andalucía. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-05-01,2026-M05,AND,EMP_SOC,1899.0,Mensual,Andalucía. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-06-01,2026-M06,AND,EMP_SOC,1804.0,Mensual,Andalucía. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-01-01,2010-M01,ARA,EMP_SOC,166.0,Mensual,Aragón. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-02-01,2010-M02,ARA,EMP_SOC,210.0,Mensual,Aragón. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-03-01,2010-M03,ARA,EMP_SOC,206.0,Mensual,Aragón. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
@@ -389,6 +392,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-01-01,2026-M01,ARA,EMP_SOC,206.0,Mensual,Aragón. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2026-02-01,2026-M02,ARA,EMP_SOC,275.0,Mensual,Aragón. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2026-03-01,2026-M03,ARA,EMP_SOC,303.0,Mensual,Aragón. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-04-01,2026-M04,ARA,EMP_SOC,215.0,Mensual,Aragón. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-05-01,2026-M05,ARA,EMP_SOC,230.0,Mensual,Aragón. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-06-01,2026-M06,ARA,EMP_SOC,273.0,Mensual,Aragón. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-01-01,2010-M01,AST,EMP_SOC,113.0,Mensual,"Asturias, Principado de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2010-02-01,2010-M02,AST,EMP_SOC,127.0,Mensual,"Asturias, Principado de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2010-03-01,2010-M03,AST,EMP_SOC,105.0,Mensual,"Asturias, Principado de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
@@ -584,6 +590,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-01-01,2026-M01,AST,EMP_SOC,180.0,Mensual,"Asturias, Principado de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2026-02-01,2026-M02,AST,EMP_SOC,185.0,Mensual,"Asturias, Principado de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2026-03-01,2026-M03,AST,EMP_SOC,167.0,Mensual,"Asturias, Principado de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
+2026-04-01,2026-M04,AST,EMP_SOC,141.0,Mensual,"Asturias, Principado de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
+2026-05-01,2026-M05,AST,EMP_SOC,141.0,Mensual,"Asturias, Principado de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
+2026-06-01,2026-M06,AST,EMP_SOC,161.0,Mensual,"Asturias, Principado de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2010-01-01,2010-M01,BAL,EMP_SOC,135.0,Mensual,"Balears, Illes. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2010-02-01,2010-M02,BAL,EMP_SOC,185.0,Mensual,"Balears, Illes. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2010-03-01,2010-M03,BAL,EMP_SOC,221.0,Mensual,"Balears, Illes. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
@@ -779,6 +788,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-01-01,2026-M01,BAL,EMP_SOC,434.0,Mensual,"Balears, Illes. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2026-02-01,2026-M02,BAL,EMP_SOC,465.0,Mensual,"Balears, Illes. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2026-03-01,2026-M03,BAL,EMP_SOC,506.0,Mensual,"Balears, Illes. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
+2026-04-01,2026-M04,BAL,EMP_SOC,452.0,Mensual,"Balears, Illes. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
+2026-05-01,2026-M05,BAL,EMP_SOC,432.0,Mensual,"Balears, Illes. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
+2026-06-01,2026-M06,BAL,EMP_SOC,392.0,Mensual,"Balears, Illes. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2010-01-01,2010-M01,CAN,EMP_SOC,184.0,Mensual,Canarias. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-02-01,2010-M02,CAN,EMP_SOC,223.0,Mensual,Canarias. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-03-01,2010-M03,CAN,EMP_SOC,360.0,Mensual,Canarias. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
@@ -963,8 +975,8 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-02-01,2025-M02,CAN,EMP_SOC,285.0,Mensual,Canarias. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2025-03-01,2025-M03,CAN,EMP_SOC,402.0,Mensual,Canarias. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2025-04-01,2025-M04,CAN,EMP_SOC,427.0,Mensual,Canarias. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
-2025-05-01,2025-M05,CAN,EMP_SOC,429.0,Mensual,Canarias. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
-2025-06-01,2025-M06,CAN,EMP_SOC,417.0,Mensual,Canarias. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2025-05-01,2025-M05,CAN,EMP_SOC,430.0,Mensual,Canarias. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2025-06-01,2025-M06,CAN,EMP_SOC,419.0,Mensual,Canarias. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2025-07-01,2025-M07,CAN,EMP_SOC,436.0,Mensual,Canarias. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2025-08-01,2025-M08,CAN,EMP_SOC,306.0,Mensual,Canarias. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2025-09-01,2025-M09,CAN,EMP_SOC,361.0,Mensual,Canarias. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
@@ -974,6 +986,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-01-01,2026-M01,CAN,EMP_SOC,387.0,Mensual,Canarias. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2026-02-01,2026-M02,CAN,EMP_SOC,394.0,Mensual,Canarias. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2026-03-01,2026-M03,CAN,EMP_SOC,506.0,Mensual,Canarias. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-04-01,2026-M04,CAN,EMP_SOC,387.0,Mensual,Canarias. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-05-01,2026-M05,CAN,EMP_SOC,400.0,Mensual,Canarias. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-06-01,2026-M06,CAN,EMP_SOC,363.0,Mensual,Canarias. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-01-01,2010-M01,CANT,EMP_SOC,59.0,Mensual,Cantabria. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-02-01,2010-M02,CANT,EMP_SOC,60.0,Mensual,Cantabria. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-03-01,2010-M03,CANT,EMP_SOC,104.0,Mensual,Cantabria. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
@@ -1169,6 +1184,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-01-01,2026-M01,CANT,EMP_SOC,77.0,Mensual,Cantabria. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2026-02-01,2026-M02,CANT,EMP_SOC,107.0,Mensual,Cantabria. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2026-03-01,2026-M03,CANT,EMP_SOC,109.0,Mensual,Cantabria. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-04-01,2026-M04,CANT,EMP_SOC,110.0,Mensual,Cantabria. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-05-01,2026-M05,CANT,EMP_SOC,78.0,Mensual,Cantabria. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-06-01,2026-M06,CANT,EMP_SOC,92.0,Mensual,Cantabria. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-01-01,2010-M01,CAT,EMP_SOC,1132.0,Mensual,Cataluña. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-02-01,2010-M02,CAT,EMP_SOC,1325.0,Mensual,Cataluña. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-03-01,2010-M03,CAT,EMP_SOC,1615.0,Mensual,Cataluña. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
@@ -1352,9 +1370,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-01-01,2025-M01,CAT,EMP_SOC,2125.0,Mensual,Cataluña. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2025-02-01,2025-M02,CAT,EMP_SOC,1636.0,Mensual,Cataluña. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2025-03-01,2025-M03,CAT,EMP_SOC,1848.0,Mensual,Cataluña. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
-2025-04-01,2025-M04,CAT,EMP_SOC,2431.0,Mensual,Cataluña. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2025-04-01,2025-M04,CAT,EMP_SOC,2432.0,Mensual,Cataluña. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2025-05-01,2025-M05,CAT,EMP_SOC,2800.0,Mensual,Cataluña. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
-2025-06-01,2025-M06,CAT,EMP_SOC,1950.0,Mensual,Cataluña. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2025-06-01,2025-M06,CAT,EMP_SOC,1951.0,Mensual,Cataluña. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2025-07-01,2025-M07,CAT,EMP_SOC,2300.0,Mensual,Cataluña. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2025-08-01,2025-M08,CAT,EMP_SOC,1486.0,Mensual,Cataluña. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2025-09-01,2025-M09,CAT,EMP_SOC,1618.0,Mensual,Cataluña. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
@@ -1364,6 +1382,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-01-01,2026-M01,CAT,EMP_SOC,2395.0,Mensual,Cataluña. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2026-02-01,2026-M02,CAT,EMP_SOC,2469.0,Mensual,Cataluña. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2026-03-01,2026-M03,CAT,EMP_SOC,2754.0,Mensual,Cataluña. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-04-01,2026-M04,CAT,EMP_SOC,2319.0,Mensual,Cataluña. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-05-01,2026-M05,CAT,EMP_SOC,2180.0,Mensual,Cataluña. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-06-01,2026-M06,CAT,EMP_SOC,2142.0,Mensual,Cataluña. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-01-01,2010-M01,CLM,EMP_SOC,199.0,Mensual,Castilla - La Mancha. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-02-01,2010-M02,CLM,EMP_SOC,263.0,Mensual,Castilla - La Mancha. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-03-01,2010-M03,CLM,EMP_SOC,305.0,Mensual,Castilla - La Mancha. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
@@ -1559,6 +1580,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-01-01,2026-M01,CLM,EMP_SOC,316.0,Mensual,Castilla - La Mancha. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2026-02-01,2026-M02,CLM,EMP_SOC,353.0,Mensual,Castilla - La Mancha. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2026-03-01,2026-M03,CLM,EMP_SOC,459.0,Mensual,Castilla - La Mancha. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-04-01,2026-M04,CLM,EMP_SOC,330.0,Mensual,Castilla - La Mancha. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-05-01,2026-M05,CLM,EMP_SOC,323.0,Mensual,Castilla - La Mancha. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-06-01,2026-M06,CLM,EMP_SOC,312.0,Mensual,Castilla - La Mancha. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-01-01,2010-M01,CYL,EMP_SOC,221.0,Mensual,Castilla y León. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-02-01,2010-M02,CYL,EMP_SOC,306.0,Mensual,Castilla y León. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-03-01,2010-M03,CYL,EMP_SOC,355.0,Mensual,Castilla y León. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
@@ -1754,6 +1778,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-01-01,2026-M01,CYL,EMP_SOC,304.0,Mensual,Castilla y León. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2026-02-01,2026-M02,CYL,EMP_SOC,338.0,Mensual,Castilla y León. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2026-03-01,2026-M03,CYL,EMP_SOC,388.0,Mensual,Castilla y León. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-04-01,2026-M04,CYL,EMP_SOC,278.0,Mensual,Castilla y León. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-05-01,2026-M05,CYL,EMP_SOC,319.0,Mensual,Castilla y León. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-06-01,2026-M06,CYL,EMP_SOC,300.0,Mensual,Castilla y León. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-01-01,2010-M01,ESP,EMP_SOC,6268.0,Mensual,Sociedades Constituídas. Número de Sociedades. Total Nacional. Mercantiles. 
 2010-02-01,2010-M02,ESP,EMP_SOC,7757.0,Mensual,Sociedades Constituídas. Número de Sociedades. Total Nacional. Mercantiles. 
 2010-03-01,2010-M03,ESP,EMP_SOC,8731.0,Mensual,Sociedades Constituídas. Número de Sociedades. Total Nacional. Mercantiles. 
@@ -1937,9 +1964,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-01-01,2025-M01,ESP,EMP_SOC,10678.0,Mensual,Sociedades Constituídas. Número de Sociedades. Total Nacional. Mercantiles. 
 2025-02-01,2025-M02,ESP,EMP_SOC,8747.0,Mensual,Sociedades Constituídas. Número de Sociedades. Total Nacional. Mercantiles. 
 2025-03-01,2025-M03,ESP,EMP_SOC,10595.0,Mensual,Sociedades Constituídas. Número de Sociedades. Total Nacional. Mercantiles. 
-2025-04-01,2025-M04,ESP,EMP_SOC,11794.0,Mensual,Sociedades Constituídas. Número de Sociedades. Total Nacional. Mercantiles. 
-2025-05-01,2025-M05,ESP,EMP_SOC,13229.0,Mensual,Sociedades Constituídas. Número de Sociedades. Total Nacional. Mercantiles. 
-2025-06-01,2025-M06,ESP,EMP_SOC,10964.0,Mensual,Sociedades Constituídas. Número de Sociedades. Total Nacional. Mercantiles. 
+2025-04-01,2025-M04,ESP,EMP_SOC,11798.0,Mensual,Sociedades Constituídas. Número de Sociedades. Total Nacional. Mercantiles. 
+2025-05-01,2025-M05,ESP,EMP_SOC,13231.0,Mensual,Sociedades Constituídas. Número de Sociedades. Total Nacional. Mercantiles. 
+2025-06-01,2025-M06,ESP,EMP_SOC,10969.0,Mensual,Sociedades Constituídas. Número de Sociedades. Total Nacional. Mercantiles. 
 2025-07-01,2025-M07,ESP,EMP_SOC,10902.0,Mensual,Sociedades Constituídas. Número de Sociedades. Total Nacional. Mercantiles. 
 2025-08-01,2025-M08,ESP,EMP_SOC,7118.0,Mensual,Sociedades Constituídas. Número de Sociedades. Total Nacional. Mercantiles. 
 2025-09-01,2025-M09,ESP,EMP_SOC,9252.0,Mensual,Sociedades Constituídas. Número de Sociedades. Total Nacional. Mercantiles. 
@@ -1949,6 +1976,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-01-01,2026-M01,ESP,EMP_SOC,11623.0,Mensual,Sociedades Constituídas. Número de Sociedades. Total Nacional. Mercantiles. 
 2026-02-01,2026-M02,ESP,EMP_SOC,12684.0,Mensual,Sociedades Constituídas. Número de Sociedades. Total Nacional. Mercantiles. 
 2026-03-01,2026-M03,ESP,EMP_SOC,14307.0,Mensual,Sociedades Constituídas. Número de Sociedades. Total Nacional. Mercantiles. 
+2026-04-01,2026-M04,ESP,EMP_SOC,11558.0,Mensual,Sociedades Constituídas. Número de Sociedades. Total Nacional. Mercantiles. 
+2026-05-01,2026-M05,ESP,EMP_SOC,11194.0,Mensual,Sociedades Constituídas. Número de Sociedades. Total Nacional. Mercantiles. 
+2026-06-01,2026-M06,ESP,EMP_SOC,11153.0,Mensual,Sociedades Constituídas. Número de Sociedades. Total Nacional. Mercantiles. 
 2010-01-01,2010-M01,EXT,EMP_SOC,98.0,Mensual,Extremadura. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-02-01,2010-M02,EXT,EMP_SOC,139.0,Mensual,Extremadura. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-03-01,2010-M03,EXT,EMP_SOC,134.0,Mensual,Extremadura. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
@@ -2144,6 +2174,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-01-01,2026-M01,EXT,EMP_SOC,141.0,Mensual,Extremadura. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2026-02-01,2026-M02,EXT,EMP_SOC,150.0,Mensual,Extremadura. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2026-03-01,2026-M03,EXT,EMP_SOC,174.0,Mensual,Extremadura. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-04-01,2026-M04,EXT,EMP_SOC,132.0,Mensual,Extremadura. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-05-01,2026-M05,EXT,EMP_SOC,115.0,Mensual,Extremadura. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-06-01,2026-M06,EXT,EMP_SOC,145.0,Mensual,Extremadura. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-01-01,2010-M01,GAL,EMP_SOC,302.0,Mensual,Galicia. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-02-01,2010-M02,GAL,EMP_SOC,358.0,Mensual,Galicia. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-03-01,2010-M03,GAL,EMP_SOC,442.0,Mensual,Galicia. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
@@ -2339,6 +2372,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-01-01,2026-M01,GAL,EMP_SOC,439.0,Mensual,Galicia. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2026-02-01,2026-M02,GAL,EMP_SOC,473.0,Mensual,Galicia. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2026-03-01,2026-M03,GAL,EMP_SOC,529.0,Mensual,Galicia. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-04-01,2026-M04,GAL,EMP_SOC,439.0,Mensual,Galicia. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-05-01,2026-M05,GAL,EMP_SOC,389.0,Mensual,Galicia. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-06-01,2026-M06,GAL,EMP_SOC,379.0,Mensual,Galicia. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-01-01,2010-M01,MAD,EMP_SOC,1373.0,Mensual,"Madrid, Comunidad de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2010-02-01,2010-M02,MAD,EMP_SOC,1736.0,Mensual,"Madrid, Comunidad de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2010-03-01,2010-M03,MAD,EMP_SOC,1774.0,Mensual,"Madrid, Comunidad de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
@@ -2534,6 +2570,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-01-01,2026-M01,MAD,EMP_SOC,2483.0,Mensual,"Madrid, Comunidad de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2026-02-01,2026-M02,MAD,EMP_SOC,2615.0,Mensual,"Madrid, Comunidad de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2026-03-01,2026-M03,MAD,EMP_SOC,3173.0,Mensual,"Madrid, Comunidad de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
+2026-04-01,2026-M04,MAD,EMP_SOC,2537.0,Mensual,"Madrid, Comunidad de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
+2026-05-01,2026-M05,MAD,EMP_SOC,2327.0,Mensual,"Madrid, Comunidad de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
+2026-06-01,2026-M06,MAD,EMP_SOC,2510.0,Mensual,"Madrid, Comunidad de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2010-01-01,2010-M01,MUR,EMP_SOC,180.0,Mensual,"Murcia, Región de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2010-02-01,2010-M02,MUR,EMP_SOC,183.0,Mensual,"Murcia, Región de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2010-03-01,2010-M03,MUR,EMP_SOC,230.0,Mensual,"Murcia, Región de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
@@ -2729,6 +2768,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-01-01,2026-M01,MUR,EMP_SOC,338.0,Mensual,"Murcia, Región de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2026-02-01,2026-M02,MUR,EMP_SOC,352.0,Mensual,"Murcia, Región de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2026-03-01,2026-M03,MUR,EMP_SOC,389.0,Mensual,"Murcia, Región de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
+2026-04-01,2026-M04,MUR,EMP_SOC,333.0,Mensual,"Murcia, Región de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
+2026-05-01,2026-M05,MUR,EMP_SOC,290.0,Mensual,"Murcia, Región de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
+2026-06-01,2026-M06,MUR,EMP_SOC,301.0,Mensual,"Murcia, Región de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2010-01-01,2010-M01,NAV,EMP_SOC,88.0,Mensual,"Navarra, Comunidad Foral de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2010-02-01,2010-M02,NAV,EMP_SOC,104.0,Mensual,"Navarra, Comunidad Foral de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2010-03-01,2010-M03,NAV,EMP_SOC,94.0,Mensual,"Navarra, Comunidad Foral de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
@@ -2924,6 +2966,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-01-01,2026-M01,NAV,EMP_SOC,94.0,Mensual,"Navarra, Comunidad Foral de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2026-02-01,2026-M02,NAV,EMP_SOC,127.0,Mensual,"Navarra, Comunidad Foral de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2026-03-01,2026-M03,NAV,EMP_SOC,110.0,Mensual,"Navarra, Comunidad Foral de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
+2026-04-01,2026-M04,NAV,EMP_SOC,110.0,Mensual,"Navarra, Comunidad Foral de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
+2026-05-01,2026-M05,NAV,EMP_SOC,86.0,Mensual,"Navarra, Comunidad Foral de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
+2026-06-01,2026-M06,NAV,EMP_SOC,139.0,Mensual,"Navarra, Comunidad Foral de. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2010-01-01,2010-M01,PV,EMP_SOC,247.0,Mensual,País Vasco. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-02-01,2010-M02,PV,EMP_SOC,341.0,Mensual,País Vasco. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-03-01,2010-M03,PV,EMP_SOC,370.0,Mensual,País Vasco. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
@@ -3107,7 +3152,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-01-01,2025-M01,PV,EMP_SOC,328.0,Mensual,País Vasco. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2025-02-01,2025-M02,PV,EMP_SOC,311.0,Mensual,País Vasco. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2025-03-01,2025-M03,PV,EMP_SOC,383.0,Mensual,País Vasco. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
-2025-04-01,2025-M04,PV,EMP_SOC,343.0,Mensual,País Vasco. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2025-04-01,2025-M04,PV,EMP_SOC,345.0,Mensual,País Vasco. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2025-05-01,2025-M05,PV,EMP_SOC,366.0,Mensual,País Vasco. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2025-06-01,2025-M06,PV,EMP_SOC,329.0,Mensual,País Vasco. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2025-07-01,2025-M07,PV,EMP_SOC,306.0,Mensual,País Vasco. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
@@ -3119,6 +3164,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-01-01,2026-M01,PV,EMP_SOC,322.0,Mensual,País Vasco. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2026-02-01,2026-M02,PV,EMP_SOC,403.0,Mensual,País Vasco. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2026-03-01,2026-M03,PV,EMP_SOC,439.0,Mensual,País Vasco. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-04-01,2026-M04,PV,EMP_SOC,316.0,Mensual,País Vasco. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-05-01,2026-M05,PV,EMP_SOC,363.0,Mensual,País Vasco. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-06-01,2026-M06,PV,EMP_SOC,369.0,Mensual,País Vasco. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-01-01,2010-M01,RIO,EMP_SOC,37.0,Mensual,"Rioja, La. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2010-02-01,2010-M02,RIO,EMP_SOC,36.0,Mensual,"Rioja, La. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2010-03-01,2010-M03,RIO,EMP_SOC,30.0,Mensual,"Rioja, La. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
@@ -3314,6 +3362,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-01-01,2026-M01,RIO,EMP_SOC,46.0,Mensual,"Rioja, La. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2026-02-01,2026-M02,RIO,EMP_SOC,58.0,Mensual,"Rioja, La. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2026-03-01,2026-M03,RIO,EMP_SOC,56.0,Mensual,"Rioja, La. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
+2026-04-01,2026-M04,RIO,EMP_SOC,44.0,Mensual,"Rioja, La. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
+2026-05-01,2026-M05,RIO,EMP_SOC,45.0,Mensual,"Rioja, La. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
+2026-06-01,2026-M06,RIO,EMP_SOC,56.0,Mensual,"Rioja, La. Sociedades Constituídas. Mercantiles. Número de Sociedades. "
 2010-01-01,2010-M01,VAL,EMP_SOC,728.0,Mensual,Comunitat Valenciana. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-02-01,2010-M02,VAL,EMP_SOC,940.0,Mensual,Comunitat Valenciana. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2010-03-01,2010-M03,VAL,EMP_SOC,1010.0,Mensual,Comunitat Valenciana. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
@@ -3499,7 +3550,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-03-01,2025-M03,VAL,EMP_SOC,1333.0,Mensual,Comunitat Valenciana. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2025-04-01,2025-M04,VAL,EMP_SOC,1323.0,Mensual,Comunitat Valenciana. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2025-05-01,2025-M05,VAL,EMP_SOC,1726.0,Mensual,Comunitat Valenciana. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
-2025-06-01,2025-M06,VAL,EMP_SOC,1518.0,Mensual,Comunitat Valenciana. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2025-06-01,2025-M06,VAL,EMP_SOC,1519.0,Mensual,Comunitat Valenciana. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2025-07-01,2025-M07,VAL,EMP_SOC,1348.0,Mensual,Comunitat Valenciana. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2025-08-01,2025-M08,VAL,EMP_SOC,950.0,Mensual,Comunitat Valenciana. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2025-09-01,2025-M09,VAL,EMP_SOC,1325.0,Mensual,Comunitat Valenciana. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
@@ -3509,3 +3560,6 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-01-01,2026-M01,VAL,EMP_SOC,1535.0,Mensual,Comunitat Valenciana. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2026-02-01,2026-M02,VAL,EMP_SOC,1772.0,Mensual,Comunitat Valenciana. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
 2026-03-01,2026-M03,VAL,EMP_SOC,1853.0,Mensual,Comunitat Valenciana. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-04-01,2026-M04,VAL,EMP_SOC,1583.0,Mensual,Comunitat Valenciana. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-05-01,2026-M05,VAL,EMP_SOC,1561.0,Mensual,Comunitat Valenciana. Sociedades Constituídas. Mercantiles. Número de Sociedades. 
+2026-06-01,2026-M06,VAL,EMP_SOC,1403.0,Mensual,Comunitat Valenciana. Sociedades Constituídas. Mercantiles. Número de Sociedades. 

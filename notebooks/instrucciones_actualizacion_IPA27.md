@@ -17,10 +17,10 @@ La mayoría de los indicadores se actualizan automáticamente conectando con las
 
 1.  Abre el notebook `01_extraccion_datos_CCAA.ipynb`.
 2.  Ejecuta la **Celda 0** (Configuración) y **Celda 4** (Motor de descarga).
-3.  Llama a la función `descargar_todos()` para actualizar los siguientes indicadores:
-    *   **INE (Tempus/JAXI)**: Hipotecas, Sociedades, Transporte, AROPE, Paro, Educación, I+D.
-    *   **IECA**: PIB Trimestral de Andalucía (Auxiliar).
-    *   **Ministerio del Interior**: Balances de Criminalidad (Tasa total, Hurtos/Robos, Libertad Sexual).
+20: 3.  Llama a la función `descargar_todos()` para actualizar los siguientes indicadores:
+21:     *   **INE (Tempus/JAXI)**: Hipotecas, Sociedades, Transporte, AROPE, Paro, Educación, I+D, Población y Edad Media (`AUX_EDA`).
+22:     *   **IECA**: PIB Trimestral de Andalucía (Auxiliar).
+23:     *   **Ministerio del Interior**: Balances de Criminalidad (Tasa total, Hurtos/Robos, Libertad Sexual).
 
 ---
 
@@ -35,8 +35,8 @@ Para estos indicadores, debes descargar los datos brutos antes de ejecutar el pr
     *   Ejecuta `01_2_participacion_electoral_cis.ipynb` para actualizar la probabilidad de voto.
 
 ### B. Afiliados Seguridad Social (CON_OCI / SOC_ASO)
-1.  **Descarga**: Ve al portal de estadísticas de la Seguridad Social (Series de Afiliación por CNAE a 2 dígitos). [Enlace a Estadísticas SS](https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas/EST8/EST10/EST305/c43ad8ea-fe79-4329-ac8e-e5758f3c4d7a/f83fe4aa-2dee-49c5-8317-98d105813796)
-2.  **Extracción**: Descarga los datos de afiliados para las secciones **S (94)** para Asociacionismo (`SOC_ASO`) y **J + M** para Conocimiento Intensivo (`CON_OCI`).
+1.  **Descarga**: Ve al portal de estadísticas de la Seguridad Social (Series de Afiliación por CNAE a 2 dígitos). [Enlace a Estadísticas SS](https://w6.seg-social.es/PXWeb/sq/ac0b7dd9-aa24-4b34-ae1b-2f51df0dc018)
+2.  **Extracción**: Descarga los datos de afiliados para las secciones **K** y **N** Y **T** .
 3.  **Ubicación**: Actualiza el archivo `data/raw/other/ss_afiliados ccaas.csv`.
 4.  **Nota Técnica (CNAE-2025)**: En enero de 2026 se ha cambiado a la clasificación **CNAE-2025**. Los datos de enero 2026 a abril 2026 son los extraídos directamente de la web de la Seguridad Social. Para los datos anteriores, se ha realizado un enlace de series aplicando un crecimiento del **0,2% mensual** entre diciembre de 2025 y enero de 2026 de forma uniforme para todos los sectores.
 
@@ -54,13 +54,12 @@ Para estos indicadores, debes descargar los datos brutos antes de ejecutar el pr
 ### D. Otros Archivos Externos
 | Indicador | Fuente | Web de Descarga | Fichero Destino |
 | :--- | :--- | :--- | :--- |
-| **LIB_ODI** | Min. Interior | [Delitos de Odio](https://oficinanacional-delitosdeodio.ses.mir.es/publico/ONDOD/publicaciones.html) | `data/raw/other/mir_odio CCAA.xls` Se toma el primero de los desplegables Descarga ficheros Informacion tabla Hechos conocidos por causa de delitos de odio desglosado por tipo hecho|
+| **LIB_ODI** | Min. Interior | [Delitos de Odio](https://oficinanacional-delitosdeodio.ses.mir.es/publico/ONDOD/publicaciones.html) | `data/raw/other/mir_odio CCAA.xls` En informes desde 2000, se abre y obtenemos pdfs y listas al modo de INE más abajo. Se toma el primero de los desplegables Descarga ficheros Informacion tabla Hechos conocidos por causa de delitos de odio desglosado por tipo hecho|
 | **GOB_EFF** | CGPJ | [Tiempos Medios](https://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Estadistica-por-temas/Actividad-de-los-organos-judiciales/Estimacion-de-los-tiempos-medios-de-los-asuntos-terminados/) | `data/raw/other/` (Descargar Civil y Penal, el script los busca) |
 
 | **INV_IED** | DataInvex | [Inversión Extranjera](https://datainvex.comercio.es/principal_invex.aspx) | `data/raw/other/consulta_datainvex_ccaa.xls` |
 | **INF_BAN** | INE | [TIC en Hogares](https://www.ine.es/) | `data/raw/tic_hogares/` (microdatos .tab) |
-| **AUX_EDA** | INE | [Padrón Municipal](https://www.ine.es/) | `data/raw/other/edad_media.csv` |
-| **ECO_RBH** | INE | [Renta de los Hogares](https://www.ine.es/) | `data/raw/renta_ine/rentahogd25.xlsx` |
+| **ECO_RBH** | INE | [Renta de los Hogares](https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736167628&menu=ultiDatos&idp=1254735576581) | `data/raw/renta_ine/rentahogd25.xlsx` |
 
 ---
 

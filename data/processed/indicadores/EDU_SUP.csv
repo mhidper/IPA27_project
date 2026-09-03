@@ -48,6 +48,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,AND,EDU_SUP,2228.6,Trimestral,Total. Ambos sexos. Andalucía. Educación superior. Valor absoluto. 
 2025-10-01,2025-Q4,AND,EDU_SUP,2248.5,Trimestral,Total. Ambos sexos. Andalucía. Educación superior. Valor absoluto. 
 2026-01-01,2026-Q1,AND,EDU_SUP,2270.8,Trimestral,Total. Ambos sexos. Andalucía. Educación superior. Valor absoluto. 
+2026-04-01,2026-Q2,AND,EDU_SUP,2336.6,Trimestral,Total. Ambos sexos. Andalucía. Educación superior. Valor absoluto. 
 2014-01-01,2014-Q1,ARA,EDU_SUP,298.5,Trimestral,Total. Ambos sexos. Aragón. Educación superior. Valor absoluto. 
 2014-04-01,2014-Q2,ARA,EDU_SUP,301.1,Trimestral,Total. Ambos sexos. Aragón. Educación superior. Valor absoluto. 
 2014-07-01,2014-Q3,ARA,EDU_SUP,309.2,Trimestral,Total. Ambos sexos. Aragón. Educación superior. Valor absoluto. 
@@ -97,6 +98,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,ARA,EDU_SUP,377.2,Trimestral,Total. Ambos sexos. Aragón. Educación superior. Valor absoluto. 
 2025-10-01,2025-Q4,ARA,EDU_SUP,377.5,Trimestral,Total. Ambos sexos. Aragón. Educación superior. Valor absoluto. 
 2026-01-01,2026-Q1,ARA,EDU_SUP,394.3,Trimestral,Total. Ambos sexos. Aragón. Educación superior. Valor absoluto. 
+2026-04-01,2026-Q2,ARA,EDU_SUP,400.3,Trimestral,Total. Ambos sexos. Aragón. Educación superior. Valor absoluto. 
 2014-01-01,2014-Q1,AST,EDU_SUP,265.8,Trimestral,"Total. Ambos sexos. Asturias, Principado de. Educación superior. Valor absoluto. "
 2014-04-01,2014-Q2,AST,EDU_SUP,275.1,Trimestral,"Total. Ambos sexos. Asturias, Principado de. Educación superior. Valor absoluto. "
 2014-07-01,2014-Q3,AST,EDU_SUP,272.8,Trimestral,"Total. Ambos sexos. Asturias, Principado de. Educación superior. Valor absoluto. "
@@ -146,6 +148,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,AST,EDU_SUP,319.2,Trimestral,"Total. Ambos sexos. Asturias, Principado de. Educación superior. Valor absoluto. "
 2025-10-01,2025-Q4,AST,EDU_SUP,329.8,Trimestral,"Total. Ambos sexos. Asturias, Principado de. Educación superior. Valor absoluto. "
 2026-01-01,2026-Q1,AST,EDU_SUP,326.5,Trimestral,"Total. Ambos sexos. Asturias, Principado de. Educación superior. Valor absoluto. "
+2026-04-01,2026-Q2,AST,EDU_SUP,323.0,Trimestral,"Total. Ambos sexos. Asturias, Principado de. Educación superior. Valor absoluto. "
 2014-01-01,2014-Q1,BAL,EDU_SUP,209.8,Trimestral,"Total. Ambos sexos. Balears, Illes. Educación superior. Valor absoluto. "
 2014-04-01,2014-Q2,BAL,EDU_SUP,213.1,Trimestral,"Total. Ambos sexos. Balears, Illes. Educación superior. Valor absoluto. "
 2014-07-01,2014-Q3,BAL,EDU_SUP,215.7,Trimestral,"Total. Ambos sexos. Balears, Illes. Educación superior. Valor absoluto. "
@@ -195,6 +198,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,BAL,EDU_SUP,308.2,Trimestral,"Total. Ambos sexos. Balears, Illes. Educación superior. Valor absoluto. "
 2025-10-01,2025-Q4,BAL,EDU_SUP,330.4,Trimestral,"Total. Ambos sexos. Balears, Illes. Educación superior. Valor absoluto. "
 2026-01-01,2026-Q1,BAL,EDU_SUP,339.7,Trimestral,"Total. Ambos sexos. Balears, Illes. Educación superior. Valor absoluto. "
+2026-04-01,2026-Q2,BAL,EDU_SUP,343.6,Trimestral,"Total. Ambos sexos. Balears, Illes. Educación superior. Valor absoluto. "
 2014-01-01,2014-Q1,CAN,EDU_SUP,398.1,Trimestral,Total. Ambos sexos. Canarias. Educación superior. Valor absoluto. 
 2014-04-01,2014-Q2,CAN,EDU_SUP,396.6,Trimestral,Total. Ambos sexos. Canarias. Educación superior. Valor absoluto. 
 2014-07-01,2014-Q3,CAN,EDU_SUP,388.5,Trimestral,Total. Ambos sexos. Canarias. Educación superior. Valor absoluto. 
@@ -244,6 +248,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,CAN,EDU_SUP,575.6,Trimestral,Total. Ambos sexos. Canarias. Educación superior. Valor absoluto. 
 2025-10-01,2025-Q4,CAN,EDU_SUP,610.3,Trimestral,Total. Ambos sexos. Canarias. Educación superior. Valor absoluto. 
 2026-01-01,2026-Q1,CAN,EDU_SUP,633.7,Trimestral,Total. Ambos sexos. Canarias. Educación superior. Valor absoluto. 
+2026-04-01,2026-Q2,CAN,EDU_SUP,636.5,Trimestral,Total. Ambos sexos. Canarias. Educación superior. Valor absoluto. 
 2014-01-01,2014-Q1,CANT,EDU_SUP,148.1,Trimestral,Total. Ambos sexos. Cantabria. Educación superior. Valor absoluto. 
 2014-04-01,2014-Q2,CANT,EDU_SUP,149.4,Trimestral,Total. Ambos sexos. Cantabria. Educación superior. Valor absoluto. 
 2014-07-01,2014-Q3,CANT,EDU_SUP,146.5,Trimestral,Total. Ambos sexos. Cantabria. Educación superior. Valor absoluto. 
@@ -293,6 +298,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,CANT,EDU_SUP,195.5,Trimestral,Total. Ambos sexos. Cantabria. Educación superior. Valor absoluto. 
 2025-10-01,2025-Q4,CANT,EDU_SUP,192.1,Trimestral,Total. Ambos sexos. Cantabria. Educación superior. Valor absoluto. 
 2026-01-01,2026-Q1,CANT,EDU_SUP,193.4,Trimestral,Total. Ambos sexos. Cantabria. Educación superior. Valor absoluto. 
+2026-04-01,2026-Q2,CANT,EDU_SUP,185.7,Trimestral,Total. Ambos sexos. Cantabria. Educación superior. Valor absoluto. 
 2014-01-01,2014-Q1,CAT,EDU_SUP,1726.1,Trimestral,Total. Ambos sexos. Cataluña. Educación superior. Valor absoluto. 
 2014-04-01,2014-Q2,CAT,EDU_SUP,1725.0,Trimestral,Total. Ambos sexos. Cataluña. Educación superior. Valor absoluto. 
 2014-07-01,2014-Q3,CAT,EDU_SUP,1772.8,Trimestral,Total. Ambos sexos. Cataluña. Educación superior. Valor absoluto. 
@@ -342,6 +348,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,CAT,EDU_SUP,2573.8,Trimestral,Total. Ambos sexos. Cataluña. Educación superior. Valor absoluto. 
 2025-10-01,2025-Q4,CAT,EDU_SUP,2631.5,Trimestral,Total. Ambos sexos. Cataluña. Educación superior. Valor absoluto. 
 2026-01-01,2026-Q1,CAT,EDU_SUP,2606.3,Trimestral,Total. Ambos sexos. Cataluña. Educación superior. Valor absoluto. 
+2026-04-01,2026-Q2,CAT,EDU_SUP,2574.4,Trimestral,Total. Ambos sexos. Cataluña. Educación superior. Valor absoluto. 
 2014-01-01,2014-Q1,CLM,EDU_SUP,349.4,Trimestral,Total. Ambos sexos. Castilla - La Mancha. Educación superior. Valor absoluto. 
 2014-04-01,2014-Q2,CLM,EDU_SUP,352.2,Trimestral,Total. Ambos sexos. Castilla - La Mancha. Educación superior. Valor absoluto. 
 2014-07-01,2014-Q3,CLM,EDU_SUP,359.2,Trimestral,Total. Ambos sexos. Castilla - La Mancha. Educación superior. Valor absoluto. 
@@ -391,6 +398,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,CLM,EDU_SUP,475.5,Trimestral,Total. Ambos sexos. Castilla - La Mancha. Educación superior. Valor absoluto. 
 2025-10-01,2025-Q4,CLM,EDU_SUP,490.5,Trimestral,Total. Ambos sexos. Castilla - La Mancha. Educación superior. Valor absoluto. 
 2026-01-01,2026-Q1,CLM,EDU_SUP,494.6,Trimestral,Total. Ambos sexos. Castilla - La Mancha. Educación superior. Valor absoluto. 
+2026-04-01,2026-Q2,CLM,EDU_SUP,486.8,Trimestral,Total. Ambos sexos. Castilla - La Mancha. Educación superior. Valor absoluto. 
 2014-01-01,2014-Q1,CYL,EDU_SUP,534.2,Trimestral,Total. Ambos sexos. Castilla y León. Educación superior. Valor absoluto. 
 2014-04-01,2014-Q2,CYL,EDU_SUP,542.8,Trimestral,Total. Ambos sexos. Castilla y León. Educación superior. Valor absoluto. 
 2014-07-01,2014-Q3,CYL,EDU_SUP,545.8,Trimestral,Total. Ambos sexos. Castilla y León. Educación superior. Valor absoluto. 
@@ -440,6 +448,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,CYL,EDU_SUP,672.6,Trimestral,Total. Ambos sexos. Castilla y León. Educación superior. Valor absoluto. 
 2025-10-01,2025-Q4,CYL,EDU_SUP,672.2,Trimestral,Total. Ambos sexos. Castilla y León. Educación superior. Valor absoluto. 
 2026-01-01,2026-Q1,CYL,EDU_SUP,671.2,Trimestral,Total. Ambos sexos. Castilla y León. Educación superior. Valor absoluto. 
+2026-04-01,2026-Q2,CYL,EDU_SUP,662.6,Trimestral,Total. Ambos sexos. Castilla y León. Educación superior. Valor absoluto. 
 2014-01-01,2014-Q1,ESP,EDU_SUP,10366.5,Trimestral,Total Nacional. Ambos sexos. Total. Educación superior. Valor absoluto. 
 2014-04-01,2014-Q2,ESP,EDU_SUP,10363.6,Trimestral,Total Nacional. Ambos sexos. Total. Educación superior. Valor absoluto. 
 2014-07-01,2014-Q3,ESP,EDU_SUP,10562.6,Trimestral,Total Nacional. Ambos sexos. Total. Educación superior. Valor absoluto. 
@@ -489,6 +498,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,ESP,EDU_SUP,14304.3,Trimestral,Total Nacional. Ambos sexos. Total. Educación superior. Valor absoluto. 
 2025-10-01,2025-Q4,ESP,EDU_SUP,14487.7,Trimestral,Total Nacional. Ambos sexos. Total. Educación superior. Valor absoluto. 
 2026-01-01,2026-Q1,ESP,EDU_SUP,14559.5,Trimestral,Total Nacional. Ambos sexos. Total. Educación superior. Valor absoluto. 
+2026-04-01,2026-Q2,ESP,EDU_SUP,14593.7,Trimestral,Total Nacional. Ambos sexos. Total. Educación superior. Valor absoluto. 
 2014-01-01,2014-Q1,EXT,EDU_SUP,183.2,Trimestral,Total. Ambos sexos. Extremadura. Educación superior. Valor absoluto. 
 2014-04-01,2014-Q2,EXT,EDU_SUP,183.3,Trimestral,Total. Ambos sexos. Extremadura. Educación superior. Valor absoluto. 
 2014-07-01,2014-Q3,EXT,EDU_SUP,187.7,Trimestral,Total. Ambos sexos. Extremadura. Educación superior. Valor absoluto. 
@@ -538,6 +548,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,EXT,EDU_SUP,241.8,Trimestral,Total. Ambos sexos. Extremadura. Educación superior. Valor absoluto. 
 2025-10-01,2025-Q4,EXT,EDU_SUP,249.8,Trimestral,Total. Ambos sexos. Extremadura. Educación superior. Valor absoluto. 
 2026-01-01,2026-Q1,EXT,EDU_SUP,248.7,Trimestral,Total. Ambos sexos. Extremadura. Educación superior. Valor absoluto. 
+2026-04-01,2026-Q2,EXT,EDU_SUP,248.7,Trimestral,Total. Ambos sexos. Extremadura. Educación superior. Valor absoluto. 
 2014-01-01,2014-Q1,GAL,EDU_SUP,582.6,Trimestral,Total. Ambos sexos. Galicia. Educación superior. Valor absoluto. 
 2014-04-01,2014-Q2,GAL,EDU_SUP,581.3,Trimestral,Total. Ambos sexos. Galicia. Educación superior. Valor absoluto. 
 2014-07-01,2014-Q3,GAL,EDU_SUP,595.1,Trimestral,Total. Ambos sexos. Galicia. Educación superior. Valor absoluto. 
@@ -587,6 +598,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,GAL,EDU_SUP,771.1,Trimestral,Total. Ambos sexos. Galicia. Educación superior. Valor absoluto. 
 2025-10-01,2025-Q4,GAL,EDU_SUP,782.4,Trimestral,Total. Ambos sexos. Galicia. Educación superior. Valor absoluto. 
 2026-01-01,2026-Q1,GAL,EDU_SUP,798.4,Trimestral,Total. Ambos sexos. Galicia. Educación superior. Valor absoluto. 
+2026-04-01,2026-Q2,GAL,EDU_SUP,801.7,Trimestral,Total. Ambos sexos. Galicia. Educación superior. Valor absoluto. 
 2014-01-01,2014-Q1,MAD,EDU_SUP,2009.7,Trimestral,"Total. Ambos sexos. Madrid, Comunidad de. Educación superior. Valor absoluto. "
 2014-04-01,2014-Q2,MAD,EDU_SUP,1970.6,Trimestral,"Total. Ambos sexos. Madrid, Comunidad de. Educación superior. Valor absoluto. "
 2014-07-01,2014-Q3,MAD,EDU_SUP,2017.9,Trimestral,"Total. Ambos sexos. Madrid, Comunidad de. Educación superior. Valor absoluto. "
@@ -636,6 +648,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,MAD,EDU_SUP,2502.1,Trimestral,"Total. Ambos sexos. Madrid, Comunidad de. Educación superior. Valor absoluto. "
 2025-10-01,2025-Q4,MAD,EDU_SUP,2506.9,Trimestral,"Total. Ambos sexos. Madrid, Comunidad de. Educación superior. Valor absoluto. "
 2026-01-01,2026-Q1,MAD,EDU_SUP,2561.5,Trimestral,"Total. Ambos sexos. Madrid, Comunidad de. Educación superior. Valor absoluto. "
+2026-04-01,2026-Q2,MAD,EDU_SUP,2561.6,Trimestral,"Total. Ambos sexos. Madrid, Comunidad de. Educación superior. Valor absoluto. "
 2014-01-01,2014-Q1,MUR,EDU_SUP,253.0,Trimestral,"Total. Ambos sexos. Murcia, Región de. Educación superior. Valor absoluto. "
 2014-04-01,2014-Q2,MUR,EDU_SUP,256.0,Trimestral,"Total. Ambos sexos. Murcia, Región de. Educación superior. Valor absoluto. "
 2014-07-01,2014-Q3,MUR,EDU_SUP,255.2,Trimestral,"Total. Ambos sexos. Murcia, Región de. Educación superior. Valor absoluto. "
@@ -685,6 +698,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,MUR,EDU_SUP,372.3,Trimestral,"Total. Ambos sexos. Murcia, Región de. Educación superior. Valor absoluto. "
 2025-10-01,2025-Q4,MUR,EDU_SUP,382.3,Trimestral,"Total. Ambos sexos. Murcia, Región de. Educación superior. Valor absoluto. "
 2026-01-01,2026-Q1,MUR,EDU_SUP,386.6,Trimestral,"Total. Ambos sexos. Murcia, Región de. Educación superior. Valor absoluto. "
+2026-04-01,2026-Q2,MUR,EDU_SUP,393.5,Trimestral,"Total. Ambos sexos. Murcia, Región de. Educación superior. Valor absoluto. "
 2014-01-01,2014-Q1,NAV,EDU_SUP,165.6,Trimestral,"Total. Ambos sexos. Navarra, Comunidad Foral de. Educación superior. Valor absoluto. "
 2014-04-01,2014-Q2,NAV,EDU_SUP,171.0,Trimestral,"Total. Ambos sexos. Navarra, Comunidad Foral de. Educación superior. Valor absoluto. "
 2014-07-01,2014-Q3,NAV,EDU_SUP,177.9,Trimestral,"Total. Ambos sexos. Navarra, Comunidad Foral de. Educación superior. Valor absoluto. "
@@ -734,6 +748,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,NAV,EDU_SUP,232.1,Trimestral,"Total. Ambos sexos. Navarra, Comunidad Foral de. Educación superior. Valor absoluto. "
 2025-10-01,2025-Q4,NAV,EDU_SUP,231.3,Trimestral,"Total. Ambos sexos. Navarra, Comunidad Foral de. Educación superior. Valor absoluto. "
 2026-01-01,2026-Q1,NAV,EDU_SUP,233.7,Trimestral,"Total. Ambos sexos. Navarra, Comunidad Foral de. Educación superior. Valor absoluto. "
+2026-04-01,2026-Q2,NAV,EDU_SUP,235.8,Trimestral,"Total. Ambos sexos. Navarra, Comunidad Foral de. Educación superior. Valor absoluto. "
 2014-01-01,2014-Q1,PV,EDU_SUP,652.1,Trimestral,Total. Ambos sexos. País Vasco. Educación superior. Valor absoluto. 
 2014-04-01,2014-Q2,PV,EDU_SUP,659.7,Trimestral,Total. Ambos sexos. País Vasco. Educación superior. Valor absoluto. 
 2014-07-01,2014-Q3,PV,EDU_SUP,669.0,Trimestral,Total. Ambos sexos. País Vasco. Educación superior. Valor absoluto. 
@@ -783,6 +798,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,PV,EDU_SUP,880.1,Trimestral,Total. Ambos sexos. País Vasco. Educación superior. Valor absoluto. 
 2025-10-01,2025-Q4,PV,EDU_SUP,890.9,Trimestral,Total. Ambos sexos. País Vasco. Educación superior. Valor absoluto. 
 2026-01-01,2026-Q1,PV,EDU_SUP,858.7,Trimestral,Total. Ambos sexos. País Vasco. Educación superior. Valor absoluto. 
+2026-04-01,2026-Q2,PV,EDU_SUP,880.8,Trimestral,Total. Ambos sexos. País Vasco. Educación superior. Valor absoluto. 
 2014-01-01,2014-Q1,RIO,EDU_SUP,72.4,Trimestral,"Total. Ambos sexos. Rioja, La. Educación superior. Valor absoluto. "
 2014-04-01,2014-Q2,RIO,EDU_SUP,71.3,Trimestral,"Total. Ambos sexos. Rioja, La. Educación superior. Valor absoluto. "
 2014-07-01,2014-Q3,RIO,EDU_SUP,76.9,Trimestral,"Total. Ambos sexos. Rioja, La. Educación superior. Valor absoluto. "
@@ -832,6 +848,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,RIO,EDU_SUP,90.3,Trimestral,"Total. Ambos sexos. Rioja, La. Educación superior. Valor absoluto. "
 2025-10-01,2025-Q4,RIO,EDU_SUP,97.2,Trimestral,"Total. Ambos sexos. Rioja, La. Educación superior. Valor absoluto. "
 2026-01-01,2026-Q1,RIO,EDU_SUP,93.5,Trimestral,"Total. Ambos sexos. Rioja, La. Educación superior. Valor absoluto. "
+2026-04-01,2026-Q2,RIO,EDU_SUP,95.4,Trimestral,"Total. Ambos sexos. Rioja, La. Educación superior. Valor absoluto. "
 2014-01-01,2014-Q1,VAL,EDU_SUP,1004.8,Trimestral,Total. Ambos sexos. Comunitat Valenciana. Educación superior. Valor absoluto. 
 2014-04-01,2014-Q2,VAL,EDU_SUP,1030.8,Trimestral,Total. Ambos sexos. Comunitat Valenciana. Educación superior. Valor absoluto. 
 2014-07-01,2014-Q3,VAL,EDU_SUP,1055.7,Trimestral,Total. Ambos sexos. Comunitat Valenciana. Educación superior. Valor absoluto. 
@@ -881,3 +898,4 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,VAL,EDU_SUP,1456.1,Trimestral,Total. Ambos sexos. Comunitat Valenciana. Educación superior. Valor absoluto. 
 2025-10-01,2025-Q4,VAL,EDU_SUP,1431.1,Trimestral,Total. Ambos sexos. Comunitat Valenciana. Educación superior. Valor absoluto. 
 2026-01-01,2026-Q1,VAL,EDU_SUP,1413.9,Trimestral,Total. Ambos sexos. Comunitat Valenciana. Educación superior. Valor absoluto. 
+2026-04-01,2026-Q2,VAL,EDU_SUP,1389.2,Trimestral,Total. Ambos sexos. Comunitat Valenciana. Educación superior. Valor absoluto. 

@@ -19,10 +19,12 @@ Para realizar una actualización completa de resultados, ejecute los notebooks e
         *   Las Fichas de Auditoría analíticas de trazabilidad en formato PDF (`docs/metodologia/01_general/`).
         *   El archivo macro LaTeX y la presentación Beamer de resultados en `docs/presentaciones/`.
 
-## 📓 Notebooks Auxiliares y Adicionales
+## 📓 Bitácora y Documentación Auxiliar
 
+*   `bitacora_actualizacion_IPA27.md`: **Bitácora viva de trazabilidad**, catálogo de ficheros activos y registro de elementos zombis/obsoletos.
+*   `instrucciones_actualizacion_IPA27.md`: Guía paso a paso de fuentes y conectores.
 *   `03_playground_edad_media.ipynb`: Entorno de pruebas para la interpolación de edades medias a nivel municipal y regional.
 *   `02_procesamiento_IPA27_CCAA.ipynb`: Versión histórica unificada original (mantenida únicamente como referencia histórica).
 
 ---
-**Última actualización**: Junio 2026
+**Última actualización**: Agosto 2026

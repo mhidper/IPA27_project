@@ -68,3 +68,4 @@ tmp/
 # User Exclusions
 formatos y logo/
 docs/convenios/
+.agents/

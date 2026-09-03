@@ -195,6 +195,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-02-01,2026-M02,AND,AUX_IPC,101.254,Mensual,Andalucía. Índice general. Índice. 
 2026-03-01,2026-M03,AND,AUX_IPC,102.402,Mensual,Andalucía. Índice general. Índice. 
 2026-04-01,2026-M04,AND,AUX_IPC,102.879,Mensual,Andalucía. Índice general. Índice. 
+2026-05-01,2026-M05,AND,AUX_IPC,102.866,Mensual,Andalucía. Índice general. Índice. 
+2026-06-01,2026-M06,AND,AUX_IPC,103.274,Mensual,Andalucía. Índice general. Índice. 
+2026-07-01,2026-M07,AND,AUX_IPC,103.499,Mensual,Andalucía. Índice general. Índice. 
 2010-01-01,2010-M01,ARA,AUX_IPC,73.161,Mensual,Aragón. Índice general. Índice. 
 2010-02-01,2010-M02,ARA,AUX_IPC,73.073,Mensual,Aragón. Índice general. Índice. 
 2010-03-01,2010-M03,ARA,AUX_IPC,73.579,Mensual,Aragón. Índice general. Índice. 
@@ -391,6 +394,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-02-01,2026-M02,ARA,AUX_IPC,101.326,Mensual,Aragón. Índice general. Índice. 
 2026-03-01,2026-M03,ARA,AUX_IPC,102.581,Mensual,Aragón. Índice general. Índice. 
 2026-04-01,2026-M04,ARA,AUX_IPC,102.94,Mensual,Aragón. Índice general. Índice. 
+2026-05-01,2026-M05,ARA,AUX_IPC,102.79,Mensual,Aragón. Índice general. Índice. 
+2026-06-01,2026-M06,ARA,AUX_IPC,103.318,Mensual,Aragón. Índice general. Índice. 
+2026-07-01,2026-M07,ARA,AUX_IPC,103.592,Mensual,Aragón. Índice general. Índice. 
 2010-01-01,2010-M01,AST,AUX_IPC,73.171,Mensual,"Asturias, Principado de. Índice general. Índice. "
 2010-02-01,2010-M02,AST,AUX_IPC,73.033,Mensual,"Asturias, Principado de. Índice general. Índice. "
 2010-03-01,2010-M03,AST,AUX_IPC,73.509,Mensual,"Asturias, Principado de. Índice general. Índice. "
@@ -587,6 +593,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-02-01,2026-M02,AST,AUX_IPC,100.853,Mensual,"Asturias, Principado de. Índice general. Índice. "
 2026-03-01,2026-M03,AST,AUX_IPC,101.898,Mensual,"Asturias, Principado de. Índice general. Índice. "
 2026-04-01,2026-M04,AST,AUX_IPC,102.424,Mensual,"Asturias, Principado de. Índice general. Índice. "
+2026-05-01,2026-M05,AST,AUX_IPC,102.401,Mensual,"Asturias, Principado de. Índice general. Índice. "
+2026-06-01,2026-M06,AST,AUX_IPC,103.146,Mensual,"Asturias, Principado de. Índice general. Índice. "
+2026-07-01,2026-M07,AST,AUX_IPC,103.771,Mensual,"Asturias, Principado de. Índice general. Índice. "
 2010-01-01,2010-M01,BAL,AUX_IPC,71.988,Mensual,"Balears, Illes. Índice general. Índice. "
 2010-02-01,2010-M02,BAL,AUX_IPC,71.823,Mensual,"Balears, Illes. Índice general. Índice. "
 2010-03-01,2010-M03,BAL,AUX_IPC,72.316,Mensual,"Balears, Illes. Índice general. Índice. "
@@ -783,6 +792,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-02-01,2026-M02,BAL,AUX_IPC,100.838,Mensual,"Balears, Illes. Índice general. Índice. "
 2026-03-01,2026-M03,BAL,AUX_IPC,102.234,Mensual,"Balears, Illes. Índice general. Índice. "
 2026-04-01,2026-M04,BAL,AUX_IPC,102.694,Mensual,"Balears, Illes. Índice general. Índice. "
+2026-05-01,2026-M05,BAL,AUX_IPC,103.026,Mensual,"Balears, Illes. Índice general. Índice. "
+2026-06-01,2026-M06,BAL,AUX_IPC,104.036,Mensual,"Balears, Illes. Índice general. Índice. "
+2026-07-01,2026-M07,BAL,AUX_IPC,104.829,Mensual,"Balears, Illes. Índice general. Índice. "
 2010-01-01,2010-M01,CAN,AUX_IPC,75.559,Mensual,Canarias. Índice general. Índice. 
 2010-02-01,2010-M02,CAN,AUX_IPC,75.403,Mensual,Canarias. Índice general. Índice. 
 2010-03-01,2010-M03,CAN,AUX_IPC,75.967,Mensual,Canarias. Índice general. Índice. 
@@ -979,6 +991,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-02-01,2026-M02,CAN,AUX_IPC,101.16,Mensual,Canarias. Índice general. Índice. 
 2026-03-01,2026-M03,CAN,AUX_IPC,102.069,Mensual,Canarias. Índice general. Índice. 
 2026-04-01,2026-M04,CAN,AUX_IPC,102.833,Mensual,Canarias. Índice general. Índice. 
+2026-05-01,2026-M05,CAN,AUX_IPC,102.943,Mensual,Canarias. Índice general. Índice. 
+2026-06-01,2026-M06,CAN,AUX_IPC,103.604,Mensual,Canarias. Índice general. Índice. 
+2026-07-01,2026-M07,CAN,AUX_IPC,103.622,Mensual,Canarias. Índice general. Índice. 
 2010-01-01,2010-M01,CANT,AUX_IPC,72.569,Mensual,Cantabria. Índice general. Índice. 
 2010-02-01,2010-M02,CANT,AUX_IPC,72.31,Mensual,Cantabria. Índice general. Índice. 
 2010-03-01,2010-M03,CANT,AUX_IPC,72.714,Mensual,Cantabria. Índice general. Índice. 
@@ -1175,6 +1190,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-02-01,2026-M02,CANT,AUX_IPC,101.339,Mensual,Cantabria. Índice general. Índice. 
 2026-03-01,2026-M03,CANT,AUX_IPC,102.387,Mensual,Cantabria. Índice general. Índice. 
 2026-04-01,2026-M04,CANT,AUX_IPC,102.843,Mensual,Cantabria. Índice general. Índice. 
+2026-05-01,2026-M05,CANT,AUX_IPC,103.109,Mensual,Cantabria. Índice general. Índice. 
+2026-06-01,2026-M06,CANT,AUX_IPC,103.832,Mensual,Cantabria. Índice general. Índice. 
+2026-07-01,2026-M07,CANT,AUX_IPC,104.57,Mensual,Cantabria. Índice general. Índice. 
 2010-01-01,2010-M01,CAT,AUX_IPC,71.839,Mensual,Cataluña. Índice general. Índice. 
 2010-02-01,2010-M02,CAT,AUX_IPC,71.7,Mensual,Cataluña. Índice general. Índice. 
 2010-03-01,2010-M03,CAT,AUX_IPC,72.228,Mensual,Cataluña. Índice general. Índice. 
@@ -1371,6 +1389,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-02-01,2026-M02,CAT,AUX_IPC,101.108,Mensual,Cataluña. Índice general. Índice. 
 2026-03-01,2026-M03,CAT,AUX_IPC,102.184,Mensual,Cataluña. Índice general. Índice. 
 2026-04-01,2026-M04,CAT,AUX_IPC,102.662,Mensual,Cataluña. Índice general. Índice. 
+2026-05-01,2026-M05,CAT,AUX_IPC,102.858,Mensual,Cataluña. Índice general. Índice. 
+2026-06-01,2026-M06,CAT,AUX_IPC,103.641,Mensual,Cataluña. Índice general. Índice. 
+2026-07-01,2026-M07,CAT,AUX_IPC,103.861,Mensual,Cataluña. Índice general. Índice. 
 2010-01-01,2010-M01,CLM,AUX_IPC,71.964,Mensual,Castilla - La Mancha. Índice general. Índice. 
 2010-02-01,2010-M02,CLM,AUX_IPC,71.722,Mensual,Castilla - La Mancha. Índice general. Índice. 
 2010-03-01,2010-M03,CLM,AUX_IPC,72.326,Mensual,Castilla - La Mancha. Índice general. Índice. 
@@ -1567,6 +1588,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-02-01,2026-M02,CLM,AUX_IPC,101.268,Mensual,Castilla - La Mancha. Índice general. Índice. 
 2026-03-01,2026-M03,CLM,AUX_IPC,102.807,Mensual,Castilla - La Mancha. Índice general. Índice. 
 2026-04-01,2026-M04,CLM,AUX_IPC,103.15,Mensual,Castilla - La Mancha. Índice general. Índice. 
+2026-05-01,2026-M05,CLM,AUX_IPC,103.093,Mensual,Castilla - La Mancha. Índice general. Índice. 
+2026-06-01,2026-M06,CLM,AUX_IPC,103.591,Mensual,Castilla - La Mancha. Índice general. Índice. 
+2026-07-01,2026-M07,CLM,AUX_IPC,103.798,Mensual,Castilla - La Mancha. Índice general. Índice. 
 2010-01-01,2010-M01,CYL,AUX_IPC,71.773,Mensual,Castilla y León. Índice general. Índice. 
 2010-02-01,2010-M02,CYL,AUX_IPC,71.63,Mensual,Castilla y León. Índice general. Índice. 
 2010-03-01,2010-M03,CYL,AUX_IPC,72.19,Mensual,Castilla y León. Índice general. Índice. 
@@ -1763,6 +1787,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-02-01,2026-M02,CYL,AUX_IPC,101.153,Mensual,Castilla y León. Índice general. Índice. 
 2026-03-01,2026-M03,CYL,AUX_IPC,102.484,Mensual,Castilla y León. Índice general. Índice. 
 2026-04-01,2026-M04,CYL,AUX_IPC,103.108,Mensual,Castilla y León. Índice general. Índice. 
+2026-05-01,2026-M05,CYL,AUX_IPC,103.058,Mensual,Castilla y León. Índice general. Índice. 
+2026-06-01,2026-M06,CYL,AUX_IPC,103.615,Mensual,Castilla y León. Índice general. Índice. 
+2026-07-01,2026-M07,CYL,AUX_IPC,104.045,Mensual,Castilla y León. Índice general. Índice. 
 2010-01-01,2010-M01,ESP,AUX_IPC,72.759,Mensual,Nacional. Índice general. Índice. 
 2010-02-01,2010-M02,ESP,AUX_IPC,72.627,Mensual,Nacional. Índice general. Índice. 
 2010-03-01,2010-M03,ESP,AUX_IPC,73.165,Mensual,Nacional. Índice general. Índice. 
@@ -1959,6 +1986,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-02-01,2026-M02,ESP,AUX_IPC,101.261,Mensual,Nacional. Índice general. Índice. 
 2026-03-01,2026-M03,ESP,AUX_IPC,102.44,Mensual,Nacional. Índice general. Índice. 
 2026-04-01,2026-M04,ESP,AUX_IPC,102.883,Mensual,Nacional. Índice general. Índice. 
+2026-05-01,2026-M05,ESP,AUX_IPC,102.951,Mensual,Nacional. Índice general. Índice. 
+2026-06-01,2026-M06,ESP,AUX_IPC,103.598,Mensual,Nacional. Índice general. Índice. 
+2026-07-01,2026-M07,ESP,AUX_IPC,103.899,Mensual,Nacional. Índice general. Índice. 
 2010-01-01,2010-M01,EXT,AUX_IPC,73.304,Mensual,Extremadura. Índice general. Índice. 
 2010-02-01,2010-M02,EXT,AUX_IPC,73.211,Mensual,Extremadura. Índice general. Índice. 
 2010-03-01,2010-M03,EXT,AUX_IPC,73.716,Mensual,Extremadura. Índice general. Índice. 
@@ -2155,6 +2185,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-02-01,2026-M02,EXT,AUX_IPC,101.203,Mensual,Extremadura. Índice general. Índice. 
 2026-03-01,2026-M03,EXT,AUX_IPC,102.311,Mensual,Extremadura. Índice general. Índice. 
 2026-04-01,2026-M04,EXT,AUX_IPC,102.705,Mensual,Extremadura. Índice general. Índice. 
+2026-05-01,2026-M05,EXT,AUX_IPC,102.567,Mensual,Extremadura. Índice general. Índice. 
+2026-06-01,2026-M06,EXT,AUX_IPC,103.201,Mensual,Extremadura. Índice general. Índice. 
+2026-07-01,2026-M07,EXT,AUX_IPC,103.447,Mensual,Extremadura. Índice general. Índice. 
 2010-01-01,2010-M01,GAL,AUX_IPC,71.964,Mensual,Galicia. Índice general. Índice. 
 2010-02-01,2010-M02,GAL,AUX_IPC,71.744,Mensual,Galicia. Índice general. Índice. 
 2010-03-01,2010-M03,GAL,AUX_IPC,72.357,Mensual,Galicia. Índice general. Índice. 
@@ -2351,6 +2384,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-02-01,2026-M02,GAL,AUX_IPC,101.273,Mensual,Galicia. Índice general. Índice. 
 2026-03-01,2026-M03,GAL,AUX_IPC,102.639,Mensual,Galicia. Índice general. Índice. 
 2026-04-01,2026-M04,GAL,AUX_IPC,103.086,Mensual,Galicia. Índice general. Índice. 
+2026-05-01,2026-M05,GAL,AUX_IPC,103.208,Mensual,Galicia. Índice general. Índice. 
+2026-06-01,2026-M06,GAL,AUX_IPC,103.734,Mensual,Galicia. Índice general. Índice. 
+2026-07-01,2026-M07,GAL,AUX_IPC,104.284,Mensual,Galicia. Índice general. Índice. 
 2010-01-01,2010-M01,MAD,AUX_IPC,74.105,Mensual,"Madrid, Comunidad de. Índice general. Índice. "
 2010-02-01,2010-M02,MAD,AUX_IPC,74.013,Mensual,"Madrid, Comunidad de. Índice general. Índice. "
 2010-03-01,2010-M03,MAD,AUX_IPC,74.528,Mensual,"Madrid, Comunidad de. Índice general. Índice. "
@@ -2547,6 +2583,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-02-01,2026-M02,MAD,AUX_IPC,101.599,Mensual,"Madrid, Comunidad de. Índice general. Índice. "
 2026-03-01,2026-M03,MAD,AUX_IPC,102.935,Mensual,"Madrid, Comunidad de. Índice general. Índice. "
 2026-04-01,2026-M04,MAD,AUX_IPC,103.184,Mensual,"Madrid, Comunidad de. Índice general. Índice. "
+2026-05-01,2026-M05,MAD,AUX_IPC,103.223,Mensual,"Madrid, Comunidad de. Índice general. Índice. "
+2026-06-01,2026-M06,MAD,AUX_IPC,103.89,Mensual,"Madrid, Comunidad de. Índice general. Índice. "
+2026-07-01,2026-M07,MAD,AUX_IPC,104.062,Mensual,"Madrid, Comunidad de. Índice general. Índice. "
 2010-01-01,2010-M01,MUR,AUX_IPC,73.631,Mensual,"Murcia, Región de. Índice general. Índice. "
 2010-02-01,2010-M02,MUR,AUX_IPC,73.564,Mensual,"Murcia, Región de. Índice general. Índice. "
 2010-03-01,2010-M03,MUR,AUX_IPC,74.106,Mensual,"Murcia, Región de. Índice general. Índice. "
@@ -2743,6 +2782,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-02-01,2026-M02,MUR,AUX_IPC,101.212,Mensual,"Murcia, Región de. Índice general. Índice. "
 2026-03-01,2026-M03,MUR,AUX_IPC,102.542,Mensual,"Murcia, Región de. Índice general. Índice. "
 2026-04-01,2026-M04,MUR,AUX_IPC,103.095,Mensual,"Murcia, Región de. Índice general. Índice. "
+2026-05-01,2026-M05,MUR,AUX_IPC,102.819,Mensual,"Murcia, Región de. Índice general. Índice. "
+2026-06-01,2026-M06,MUR,AUX_IPC,103.486,Mensual,"Murcia, Región de. Índice general. Índice. "
+2026-07-01,2026-M07,MUR,AUX_IPC,103.853,Mensual,"Murcia, Región de. Índice general. Índice. "
 2010-01-01,2010-M01,NAV,AUX_IPC,72.641,Mensual,"Navarra, Comunidad Foral de. Índice general. Índice. "
 2010-02-01,2010-M02,NAV,AUX_IPC,72.415,Mensual,"Navarra, Comunidad Foral de. Índice general. Índice. "
 2010-03-01,2010-M03,NAV,AUX_IPC,73.047,Mensual,"Navarra, Comunidad Foral de. Índice general. Índice. "
@@ -2939,6 +2981,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-02-01,2026-M02,NAV,AUX_IPC,100.929,Mensual,"Navarra, Comunidad Foral de. Índice general. Índice. "
 2026-03-01,2026-M03,NAV,AUX_IPC,102.122,Mensual,"Navarra, Comunidad Foral de. Índice general. Índice. "
 2026-04-01,2026-M04,NAV,AUX_IPC,102.818,Mensual,"Navarra, Comunidad Foral de. Índice general. Índice. "
+2026-05-01,2026-M05,NAV,AUX_IPC,102.897,Mensual,"Navarra, Comunidad Foral de. Índice general. Índice. "
+2026-06-01,2026-M06,NAV,AUX_IPC,103.327,Mensual,"Navarra, Comunidad Foral de. Índice general. Índice. "
+2026-07-01,2026-M07,NAV,AUX_IPC,104.241,Mensual,"Navarra, Comunidad Foral de. Índice general. Índice. "
 2010-01-01,2010-M01,PV,AUX_IPC,71.681,Mensual,País Vasco. Índice general. Índice. 
 2010-02-01,2010-M02,PV,AUX_IPC,71.471,Mensual,País Vasco. Índice general. Índice. 
 2010-03-01,2010-M03,PV,AUX_IPC,72.069,Mensual,País Vasco. Índice general. Índice. 
@@ -3135,6 +3180,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-02-01,2026-M02,PV,AUX_IPC,101.227,Mensual,País Vasco. Índice general. Índice. 
 2026-03-01,2026-M03,PV,AUX_IPC,102.343,Mensual,País Vasco. Índice general. Índice. 
 2026-04-01,2026-M04,PV,AUX_IPC,102.785,Mensual,País Vasco. Índice general. Índice. 
+2026-05-01,2026-M05,PV,AUX_IPC,102.989,Mensual,País Vasco. Índice general. Índice. 
+2026-06-01,2026-M06,PV,AUX_IPC,103.767,Mensual,País Vasco. Índice general. Índice. 
+2026-07-01,2026-M07,PV,AUX_IPC,104.114,Mensual,País Vasco. Índice general. Índice. 
 2010-01-01,2010-M01,RIO,AUX_IPC,72.411,Mensual,"Rioja, La. Índice general. Índice. "
 2010-02-01,2010-M02,RIO,AUX_IPC,72.338,Mensual,"Rioja, La. Índice general. Índice. "
 2010-03-01,2010-M03,RIO,AUX_IPC,72.705,Mensual,"Rioja, La. Índice general. Índice. "
@@ -3331,6 +3379,9 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-02-01,2026-M02,RIO,AUX_IPC,101.024,Mensual,"Rioja, La. Índice general. Índice. "
 2026-03-01,2026-M03,RIO,AUX_IPC,102.14,Mensual,"Rioja, La. Índice general. Índice. "
 2026-04-01,2026-M04,RIO,AUX_IPC,102.71,Mensual,"Rioja, La. Índice general. Índice. "
+2026-05-01,2026-M05,RIO,AUX_IPC,102.698,Mensual,"Rioja, La. Índice general. Índice. "
+2026-06-01,2026-M06,RIO,AUX_IPC,103.279,Mensual,"Rioja, La. Índice general. Índice. "
+2026-07-01,2026-M07,RIO,AUX_IPC,103.476,Mensual,"Rioja, La. Índice general. Índice. "
 2010-01-01,2010-M01,VAL,AUX_IPC,72.912,Mensual,Comunitat Valenciana. Índice general. Índice. 
 2010-02-01,2010-M02,VAL,AUX_IPC,72.78,Mensual,Comunitat Valenciana. Índice general. Índice. 
 2010-03-01,2010-M03,VAL,AUX_IPC,73.245,Mensual,Comunitat Valenciana. Índice general. Índice. 
@@ -3527,3 +3578,6 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2026-02-01,2026-M02,VAL,AUX_IPC,101.39,Mensual,Comunitat Valenciana. Índice general. Índice. 
 2026-03-01,2026-M03,VAL,AUX_IPC,102.337,Mensual,Comunitat Valenciana. Índice general. Índice. 
 2026-04-01,2026-M04,VAL,AUX_IPC,102.719,Mensual,Comunitat Valenciana. Índice general. Índice. 
+2026-05-01,2026-M05,VAL,AUX_IPC,102.845,Mensual,Comunitat Valenciana. Índice general. Índice. 
+2026-06-01,2026-M06,VAL,AUX_IPC,103.632,Mensual,Comunitat Valenciana. Índice general. Índice. 
+2026-07-01,2026-M07,VAL,AUX_IPC,103.997,Mensual,Comunitat Valenciana. Índice general. Índice. 

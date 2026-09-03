@@ -64,6 +64,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,AND,VID_PAR,15.27,Trimestral,Tasa de paro de la población. Ambos sexos. Andalucía. Total. 
 2025-10-01,2025-Q4,AND,VID_PAR,14.66,Trimestral,Tasa de paro de la población. Ambos sexos. Andalucía. Total. 
 2026-01-01,2026-Q1,AND,VID_PAR,14.66,Trimestral,Tasa de paro de la población. Ambos sexos. Andalucía. Total. 
+2026-04-01,2026-Q2,AND,VID_PAR,14.56,Trimestral,Tasa de paro de la población. Ambos sexos. Andalucía. Total. 
 2010-01-01,2010-Q1,ARA,VID_PAR,15.24,Trimestral,Tasa de paro de la población. Ambos sexos. Aragón. Total. 
 2010-04-01,2010-Q2,ARA,VID_PAR,14.52,Trimestral,Tasa de paro de la población. Ambos sexos. Aragón. Total. 
 2010-07-01,2010-Q3,ARA,VID_PAR,13.77,Trimestral,Tasa de paro de la población. Ambos sexos. Aragón. Total. 
@@ -129,6 +130,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,ARA,VID_PAR,8.54,Trimestral,Tasa de paro de la población. Ambos sexos. Aragón. Total. 
 2025-10-01,2025-Q4,ARA,VID_PAR,7.7,Trimestral,Tasa de paro de la población. Ambos sexos. Aragón. Total. 
 2026-01-01,2026-Q1,ARA,VID_PAR,8.37,Trimestral,Tasa de paro de la población. Ambos sexos. Aragón. Total. 
+2026-04-01,2026-Q2,ARA,VID_PAR,8.17,Trimestral,Tasa de paro de la población. Ambos sexos. Aragón. Total. 
 2010-01-01,2010-Q1,AST,VID_PAR,16.6,Trimestral,"Tasa de paro de la población. Ambos sexos. Asturias, Principado de. Total. "
 2010-04-01,2010-Q2,AST,VID_PAR,16.35,Trimestral,"Tasa de paro de la población. Ambos sexos. Asturias, Principado de. Total. "
 2010-07-01,2010-Q3,AST,VID_PAR,14.1,Trimestral,"Tasa de paro de la población. Ambos sexos. Asturias, Principado de. Total. "
@@ -194,6 +196,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,AST,VID_PAR,9.03,Trimestral,"Tasa de paro de la población. Ambos sexos. Asturias, Principado de. Total. "
 2025-10-01,2025-Q4,AST,VID_PAR,8.42,Trimestral,"Tasa de paro de la población. Ambos sexos. Asturias, Principado de. Total. "
 2026-01-01,2026-Q1,AST,VID_PAR,9.02,Trimestral,"Tasa de paro de la población. Ambos sexos. Asturias, Principado de. Total. "
+2026-04-01,2026-Q2,AST,VID_PAR,9.12,Trimestral,"Tasa de paro de la población. Ambos sexos. Asturias, Principado de. Total. "
 2010-01-01,2010-Q1,BAL,VID_PAR,22.22,Trimestral,"Tasa de paro de la población. Ambos sexos. Balears, Illes. Total. "
 2010-04-01,2010-Q2,BAL,VID_PAR,19.79,Trimestral,"Tasa de paro de la población. Ambos sexos. Balears, Illes. Total. "
 2010-07-01,2010-Q3,BAL,VID_PAR,16.93,Trimestral,"Tasa de paro de la población. Ambos sexos. Balears, Illes. Total. "
@@ -259,6 +262,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,BAL,VID_PAR,5.77,Trimestral,"Tasa de paro de la población. Ambos sexos. Balears, Illes. Total. "
 2025-10-01,2025-Q4,BAL,VID_PAR,7.8,Trimestral,"Tasa de paro de la población. Ambos sexos. Balears, Illes. Total. "
 2026-01-01,2026-Q1,BAL,VID_PAR,13.79,Trimestral,"Tasa de paro de la población. Ambos sexos. Balears, Illes. Total. "
+2026-04-01,2026-Q2,BAL,VID_PAR,6.11,Trimestral,"Tasa de paro de la población. Ambos sexos. Balears, Illes. Total. "
 2010-01-01,2010-Q1,CAN,VID_PAR,27.72,Trimestral,Tasa de paro de la población. Ambos sexos. Canarias. Total. 
 2010-04-01,2010-Q2,CAN,VID_PAR,29.31,Trimestral,Tasa de paro de la población. Ambos sexos. Canarias. Total. 
 2010-07-01,2010-Q3,CAN,VID_PAR,28.59,Trimestral,Tasa de paro de la población. Ambos sexos. Canarias. Total. 
@@ -324,6 +328,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,CAN,VID_PAR,14.59,Trimestral,Tasa de paro de la población. Ambos sexos. Canarias. Total. 
 2025-10-01,2025-Q4,CAN,VID_PAR,12.63,Trimestral,Tasa de paro de la población. Ambos sexos. Canarias. Total. 
 2026-01-01,2026-Q1,CAN,VID_PAR,11.4,Trimestral,Tasa de paro de la población. Ambos sexos. Canarias. Total. 
+2026-04-01,2026-Q2,CAN,VID_PAR,11.6,Trimestral,Tasa de paro de la población. Ambos sexos. Canarias. Total. 
 2010-01-01,2010-Q1,CANT,VID_PAR,14.33,Trimestral,Tasa de paro de la población. Ambos sexos. Cantabria. Total. 
 2010-04-01,2010-Q2,CANT,VID_PAR,13.73,Trimestral,Tasa de paro de la población. Ambos sexos. Cantabria. Total. 
 2010-07-01,2010-Q3,CANT,VID_PAR,12.07,Trimestral,Tasa de paro de la población. Ambos sexos. Cantabria. Total. 
@@ -389,6 +394,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,CANT,VID_PAR,7.62,Trimestral,Tasa de paro de la población. Ambos sexos. Cantabria. Total. 
 2025-10-01,2025-Q4,CANT,VID_PAR,6.77,Trimestral,Tasa de paro de la población. Ambos sexos. Cantabria. Total. 
 2026-01-01,2026-Q1,CANT,VID_PAR,7.49,Trimestral,Tasa de paro de la población. Ambos sexos. Cantabria. Total. 
+2026-04-01,2026-Q2,CANT,VID_PAR,7.34,Trimestral,Tasa de paro de la población. Ambos sexos. Cantabria. Total. 
 2010-01-01,2010-Q1,CAT,VID_PAR,17.9,Trimestral,Tasa de paro de la población. Ambos sexos. Cataluña. Total. 
 2010-04-01,2010-Q2,CAT,VID_PAR,17.56,Trimestral,Tasa de paro de la población. Ambos sexos. Cataluña. Total. 
 2010-07-01,2010-Q3,CAT,VID_PAR,17.31,Trimestral,Tasa de paro de la población. Ambos sexos. Cataluña. Total. 
@@ -454,6 +460,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,CAT,VID_PAR,8.18,Trimestral,Tasa de paro de la población. Ambos sexos. Cataluña. Total. 
 2025-10-01,2025-Q4,CAT,VID_PAR,8.24,Trimestral,Tasa de paro de la población. Ambos sexos. Cataluña. Total. 
 2026-01-01,2026-Q1,CAT,VID_PAR,10.12,Trimestral,Tasa de paro de la población. Ambos sexos. Cataluña. Total. 
+2026-04-01,2026-Q2,CAT,VID_PAR,7.9,Trimestral,Tasa de paro de la población. Ambos sexos. Cataluña. Total. 
 2010-01-01,2010-Q1,CLM,VID_PAR,21.72,Trimestral,Tasa de paro de la población. Ambos sexos. Castilla - La Mancha. Total. 
 2010-04-01,2010-Q2,CLM,VID_PAR,21.38,Trimestral,Tasa de paro de la población. Ambos sexos. Castilla - La Mancha. Total. 
 2010-07-01,2010-Q3,CLM,VID_PAR,20.07,Trimestral,Tasa de paro de la población. Ambos sexos. Castilla - La Mancha. Total. 
@@ -519,6 +526,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,CLM,VID_PAR,12.55,Trimestral,Tasa de paro de la población. Ambos sexos. Castilla - La Mancha. Total. 
 2025-10-01,2025-Q4,CLM,VID_PAR,12.05,Trimestral,Tasa de paro de la población. Ambos sexos. Castilla - La Mancha. Total. 
 2026-01-01,2026-Q1,CLM,VID_PAR,12.97,Trimestral,Tasa de paro de la población. Ambos sexos. Castilla - La Mancha. Total. 
+2026-04-01,2026-Q2,CLM,VID_PAR,11.81,Trimestral,Tasa de paro de la población. Ambos sexos. Castilla - La Mancha. Total. 
 2010-01-01,2010-Q1,CYL,VID_PAR,15.83,Trimestral,Tasa de paro de la población. Ambos sexos. Castilla y León. Total. 
 2010-04-01,2010-Q2,CYL,VID_PAR,16.38,Trimestral,Tasa de paro de la población. Ambos sexos. Castilla y León. Total. 
 2010-07-01,2010-Q3,CYL,VID_PAR,15.2,Trimestral,Tasa de paro de la población. Ambos sexos. Castilla y León. Total. 
@@ -584,6 +592,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,CYL,VID_PAR,8.68,Trimestral,Tasa de paro de la población. Ambos sexos. Castilla y León. Total. 
 2025-10-01,2025-Q4,CYL,VID_PAR,8.36,Trimestral,Tasa de paro de la población. Ambos sexos. Castilla y León. Total. 
 2026-01-01,2026-Q1,CYL,VID_PAR,9.04,Trimestral,Tasa de paro de la población. Ambos sexos. Castilla y León. Total. 
+2026-04-01,2026-Q2,CYL,VID_PAR,8.37,Trimestral,Tasa de paro de la población. Ambos sexos. Castilla y León. Total. 
 2010-01-01,2010-Q1,ESP,VID_PAR,19.84,Trimestral,Tasa de paro de la población. Ambos sexos. Total Nacional. Total. 
 2010-04-01,2010-Q2,ESP,VID_PAR,19.89,Trimestral,Tasa de paro de la población. Ambos sexos. Total Nacional. Total. 
 2010-07-01,2010-Q3,ESP,VID_PAR,19.59,Trimestral,Tasa de paro de la población. Ambos sexos. Total Nacional. Total. 
@@ -649,6 +658,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,ESP,VID_PAR,10.45,Trimestral,Tasa de paro de la población. Ambos sexos. Total Nacional. Total. 
 2025-10-01,2025-Q4,ESP,VID_PAR,9.93,Trimestral,Tasa de paro de la población. Ambos sexos. Total Nacional. Total. 
 2026-01-01,2026-Q1,ESP,VID_PAR,10.83,Trimestral,Tasa de paro de la población. Ambos sexos. Total Nacional. Total. 
+2026-04-01,2026-Q2,ESP,VID_PAR,9.87,Trimestral,Tasa de paro de la población. Ambos sexos. Total Nacional. Total. 
 2010-01-01,2010-Q1,EXT,VID_PAR,23.2,Trimestral,Tasa de paro de la población. Ambos sexos. Extremadura. Total. 
 2010-04-01,2010-Q2,EXT,VID_PAR,22.4,Trimestral,Tasa de paro de la población. Ambos sexos. Extremadura. Total. 
 2010-07-01,2010-Q3,EXT,VID_PAR,22.33,Trimestral,Tasa de paro de la población. Ambos sexos. Extremadura. Total. 
@@ -714,6 +724,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,EXT,VID_PAR,13.56,Trimestral,Tasa de paro de la población. Ambos sexos. Extremadura. Total. 
 2025-10-01,2025-Q4,EXT,VID_PAR,13.42,Trimestral,Tasa de paro de la población. Ambos sexos. Extremadura. Total. 
 2026-01-01,2026-Q1,EXT,VID_PAR,13.25,Trimestral,Tasa de paro de la población. Ambos sexos. Extremadura. Total. 
+2026-04-01,2026-Q2,EXT,VID_PAR,13.22,Trimestral,Tasa de paro de la población. Ambos sexos. Extremadura. Total. 
 2010-01-01,2010-Q1,GAL,VID_PAR,15.39,Trimestral,Tasa de paro de la población. Ambos sexos. Galicia. Total. 
 2010-04-01,2010-Q2,GAL,VID_PAR,15.49,Trimestral,Tasa de paro de la población. Ambos sexos. Galicia. Total. 
 2010-07-01,2010-Q3,GAL,VID_PAR,14.8,Trimestral,Tasa de paro de la población. Ambos sexos. Galicia. Total. 
@@ -779,6 +790,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,GAL,VID_PAR,8.0,Trimestral,Tasa de paro de la población. Ambos sexos. Galicia. Total. 
 2025-10-01,2025-Q4,GAL,VID_PAR,8.26,Trimestral,Tasa de paro de la población. Ambos sexos. Galicia. Total. 
 2026-01-01,2026-Q1,GAL,VID_PAR,8.96,Trimestral,Tasa de paro de la población. Ambos sexos. Galicia. Total. 
+2026-04-01,2026-Q2,GAL,VID_PAR,7.94,Trimestral,Tasa de paro de la población. Ambos sexos. Galicia. Total. 
 2010-01-01,2010-Q1,MAD,VID_PAR,15.89,Trimestral,"Tasa de paro de la población. Ambos sexos. Madrid, Comunidad de. Total. "
 2010-04-01,2010-Q2,MAD,VID_PAR,16.18,Trimestral,"Tasa de paro de la población. Ambos sexos. Madrid, Comunidad de. Total. "
 2010-07-01,2010-Q3,MAD,VID_PAR,15.76,Trimestral,"Tasa de paro de la población. Ambos sexos. Madrid, Comunidad de. Total. "
@@ -844,6 +856,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,MAD,VID_PAR,7.98,Trimestral,"Tasa de paro de la población. Ambos sexos. Madrid, Comunidad de. Total. "
 2025-10-01,2025-Q4,MAD,VID_PAR,7.04,Trimestral,"Tasa de paro de la población. Ambos sexos. Madrid, Comunidad de. Total. "
 2026-01-01,2026-Q1,MAD,VID_PAR,7.91,Trimestral,"Tasa de paro de la población. Ambos sexos. Madrid, Comunidad de. Total. "
+2026-04-01,2026-Q2,MAD,VID_PAR,7.58,Trimestral,"Tasa de paro de la población. Ambos sexos. Madrid, Comunidad de. Total. "
 2010-01-01,2010-Q1,MUR,VID_PAR,22.7,Trimestral,"Tasa de paro de la población. Ambos sexos. Murcia, Región de. Total. "
 2010-04-01,2010-Q2,MUR,VID_PAR,20.86,Trimestral,"Tasa de paro de la población. Ambos sexos. Murcia, Región de. Total. "
 2010-07-01,2010-Q3,MUR,VID_PAR,23.44,Trimestral,"Tasa de paro de la población. Ambos sexos. Murcia, Región de. Total. "
@@ -909,6 +922,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,MUR,VID_PAR,12.91,Trimestral,"Tasa de paro de la población. Ambos sexos. Murcia, Región de. Total. "
 2025-10-01,2025-Q4,MUR,VID_PAR,11.06,Trimestral,"Tasa de paro de la población. Ambos sexos. Murcia, Región de. Total. "
 2026-01-01,2026-Q1,MUR,VID_PAR,10.84,Trimestral,"Tasa de paro de la población. Ambos sexos. Murcia, Región de. Total. "
+2026-04-01,2026-Q2,MUR,VID_PAR,10.83,Trimestral,"Tasa de paro de la población. Ambos sexos. Murcia, Región de. Total. "
 2010-01-01,2010-Q1,NAV,VID_PAR,12.31,Trimestral,"Tasa de paro de la población. Ambos sexos. Navarra, Comunidad Foral de. Total. "
 2010-04-01,2010-Q2,NAV,VID_PAR,11.02,Trimestral,"Tasa de paro de la población. Ambos sexos. Navarra, Comunidad Foral de. Total. "
 2010-07-01,2010-Q3,NAV,VID_PAR,12.51,Trimestral,"Tasa de paro de la población. Ambos sexos. Navarra, Comunidad Foral de. Total. "
@@ -974,6 +988,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,NAV,VID_PAR,7.29,Trimestral,"Tasa de paro de la población. Ambos sexos. Navarra, Comunidad Foral de. Total. "
 2025-10-01,2025-Q4,NAV,VID_PAR,8.1,Trimestral,"Tasa de paro de la población. Ambos sexos. Navarra, Comunidad Foral de. Total. "
 2026-01-01,2026-Q1,NAV,VID_PAR,9.09,Trimestral,"Tasa de paro de la población. Ambos sexos. Navarra, Comunidad Foral de. Total. "
+2026-04-01,2026-Q2,NAV,VID_PAR,8.07,Trimestral,"Tasa de paro de la población. Ambos sexos. Navarra, Comunidad Foral de. Total. "
 2010-01-01,2010-Q1,PV,VID_PAR,11.1,Trimestral,Tasa de paro de la población. Ambos sexos. País Vasco. Total. 
 2010-04-01,2010-Q2,PV,VID_PAR,10.6,Trimestral,Tasa de paro de la población. Ambos sexos. País Vasco. Total. 
 2010-07-01,2010-Q3,PV,VID_PAR,10.08,Trimestral,Tasa de paro de la población. Ambos sexos. País Vasco. Total. 
@@ -1039,6 +1054,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,PV,VID_PAR,6.98,Trimestral,Tasa de paro de la población. Ambos sexos. País Vasco. Total. 
 2025-10-01,2025-Q4,PV,VID_PAR,7.5,Trimestral,Tasa de paro de la población. Ambos sexos. País Vasco. Total. 
 2026-01-01,2026-Q1,PV,VID_PAR,8.23,Trimestral,Tasa de paro de la población. Ambos sexos. País Vasco. Total. 
+2026-04-01,2026-Q2,PV,VID_PAR,7.11,Trimestral,Tasa de paro de la población. Ambos sexos. País Vasco. Total. 
 2010-01-01,2010-Q1,RIO,VID_PAR,14.86,Trimestral,"Tasa de paro de la población. Ambos sexos. Rioja, La. Total. "
 2010-04-01,2010-Q2,RIO,VID_PAR,12.17,Trimestral,"Tasa de paro de la población. Ambos sexos. Rioja, La. Total. "
 2010-07-01,2010-Q3,RIO,VID_PAR,13.97,Trimestral,"Tasa de paro de la población. Ambos sexos. Rioja, La. Total. "
@@ -1104,6 +1120,7 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,RIO,VID_PAR,7.71,Trimestral,"Tasa de paro de la población. Ambos sexos. Rioja, La. Total. "
 2025-10-01,2025-Q4,RIO,VID_PAR,8.0,Trimestral,"Tasa de paro de la población. Ambos sexos. Rioja, La. Total. "
 2026-01-01,2026-Q1,RIO,VID_PAR,9.62,Trimestral,"Tasa de paro de la población. Ambos sexos. Rioja, La. Total. "
+2026-04-01,2026-Q2,RIO,VID_PAR,8.77,Trimestral,"Tasa de paro de la población. Ambos sexos. Rioja, La. Total. "
 2010-01-01,2010-Q1,VAL,VID_PAR,22.45,Trimestral,Tasa de paro de la población. Ambos sexos. Comunitat Valenciana. Total. 
 2010-04-01,2010-Q2,VAL,VID_PAR,23.44,Trimestral,Tasa de paro de la población. Ambos sexos. Comunitat Valenciana. Total. 
 2010-07-01,2010-Q3,VAL,VID_PAR,22.97,Trimestral,Tasa de paro de la población. Ambos sexos. Comunitat Valenciana. Total. 
@@ -1169,3 +1186,4 @@ Fecha,Periodo,Region,Indicador,Valor,Frecuencia,Serie_Original
 2025-07-01,2025-Q3,VAL,VID_PAR,11.73,Trimestral,Tasa de paro de la población. Ambos sexos. Comunitat Valenciana. Total. 
 2025-10-01,2025-Q4,VAL,VID_PAR,10.39,Trimestral,Tasa de paro de la población. Ambos sexos. Comunitat Valenciana. Total. 
 2026-01-01,2026-Q1,VAL,VID_PAR,11.75,Trimestral,Tasa de paro de la población. Ambos sexos. Comunitat Valenciana. Total. 
+2026-04-01,2026-Q2,VAL,VID_PAR,10.88,Trimestral,Tasa de paro de la población. Ambos sexos. Comunitat Valenciana. Total. 
