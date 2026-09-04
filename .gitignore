@@ -42,6 +42,8 @@ results/debug/
 !results/data/**/*.csv
 !results/data/**/*.xlsx
 !results/data/**/*.json
+results/data/**/~$*
+
 
 # IDE
 .vscode/

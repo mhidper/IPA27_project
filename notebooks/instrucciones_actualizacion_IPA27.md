@@ -41,7 +41,7 @@ Para estos indicadores, debes descargar los datos brutos antes de ejecutar el pr
 4.  **Nota Técnica (CNAE-2025)**: En enero de 2026 se ha cambiado a la clasificación **CNAE-2025**. Los datos de enero 2026 a abril 2026 son los extraídos directamente de la web de la Seguridad Social. Para los datos anteriores, se ha realizado un enlace de series aplicando un crecimiento del **0,2% mensual** entre diciembre de 2025 y enero de 2026 de forma uniforme para todos los sectores.
 
 ### C. Inversión Extranjera (INV_IED)
-1.  **Portal**: [DataInvex - Inversión Extranjera](https://datainvex.comercio.es/principal_invex.aspx)
+1.  **Portal**: [DataInvex - Inversión Extranjera](https://datainvex.comercio.es/principal_invex    .aspx)
 2.  **Criterios de Selección**:
     *   **Operaciones**: "OPERACIONES NO ETVE" en "Flujos Inversión Bruta en miles de euros".
     *   **Sector**: Todos los sectores.
@@ -49,6 +49,7 @@ Para estos indicadores, debes descargar los datos brutos antes de ejecutar el pr
     *   **Periodo**: Seleccionar todos los trimestres desde el 1º TRIMESTRE 2016 hasta el más reciente disponible (ej. 2025 o 2026).
     *   **Comunidad Autónoma**: Seleccionar "Todas las comunidades" y cada una de las 17 CCAAs + Ceuta y Melilla individualmente.
     *   **Tipo de Inversión**: Inversión Total (Capital+Financiación).
+    * **Tipo de visualización** Histórico por CCAAs
 3.  **Ubicación**: Guardar como `data/raw/other/consulta_datainvex_ccaa.xls`.
 
 ### D. Otros Archivos Externos
