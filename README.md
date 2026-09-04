@@ -19,6 +19,7 @@ El IPA27 se compone de:
 1. **Nowcasting integrado**: Pipeline automatizado que combina métodos de Chow-Lin, splines de Denton y modelos ARIMA para unificar series de frecuencias mixtas (mensual, trimestral, anual).
 2. **Normalización por Techos Fijos**: Función de transformación anclada en topes estructurales (calculados a partir del promedio del top 3 de los mejores rendimientos históricos y márgenes de proyección). Penaliza la falta de rendimientos y admite elasticidad superior con techos controlados hasta una puntuación de clímax de 120.
 3. **Agregación por Media Geométrica Robusta**: A todos los niveles (indicadores a pilares, pilares a dominios y dominios a índice general) se usa una agregación mediante interpolación geométrica de potencias con acotaciones, penalizando la inequidad formativa (no poder compensar falencias graves en un pilar con saltos inmensos en otro).
+4. **Organización Dinámica de Salidas por Fecha (`dataYYYYMMDD`)**: Cada ejecución de los cuadernos de procesamiento genera un directorio aislado ordenado por la fecha de ejecución (`results/data/dataYYYYMMDD/`), preservando intacta la trazabilidad y gobernanza de históricos sin sobrescribir ejecuciones pasadas.
 
 ---
 
@@ -34,18 +35,19 @@ IPA27_project/
 ├── data/                        # Datos históricos y procesados del modelo
 │   ├── raw/                     # Datos fuente (archivos de criminalidad, renta, etc.)
 │   │   └── archive/             # Histórico de Excel consolidados archivados
-│   └── processed/               # Resultados intermedios e indicadores preprocesados
+│   ├── processed/               # Datos de indicadores individuales extraídos
+│   └── processed_history/       # Copias de seguridad de ejecuciones pasadas (gobernanza)
 ├── docs/                        # Documentación y metodología unificada y organizada:
 │   ├── convenios/               # Convenios, contratos y memorias técnicas
 │   ├── infografias/             # Infografías del proyecto
 │   ├── presentaciones/          # Ficheros de la presentación Beamer (LaTeX) y gráficas
-│   └── metodologia/             # Todo el material metodológico organizado:
+│   └── metodología/             # Todo el material metodológico organizado:
 │       ├── 01_general/          # Metodología general y benchmark
 │       ├── 02_desafeccion/      # Documentación del índice de desafección
 │       ├── 03_participacion_electoral/ # Estudios de participación electoral
-│       └── notas_trabajo/       # Borradores y notas técnicas de Claude
+│       └── notas_trabajo/       # Borradores y notas técnicas de trabajo
 ├── formatos y logo/             # Archivos de marca, tipografías, logos y assets visuales
-├── notebooks/                   # Jupyter Notebooks de ejecución (libres de carpetas data/results locales):
+├── notebooks/                   # Jupyter Notebooks de ejecución:
 │   ├── 01_extraccion_datos_CCAA.ipynb       # Descarga e integración de APIs y scraping
 │   ├── 01_1_indice_desafeccion_cis.ipynb    # Generación del indicador de desafección (CIS)
 │   ├── 01_2_participacion_electoral_cis.ipynb # Procesamiento de microdatos electorales
@@ -54,11 +56,14 @@ IPA27_project/
 │   └── 02_3_exportacion_geometricas.ipynb   # Scores 0-100, agregación, JSON dashboard y Beamer (LaTeX)
 ├── results/                     # Resultados estadísticos y visuales del proyecto:
 │   ├── auditoria/               # Fichas de auditoría analíticas (PDFs)
-│   ├── data/                    # Exportaciones de series, JSON para web y coeficientes
-│   │   └── archive/             # Versiones históricas de ficheros consolidados ipa27_raw
-│   ├── debug/                   # Archivos temporales de validación estadística
+│   ├── data/                    # Exportaciones por fecha de ejecución y JSON para web:
+│   │   ├── dataYYYYMMDD/        # Resultados completos de la ejecución del día (ej. data20260904)
+│   │   ├── archive/             # Versiones históricas de ficheros consolidados ipa27_raw
+│   │   ├── dashboard_data.json  # Fichero activo sincronizado que alimenta el Cuadro de Mando React
+│   │   └── ipa27_raw_YYYYMMDD.xlsx # Archivos Excel brutos consolidados por fecha/vintage
 │   ├── figures/                 # Outputs gráficos y de diagnóstico (reporting y dashboards)
 │   └── paper_assets/            # Recursos gráficos generados para publicaciones
+├── temp/                        # Almacén de desarrollo de ficheros históricos/reminiscencias
 ├── scripts/                     # Scripts auxiliares y herramientas de desarrollo
 ├── informe_sociedades_inclusivas.md # Informe analítico
 ├── README.md                    # Este archivo
@@ -80,39 +85,30 @@ graph LR
     Dash --> DashSrc["📁 src (Código React)"]:::folder
     
     Root --> Data["📁 data"]:::folder
-    Data --> DataProc["📁 processed (CSVs intermedios)"]:::folder
+    Data --> DataProc["📁 processed (CSVs por indicador)"]:::folder
+    Data --> DataHist["📁 processed_history (Gobernanza)"]:::folder
     
     Root --> Docs["📁 docs"]:::folder
     Docs --> DocsInfo["📁 infografias"]:::folder
     Docs --> DocsPres["📁 presentaciones (LaTeX, Beamer)"]:::folder
     Docs --> DocsMet["📁 metodologia"]:::folder
-    DocsMet --> DocsMetGen["📁 01_general (Metodología, Benchmark)"]:::folder
-    DocsMet --> DocsMetDes["📁 02_desafeccion (Paper desafección)"]:::folder
-    DocsMet --> DocsMetEle["📁 03_participacion_electoral"]:::folder
-    DocsMet --> DocsMetNot["📁 notas_trabajo (Borradores y notas)"]:::folder
-    Docs --> DocsReadme["📄 README.md"]:::file
-    
-    Root --> Format["📁 formatos y logo (Marca y Assets)"]:::folder
     
     Root --> Notebooks["📁 notebooks"]:::folder
     Notebooks --> NbExt["📓 01_extraccion_datos_CCAA.ipynb"]:::file
-    Notebooks --> NbDes["📓 01_1_indice_desafeccion_cis.ipynb"]:::file
-    Notebooks --> NbPar["📓 01_2_participacion_electoral_cis.ipynb"]:::file
     Notebooks --> NbP1["📓 02_1_procesamiento.ipynb"]:::file
     Notebooks --> NbP2["📓 02_2_modelacion.ipynb"]:::file
     Notebooks --> NbP3["📓 02_3_exportacion_geometricas.ipynb"]:::file
-    Notebooks --> NbInst["📄 instrucciones_actualizacion_IPA27.md"]:::file
     
     Root --> Results["📁 results"]:::folder
     Results --> ResAud["📁 auditoria (Fichas PDF)"]:::folder
-    Results --> ResData["📁 data (Excel y JSON web)"]:::folder
+    Results --> ResData["📁 data (Salidas por fecha)"]:::folder
+    ResData --> ResDate["📁 dataYYYYMMDD (Ejecución aislada)"]:::folder
+    ResData --> ResJson["📄 dashboard_data.json (Active React)"]:::file
     Results --> ResFigs["📁 figures (Gráficos)"]:::folder
-    Results --> ResPap["📁 paper_assets"]:::folder
     
-    Root --> Scripts["📁 scripts (Herramientas auxiliares)"]:::folder
+    Root --> Temp["📁 temp (Reminiscencias/Resguardo)"]:::folder
     Root --> RootReadme["📄 README.md"]:::file
     Root --> Req["📄 requirements.txt"]:::file
-    Root --> InfSoc["📄 informe_sociedades_inclusivas.md"]:::file
 ```
 
 ---
@@ -162,8 +158,9 @@ El procesamiento principal sigue las siguientes fases lógicas:
 3. **Nowcasting (ARIMA)**: Rellenado predictivo de retardos de reporte público para el trimestre de cierre actual.
 4. **Normalización por Techos Fijos**: Ajuste de los valores al baremo estándar `0-120`.
 5. **Agregación Geométrica**: Cálculo del índice de los Pilares, Dominios e IPA27 General mediante medias geométricas.
-6. **Exportación de Datos y LaTeX**:
-   - Genera y actualiza `results/data/dashboard_data.json` para alimentar la interfaz React.
+6. **Exportación Dinámica por Fecha y Sincronización Web**:
+   - Genera los datos consolidados del día en `results/data/dataYYYYMMDD/`.
+   - Sincroniza automáticamente `results/data/dashboard_data.json` para alimentar en tiempo real la interfaz web React.
    - Genera y escribe el archivo macro de LaTeX `docs/presentaciones/ipa27_variables.tex` y compila la presentación `presentacion_ipa27_v5.tex` a PDF de manera automática.
 
 ---
@@ -192,5 +189,6 @@ El procesamiento principal sigue las siguientes fases lógicas:
 
 ## Licencia & Actualización
 
-**Última actualización**: Junio 2026 (Datos de cierre hasta **2026Q1**)  
-**Versión del Índice**: IPA27 (Techos Fijos / Media Geométrica)
+**Última actualización**: Septiembre 2026 (Datos de cierre hasta **2026Q2**)  
+**Versión del Índice**: IPA27 (Techos Fijos / Media Geométrica / Gobernanza por Fecha `dataYYYYMMDD`)
+
